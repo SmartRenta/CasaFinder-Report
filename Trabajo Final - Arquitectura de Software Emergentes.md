@@ -136,7 +136,7 @@ Setiembre, 2024
 
 | Criterio específico                                                                                                                                                                    | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Conclusiones                                                                                                                                                                                                                                                                                                                                                         |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.     | **Eduardo Sebastián Lévano Cavero**<br>*TB1* <br>- Durante el video de exposición se transmitió de manera adecuada la problemática hallada en el sector de transporte de mercadería y como se solucionaría por medio de la implementación de una página web para comunicar a transportistas con personas que requieran de sus servicios. Asimismo, se detallo como esta diseñada la propuesta y su sustentación.<br><br>**Anthony Botello** <br>*TB1* <br>- En el vídeo de exposición se indicaron a los competidores, así como también se explicó la matriz DAFO de nuestra organización. Finalmente, se expusieron resultados acerca de las entrevistas realizadas.<br><br>**Rodrigo Alexander Sabino Ramirez** <br>*TB1* <br>- Durante mi exposición, comuniqué de manera clara y objetiva los resultados de mi proyecto en ingeniería, destacando la fase de Needfinding. Presenté User Personas y una matriz de tareas de usuario, usando herramientas como Empathy Mapping y As-is Scenario Mapping. Además, delineé el escenario futuro de la plataforma propuesta, detallando User Stories, Impact Mapping y un Product Backlog completo.<br><br>**Abel Angel Cierto Espiritu**<br>*TB1* <br>- Durante el desarrollo de este primer avance, comunique de manera eficaz el objetivo del diseño al desarrollar la aplicación web. También, detalle acerca de las funcionalidades primarias  que considero que son importantes y definir los atributos de calidad para una buena aplicación es necesaria. Los constraints nos sirven para tener claro las limitaciones del sistema al momento de desarrollar la aplicación web.<br><br>**Branco Alberto Villegas Peralta**<br>*TB1*<br>- Durante el proyecto, me enfoqué en comunicar nuestros avances y resultados de manera clara y objetiva. Presenté nuestras ideas durante el proceso de Event Storming y facilité discusiones sobre el modelado de flujo de mensajes del dominio. Mi objetivo era asegurarme de que todos los miembros del equipo, independientemente de su especialidad o nivel jerárquico, comprendieran el progreso y las decisiones tomadas en el proyecto.<br><br>  | *TB1*<br>En la exposición de la presente entrega se comunico eficientemente las bases del proyecto desarrollado y el proceso que llevo a corroborar que efectivamente es una solución adecuada para la problemática encontrada. Asimismo, se presentaron las herramientas para utilizadas para las primeras fases de implementación del proyecto y su planteamiento. |
+  | Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.     | **Eduardo Sebastián Lévano Cavero**<br>*TB1* <br>- Durante el video de exposición se transmitió de manera adecuada la problemática hallada en el sector de transporte de mercadería y como se solucionaría por medio de la implementación de una página web para comunicar a transportistas con personas que requieran de sus servicios. Asimismo, se detallo como esta diseñada la propuesta y su sustentación.<br><br>**Anthony Botello** <br>*TB1* <br>- En el vídeo de exposición se indicaron a los competidores, así como también se explicó la matriz DAFO de nuestra organización. Finalmente, se expusieron resultados acerca de las entrevistas realizadas.<br><br>**Rodrigo Alexander Sabino Ramirez** <br>*TB1* <br>- Durante mi exposición, comuniqué de manera clara y objetiva los resultados de mi proyecto en ingeniería, destacando la fase de Needfinding. Presenté User Personas y una matriz de tareas de usuario, usando herramientas como Empathy Mapping y As-is Scenario Mapping. Además, delineé el escenario futuro de la plataforma propuesta, detallando User Stories, Impact Mapping y un Product Backlog completo.<br><br>**Abel Angel Cierto Espiritu**<br>*TB1* <br>- Durante el desarrollo de este primer avance, comunique de manera eficaz el objetivo del diseño al desarrollar la aplicación web. También, detalle acerca de las funcionalidades primarias  que considero que son importantes y definir los atributos de calidad para una buena aplicación es necesaria. Los constraints nos sirven para tener claro las limitaciones del sistema al momento de desarrollar la aplicación web.<br><br>**Branco Alberto Villegas Peralta**<br>*TB1*<br>- Durante el proyecto, me enfoqué en comunicar nuestros avances y resultados de manera clara y objetiva. Presenté nuestras ideas durante el proceso de Event Storming y facilité discusiones sobre el modelado de flujo de mensajes del dominio. Mi objetivo era asegurarme de que todos los miembros del equipo, independientemente de su especialidad o nivel jerárquico, comprendieran el progreso y las decisiones tomadas en el proyecto.<br><br>  | *TB1*<br>En la exposición de la presente entrega se comunico eficientemente las bases del proyecto desarrollado y el proceso que llevo a corroborar que efectivamente es una solución adecuada para la problemática encontrada. Asimismo, se presentaron las herramientas para utilizadas para las primeras fases de implementación del proyecto y su planteamiento. |
 | Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.. | **Eduardo Sebastián Lévano Cavero**<br>*TB1* <br>- Se documento con éxito y de manera adecuada la introducción al proyecto, describiendo la problemática con antecedentes, ilustrando las posibles soluciones y como se busca solucionarlo de una manera más eficiente por medio del desarrollo de la presenta investigación.<br><br>**Anthony Botello** <br>*TB1* <br>- Se redactaron y documentó información y análisis de nuestros competidores y de la misma forma se evidenciaron las entrevistas realizadas y el análisis de ellas. Por otro lado, se definieron los Primary User Stories y los Quality Attribute Scenarios.<br><br>**Rodrigo Alexander Sabino Ramirez** <br>*TB1* <br>- En la elaboración de la primera entrega, me centré en comunicar de manera precisa y objetiva aspectos específicos. Utilizando el concepto de Ubiquitous Language, desarrollé un lenguaje común que facilitó la comprensión entre los miembros del equipo y los stakeholders. Además, identifiqué las limitaciones (Constraints) del proyecto y elaboré un Architectural Drivers Backlog para guiar el diseño arquitectónico. <br><br>**Abel Angel Cierto Espiritu** <br>*TB1* <br>- Los resultados de elegir drivers de arquitecturas permite un buen funcionamiento en la escalabilidad y mantenimiento del sistema. Por último los escenarios de los atributos que se requiere refinar permite una mejora continua en la aplicación web.<br><br>**Branco Alberto Villegas Peralta**<br>*TB1*<br>- Durante el proyecto, utilicé herramientas como EventStorming para explorar y descubrir los contextos relevantes. Luego, modelé los flujos de mensajes del dominio para comprender las interacciones entre los diferentes componentes del sistema. Utilicé Bounded Context Canvases para delinear los límites y responsabilidades de cada contexto, y realicé un mapeo de contextos para visualizar las relaciones entre ellos. Finalmente, documenté nuestra arquitectura de software utilizando varios diagramas, incluidos contexto, contenedor y despliegue, para comunicar nuestra visión de manera efectiva a todas las partes interesadas. | *TB1*<br>En el informe se detalló los aspectos más importantes acerca de la base de la solución propuesta y las herramientas que se usaron para validar la misma. Por otro lado, se incluyeron los diagramas adecuados para cada sección con su respectiva descripción para brindar la mayor cantidad de información.                                                |
 
 ---
@@ -438,7 +438,166 @@ Dentro de nuestro segmento objetivo, hemos identificado dos grupos de usuarios d
 ### 2.2.3. Análisis de entrevistas
 ![Analisis de entrevistas - Tabla](img/Capitulo_2/Entrevistas/Analisis.png)
 
-## 2.3 Needfinding
+## 2.3. Needfinding
+
+Los User Personas son fundamentales para el éxito del proyecto, ya que brindan una comprensión profunda y concreta de las necesidades, deseos, frustraciones y comportamientos de los usuarios clave. Estos perfiles detallados permiten a la startup diseñar una plataforma y experiencia de aprendizaje altamente enfocada y personalizada, abordando de manera efectiva los desafíos específicos de cada segmento objetivo: desde brindar recursos claros y accesibles a aficionados, hasta ofrecer herramientas para que los expertos compartan su conocimiento.
+
+### 2.3.1. User Personas
+
+Para comprender mejor a los usuarios a los que está dirigida nuestra solución, hemos identificado y perfilado dos grupos clave de usuarios: el Propietario de Viviendas y el Inquilino en Búsqueda de Alquiler. Estos perfiles de User Persona nos permiten visualizar sus necesidades, comportamientos y desafíos específicos, ayudándonos a diseñar una solución que realmente responda a sus expectativas y resuelva sus problemas de manera efectiva. De esta forma, podemos asegurarnos de que CasaFinder ofrezca una experiencia óptima tanto para los propietarios que buscan gestionar sus propiedades, como para los inquilinos que buscan un proceso de alquiler transparente y sin complicaciones.
+
+- **Arrendador:** Poseen propiedades y desean alquilarlas de manera eficiente y segura. Buscan una plataforma que les permita gestionar los pagos, contratos y verificación de inquilinos de manera sencilla, minimizando los riesgos de retrasos o conflictos legales.
+
+
+<div align="center">
+    <img src="https://media.discordapp.net/attachments/1282501864642052189/1282503193598754969/userArrendador.png?ex=66df97ad&is=66de462d&hm=f967a5e30adef234110a58c615439f5f3feefba169c6880681902ddaf6b68f03&=&format=webp&quality=lossless&width=656&height=1034" alt="arrendador"/>
+</div>
+
+<br>
+
+- **Inquilino:** Personas jóvenes, entre 25 y 35 años, que buscan alquilar una vivienda sin complicaciones. Prefieren una solución confiable, transparente y que automatice procesos como los pagos, garantizando que el alquiler se realice de manera fluida y sin sorpresas.
+
+<div align="center">
+    <img src="https://media.discordapp.net/attachments/1282501864642052189/1282503239677247561/userInquilino.png?ex=66df97b8&is=66de4638&hm=31615c635e1aabbe94752c8038710ae36b6f72486419cb5640ba4e71c4d2013f&=&format=webp&quality=lossless&width=708&height=1034"/>
+</div>
+
+<br>
+
+### 2.3.2. User Task Matrix
+
+El User Task Matrix es una herramienta clave que recopila y analiza las tareas fundamentales que los usuarios de CasaFinder realizan, tanto Propietarios como Inquilinos. Este cuadro se enfoca en evaluar con qué frecuencia los usuarios llevan a cabo cada una de estas tareas y el impacto que estas tienen en su éxito. 
+Al identificar estas áreas clave, CasaFinder podrá desarrollar soluciones que faciliten la vida de los usuarios y maximicen la eficiencia en el proceso de alquiler. Esto permite priorizar las necesidades más críticas de los usuarios y ofrecerles herramientas que realmente les ayuden a alcanzar sus objetivos de manera óptima.
+
+### Propietarios
+
+| **Tareas (Tasks)**                    | **Descripción de la Tarea**                                                                                         | **Objetivo Relacionado**                                             |
+|---------------------------------------|---------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
+| Publicar una propiedad en la plataforma | Subir fotos, descripción, precio y condiciones de alquiler de la propiedad en CasaFinder.                           | Aumentar la visibilidad de las propiedades y atraer más inquilinos potenciales. |
+| Gestionar contratos de alquiler        | Crear, enviar y almacenar contratos de alquiler digitalmente a través de CasaFinder.                                | Simplificar la administración de contratos y asegurar cumplimiento legal. |
+| Verificar el historial de inquilinos    | Acceder a la información y antecedentes de los inquilinos potenciales mediante la plataforma.                        | Seleccionar inquilinos confiables y minimizar riesgos de impago o conflictos. |
+| Automatizar pagos de alquiler          | Configurar pagos automáticos de los inquilinos a través de CasaFinder.                                              | Asegurar la puntualidad en la recepción de pagos y reducir la carga administrativa. |
+| Comunicar con inquilinos                | Utilizar herramientas de mensajería integradas en CasaFinder para comunicarse con los inquilinos.                     | Mantener una comunicación efectiva y rápida con los inquilinos.      |
+| Supervisar el estado de las propiedades | Monitorear el mantenimiento y estado general de las propiedades alquiladas a través de informes y notificaciones.      | Garantizar que las propiedades se mantengan en buenas condiciones y resolver problemas a tiempo. |
+| Renovar o finalizar contratos           | Gestionar la renovación de contratos existentes o finalizar acuerdos de alquiler cuando sea necesario.                | Mantener la ocupación de las propiedades y gestionar adecuadamente los ciclos de alquiler. |
+
+---
+
+### Inquilinos
+
+| **Tareas (Tasks)**                        | **Descripción de la Tarea**                                                                                                   | **Objetivo Relacionado**                                              |
+|-------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| Buscar y filtrar propiedades disponibles  | Utilizar los filtros de CasaFinder para encontrar propiedades que se ajusten a sus necesidades y presupuesto.                   | Facilitar la búsqueda de viviendas adecuadas y ahorrar tiempo.       |
+| Revisar información detallada de las propiedades | Consultar fotos, descripciones, precios y condiciones de alquiler de las propiedades listadas.                                 | Tomar decisiones informadas sobre qué propiedades visitar o alquilar.|
+| Contactar a los propietarios              | Enviar mensajes o solicitudes a los propietarios para obtener más información o programar visitas a las propiedades.            | Establecer comunicación rápida y efectiva con los propietarios.      |
+| Firmar contratos de alquiler              | Completar y firmar contratos de alquiler digitalmente a través de CasaFinder.                                                 | Simplificar el proceso de formalización del alquiler y asegurar la legalidad del acuerdo. |
+| Realizar pagos de alquiler automáticos    | Configurar pagos recurrentes de alquiler mediante métodos de pago integrados en CasaFinder.                                    | Evitar retrasos en pagos y gestionar el alquiler de manera eficiente.|
+| Gestionar solicitudes de mantenimiento    | Reportar problemas o solicitar mantenimiento a través de la plataforma CasaFinder.                                              | Asegurar el buen estado de la vivienda y resolver inconvenientes rápidamente. |
+| Evaluar y dejar comentarios sobre la propiedad | Proporcionar retroalimentación y calificaciones sobre su experiencia con la propiedad y el propietario.                          | Ayudar a otros usuarios a tomar decisiones informadas y mejorar la calidad del servicio de CasaFinder. |
+
+
+### 2.3.3. User Journey Mapping
+
+El User Journey Mapping del Arrendador detalla el recorrido que realiza un propietario desde el momento en que se da cuenta de la necesidad de una plataforma para gestionar sus propiedades, hasta la evaluación final del impacto que esta tiene en la administración de su negocio de alquileres. A lo largo de este proceso, se identifican los pasos clave que el propietario sigue, sus emociones y desafíos, como la búsqueda de inquilinos confiables, la gestión de contratos y pagos, y la automatización de tareas administrativas. Este análisis nos permite detectar áreas de mejora y oportunidades para ofrecer una experiencia más fluida y eficiente, ayudando al propietario a maximizar el control y rentabilidad de sus propiedades.
+Arrendador:
+
+
+<div align="center">
+    <img src="https://media.discordapp.net/attachments/1282501864642052189/1282503820546408609/JourneyArrendador.png?ex=66df9842&is=66de46c2&hm=7538e272d0b9008a09167fcb9811d2877eab9dadb33871d58fd0791fb75ed568&=&format=webp&quality=lossless&width=1208&height=1034"/>
+</div>
+
+<br>
+
+El User Journey Mapping del Inquilino explora el camino que sigue un inquilino desde que comienza la búsqueda de una propiedad para alquilar, hasta la gestión del contrato y la evaluación del servicio. Este mapeo captura las etapas clave que el inquilino enfrenta, como la búsqueda de propiedades adecuadas, el contacto con propietarios, la firma de contratos y la gestión de pagos. Se analizan las emociones y desafíos a lo largo del proceso, como la frustración por falta de respuesta o propiedades desactualizadas, y se identifican oportunidades para mejorar la experiencia, ofreciendo soluciones más rápidas y automáticas para una gestión 
+
+<div align="center">
+    <img src="https://media.discordapp.net/attachments/1282501864642052189/1282503820227776512/JourneyInquilino.png?ex=66df9842&is=66de46c2&hm=4a14972ca9148c38f6004cfbea48b071f9b3852239e90078981f32ff62857434&=&format=webp&quality=lossless&width=1260&height=1034"/>
+</div>
+
+<br>
+
+### 2.3.4. Empathy Mapping
+
+El Empathy Mapping es una herramienta esencial que nos permite adentrarnos en la mente y el corazón de nuestros usuarios, capturando sus pensamientos, sentimientos, percepciones y comportamientos en relación con sus actividades cotidianas. A través de este proceso, podemos comprender mejor las motivaciones, frustraciones y deseos que impulsan a nuestros usuarios, lo que nos ayuda a diseñar soluciones que realmente resuenen con sus necesidades.
+
+**Arrendador**
+<div align="center">
+    <img src="https://media.discordapp.net/attachments/1282501864642052189/1282504118744780912/EmpathyArrendador.png?ex=66df9889&is=66de4709&hm=0ccbe609534f3355ae6c02746986cbd93d9813c31893c0b2246db5ee3f6ff8f1&=&format=webp&quality=lossless&width=820&height=1034"/>
+</div>
+
+<br>
+
+**Inquilino**
+<div align="center">
+    <img src="https://media.discordapp.net/attachments/1282501864642052189/1282504118388260995/Empathy_Inquilino.png?ex=66df9889&is=66de4709&hm=c03604ef718efe4f25f9cbbe448d75d2572070d2eb244bf99cf7f8b56f126591&=&format=webp&quality=lossless&width=820&height=1034"/>
+</div>
+
+### 2.3.5. As-is Scenario Mapping
+
+El As-Is Scenario Mapping es una herramienta clave que utilizamos para comprender el flujo actual de actividades, pensamientos y emociones que experimentan nuestros usuarios en su contexto cotidiano, antes de la implementación de nuestra solución. Este mapeo captura cómo los usuarios interactúan con las tecnologías y procesos existentes, identificando los puntos de dolor, las oportunidades de mejora y las áreas donde nuestra solución podría tener el mayor impacto
+
+**Arrendador**
+<div align="center">
+    <img src="https://media.discordapp.net/attachments/1282501864642052189/1282504365550211162/As_is_Arrendador.png?ex=66df98c4&is=66de4744&hm=3c9a5cdf766c7d4b2ba0b164e7cc725b0e728b45aed47c58ed52b5eb39765fac&=&format=webp&quality=lossless&width=1410&height=538"/>
+</div>
+
+<br>
+
+**Inquilino**
+<div align="center">
+    <img src="https://media.discordapp.net/attachments/1282501864642052189/1282504365256740934/As_Is_Inquilino.png?ex=66df98c4&is=66de4744&hm=0149f65baa64b3e5550794458b04b93f377c7215092025673fe893cb815f8664&=&format=webp&quality=lossless&width=1410&height=520"/>
+</div>
+
+## 2.4. Ubiquitous Language
+
+Este glosario de Ubiquitous Language está centrado en la aplicación de **blockchain** y **contratos inteligentes** en el contexto de los alquileres, con el objetivo de garantizar que todos los miembros del equipo y stakeholders compartan una comprensión clara y común de los términos clave relacionados con esta tecnología dentro del proyecto **CasaFinder**.
+
+### Blockchain
+**Definición**: Tecnología de registro distribuido que permite almacenar transacciones de manera segura, transparente y descentralizada. En el contexto de alquileres, permite registrar contratos y pagos de forma inmutable, evitando fraudes o alteraciones.
+
+### Contrato Inteligente (Smart Contract)
+**Definición**: Programa o protocolo autoejecutable almacenado en una blockchain, donde los términos del contrato de alquiler (como pagos, fechas, penalidades) se ejecutan automáticamente cuando se cumplen ciertas condiciones, eliminando la necesidad de intermediarios.
+
+### Descentralización
+**Definición**: Principio clave de blockchain donde la información no está controlada por una única entidad, sino que se distribuye entre varios nodos. En el contexto de alquileres, esto garantiza que las transacciones y contratos sean transparentes y resistentes a la manipulación.
+
+### Inmutabilidad
+**Definición**: Característica de blockchain que asegura que una vez que los datos, como contratos o transacciones, son registrados en la cadena, no pueden ser alterados. Esto proporciona seguridad y confianza en los contratos de alquiler.
+
+### Oráculos
+**Definición**: Servicios que permiten que los contratos inteligentes interactúen con datos externos fuera de la blockchain (como verificaciones de pago o estado del alquiler). Los oráculos garantizan que la información necesaria para ejecutar un contrato esté disponible y sea confiable.
+
+### Tokenización del Alquiler
+**Definición**: Proceso de representar un activo de alquiler (como una propiedad o un pago) a través de tokens en una blockchain. Estos tokens pueden ser utilizados para representar derechos de propiedad, derechos de alquiler o depósitos de garantía, facilitando la transferencia y el fraccionamiento de propiedades.
+
+### Automatización de Pagos
+**Definición**: Uso de contratos inteligentes para gestionar el pago de alquileres de forma automática, ejecutando transacciones directamente desde la cuenta del inquilino al propietario una vez que se cumplen las condiciones predefinidas (como la fecha de vencimiento).
+
+### Depósito de Garantía en Blockchain
+**Definición**: Representación del depósito de garantía de un inquilino como un token o contrato inteligente en blockchain. Esto asegura que el dinero quede bloqueado y solo se libere automáticamente cuando ambas partes estén de acuerdo en las condiciones, evitando disputas.
+
+### Resolución de Disputas Automatizada
+**Definición**: Uso de contratos inteligentes para manejar automáticamente las disputas entre propietario e inquilino. Las reglas predefinidas en el contrato inteligente pueden resolver problemas, como el incumplimiento de pagos o reparaciones, sin la necesidad de intervención humana.
+
+### Auditoría Transparente
+**Definición**: Capacidad que ofrece la blockchain de tener un registro auditable y transparente de todas las transacciones y contratos, permitiendo a las partes (propietarios, inquilinos, y terceros) revisar los acuerdos y asegurarse de que se están cumpliendo las condiciones de manera justa.
+
+### Plataforma de Alquiler Descentralizada
+**Definición**: Plataforma de gestión de alquileres basada en blockchain que permite a propietarios e inquilinos interactuar sin intermediarios, gestionando contratos, pagos, y disputas a través de contratos inteligentes y transacciones descentralizadas.
+
+### Wallet Digital
+**Definición**: Monedero digital que permite a los usuarios almacenar y transferir criptomonedas o tokens utilizados en la plataforma de alquiler. Los inquilinos pueden usar wallets para realizar pagos automatizados a través de contratos inteligentes.
+
+### Identidad Digital Descentralizada
+**Definición**: Sistema que permite a inquilinos y propietarios verificar sus identidades en la blockchain sin depender de una autoridad central. Esto facilita el acceso a la plataforma de alquiler de forma segura y con mayor privacidad.
+
+### Penalizaciones Automáticas
+**Definición**: Ejecución automática de penalizaciones o multas cuando se incumplen los términos del contrato inteligente, como retrasos en el pago del alquiler o el incumplimiento de condiciones previamente acordadas.
+
+### Rentabilidad Tokenizada
+**Definición**: Proceso mediante el cual los ingresos por alquiler se distribuyen automáticamente a través de tokens en la blockchain, permitiendo a los propietarios recibir ingresos de manera más rápida y eficiente.
+
+<br>
+
 
 ### 2.3.1 User Persona
 
