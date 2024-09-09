@@ -373,70 +373,105 @@ Finalmente, CasaFinder mantendrá la flexibilidad operativa para adaptarse rápi
 
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
-**Preguntas al segmento cliente:**
--	¿Cuál es tu nombre, qué edad tienes y a qué te dedicas?
--	¿Qué opinas de los servicios de transporte de mercadería en el Perú?
--	¿Alguna vez contactaste con un servicio de traslado de productos? ¿Por qué medio obtuviste el contacto?
-    - SÍ ¿Tuviste algún problema con el servicio de traslado de productos que contactaste? ¿Qué pasó? ¿Cómo hizo para solucionarlo?
-    - NO ¿Por qué razón?
--	 ¿Qué tan complicado se te hace encontrar un servicio de traslado de productos?
--	 ¿Qué tan a menudo necesitas un servicio de traslado de productos?
--	¿A quién recurres cuando necesitas el servicio de traslado de tus productos?
--	¿Qué tan importante consideras el estar pendiente de la ubicación de tu producto en tiempo real?
--	¿Considera importante conocer el modelo y el año del vehículo que va a trasladar su producto?
--	¿Qué opina acerca de una aplicación que te facilite encontrar un servicio de traslado de productos?
-    - El entrevistador explica acerca de la aplicación
--	¿Estaría dispuesto a probarla? ¿Por qué?
--	¿Qué cree que podría mejorar o añadir a nuestra propuesta?
+A continuación, se detallan las preguntas principales y complementarias para nuestros segmentos objetivos.
 
-**Preguntas al segmento transportista:**
--	¿Cuál es tu nombre, qué edad tienes y a qué te dedicas?
--	¿Cuánto tiempo lleva trabajando en este empleo o de esta forma?
--	¿Qué opinas de los servicios de transporte de mercadería en el Perú? 
--	¿Qué tan frecuente recibe pedidos para transportar productos? aproximadamente 3-4 veces a la semana
--	¿Hacer servicios de transporte es tu única forma de ingresos o de qué otra forma te ganas el dinero? actualmente si
--	¿Cuánto es lo que gana normalmente en un día de trabajo? entre 100 y 150 depende de los envíos, pero hay varios días que no hay pedidos que movilizar
--	¿De qué manera haces conocer a las demás personas de tus servicios? mayormente me contactan personas que algún contacto les recomendó, también me encuentro en páginas en Facebook
--	¿Tuvo algún inconveniente con sus clientes? ¿Qué pasó? ¿Cómo solucionaron el problema? algunas veces existe el tráfico y algunos clientes no son tan pacientes como otros. pero siempre intento resolver conversando las cosas. 
--	¿Qué opinas de poder contar con una aplicación que te permita encontrar clientes que necesiten de tus servicios como transportista? muy buena ya que es un método en el cual recibiría más clientes. por ejemplo, el servicio de pedido de taxis online cambio totalmente ese rubro y lo convirtió más fácil y seguro para el taxista y el cliente.
-    - El entrevistador explica acerca de la aplicación
--	¿Estaría dispuesto a probar nuestra aplicación? ¿Por qué?
--	¿Qué cree que podría mejorar o añadir a nuestra propuesta?
+**Preguntas principales**
 
+**Propietarios de Viviendas:**
+-	¿Cuántas casas tienes en alquiler? ¿Están amobladas?
+-	¿Cuál es el distrito de la casa?
+-	¿Cuál es el motivo por el que alquilas?
+- ¿Cuál es su propósito? 
+-	¿Cuál es la frecuencia del cobro? 
+-	¿Cobra garantía? ¿De cuántos meses?
+-	¿A través de qué medio consigue clientes? 
+-	¿Qué problemas te han sucedido durante el alquiler? ¿Cómo te sentiste?
+-	¿Podrías describirme un proceso ideal ?
+
+**Inquilinos:**
+-	¿Cuál es el motivo por el que alquilas? 
+-	¿A través de qué medio alquilas casas? 
+-	¿Podrías contarme alguna mala experiencia al buscar alquiler? ¿Cómo te sentiste?
+-	¿Podrías contarme alguna mala experiencia durante el alquiler? ¿Cómo te sentiste?
+-	¿Qué has escuchado que les ha pasado a otros conocidos?
+-	¿Podrías describirme un proceso ideal ?
+
+**Preguntas complementarias**
+
+-	¿Cuál es tu nombre?
+-	¿Cuál es tu edad?
+-	¿Cuál es tu distrito de residencia?
+- ¿Cuál es tu estado civil? 
+-	¿Tienes hijos? ¿Cuántos?
+-	¿Cuáles son tus estudios?
+-	¿Cuál es tu cargo actual?
+-	¿Cuál es tu hobby?
+
+-	¿Qué dispositivos usas más? ¿De qué marca? ¿Cuál es su sistema operativo?
+- ¿Qué navegador utilizas más?
+- ¿Qué redes sociales utilizas frecuentemente?
+
+- ¿Cómo te registras en una aplicación web, gmail o usuario y contraseña?
+- ¿Qué medio de pago prefieres, tarjeta credito, debito o yape/plin ?
+
+- En un rango del 1 al 5, siendo 1 introvertido y 5 extrovertido, ¿En qué número te ubicas?
+- En un rango del 1 al 5, siendo 1 justicia y 5 empatía, ¿En qué número te ubicas?
+- En un rango del 1 al 5, siendo 1 percepción y 5 intuición, ¿En qué número te ubicas?
+- En un rango del 1 al 5, siendo 1 planificador y 5 adaptativo, ¿En qué número te ubicas?
+
+- ¿Qué frase te gusta/te identificas?
 
 ### 2.2.2. Registro de entrevistas
+
+**Propietarios de Viviendas:**
+
 #### Entrevista N° 1
-| ![Entevista 1 - Evidencia](img/Capitulo_2/Entrevistas/Entrevista1.jpg)                                                                                        |
+| ![Entevista 1 - Evidencia](img/Capitulo_2/Entrevistas/Entrevista1.png)                                                                                        |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Carlos Alipio Sánchez Salazar <br>	Edad: 19 <br>	Distrito: Carabayllo <br>	Segmento: Transportista |
+| <u>**Datos del entrevistado**</u> <br> **Nombre y apellidos:** Stefano André Vásquez Molina <br>	**Edad:** 30 años <br>	**Distrito:** Surco <br> **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620605_upc_edu_pe/EUvGDhtDbmFKjm40rynA5MMBZbwMzF-Br0WA3UQhv-m8qA?e=SXxeVe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6Ny40OH19 <br> **Inicio:** 0:07 min **Fin:** 5:02 min <br> **Duración:** 4:48 min <br> **Resumen:** Stefano es soltero, no tiene hijos. Su carrera es Recursos humanos, se desempeña como Líder de RRHH y sus hobbies son hacer deporte y averiguar sobre inmobiliarias. Él usa su laptop frecuentemente, cuya marca es Lenovo y de sistema operativo Windows. Los navegadores que más usa son Edge y Opera. Las redes sociales que más frecuenta son Instagram, Facebook y Whatsapp. Referente a aplicaciones web, Stefano prefiere registrarse a través de gmail y realizar sus pagos con tarjeta de débito y en últimos casos usar Yape/Plin. En un rango del 1 al 5, se ubica en el 4 para Introvertido-Extrovertido, en el 2 para Justicia/Empatía, en el 5 para Percepción/Intuición y en el 2 para Planificador/Adaptativo. Su frase favorita es “Da lo mejor de ti porque siempre puedes esperar lo mejor de otros”. Actualmente, alquila 1 casa no amoblada con propósito de vivienda ubicada en Barranco. Su principal motivo es generar un ingreso extra. Realiza un cobro mensual y, excepcionalmente, trimestral y, solicita una garantía de 4 meses. Stefano consigue clientes a través de redes sociales y por referencias. Entre los problemas que ha enfrentado, resalta la falta de clientes en temporadas bajas, esto lo ha hecho sentir preocupado; por lo que, menciona que su proceso ideal sería conseguir clientes a través de una aplicación que comparta información en redes sociales para aumentar su alcance y empezar una conversación con sus clientes potenciales.
+|
 
 #### Entrevista N° 2
 | ![Entevista 2 - Evidencia](img/Capitulo_2/Entrevistas/Entrevista2.png)                                                                       |
 | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Edgard Miranda Lloclla <br>	Distrito: Sullana, Piura <br>	Segmento: Transportista |
+| <u>**Datos del entrevistado**</u> <br> **Nombre y apellidos:** Jaquelyn Esther Guerrero Cueva <br>	**Edad:** 35 años <br>	**Distrito:** Huaral <br> **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620605_upc_edu_pe/EUvGDhtDbmFKjm40rynA5MMBZbwMzF-Br0WA3UQhv-m8qA?e=lcLt7N&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MzAzLjY0fX0%3D <br> **Inicio:**  5:03 min **Fin:**  10:01 min <br> **Duración:**  4:59 min <br> **Resumen:** Jaquelyn es soltera, no tiene hijos. Su carrera es Administración, se desempeña como Administradora y su hobby es viajar. Ella usa su laptop frecuentemente, cuya marca es Lenovo y de sistema operativo Windows. El navegador que más usa es Google Chrome. Las redes sociales que más frecuenta son Instagram, Tiktok, Facebook y Whatsapp. Referente a aplicaciones web, Jaquelyn se registra de ambas maneras, a través de gmail o con usuario y contraseña, ella realiza sus pagos con tarjeta de crédito. En un rango del 1 al 5, se ubica en el 5 para Introvertida-Extrovertida, en el 4 para Justicia/Empatía, en el 3 para Percepción/Intuición y en el 1 para Planificadora/Adaptativa. Su frase favorita es “Un viaje a todas partes”. Actualmente, alquila 3 casas amobladas ubicadas en Huaral, 2 de ellas con propósito de vivienda y 1 solo para fines de semanas. Su principal motivo es una inversión. Realiza un cobro mensual en las viviendas y solicita una garantía de 2 meses. Jaquelyn consigue clientes a través de redes sociales, familiares y agencias. Entre los problemas que ha enfrentado, resalta la demora del pago mensual por parte de sus inquilinos, esto la ha hecho sentir incómoda; por lo que, menciona que su proceso ideal sería utilizar una aplicación que realice el cobro automático.
+|
 
 #### Entrevista N° 3
 | ![Entevista 3 - Evidencia](img/Capitulo_2/Entrevistas/Entrevista3.png)                                                                                           |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Diego Seminario Centeno <br> Edad: 24 años<br>	Distrito: Cercado de Lima <br>	Segmento: Transportista |
+| <u>**Datos del entrevistado**</u> <br> **Nombre y apellidos:** Erick Anthony Quispe Bernardo  <br>	**Edad:** 32 años <br>	**Distrito:** San Juan de Lurigancho <br> **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620605_upc_edu_pe/EUvGDhtDbmFKjm40rynA5MMBZbwMzF-Br0WA3UQhv-m8qA?e=4EAg1w&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NjAyLjMxfX0%3D <br> **Inicio:** 10:02 min **Fin:** 14:58 min <br> **Duración:**  4:57 min <br> **Resumen:** Erick es soltero, no tiene hijos. Su carrera es Ingeniería de Software, se desempeña como Desarrollador full stack y su hobby es jugar fútbol y ajedrez. Él usa su laptop frecuentemente, cuya marca es HP y de sistema operativo Windows. Los navegadores que más usa son Google Chrome y Edge. Las redes sociales que más frecuenta son Facebook, Instagram y LinkedIn. Referente a aplicaciones web, Erick prefiere registrarse siempre a través de gmail y realizar sus pagos con tarjeta de débito o Yape/Plin. En un rango del 1 al 5, se ubica en el 3 para Introvertido-Extrovertido, en el 2 para Justicia/Empatía, en el 3 para Percepción/Intuición y en el 4 para Planificador/Adaptativo. Su frase favorita es “Todo lo que necesita este mundo es amor”. Actualmente, alquila 2 casas con solo la cocina amoblada ubicadas en San Juan de Lurigancho y en Los Olivos. Ambas casas con propósito de vivienda. Sus principales motivos son generar un ingreso extra, así como también para pagar la hipoteca de 1 las casas. Realiza un cobro mensual y solicita una garantía de 1 mes. Erick consigue clientes a través del marketplace de Facebook y pegando afiches. Entre los problemas que ha enfrentado, resalta la demora del pago de los inquilinos y la negación cuando debe quedarse con la garantía ya que las condiciones en las que dejaban la casa lo ameritaba, esto lo ha hecho sentir frustrado; por lo que, menciona que su proceso ideal sería un cobro automático y el cumplimiento del contrato en los tiempos acordados.
+|
+
+**Inquilinos:**
 
 #### Entrevista N° 4
 | ![Entevista 4 - Evidencia](img/Capitulo_2/Entrevistas/Entrevista4.png)                                                                                       |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Teodoro Geiner Liberato Villanueva <br> Edad: 52 años<br>	Distrito: Huacho <br>	Segmento: Cliente |
+| <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Francisco Javier Sanchez Terrasse <br> Edad: 29 años<br>	Distrito: Chaclacayo <br> **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620605_upc_edu_pe/EUvGDhtDbmFKjm40rynA5MMBZbwMzF-Br0WA3UQhv-m8qA?e=5Bc79G&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6ODk5LjgxfX0%3D <br> **Inicio:** 14:59 min **Fin:** 19:52 min <br> **Duración:**  4:53 min <br> **Resumen:** Fran es conviviente y tiene 1 hijo. Su carrera es Ingeniería de Sistemas, se desempeña como Ingeniero Analista de Software y su hobby es tocar guitarra. Él usa su computadora frecuentemente, cuya marca es Asus y de sistema operativo Windows 10 Pro. Los navegadores que más usa son Opera y Google Chrome. Las redes sociales que más frecuenta son Instagram, Tiktok y Facebook. Referente a aplicaciones web, Fran prefiere registrarse de la forma más rápida, usualmente gmail, y realizar sus pagos con tarjeta de crédito o débito. En un rango del 1 al 5, se ubica en el 3 para Introvertido-Extrovertido, en el 4 para Justicia/Empatía, en el 2 para Percepción/Intuición y en el 4 para Planificador/Adaptativo. Su frase favorita es “La vida es como manejar bicicleta, para mantener el equilibrio debes seguir adelante”. Él alquila una casa con motivo de vivienda y la encuentra a través de sus contactos o internet. Entre los problemas que él ha enfrentado, resalta la información desactualizada y la demora en la devolución de la garantía, esto lo ha hecho sentir molesto y fastidiado. Además, comenta que sus conocidos han tenido problemas con ruidos ambientales no especificados en el contrato. Fran cree que su proceso ideal incluiría tener toda la información disponible en el contrato y que esto se vea reflejado en el precio, asimismo menciona la automatización de los cobros mensuales y de la garantía para que sea un proceso rápido y confiable.
+|
 
 #### Entrevista N° 5
 | ![Entevista 5 - Evidencia](img/Capitulo_2/Entrevistas/Entrevista5.png)                                                                                                     |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Alexandro Daniel Villarruel Mandujano <br> Edad: 24 años<br>	Distrito: Villa El Salvador <br>	Segmento: Cliente |
+| <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Sofía Celeste Trujillo Osco <br> Edad: 27 años<br>	Distrito: Pachacamac <br> **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620605_upc_edu_pe/EUvGDhtDbmFKjm40rynA5MMBZbwMzF-Br0WA3UQhv-m8qA?e=hfvuR9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTE5My4xMX19 <br> **Inicio:** 19:53 min **Fin:** 24:26 min <br> **Duración:**  4:34 min <br> **Resumen:** Sofía es soltera, no tiene hijos. Su carrera es Turismo Sostenible, se desempeña como Asesora de experiencias y sus hobbies son ver películas y escuchar música. Ella usa su laptop frecuentemente, cuya marca es Lenovo y de sistema operativo Windows. El navegador que más usa es Google Chrome. Las redes sociales que más frecuenta son Instagram, X y Whatsapp. Referente a aplicaciones web, Sofía prefiere registrarse con usuario y contraseña, y realizar sus pagos con yape/plin y tarjeta de débito. En un rango del 1 al 5, se ubica en el 4 para Introvertida-Extrovertida, en el 4 para Justicia/Empatía, en el 2 para Percepción/Intuición y en el 3 para Planificadora/Adaptativa. Su frase favorita es “La vida sigue”. Ella alquila una casa con motivo de vivienda y la encuentra a través de sus contactos. Entre los problemas que ella ha enfrentado, resalta la información desactualizada y el aumento inesperado del pago mensual, esto la ha hecho sentir desconfiada y preocupada. Además, comenta que sus conocidos han tenido el mismo problema. Sofía cree que su proceso ideal incluiría un débito automático ya que tiene muchos pagos en qué pensar.
+|
 
 #### Entrevista N° 6
 | ![Entevista 6 - Evidencia](img/Capitulo_2/Entrevistas/Entrevista6.png)                                                                               |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Ítalo Paolo Sabino Ramírez <br> Edad: 23 años<br>	Distrito: Callao <br>	Segmento: Cliente |
+| <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Ruth Chambilla Puente <br> Edad: 32 años<br>	Distrito:  San Luis <br> **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620605_upc_edu_pe/EUvGDhtDbmFKjm40rynA5MMBZbwMzF-Br0WA3UQhv-m8qA?e=W0TFpj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTQ2Ny42M319 <br> **Inicio:** 24:27 min **Fin:** 29:17 min <br> **Duración:**  4:57 min <br> **Resumen:** Ruth es conviviente, no tiene hijos. Su carrera es Técnica Analista Química, se desempeña como Coordinadora de Aseguramiento de la calidad y su hobby es caminar. Ella usa su computadora frecuentemente, cuya marca es HP y de sistema operativo Windows. El navegador que más usa es Google Chrome. Las redes sociales que más frecuenta son Youtube, Tiktok y Twitch. Referente a aplicaciones web, Ruth prefiere registrarse con usuario y contraseña, y realizar sus pagos con tarjeta de débito y crédito. En un rango del 1 al 5, se ubica en el 3 para Introvertida-Extrovertida, en el 1 para Justicia/Empatía, en el 3 para Percepción/Intuición y en el 3 para Planificadora/Adaptativa. Su frase favorita es “El fracaso es solo la oportunidad de empezar de nuevo”. Ella alquila una casa con motivo de vivienda y la encuentra a través de Urbania, Mercado Libre y Tiktok. Entre los problemas que ella ha enfrentado, resalta la estafa y que el contrato no indica la calidad del internet o presión de agua, esto la ha hecho sentir desconfiada. Además, comenta que sus conocidos han tenido el mismo problema. Ruth cree que su proceso ideal incluiría información muy detallada sobre el lugar y las características y brinda como ejemplo en hoteles a Booking.com.
+|
 
 ### 2.2.3. Análisis de entrevistas
-![Analisis de entrevistas - Tabla](img/Capitulo_2/Entrevistas/Analisis.png)
+
+**Propietarios de Viviendas:**
+
+A continuación un breve análisis de las 3 entrevistas realizadas a los propietarios de viviendas. El promedio de edad es 32 años. El 100% reside en Lima, Perú, son solteros y no tienen hijos. Pertenecen a distintas áreas de carrera y cargos, y disfrutan diversos hobbies. El 100% usa una laptop Windows y el 67% de la marca Lenovo. Los navegadores más comunes son Google Chrome y Edge. Las redes sociales que más frecuentan son Instagram, Facebook y Whatsapp. En lo referente a aplicaciones web, el 100% se registra a través de gmail y en su mayoría hacen los pagos web a través de tarjeta de débito y yape/plin. En un rango del 1 al 5, en promedio se ubican en el 4 para Introvertido-Extrovertido, en el 3 para Justicia/Empatía, en el 4 para Percepción/Intuición y en el 2 para Planificador/Adaptativo. Actualmente, alquilan en promedio 2 casas parcialmente amobladas con propósito de vivienda. Su principal motivo es generar un ingreso extra. Se realiza un cobro mensual y se solicita una garantía de 2 meses. El medio más usado es redes sociales, contactos y muy pocas veces afiches. El problema más común es la demora del pago mensual de los inquilinos dejándoles una mala sensación. El proceso ideal incluiría el cobro mensual automático.
+
+**Inquilinos:**
+
+A continuación un breve análisis de las 3 entrevistas realizadas a los inquilinos. El promedio de edad es 29 años. El 100% reside en Lima, Perú. El 67% es conviviente y el 33% tiene un hijo. Pertenecen a distintas áreas de carrera y cargos, y disfrutan diversos hobbies. El 67% usa una computadora Windows de distintas marcas. El 67% tiene por navegador a Google Chrome. Las redes sociales que más frecuenta el 67% son Instagram y Tiktok. En lo referente a aplicaciones web, el 67% usa usuario y contraseña, y hacen los pagos web a través de tarjeta de crédito y débito. En un rango del 1 al 5, en promedio se ubican en el 3 para Introvertido-Extrovertido, en el 3 para Justicia/Empatía, en el 2 para Percepción/Intuición y en el 3 para Planificador/Adaptativo. Actualmente, el 100% alquila una casa con propósito de vivienda. El medio más usado es internet y contactos. El problema más común es la información desactualizada y omitida, así como problemas con la garantía y pagos mensuales. El proceso ideal incluiría un contrato transparente e inmutable y el débito automático.
 
 ## 2.3. Needfinding
 
