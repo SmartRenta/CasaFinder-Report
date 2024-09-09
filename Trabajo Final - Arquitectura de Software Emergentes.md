@@ -15,7 +15,9 @@ Profesor: Royer Edelwer Rojas Malasquez
 Integrantes:
 
 * Carrillo Mainicta, Michael - U20201A924
+* Rondon Añaños, Cristopher  - U20201A291
 * Vara Quispe, José Carlos - U202125116
+
 
 
 Setiembre, 2024
@@ -27,6 +29,7 @@ Setiembre, 2024
 | Versión | Fecha    | Autor            | Descripción de modificación                                                      |
 | ------- | -------- | ---------------- | -------------------------------------------------------------------------------- |
 | 1.0     | 08/09/24 | Michael Carrillo | Creación del proyecto con Markdown Introducción del proyecto Cap I, II, III y IV |
+
 
 ---
 
@@ -87,14 +90,14 @@ Setiembre, 2024
   - [2.4. Ubiquitous Language.](#24-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. To-Be Scenario Mapping.](#31-to-be-scenario-mapping)
-          - [_To-Be Scenario Mapping del usuario cliente_](#to-be-scenario-mapping-del-usuario-cliente)
-          - [_To-Be Scenario Mapping del usuario transportista_](#to-be-scenario-mapping-del-usuario-transportista)
+          - [To-Be Scenario Mapping del usuario Arrendador](#to-be-scenario-mapping-del-usuario-arrendador)
+          - [To-Be Scenario Mapping del usuario Inquilino](#to-be-scenario-mapping-del-usuario-inquilino)
   - [3.2. User Stories.](#32-user-stories)
         - [_Desarrollo de los User Stories_](#desarrollo-de-los-user-stories)
     - [EPICS](#epics)
           - [_Desarrollo de las Epics_](#desarrollo-de-las-epics)
   - [3.3. Impact Mapping.](#33-impact-mapping)
-          - [_Impact Mapping de los usuarios cliente y transportista_](#impact-mapping-de-los-usuarios-cliente-y-transportista)
+          - [\_Impact Mapping de los usuarios Arrendador e Inquilino](#_impact-mapping-de-los-usuarios-arrendador-e-inquilino)
   - [3.4. Product Backlog.](#34-product-backlog)
         - [_Desarrollo del Product Backlog_](#desarrollo-del-product-backlog)
 - [Capítulo IV: Strategic-Level Software Design](#capítulo-iv-strategic-level-software-design)
@@ -137,9 +140,8 @@ Setiembre, 2024
 
 | Criterio específico                                                                                                                                                                    | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Conclusiones                                                                                                                                                                                                                                                                                                                                                         |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-  | Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.     | **Eduardo Sebastián Lévano Cavero**<br>*TB1* <br>- Durante el video de exposición se transmitió de manera adecuada la problemática hallada en el sector de transporte de mercadería y como se solucionaría por medio de la implementación de una página web para comunicar a transportistas con personas que requieran de sus servicios. Asimismo, se detallo como esta diseñada la propuesta y su sustentación.<br><br>**Anthony Botello** <br>*TB1* <br>- En el vídeo de exposición se indicaron a los competidores, así como también se explicó la matriz DAFO de nuestra organización. Finalmente, se expusieron resultados acerca de las entrevistas realizadas.<br><br>**Rodrigo Alexander Sabino Ramirez** <br>*TB1* <br>- Durante mi exposición, comuniqué de manera clara y objetiva los resultados de mi proyecto en ingeniería, destacando la fase de Needfinding. Presenté User Personas y una matriz de tareas de usuario, usando herramientas como Empathy Mapping y As-is Scenario Mapping. Además, delineé el escenario futuro de la plataforma propuesta, detallando User Stories, Impact Mapping y un Product Backlog completo.<br><br>**Abel Angel Cierto Espiritu**<br>*TB1* <br>- Durante el desarrollo de este primer avance, comunique de manera eficaz el objetivo del diseño al desarrollar la aplicación web. También, detalle acerca de las funcionalidades primarias  que considero que son importantes y definir los atributos de calidad para una buena aplicación es necesaria. Los constraints nos sirven para tener claro las limitaciones del sistema al momento de desarrollar la aplicación web.<br><br>**Branco Alberto Villegas Peralta**<br>*TB1*<br>- Durante el proyecto, me enfoqué en comunicar nuestros avances y resultados de manera clara y objetiva. Presenté nuestras ideas durante el proceso de Event Storming y facilité discusiones sobre el modelado de flujo de mensajes del dominio. Mi objetivo era asegurarme de que todos los miembros del equipo, independientemente de su especialidad o nivel jerárquico, comprendieran el progreso y las decisiones tomadas en el proyecto.<br><br>  | *TB1*<br>En la exposición de la presente entrega se comunico eficientemente las bases del proyecto desarrollado y el proceso que llevo a corroborar que efectivamente es una solución adecuada para la problemática encontrada. Asimismo, se presentaron las herramientas para utilizadas para las primeras fases de implementación del proyecto y su planteamiento. |
-| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.. | **Eduardo Sebastián Lévano Cavero**<br>*TB1* <br>- Se documento con éxito y de manera adecuada la introducción al proyecto, describiendo la problemática con antecedentes, ilustrando las posibles soluciones y como se busca solucionarlo de una manera más eficiente por medio del desarrollo de la presenta investigación.<br><br>**Anthony Botello** <br>*TB1* <br>- Se redactaron y documentó información y análisis de nuestros competidores y de la misma forma se evidenciaron las entrevistas realizadas y el análisis de ellas. Por otro lado, se definieron los Primary User Stories y los Quality Attribute Scenarios.<br><br>**Rodrigo Alexander Sabino Ramirez** <br>*TB1* <br>- En la elaboración de la primera entrega, me centré en comunicar de manera precisa y objetiva aspectos específicos. Utilizando el concepto de Ubiquitous Language, desarrollé un lenguaje común que facilitó la comprensión entre los miembros del equipo y los stakeholders. Además, identifiqué las limitaciones (Constraints) del proyecto y elaboré un Architectural Drivers Backlog para guiar el diseño arquitectónico. <br><br>**Abel Angel Cierto Espiritu** <br>*TB1* <br>- Los resultados de elegir drivers de arquitecturas permite un buen funcionamiento en la escalabilidad y mantenimiento del sistema. Por último los escenarios de los atributos que se requiere refinar permite una mejora continua en la aplicación web.<br><br>**Branco Alberto Villegas Peralta**<br>*TB1*<br>- Durante el proyecto, utilicé herramientas como EventStorming para explorar y descubrir los contextos relevantes. Luego, modelé los flujos de mensajes del dominio para comprender las interacciones entre los diferentes componentes del sistema. Utilicé Bounded Context Canvases para delinear los límites y responsabilidades de cada contexto, y realicé un mapeo de contextos para visualizar las relaciones entre ellos. Finalmente, documenté nuestra arquitectura de software utilizando varios diagramas, incluidos contexto, contenedor y despliegue, para comunicar nuestra visión de manera efectiva a todas las partes interesadas. | *TB1*<br>En el informe se detalló los aspectos más importantes acerca de la base de la solución propuesta y las herramientas que se usaron para validar la misma. Por otro lado, se incluyeron los diagramas adecuados para cada sección con su respectiva descripción para brindar la mayor cantidad de información.                                                |
- 
+| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.     | **Cristopher Rondon Añaños**<br>*TB1* <br>- Durante el video de exposición se transmitió de manera adecuada la problemática hallada en el sector de transporte de mercadería y como se solucionaría por medio de la implementación de una página web para comunicar a transportistas con personas que requieran de sus servicios. Asimismo, se detallo como esta diseñada la propuesta y su sustentación.<br><br>**Anthony Botello** <br>*TB1* <br>- En el vídeo de exposición se indicaron a los competidores, así como también se explicó la matriz DAFO de nuestra organización. Finalmente, se expusieron resultados acerca de las entrevistas realizadas.<br><br>**Rodrigo Alexander Sabino Ramirez** <br>*TB1* <br>- Durante mi exposición, comuniqué de manera clara y objetiva los resultados de mi proyecto en ingeniería, destacando la fase de Needfinding. Presenté User Personas y una matriz de tareas de usuario, usando herramientas como Empathy Mapping y As-is Scenario Mapping. Además, delineé el escenario futuro de la plataforma propuesta, detallando User Stories, Impact Mapping y un Product Backlog completo.<br><br>**Abel Angel Cierto Espiritu**<br>*TB1* <br>- Durante el desarrollo de este primer avance, comunique de manera eficaz el objetivo del diseño al desarrollar la aplicación web. También, detalle acerca de las funcionalidades primarias  que considero que son importantes y definir los atributos de calidad para una buena aplicación es necesaria. Los constraints nos sirven para tener claro las limitaciones del sistema al momento de desarrollar la aplicación web.<br><br>**Branco Alberto Villegas Peralta**<br>*TB1*<br>- Durante el proyecto, me enfoqué en comunicar nuestros avances y resultados de manera clara y objetiva. Presenté nuestras ideas durante el proceso de Event Storming y facilité discusiones sobre el modelado de flujo de mensajes del dominio. Mi objetivo era asegurarme de que todos los miembros del equipo, independientemente de su especialidad o nivel jerárquico, comprendieran el progreso y las decisiones tomadas en el proyecto.<br><br>  | *TB1*<br>En la exposición de la presente entrega se comunico eficientemente las bases del proyecto desarrollado y el proceso que llevo a corroborar que efectivamente es una solución adecuada para la problemática encontrada. Asimismo, se presentaron las herramientas para utilizadas para las primeras fases de implementación del proyecto y su planteamiento. |
+| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.. | **Cristopher Rondon Añaños**<br>*TB1* <br>- Se documento con éxito y de manera adecuada la introducción al proyecto, describiendo la problemática con antecedentes, ilustrando las posibles soluciones y como se busca solucionarlo de una manera más eficiente por medio del desarrollo de la presenta investigación.<br><br>**Anthony Botello** <br>*TB1* <br>- Se redactaron y documentó información y análisis de nuestros competidores y de la misma forma se evidenciaron las entrevistas realizadas y el análisis de ellas. Por otro lado, se definieron los Primary User Stories y los Quality Attribute Scenarios.<br><br>**Rodrigo Alexander Sabino Ramirez** <br>*TB1* <br>- En la elaboración de la primera entrega, me centré en comunicar de manera precisa y objetiva aspectos específicos. Utilizando el concepto de Ubiquitous Language, desarrollé un lenguaje común que facilitó la comprensión entre los miembros del equipo y los stakeholders. Además, identifiqué las limitaciones (Constraints) del proyecto y elaboré un Architectural Drivers Backlog para guiar el diseño arquitectónico. <br><br>**Abel Angel Cierto Espiritu** <br>*TB1* <br>- Los resultados de elegir drivers de arquitecturas permite un buen funcionamiento en la escalabilidad y mantenimiento del sistema. Por último los escenarios de los atributos que se requiere refinar permite una mejora continua en la aplicación web.<br><br>**Branco Alberto Villegas Peralta**<br>*TB1*<br>- Durante el proyecto, utilicé herramientas como EventStorming para explorar y descubrir los contextos relevantes. Luego, modelé los flujos de mensajes del dominio para comprender las interacciones entre los diferentes componentes del sistema. Utilicé Bounded Context Canvases para delinear los límites y responsabilidades de cada contexto, y realicé un mapeo de contextos para visualizar las relaciones entre ellos. Finalmente, documenté nuestra arquitectura de software utilizando varios diagramas, incluidos contexto, contenedor y despliegue, para comunicar nuestra visión de manera efectiva a todas las partes interesadas. | *TB1*<br>En el informe se detalló los aspectos más importantes acerca de la base de la solución propuesta y las herramientas que se usaron para validar la misma. Por otro lado, se incluyeron los diagramas adecuados para cada sección con su respectiva descripción para brindar la mayor cantidad de información.                                                |
 
 ---
 
@@ -177,11 +179,11 @@ Nuestra visión es convertirnos en la plataforma líder mundial en alquiler de v
 | Integrante                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Farid Hinostroza Mavila             |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
 | Estudiante de Ingeniería de Software con un interés particular en la inteligencia artificial y la gestión de bases de datos. Mi enfoque es la mejora continua y la implementación de soluciones innovadoras que resuelvan problemas reales. Además, soy proactivo y colaborativo, lo que me permite trabajar eficazmente en equipo para alcanzar los objetivos propuestos, siempre con la vista puesta en la excelencia y la eficiencia del proyecto.
- | ![Farid Perfil](img/integrantes/Farid.png) |
+| ![Farid Perfil](img/integrantes/Farid.png) |
 
-| Integrante                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Cristopher Rondon Añaños              |
+| Integrante                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Rondon Añaños, Cristopher              |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
-| Estudiante de la carrera de Ingeniería en Software. Soy una persona dinámica y curiosa, siempre dispuesta a adquirir nuevas habilidades y conocimientos. Esta actitud me ha permitido familiarizarme con herramientas y lenguajes como Java, JavaScript y SQL. Además, me entusiasma investigar y experimentar con tecnologías emergentes como el Internet de las Cosas (IoT) y la Inteligencia Artificial (IA), con el objetivo de desarrollar soluciones creativas e impactantes en el campo tecnológico | ![Cristopher Perfil](img/integrantes/Cristopher.png) |
+| Estudiante de la carrera de Ingeniería en Software. Soy una persona dinámica y curiosa, siempre dispuesta a adquirir nuevas habilidades y conocimientos. Esta actitud me ha permitido familiarizarme con herramientas y lenguajes como Java, JavaScript y SQL. Además, me entusiasma investigar y experimentar con tecnologías emergentes como el Internet de las Cosas (IoT) y la Inteligencia Artificial (IA), con el objetivo de desarrollar soluciones creativas e impactantes en el campo tecnológico. | ![Cristopher Perfil](img/integrantes/CristopherPerfil.JPG) |
 
 ## 1.2. Solution Profile
 
@@ -740,40 +742,132 @@ Calendario que muestra la disponibilidad de los transportistas para proporcionar
 # Capítulo III: Requirements Specification 
 ## 3.1. To-Be Scenario Mapping. 
 
-###### _To-Be Scenario Mapping del usuario cliente_
+###### To-Be Scenario Mapping del usuario Arrendador
 
-![To Be Scenario Mapping Cliente](img/Capitulo_2/Needfinding/7.png)
-###### _To-Be Scenario Mapping del usuario transportista_
+![To Be Scenario Mapping Arrendador](img/Capitulo_3/To-be%20Arrendador.png)
+###### To-Be Scenario Mapping del usuario Inquilino
 
-![To Be Scenario Mapping Transportista](img/Capitulo_2/Needfinding/8.jpg)
+![To Be Scenario Mapping Transportista](img/Capitulo_3/To-be%20Inquilino.png)
 
 ## 3.2. User Stories. 
 
 ##### _Desarrollo de los User Stories_
-![HU-001](img/Capitulo_3/User_Stories/1.png)
-![HU-002](img/Capitulo_3/User_Stories/2.png)
-![HU-003](img/Capitulo_3/User_Stories/3.png)
-![HU-004](img/Capitulo_3/User_Stories/4.png)
-![HU-005](img/Capitulo_3/User_Stories/5.png)
-![HU-006](img/Capitulo_3/User_Stories/6.png)
-![HU-007](img/Capitulo_3/User_Stories/7.png)
-![HU-008](img/Capitulo_3/User_Stories/8.png)
-![HU-009](img/Capitulo_3/User_Stories/9.png)
-![HU-010](img/Capitulo_3/User_Stories/10.png)
-![HU-011](img/Capitulo_3/User_Stories/11.png)
-![HU-012](img/Capitulo_3/User_Stories/12.png)
-![HU-013](img/Capitulo_3/User_Stories/13.png)
-![HU-014](img/Capitulo_3/User_Stories/14.png)
-![HU-015](img/Capitulo_3/User_Stories/15.png)
-![HU-016](img/Capitulo_3/User_Stories/16.png)
-![HU-017](img/Capitulo_3/User_Stories/17.png)
-![HU-018](img/Capitulo_3/User_Stories/18.png)
-![HU-019](img/Capitulo_3/User_Stories/19.png)
-![HU-020](img/Capitulo_3/User_Stories/20.png)
-![HU-021](img/Capitulo_3/User_Stories/21.png)
-![HU-022](img/Capitulo_3/User_Stories/22.png)
-![HU-023](img/Capitulo_3/User_Stories/23.png)
-![HU-024](img/Capitulo_3/User_Stories/24.png)
+<table border="1">
+  <tr>
+    <th>Epic / User Story ID</th>
+    <th>Título</th>
+    <th>Descripción</th>
+    <th>Criterios de Aceptación</th>
+    <th>Relacionado con (Epic ID)</th>
+  </tr>
+  <tr>
+    <td>US-01</td>
+    <td>Registro de usuario</td>
+    <td>Como nuevo usuario, quiero registrarme en la plataforma para acceder a sus servicios.</td>
+    <td><b>Dado que</b> soy un nuevo usuario, <b>Cuando</b> completo el formulario de registro, <b>Entonces</b> debería recibir un correo de confirmación.</td>
+    <td>EP-01</td>
+  </tr>
+  <tr>
+    <td>US-02</td>
+    <td>Inicio de sesión</td>
+    <td>Como usuario registrado, quiero iniciar sesión en la plataforma para acceder a mi cuenta.</td>
+    <td><b>Dado que</b> soy un usuario registrado, <b>Cuando</b> ingreso mis credenciales, <b>Entonces</b> debería poder acceder a mi cuenta.</td>
+    <td>EP-01</td>
+  </tr>
+  <tr>
+    <td>US-03</td>
+    <td>Recuperación de contraseña</td>
+    <td>Como usuario, quiero recuperar mi contraseña en caso de olvidarla para poder acceder a mi cuenta.</td>
+    <td><b>Dado que</b> olvidé mi contraseña, <b>Cuando</b> solicito la recuperación, <b>Entonces</b> debería recibir un enlace para restablecerla.</td>
+    <td>EP-01</td>
+  </tr>
+  <tr>
+    <td>US-04</td>
+    <td>Buscar propiedades</td>
+    <td>Como inquilino, quiero buscar propiedades disponibles para alquilar según mis criterios.</td>
+    <td><b>Dado que</b> estoy buscando una propiedad, <b>Cuando</b> ingreso mis criterios de búsqueda, <b>Entonces</b> debería ver una lista de propiedades que coincidan.</td>
+    <td>EP-02</td>
+  </tr>
+  <tr>
+    <td>US-05</td>
+    <td>Filtrar resultados de búsqueda</td>
+    <td>Como inquilino, quiero filtrar los resultados de búsqueda para encontrar propiedades que cumplan con mis necesidades específicas.</td>
+    <td><b>Dado que</b> he realizado una búsqueda, <b>Cuando</b> aplico filtros, <b>Entonces</b> debería ver solo las propiedades que cumplan con esos filtros.</td>
+    <td>EP-02</td>
+  </tr>
+  <tr>
+    <td>US-06</td>
+    <td>Ver detalles de propiedad</td>
+    <td>Como inquilino, quiero ver los detalles completos de una propiedad para evaluar si me interesa.</td>
+    <td><b>Dado que</b> estoy viendo una lista de propiedades, <b>Cuando</b> selecciono una, <b>Entonces</b> debería ver la descripción completa, fotos y condiciones del alquiler.</td>
+    <td>EP-03</td>
+  </tr>
+  <tr>
+    <td>US-07</td>
+    <td>Agendar visita a propiedad</td>
+    <td>Como inquilino, quiero agendar una visita a una propiedad directamente desde la plataforma.</td>
+    <td><b>Dado que</b> estoy en la página de detalles de la propiedad, <b>Cuando</b> selecciono la opción de agendar visita, <b>Entonces</b> debería poder elegir una fecha y recibir confirmación de la cita.</td>
+    <td>EP-03</td>
+  </tr>
+  <tr>
+    <td>US-08</td>
+    <td>Comunicación con el arrendador</td>
+    <td>Como inquilino, quiero comunicarme con el arrendador a través de la plataforma para hacer consultas.</td>
+    <td><b>Dado que</b> estoy interesado en una propiedad, <b>Cuando</b> envío un mensaje al arrendador, <b>Entonces</b> debería recibir una notificación <b>Cuando</b> el arrendador responda.</td>
+    <td>EP-04</td>
+  </tr>
+  <tr>
+    <td>US-09</td>
+    <td>Verificación del historial del inquilino</td>
+    <td>Como arrendador, quiero verificar el historial de pagos del inquilino antes de firmar un contrato.</td>
+    <td><b>Dado que</b> estoy considerando alquilar mi propiedad, <b>Cuando</b> solicito el historial del inquilino, <b>Entonces</b> debería poder revisar su historial de cumplimiento de pagos.</td>
+    <td>EP-05</td>
+  </tr>
+  <tr>
+    <td>US-10</td>
+    <td>Firma de contrato digital</td>
+    <td>Como usuario, quiero firmar el contrato de alquiler digitalmente para mayor conveniencia.</td>
+    <td><b>Dado que</b> estoy listo para firmar el contrato, <b>Cuando</b> lo reviso en la plataforma, <b>Entonces</b> debería poder firmarlo electrónicamente y recibir una copia para ambas partes.</td>
+    <td>EP-05</td>
+  </tr>
+  <tr>
+    <td>US-11</td>
+    <td>Pago de alquiler</td>
+    <td>Como inquilino, quiero realizar pagos automáticos del alquiler desde la plataforma.</td>
+    <td><b>Dado que</b> se acerca la fecha de pago, <b>Cuando</b> programo el pago automático, <b>Entonces</b> debería procesarse y recibir una notificación de confirmación de pago exitoso.</td>
+    <td>EP-06</td>
+  </tr>
+  <tr>
+    <td>US-12</td>
+    <td>Recordatorio de pago</td>
+    <td>Como inquilino, quiero recibir recordatorios de pago para evitar retrasos en el alquiler.</td>
+    <td><b>Dado que</b> la fecha de pago se aproxima, <b>Cuando</b> falten pocos días, <b>Entonces</b> debería recibir un recordatorio por correo o notificación para realizar el pago.</td>
+    <td>EP-06</td>
+  </tr>
+  <tr>
+    <td>US-13</td>
+    <td>Solicitud de mantenimiento</td>
+    <td>Como inquilino, quiero solicitar mantenimiento a través de la plataforma para problemas en la propiedad.</td>
+    <td><b>Dado que</b> tengo un problema de mantenimiento, <b>Cuando</b> envío la solicitud en la plataforma, <b>Entonces</b> debería poder hacer seguimiento y recibir actualizaciones sobre el estado de la reparación.</td>
+    <td>EP-07</td>
+  </tr>
+  <tr>
+    <td>US-14</td>
+    <td>Gestión de solicitudes de mantenimiento</td>
+    <td>Como arrendador, quiero gestionar las solicitudes de mantenimiento de mis inquilinos.</td>
+    <td><b>Dado que</b> he recibido una solicitud de mantenimiento, <b>Cuando</b> la reviso en la plataforma, <b>Entonces</b> debería poder asignarla a un proveedor y hacer seguimiento hasta su resolución.</td>
+    <td>EP-07</td>
+  </tr>
+  <tr>
+    <td>US-15</td>
+    <td>Eliminar cuenta</td>
+    <td>Como usuario, quiero eliminar mi cuenta de la plataforma si ya no deseo utilizar el servicio.</td>
+    <td><b>Dado que</b> he decidido dejar de usar la plataforma, <b>Cuando</b> solicito la eliminación de mi cuenta, <b>Entonces</b> debería recibir una confirmación y la cuenta debería eliminarse correctamente.</td>
+    <td>EP-01</td>
+  </tr>
+</table>
+
+
 
 
 
@@ -782,56 +876,165 @@ Las Epics que identificamos son las siguientes:
 
 ###### _Desarrollo de las Epics_
 
-| Código | Título                            | Epic                                                                                                     |
-| ------ | --------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| EP01   | Registro de información           | Como usuario deseo registrarme dentro de la aplicación para comenzar a usarla.                           |
-| EP02   | Registro de información adicional | Como usuario deseo poder almacenar información adicional para recibir/brindar un servicio personalizado. |
-| EP03   | Búsqueda de servicios disponibles | Como cliente deseo tener un resultado de búsqueda preciso de los servicios y vehículos disponibles.      |
-| EP04   | Contrato del servicio             | Como usuario quiero rellenar la información necesaria para solicitar un servicio.                        |
-| EP05   | Seguimiento del servicio          | Como cliente quiero conocer la ubicación del transporte.                                                 |
-| EP06   | Informes sobre el servicio        | Como cliente deseo hacer un reporte del servicio dentro de la aplicación.                                |
-| EP07   | Forma de pago                     | Como usuario quiero tener una forma de pago dentro de la aplicación.                                     |
-| EP08   | Notificación de contratos         | Como usuario quiero notificaciones que me den información de los contratos.                              |
-| EP09   | Visualización de perfiles         | Como usuario quiero ver la información que hay en el perfil de un cliente o transportista.               |
-| EP10   | Información de contratos          | Como usuario quiero tener la información de mis contratos.                                               |
+<table border = "1">
+  <tr>
+    <th>Epic ID</th>
+    <th>Título de la Épica</th>
+    <th>Descripción</th>
+  </tr>
+  <tr>
+    <td>EP-01</td>
+    <td>Gestión de Usuarios</td>
+    <td>Esta épica cubre todas las funcionalidades relacionadas con la creación, autenticación, verificación y eliminación de usuarios en la plataforma, tanto para propietarios como para inquilinos.</td>
+  </tr>
+  <tr>
+    <td>EP-02</td>
+    <td>Gestión de Contratos</td>
+    <td>Esta épica se enfoca en las funcionalidades que permiten la creación, modificación, generación automática y flexibilidad de contratos de arrendamiento entre propietarios e inquilinos.</td>
+  </tr>
+  <tr>
+    <td>EP-03</td>
+    <td>Gestión de Pagos y Notificaciones</td>
+    <td>Esta épica incluye funcionalidades relacionadas con los pagos de alquiler, notificaciones de pagos pendientes, generación de reportes financieros y recordatorios de renovación de contratos.</td>
+  </tr>
+  <tr>
+    <td>EP-04</td>
+    <td>Verificación de Identidad y Antecedentes</td>
+    <td>Esta épica aborda las funcionalidades relacionadas con la verificación de la identidad de los inquilinos y la revisión de sus antecedentes credit
+  </tr>
+  <tr>
+    <td>EP-05</td>
+    <td>Gestión del Mantenimiento de la Propiedad</td>
+    <td>Esta épica cubre las funcionalidades que permiten a los inquilinos reportar problemas de mantenimiento, así como la gestión y seguimiento de las reparaciones por parte de los propietarios.</td>
+  </tr>
+</table>
 
 ## 3.3. Impact Mapping. 
+###### _Impact Mapping de los usuarios Arrendador e Inquilino
 
-Link para una visualización más detallada: [https://drive.google.com/file/d/1Z_48YO0enDocx_Bz8IzVSlgUXCc-bnF5/view?usp=sharing](https://drive.google.com/file/d/1Z_48YO0enDocx_Bz8IzVSlgUXCc-bnF5/view?usp=sharing)
-
-###### _Impact Mapping de los usuarios cliente y transportista_
-
-![Impact Mapping](img/Capitulo_2/Needfinding/9.jpg)
+![Impact Mapping](img/Capitulo_3/ImpactMap.png)
 ## 3.4. Product Backlog.
 
 ##### _Desarrollo del Product Backlog_
 
-| **User Story ID** | **Título**                                  | **Descripción**                                                                                                                                                                             | **Story Points (8/5/3/2/1)** |
-| ----------------- | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------: |
-| **HU-011**        | Realizar el seguimiento por GPS             | Como cliente <br><br>Quiero seguir el transcurso del transportista     <br><br>Para sentirme seguro con el servicio                                                                         |            **8**             |
-| **HU-007**        | Visualizar la información del transportista | Como cliente <br><br>Quiero observar el perfil del transportista<br><br>Para contratarlo                                                                                                    |            **5**             |
-| **HU-008**        | Contratar el servicio                       | Como cliente <br><br>Quiero contratar el servicio<br><br>Para acceder a los servicios del transportista                                                                                     |            **5**             |
-| **HU-009**        | Realizar el pago                            | Como cliente <br><br>Quiero realizar el pago del servicio<br><br>Para no tener deudas pendientes                                                                                            |            **5**             |
-| **HU-017**        | Notificar del trabajo                       | Como transportista                      <br><br>Quiero que me notifiquen cuando un cliente requiere de mis servicios <br><br>Para no perderme de algún contrato                             |            **5**             |
-| **HU-018**        | Informar del contrato propuesto             | Como transportista<br><br>Quiero leer la información del servicio propuesto   <br><br>Para decidir si aceptar el trabajo                                                                    |            **5**             |
-| **HU-006**        | Buscar un vehículo                          | Como cliente <br><br>Quiero buscar el tipo de vehículo adecuado<br><br>Para así contratarlo                                                                                                 |            **5**             |
-| **HU-022**        | Comentar el servicio brindado               | Como cliente<br><br>Quiero dejar un comentario acerca de mi experiencia con el conductor luego de terminar el servicio<br><br>Para ayudar a los demás usuarios en su elección de conductor. |            **5**             |
-| **HU-001**        | Registrar al transportista                  | Como transportista<br><br>Quiero registrarme dentro de la aplicación<br><br>Para navegar dentro de ella                                                                                     |            **3**             |
-| **HU-002**        | Registrar al cliente                        | Como cliente<br><br>Quiero registrarme dentro de la aplicación<br><br>Para navegar dentro de ella                                                                                           |            **3**             |
-| **HU-023**        | Iniciar sesión como cliente                 | Como cliente<br><br>Quiero iniciar sesión en la aplicación<br><br>Para acceder a los servicios de transporte y gestionar mi perfil de usuario de manera segura y conveniente.               |            **3**             |
-| **HU-024**        | Iniciar sesión como transportista           | Como cliente<br><br>Quiero iniciar sesión en la aplicación<br><br>Para acceder a los servicios de transporte y gestionar mi perfil de usuario de manera segura y conveniente.               |            **3**             |
-| **HU-020**        | Ver la información del usuario              | Como usuario  <br><br>Quiero visualizar mi perfil y los datos que ingrese en el registro.<br><br>Para corroborar que los datos son correctos                                                |            **3**             |
-| **HU-005**        | Editar mi perfil de usuario                 | Como usuario de la aplicación<br><br>Quiero poder editar los datos de mi perfil<br><br>Para mantener mis datos actualizados                                                                 |            **3**             |
-| **HU-012**        | Ver el historial de contratos               | Como usuario<br><br>Quiero revisar el historial de contratos <br><br>Para tener un registro                                                                                                 |            **3**             |
-| **HU0-013**       | Revisar el servicio                         | Como cliente  <br><br>Quiero decidir revisar el servicio brindado<br><br>Para sentirme más seguro                                                                                           |            **3**             |
-| **HU-016**        | Ver el estado del contrato propuesto        | Como cliente <br><br>Quiero saber el estado de mi oferta de trabajo <br><br>Para saber si fue aceptada o rechazada                                                                          |            **3**             |
-| **HU-019**        | Reportar una incidencia                     | Como cliente <br><br>Quiero reportar alguna incidencia que haya sucedido <br><br>Para mejorar el servicio dentro de la aplicación                                                           |            **3**             |
-| **HU-021**        | Ver el contrato finalizado                  | Como transportista<br><br>Quiero rellenar mi información de pago<br><br>Para recibir el pago correspondiente por el servicio brindado.                                                      |            **3**             |
-| **HU-003**        | Registrar un transporte                     | Como transportista <br><br>Quiero almacenar la información de mi transporte y el servicio que ofrezco <br><br>Para que el cliente tenga una noción del servicio que brindo                  |            **2**             |
-| **HU-004**        | Registrar su experiencia                    | Como transportista<br><br>Quiero registrar mi experiencia de trabajo <br><br>Para generar confianza al cliente                                                                              |            **2**             |
-| **HU-015**        | Guardar los datos de la tarjeta             | Como cliente <br><br>Quiero guardar los datos de mi tarjeta<br><br>Para usarla de manera más rápida en mis siguientes pagos                                                                 |            **2**             |
-| **HU-010**        | Cerrar sesión en la aplicación              | Como usuario transportista<br><br>Quiero salir de la aplicación<br><br>Para iniciar sesión en otra cuenta como cliente                                                                      |            **1**             |
-| **HU-014**        | Acceder a las preguntas frecuentes          | Como usuario<br><br>Quiero acceder a un banco de preguntas frecuentes sobre la aplicación<br><br>Para despejar dudas que tenga sobre algunos procesos                                       |            **1**             |
+<table border = "1">
+  <thead>
+    <tr>
+      <th>#Orden</th>
+      <th>User Story ID</th>
+      <th>Título</th>
+      <th>Descripción (Como... Quiero... Para...)</th>
+      <th>Story Points</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>US-01</td>
+      <td>Registro de usuario</td>
+      <td>Como usuario, deseo registrarme en la plataforma para acceder a sus servicios.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>US-02</td>
+      <td>Login de usuario</td>
+      <td>Como usuario, deseo iniciar sesión en la plataforma para acceder a mis propiedades y contratos.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>US-05</td>
+      <td>Búsqueda de propiedades</td>
+      <td>Como inquilino, quiero buscar propiedades filtradas por ubicación, precio y características.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>US-04</td>
+      <td>Publicar propiedad</td>
+      <td>Como arrendador, quiero publicar mi propiedad en la plataforma para atraer inquilinos potenciales.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>US-06</td>
+      <td>Ver detalles de propiedad</td>
+      <td>Como inquilino, quiero ver los detalles completos de una propiedad para evaluar si me interesa.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>US-07</td>
+      <td>Agendar visita a propiedad</td>
+      <td>Como inquilino, quiero agendar una visita a una propiedad directamente desde la plataforma.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>US-10</td>
+      <td>Firma de contrato digital</td>
+      <td>Como usuario, quiero firmar el contrato de alquiler digitalmente para mayor conveniencia.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>US-08</td>
+      <td>Comunicación con el arrendador</td>
+      <td>Como inquilino, quiero comunicarme con el arrendador a través de la plataforma para hacer consultas.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>US-03</td>
+      <td>Recuperar contraseña</td>
+      <td>Como usuario, deseo recuperar mi contraseña en caso de olvidarla.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>US-09</td>
+      <td>Verificación del historial del inquilino</td>
+      <td>Como arrendador, quiero verificar el historial de pagos del inquilino antes de firmar un contrato.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>US-11</td>
+      <td>Pago de alquiler</td>
+      <td>Como inquilino, quiero realizar pagos automáticos del alquiler desde la plataforma.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>US-12</td>
+      <td>Recordatorio de pago</td>
+      <td>Como inquilino, quiero recibir recordatorios de pago para evitar retrasos en el alquiler.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>US-13</td>
+      <td>Solicitud de mantenimiento</td>
+      <td>Como inquilino, quiero solicitar mantenimiento a través de la plataforma para problemas en la propiedad.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>US-14</td>
+      <td>Gestión de solicitudes de mantenimiento</td>
+      <td>Como arrendador, quiero gestionar las solicitudes de mantenimiento de mis inquilinos.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>US-15</td>
+      <td>Eliminar cuenta</td>
+      <td>Como usuario, quiero eliminar mi cuenta de la plataforma si ya no deseo utilizar el servicio.</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -1283,5 +1486,6 @@ Inicialmente, todas las pruebas se realizaron localmente para garantizar que los
 ## Repositorio con Informe
 Enlace: [Repositorio Trabajo Final](https://github.com/SmartRenta/CasaFinder-Report)
 ## Entrega TB1
- 
+
 Enlace: [Exposición TB1 en Microsoft Stream]()
+
