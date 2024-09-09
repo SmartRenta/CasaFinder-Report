@@ -146,13 +146,8 @@ Setiembre, 2024
     - [4.2.4. Bounded Context Canvases](#424-bounded-context-canvases)
     - [4.2.5. Context Mapping](#425-context-mapping)
   - [4.3. Software Architecture.](#43-software-architecture)
-    - [4.3.1. Software Architecture System Landscape Diagram.](#431-software-architecture-system-landscape-diagram)
-    - [4.3.2. Software Architecture Context Level Diagrams.](#432-software-architecture-context-level-diagrams)
-          - [***Diagrama de Contexto de FastPorte***](#diagrama-de-contexto-de-fastporte)
-    - [4.3.3. Software Architecture Container Level Diagrams.](#433-software-architecture-container-level-diagrams)
-          - [*Diagrama de Contenedores de FastPort*](#diagrama-de-contenedores-de-fastport)
-    - [4.3.4. Software Architecture Deployment Diagrams.](#434-software-architecture-deployment-diagrams)
-          - [*Cloud Architecture Deployment Diagram*](#cloud-architecture-deployment-diagram)
+    - [4.3.1. Software Architecture Context Level Diagrams.](#431-software-architecture-context-level-diagrams)
+    - [4.3.2. Software Architecture Container Level Diagrams.](#432-software-architecture-container-level-diagrams)
 - [Conclusiones](#conclusiones)
 - [Recomendaciones](#recomendaciones)
 - [Anexos](#anexos)
@@ -1484,48 +1479,18 @@ Tras identificar nuestros Bounded Contexts, procedimos a definir las relaciones 
 ![Context Mapping](img/Capitulo_4/ContextMapping.png)
 ## 4.3. Software Architecture.
 
-### 4.3.1. Software Architecture System Landscape Diagram.
+### 4.3.1. Software Architecture Context Level Diagrams.
 
-El diagrama de System Landscape que presentamos muestra el diseño central de nuestro sistema de transporte de paquetes, con el "FastPorte Platform" en su corazón. Este núcleo sirve como la central de gestión de paquetes, conectando a los "Clientes" con el "Carrier" adecuado para su transporte. La plataforma proporciona una interfaz clara y eficaz por medio de la cual los clientes pueden estimar la cantidad de paquetes a enviar y seleccionar el vehículo idóneo para su entrega. Este enfoque no solo optimiza la eficiencia del proceso, sino que también eleva la satisfacción de todos los actores involucrados, garantizando una experiencia de transporte fluida y sin contratiempos.
+El presente diagrama muestra la interacción del sistema CasaFinder con los usuarios y otros sistemas. Los usuarios son el arrendador y el arrendatario. El arrendador es una persona que busca poner en alquiler su casa, mientras que el arrendatario busca alquilar una casa. Los sistemas con los que interactúa son el sistema de email para enviar notificaciones y la plataforma de pagos para hacer depósitos y retiros.
 
-![Landscape Diagram](img/Capitulo_4/Software_Architecture_System_Landscape_Diagram/Imagen1.png)
+![Diagrama de Contexto](img/Capitulo_4/DiagramasC4/Imagen2.png)
+                                                  |
+### 4.3.2. Software Architecture Container Level Diagrams.
 
-### 4.3.2. Software Architecture Context Level Diagrams.
+El presente diagrama muestra el contenido del sistema CasaFinder. Los cuales son Landing Page, Aplicación web, API Rest y Base de datos. El landing page está desarrollado con HTML, CSS y Js, es un call-to-action para llamar la atención de ambos usuarios, fomentar la descarga y redirigir hacia la aplicación. La aplicación web está desarrollada con React y provee una interfaz didáctica con los usuarios y otros sistemas. El API Rest está desarrollado con Spring Boot y expone los endpoints para principalmente poner en alquiler casas. La base de datos está desarrollada con PostgreSql y se usa para el almacenamiento de todos los datos. Adicionalmente, se muestra la interacción del API Rest con el sistema de email para enviar notificaciones y con la plataforma de pagos para hacer depósitos y retiros.
 
-###### ***Diagrama de Contexto de FastPorte***
+![Diagrama de Contenedores](img/Capitulo_4/DiagramasC4/Imagen3.png)
 
-![Diagrama de Contexto](img/Capitulo_4/Software_Architecture_Context_Level_Diagrams/Imagen1.png)
-
-| Elemento       | Responsabilidad                                                                |
-| -------------- | ------------------------------------------------------------------------------ |
-| Client         | Usuario de FastPorte el cual busca contratar servicios de transportista        |
-| Carrier        | Usuario de FastPorte el cual busca promocionar sus servicios de transporte     |
-| Admin          | Usuario administrador que tiene acceso a todas las funciones de FastPorte      |
-| FastPorte      | El sistema que se desarrollará para FastPorte                                  |
-| GoogleMaps     | API de GoogleMaps para poder utilizar los servicios de geolocalización         |
-| RENIEC System  | Sistema externo para verificar los datos personales de los usuarios            |
-| E-mail System  | Sistema de correo electrónico externo para validar servicios                   |
-| Payment System | Sistema de pago externo para poder realizar pagos en la aplicación web / móvil |
-
-### 4.3.3. Software Architecture Container Level Diagrams.
-###### *Diagrama de Contenedores de FastPort*
-
-![Diagrama de Contenedores](img/Capitulo_4/Software_Architecture_Container_Level_Diagrams/Imagen1.png)
-
-### 4.3.4. Software Architecture Deployment Diagrams.
-
-Para el desarrollo de aplicaciones en este proyecto, se optó por utilizar Azure debido a las necesidades específicas del proyecto. Se eligieron instancias que mejor se adaptaban a los requisitos de rendimiento y escalabilidad, proporcionando así un entorno óptimo para el desarrollo y despliegue de aplicaciones.
-
-Una de las ventajas más significativas de usar Azure fue la rapidez en las peticiones, lo que resultó en un rendimiento mejorado de las aplicaciones. Esta característica fue crucial para satisfacer las demandas de alta disponibilidad y respuesta rápida del proyecto.
-
-**Creación de Imágenes Docker**
-Las imágenes Docker para los servicios y componentes del proyecto se crearon utilizando IntelliJ IDEA, Maven y Docker Compose. Este enfoque aseguró una integración y gestión fluidas del entorno de desarrollo, facilitando la creación y mantenimiento de las imágenes Docker.
-
-**Gestión de Contenedores Docker**
-Inicialmente, todas las pruebas se realizaron localmente para garantizar que los contenedores funcionaran según lo esperado. Tras corregir los errores identificados, los contenedores se subieron a Azure. Este proceso garantizó que los contenedores fueran robustos y estables antes de su implementación en el entorno de producción.
-###### *Cloud Architecture Deployment Diagram*
-
-![Cloud Architecture Deployment Diagram](img/Capitulo_4/Software_Architecture_Deployment_Diagrams/Imagen1.png)
 
 ---
 # Conclusiones
