@@ -778,7 +778,7 @@ Las Epics que identificamos son las siguientes:
 ## 3.3. Impact Mapping. 
 ###### _Impact Mapping de los usuarios Arrendador e Inquilino
 
-![Impact Mapping](img/Capitulo_2/Needfinding/9.jpg)
+![Impact Mapping](img/Capitulo_3/ImpactMap.png)
 ## 3.4. Product Backlog.
 
 ##### _Desarrollo del Product Backlog_
