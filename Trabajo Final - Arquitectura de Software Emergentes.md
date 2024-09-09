@@ -15,6 +15,7 @@ Profesor: Royer Edelwer Rojas Malasquez
 Integrantes:
 
 * Carrillo Mainicta, Michael - U20201A924
+* Vara Quispe, José Carlos - U202125116
 
 
 Setiembre, 2024
