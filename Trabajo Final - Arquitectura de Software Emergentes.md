@@ -1492,6 +1492,195 @@ El presente diagrama muestra el contenido del sistema CasaFinder. Los cuales son
 ![Diagrama de Contenedores](img/Capitulo_4/DiagramasC4/Imagen3.png)
 
 
+# Capítulo IV: Tactical-Level Software design
+
+## 6.1 Style guidelines
+
+### 6.1.1 General Style guidelines
+
+**Branding:**
+El logotipo de CasaFinder se destaca con una casa centralizada dentro de unas manos abiertas, simbolizando confianza y seguridad, elementos esenciales para la experiencia de alquiler de viviendas. El icono de un teléfono móvil detrás de la casa representa la accesibilidad tecnológica de la plataforma, combinando lo tradicional con lo moderno. El logotipo será utilizado de manera prominente en la página principal y en todas las interfaces clave.
+
+**Typography:**
+La tipografía utilizada en CasaFinder es moderna y sin serifa, como Roboto, garantizando una lectura clara y fluida en todas las plataformas. El logotipo emplea un estilo tipográfico suave y redondeado, que transmite accesibilidad y cercanía, alineándose con los valores de la plataforma. Los encabezados se presentarán con un peso de letra mayor para destacar la jerarquía de la información, mientras que los cuerpos de texto mantendrán un peso regular.
+
+**Colors:**
+La paleta de colores se basa en tonos cálidos y naturales que evocan confort y hogar, tales como el marrón y el beige, complementados con toques de verde y azul. El marrón refuerza la confianza y la estabilidad, mientras que el verde y el azul aportan una sensación de seguridad y modernidad. Estos colores se utilizarán de manera consistente en la interfaz para reforzar la identidad visual de la marca.
+
+Color primario: Marrón claro (#A67C52) para fondos y elementos destacados.
+Color secundario: Verde suave (#5A7D42) para botones y elementos interactivos.
+Neutros: Blancos y grises (#F5F5F5, #333333) para texto y áreas de fondo que necesiten ser neutras y claras.
+
+**Spacing:**
+El espaciado entre elementos se mantendrá amplio para evitar la sobrecarga visual y permitir una lectura fluida. Se utilizarán márgenes y padding uniformes para crear una estructura limpia y fácil de navegar. El espacio en blanco será un componente fundamental para dar claridad a la interfaz y guiar al usuario de manera intuitiva.
+
+**Tono de comunicación:**
+El tono de comunicación de CasaFinder será formal y accesible, asegurando confianza en las interacciones críticas como la firma de contratos o la realización de pagos. Al mismo tiempo, el tono debe ser cercano y empático, permitiendo que los usuarios se sientan cómodos y apoyados en todo el proceso. Se adoptará un lenguaje respetuoso y sereno, que transmita profesionalismo sin perder la calidez humana que caracteriza al servicio.
+
+**Principios de diseño:**
+Accesibilidad: Todo el diseño seguirá pautas de accesibilidad, con un contraste adecuado entre el texto y el fondo, y una tipografía fácilmente legible para personas con discapacidades visuales.
+Consistencia: Los componentes visuales y de interacción mantendrán una estructura y estilo coherente en todas las páginas de la plataforma, garantizando una experiencia de usuario unificada.
+Feedback visual: Se proporcionará feedback claro en todas las interacciones del usuario, como cambios de estado en botones y alertas visuales que indiquen éxito o error, especialmente en los procesos de pagos o gestión de contratos.
+
+
+### 6.1.2 Web, mobile & devices style guidelines
+
+**Responsive Web Interfaces:**
+La interfaz de CasaFinder debe adaptarse de manera eficiente a una variedad de tamaños de pantalla, desde computadoras de escritorio. Se implementarán principios de diseño responsivo, que incluyen el ajuste automático de las dimensiones de los elementos y la reorganización de la estructura de contenido.
+Grillas y columnas: Se utilizará un sistema de grilla flexible (preferiblemente de 12 columnas) que permita reorganizar el contenido dependiendo del ancho de la pantalla. En pantallas grandes, se utilizarán múltiples columnas para mostrar el contenido, mientras que en pantallas más pequeñas, el contenido se reorganizará en una o dos columnas.
+Imágenes y multimedia: Las imágenes y los elementos multimedia se optimizarán para cargarse rápidamente en cualquier dispositivo, utilizando técnicas como la carga diferida (lazy loading) y el ajuste proporcional de las imágenes (max-width: 100%).
+
+Tipografía adaptable: El tamaño de la tipografía se ajustará de manera proporcional al tamaño de la pantalla, asegurando que los textos sean siempre legibles sin necesidad de hacer zoom. Para pantallas pequeñas, el tamaño mínimo del texto será de 16px, y para pantallas más grandes se podrá aumentar según la jerarquía del contenido.
+Navegación optimizada: La navegación será ajustada para dispositivos con pantallas pequeñas. En pantallas más grandes, se utilizarán menús horizontales que muestren todas las opciones disponibles de manera clara.
+
+**Native Mobile Interfaces:**
+CasaFinder no tendrá aplicación móvil.
+
+**Interacción entre dispositivos:**
+CasaFinder ofrecerá una experiencia fluida y coherente al cambiar entre dispositivos. Los usuarios podrán iniciar una tarea en un dispositivo, como de una computadora a otra.
+Sincronización en tiempo real: Todos los cambios que realice el usuario (por ejemplo, al visualizar una propiedad o actualizar un perfil) se sincronizan en tiempo real entre los diferentes dispositivos. Esto garantiza que el usuario siempre tenga acceso a la información más actualizada.
+
+**Pruebas de compatibilidad:**
+Se realizarán pruebas exhaustivas de compatibilidad para asegurar que CasaFinder funcione correctamente en los principales navegadores (Chrome, Safari, Firefox, Edge). Esto incluye pruebas en dispositivos con diferentes resoluciones de pantalla y sistemas operativos para asegurar una experiencia consistente.
+
+## 6.2 Information architecture
+
+### 6.2.1 Labeling Systems
+
+**Principios de Etiquetado:**
+Las etiquetas utilizadas en la plataforma estarán basadas en los siguientes principios clave:
+Claridad: Las etiquetas deben ser intuitivas, evitando jergas técnicas o términos complejos. Se priorizarán términos comunes y fácilmente comprensibles para cualquier usuario.
+Concisión: Las etiquetas utilizarán el mínimo número de palabras posible, asegurando que sean fáciles de leer y comprendidas de un vistazo. Por ejemplo, en lugar de “Información del Inmueble”, se utilizará simplemente “Inmueble”.
+Consistencia: Se mantendrá una estructura consistente en todas las páginas de la plataforma. Los mismos términos se utilizarán de manera uniforme para describir funciones o elementos similares. Esto evitará confusiones y facilitará la comprensión por parte del usuario.
+Relevancia: Las etiquetas estarán relacionadas directamente con la funcionalidad o la información presentada. Esto ayudará a que los usuarios identifiquen rápidamente la utilidad de cada sección o botón.
+
+**Ejemplos de Etiquetas:**
+Dashboard: Pantalla principal del usuario.
+Buscar Propiedad: Filtro y búsqueda de propiedades disponibles.
+Perfil: Página de configuración y visualización de datos personales del usuario.
+Contratos: Acceso a los contratos de alquiler activos o previos.
+Mensajes: Sección de comunicación entre propietarios e inquilinos.
+Pagos: Información sobre el estado de los pagos de alquiler.
+Favoritos: Lista de propiedades guardadas por el usuario.
+Historial: Visualización de interacciones y transacciones pasadas en la plataforma.
+
+**Asociaciones:**
+Las etiquetas no estarán aisladas, sino que estarán organizadas de manera que formen relaciones claras entre ellas, permitiendo que los usuarios puedan entender cómo interactúan los distintos componentes de la plataforma. Por ejemplo:
+La etiqueta "Buscar Propiedad" se relaciona directamente con etiquetas como "Filtros", "Precio", y "Ubicación", permitiendo que el usuario navegue de manera eficiente a través de las opciones para refinar su búsqueda.
+La etiqueta "Pagos" estará asociada con términos como "Historial de Pagos", "Métodos de Pago", y "Facturación", de modo que el usuario pueda gestionar todas las opciones financieras desde un solo lugar.
+Estas decisiones sobre el etiquetado garantizan que el contenido de CasaFinder sea accesible y comprensible, permitiendo a los usuarios encontrar lo que necesitan de manera rápida y sin esfuerzo. Al evitar la ambigüedad en los términos, se promueve una experiencia de usuario fluida, mejorando la interacción general con la plataforma.
+
+### 6.2.2 Searching Systems
+
+CasaFinder ofrecerá múltiples formas de búsqueda, adaptadas a las necesidades específicas de los usuarios. Estas opciones permitirán buscar propiedades, contratos, pagos, y mensajes de manera rápida y sencilla.
+Búsqueda por palabra clave: En todas las secciones principales, se integrará un campo de búsqueda donde el usuario puede ingresar palabras clave relacionadas con la propiedad o información que busca, como "apartamento en Miraflores", "pago pendiente", o "contrato vencido".
+Búsqueda avanzada: Se ofrecerá una opción de búsqueda avanzada, donde los usuarios podrán refinar los resultados a través de múltiples criterios, como el tipo de propiedad, rango de precios, fecha de publicación, ubicación, entre otros.
+
+**Filtros Disponibles:**
+Para garantizar que los resultados sean lo más relevantes posible, la búsqueda incluirá filtros específicos en cada contexto, ajustados a las necesidades de los usuarios.
+Filtros para propiedades: Los usuarios podrán refinar su búsqueda de propiedades con los siguientes filtros:
+Ubicación: Distrito o ciudad.
+Rango de precio: Desde y hasta (en moneda local).
+Tipo de propiedad: Casa, departamento, estudio, etc.
+Número de habitaciones: De 1 a 5+.
+Servicios: Propiedades con ascensor, piscina, estacionamiento, etc.
+Superficie: Metros cuadrados.
+Fecha de publicación: Propiedades publicadas en los últimos días o semanas.
+Filtros para contratos: Los usuarios podrán buscar contratos activos, vencidos o próximos a vencer con filtros como:
+Estado del contrato: Activo, vencido, pendiente de renovación.
+Fecha de firma: Filtrar por fechas específicas.
+Propiedad: Contratos relacionados con una propiedad en particular.
+Filtros para pagos: En la sección de pagos, los usuarios podrán filtrar por:
+Estado del pago: Pagado, pendiente, vencido.
+Fecha de vencimiento: Desde y hasta.
+Monto del pago: Rango específico de montos.
+
+**Visualización de Resultados:**
+Después de realizar una búsqueda, los resultados se mostrarán de manera clara y organizada, con un diseño que facilite la lectura y comparación de información.
+Vista de propiedades: Los resultados de búsqueda de propiedades se mostrarán en formato de cuadrícula o lista, con una imagen principal, precio, ubicación y detalles clave como el número de habitaciones y metros cuadrados. Cada propiedad incluirá un botón de "Más información" que permitirá al usuario acceder a una página detallada de la propiedad.
+Vista de contratos y pagos: Los contratos y pagos se mostrarán en listas con columnas que incluyan el estado (activo, vencido, pendiente), la fecha relevante (de firma o de pago), y opciones para ver más detalles o tomar acciones (renovar contrato, realizar pago).
+Mensajes y notificaciones: Los resultados de búsqueda en mensajes y notificaciones mostrarán una lista cronológica, permitiendo filtrar por remitente o fecha, y con la opción de visualizar el contenido completo de cada mensaje.
+
+**Ayudas adicionales en la búsqueda:**
+Para mejorar la experiencia del usuario y evitar que se sientan perdidos, se integrarán ayudas adicionales durante la búsqueda:
+Sugerencias automáticas: Mientras los usuarios escriben en el campo de búsqueda, el sistema ofrecerá sugerencias automáticas basadas en términos comunes y propiedades destacadas.
+Corrección de errores ortográficos: Si el usuario comete un error tipográfico al buscar, el sistema detectará la posible palabra correcta y ofrecerá sugerencias relacionadas, evitando resultados nulos por simples errores de escritura.
+Historial de búsqueda: Se guardará el historial de búsquedas recientes para que los usuarios puedan acceder rápidamente a consultas pasadas sin tener que reingresar los términos de búsqueda.
+
+### 6.2.3 SEO Tags and Meta Tags
+
+El uso de SEO y Meta Tags es fundamental para garantizar que el contenido de CasaFinder sea indexado de manera efectiva por los motores de búsqueda, mejorando la visibilidad y el tráfico orgánico. Las siguientes etiquetas serán aplicadas en las principales páginas del sitio web y la aplicación web:
+
+**Title (Título):**
+Landing Page: "CasaFinder - Encuentra el Hogar Perfecto para Ti"
+Página de Propiedades: "CasaFinder - Propiedades Disponibles en [Ubicación]"
+Perfil del Usuario: "CasaFinder - Gestión de Perfil de Usuario"
+Pagos y Contratos: "CasaFinder - Gestiona tus Pagos y Contratos de Alquiler"
+
+**Meta Description (Descripción):**
+Landing Page: "CasaFinder es la plataforma ideal para conectar propietarios e inquilinos en busca del hogar perfecto. Descubre una amplia selección de propiedades y gestiona tus contratos de alquiler de manera segura y eficiente."
+Página de Propiedades: "Explora las mejores propiedades disponibles en [Ubicación] a través de CasaFinder. Encuentra el lugar perfecto que se adapte a tus necesidades y presupuesto."
+Perfil del Usuario: "Administra tu perfil en CasaFinder, actualiza tu información y personaliza tus preferencias para una mejor experiencia de alquiler."
+Pagos y Contratos: "Gestiona fácilmente tus pagos de alquiler y contratos a través de CasaFinder. Mantén el control total sobre tus transacciones de manera rápida y segura."
+
+**Keywords (Palabras clave):**
+Landing Page: "alquiler de propiedades, casa en alquiler, departamentos en alquiler, buscar casas, contratos de alquiler, propiedades en [país/región]"
+Página de Propiedades: "alquiler de propiedades en [Ubicación], casas en alquiler, departamentos en alquiler en [Ubicación], propiedades disponibles"
+Perfil del Usuario: "perfil de usuario, gestión de perfil, administración de propiedades, alquiler seguro"
+Pagos y Contratos: "pagos de alquiler, gestión de pagos, contratos de alquiler, contratos de vivienda, alquiler seguro"
+Meta Author (Autor):
+"CasaFinder Team"
+
+**Meta Tags adicionales:**
+Además de los meta tags principales, se incluirán las siguientes etiquetas para optimizar aún más la experiencia SEO:
+Viewport: <meta name="viewport" content="width=device-width, initial-scale=1">
+Esto garantizará que la página web sea responsive y se adapte correctamente a todos los dispositivos.
+Robots: <meta name="robots" content="index, follow">
+Esta etiqueta permitirá a los motores de búsqueda indexar las páginas y seguir los enlaces, aumentando la visibilidad del sitio.
+ASO Elements para aplicaciones móviles:
+CasaFinder no tendrá versión móvil. 
+
+**Implementación:**
+Tanto las etiquetas SEO como ASO estarán implementadas desde el momento del lanzamiento, y se revisarán periódicamente para asegurar que las palabras clave y descripciones reflejen las tendencias actuales del mercado y las búsquedas más comunes realizadas por los usuarios. De esta manera, CasaFinder mantendrá su competitividad en los motores de búsqueda y en las tiendas de aplicaciones.
+
+### 6.2.4 Navigation Systems
+
+Los sistemas de navegación de CasaFinder se basarán en los siguientes principios:
+Simplicidad: La navegación será clara y directa, evitando la sobrecarga de opciones o elementos innecesarios. Todas las funciones clave estarán accesibles en un máximo de dos clics desde cualquier página principal.
+Consistencia: Los menús, botones, y elementos de navegación serán consistentes en todas las páginas y versiones (web) de la plataforma, garantizando que los usuarios siempre sepan cómo desplazarse.
+Retroalimentación visual: Se proporcionará feedback visual (cambios de color, subrayados, iconos resaltados) para que el usuario entienda qué acciones ha realizado y en qué parte de la plataforma se encuentra.
+
+**Estructura de Navegación en la Landing Page:**
+La Landing Page de CasaFinder estará diseñada para captar rápidamente la atención de los usuarios y guiarlos hacia las acciones principales que desean realizar. A continuación se detalla la estructura de navegación:
+Menú Principal: Estará ubicado en la parte superior, de fácil acceso, y contendrá las siguientes opciones:
+Inicio: Lleva al usuario de vuelta a la página principal.
+Buscar Propiedades: Permite a los usuarios explorar las propiedades disponibles, con acceso directo a los filtros de búsqueda.
+Propietarios: Información y registro para propietarios que deseen alquilar sus propiedades.
+Inquilinos: Registro e inicio de sesión para inquilinos que buscan una propiedad.
+Contactar: Página de contacto para consultas y soporte.
+
+**Botones de acción rápida:**
+Registrarse/Iniciar Sesión: Un botón prominente en la esquina superior derecha para acceder rápidamente a la página de registro o inicio de sesión.
+Buscar Ahora: Un botón centralizado que lleva a los usuarios directamente al sistema de búsqueda de propiedades desde la Landing Page.
+Navegación a través del contenido: La Landing Page incluirá enlaces y botones que guiarán a los usuarios a secciones informativas clave (cómo funciona, beneficios, características de la plataforma), cada una con un llamado a la acción final para registrarse o buscar propiedades.
+
+**Estructura de Navegación en la Aplicación Web:**
+La aplicación web de CasaFinder tendrá una navegación que permita a los usuarios gestionar sus propiedades, contratos y pagos de manera sencilla. A continuación se describe cómo se estructurará la navegación:
+Menú lateral o superior: Dependiendo del dispositivo, la aplicación web contará con un menú lateral o superior con las siguientes secciones:
+Dashboard: La página de inicio que muestra un resumen de las propiedades, contratos y pagos más recientes.
+Buscar Propiedades: El sistema de búsqueda con filtros avanzados para que los usuarios encuentren fácilmente las propiedades que se ajustan a sus necesidades.
+Contratos: Sección dedicada a la gestión de contratos, tanto para propietarios como inquilinos.
+Pagos: Permite a los usuarios gestionar y realizar pagos de alquiler, con acceso a los métodos de pago y el historial de transacciones.
+Mensajes: Sección de comunicación entre propietarios e inquilinos, con un sistema de mensajería interno para consultas o negociación de contratos.
+Perfil: Página donde el usuario puede actualizar su información personal, preferencias, y configuraciones de notificaciones.
+Accesos rápidos y notificaciones: En la esquina superior derecha, los usuarios tendrán iconos para acceder rápidamente a notificaciones (pagos pendientes, contratos próximos a vencer), el perfil, y un menú desplegable con configuraciones adicionales.
+
+**Técnicas adicionales de navegación:**
+Breadcrumbs: Para ayudar a los usuarios a saber en qué sección se encuentran y cómo volver a las páginas anteriores, se implementará un sistema de "breadcrumbs" o migajas de pan en la parte superior de las páginas internas (como Contratos y Pagos).
+Enlaces contextuales: Se integrarán enlaces contextuales dentro de la información de las propiedades, contratos y pagos, para que los usuarios puedan acceder fácilmente a información relacionada sin tener que volver al menú principal. Por ejemplo, desde la página de detalles de una propiedad, el usuario podrá ir directamente a la página de contacto con el propietario o gestionar un contrato.
+
+
+
 ---
 # Conclusiones
 
