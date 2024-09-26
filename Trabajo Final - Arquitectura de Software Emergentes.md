@@ -148,11 +148,25 @@ Setiembre, 2024
   - [4.3. Software Architecture.](#43-software-architecture)
     - [4.3.1. Software Architecture Context Level Diagrams.](#431-software-architecture-context-level-diagrams)
     - [4.3.2. Software Architecture Container Level Diagrams.](#432-software-architecture-container-level-diagrams)
+- [Capítulo IV: Tactical-Level Software design](#capítulo-iv-tactical-level-software-design)
+  - [6.1 Style guidelines](#61-style-guidelines)
+    - [6.1.1 General Style guidelines](#611-general-style-guidelines)
+    - [6.1.2 Web, mobile \& devices style guidelines](#612-web-mobile--devices-style-guidelines)
+  - [6.2 Information architecture](#62-information-architecture)
+    - [6.2.1 Labeling Systems](#621-labeling-systems)
+    - [6.2.2 Searching Systems](#622-searching-systems)
+    - [6.2.3 SEO Tags and Meta Tags](#623-seo-tags-and-meta-tags)
+    - [6.2.4 Navigation Systems](#624-navigation-systems)
+  - [6.4 Applications UX/UI Design](#64-applications-uxui-design)
+    - [6.4.1 Application Wireframes](#641-application-wireframes)
+    - [6.4.2 Application Wireflow Diagrams](#642-application-wireflow-diagrams)
 - [Conclusiones](#conclusiones)
-- [Recomendaciones](#recomendaciones)
+  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 - [Anexos](#anexos)
-  - [Repositorio con Informe](#repositorio-con-informe)
-  - [Entrega TB1](#entrega-tb1)
+  - [Anexo A. Video de exposición TB1](#anexo-a-video-de-exposición-tb1)
+  - [Anexo B. Video de entrevistas](#anexo-b-video-de-entrevistas)
+  - [Anexo C. Video de exposición TP](#anexo-c-video-de-exposición-tp)
+  - [Anexo D. Repositorio con Informe](#anexo-d-repositorio-con-informe)
 
 --- 
 
@@ -160,8 +174,8 @@ Setiembre, 2024
 
 | Criterio específico                                                                                                                                                                    | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Conclusiones                                                                                                                                                                                                                                                                                                                                                         |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.     | **Farid Hinostroza Mavila**<br>*TB1* <br>- He presentado los resultados del análisis de usuarios mediante la creación de user personas y el empathy map, asegurándome de que la información fuera clara para todos los miembros del equipo. Además, participé en las discusiones sobre la matriz de tareas del usuario.<br><br>**José Carlos Vara** <br>*TB1* <br>- Desarrollé y presenté los puntos clave del perfil de la startup y la solución propuesta, incluyendo los antecedentes, la problemática y el proceso Lean UX, adaptando la comunicación para un público de diversas especialidades y niveles jerárquicos. Utilicé un enfoque claro y estructurado para asegurar que los conceptos de ingeniería fueran comprensibles para todos los asistentes.<br><br>**Grecia Guerrero Alegría** <br>*TB1* <br>- He mantenido conversación con los usuarios de los 2 tipos de segmento para realizar las entrevistas y que se pueda hacer uso de ellas.<br><br>**Cristopher Rondon Añaños**<br>*TB1* <br>- Realicé la recolección de las historias de usuario, así como una priorización adecuada de estas.<br><br>**Michael Carrillo Mainicta**<br>*TB1*<br>- En el video de exposición, he demostrado mi habilidad para diseñar estrategias de software mediante el Attribute-Driven Design y el Domain-Driven Design. He presentado los métodos y técnicas utilizados, asegurando una comunicación objetiva y efectiva de las ideas, cumpliendo así con este criterio.<br><br>  | *TB1*<br>Todo el equipo se ha comunicado oralmente exitosamente para lograr el primer entregable. |
-| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.. | **Farid Hinostroza Mavila**<br>*TB1* <br>- He colaborado en la redacción de informes que incluyen el análisis de competidores, user personas, y la matriz de tareas de usuario. Además, documenté estos resultados en el repositorio de GitHub para facilitar su acceso por parte de todo el equipo.<br><br>**José Carlos Vara** <br>*TB1* <br>- Redacté de manera clara y precisa los puntos del perfil de la startup y la solución propuesta, incluyendo antecedentes, problemática y el proceso Lean UX. Adapté el lenguaje técnico para que fuera accesible a un público de distintas especialidades y niveles jerárquicos, asegurando que la información se presentara de forma objetiva y comprensible para todos los involucrados en el proyecto.<br><br>**Grecia Guerrero Alegría** <br>*TB1* <br>- He plasmado en el documento los resultados de las entrevistas así como los diagramas C4. <br><br>**Cristopher Rondon Añaños** <br>*TB1* <br>- En este entregable, plantee de manera adecuada el Business Goal para nuestro Impact Map, que involucra a nuestros dos segmentos de usuarios objetivos. <br><br>**Michael Carrillo Mainicta**<br>*TB1*<br>- En este entregable del trabajo final, he comunicado de manera escrita los principios del diseño estratégico de software a través del Attribute-Driven Design y el Domain-Driven Design. He detallado los procesos y resultados con claridad y objetividad, asegurando la comprensión de un público diverso y cumpliendo con los estándares requeridos para la documentación. | *TB1*<br>Todo el equipo se ha comunicado de forma escrita exitosamente para lograr el primer entregable.                                                |
+| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.     | **Farid Hinostroza Mavila**<br>*TB1* <br>- He presentado los resultados del análisis de usuarios mediante la creación de user personas y el empathy map, asegurándome de que la información fuera clara para todos los miembros del equipo. Además, participé en las discusiones sobre la matriz de tareas del usuario.<br><br>**José Carlos Vara** <br>*TB1* <br>- Desarrollé y presenté los puntos clave del perfil de la startup y la solución propuesta, incluyendo los antecedentes, la problemática y el proceso Lean UX, adaptando la comunicación para un público de diversas especialidades y niveles jerárquicos. Utilicé un enfoque claro y estructurado para asegurar que los conceptos de ingeniería fueran comprensibles para todos los asistentes.<br><br>**Grecia Guerrero Alegría** <br>*TB1* <br>- He mantenido conversación con los usuarios de los 2 tipos de segmento para realizar las entrevistas y que se pueda hacer uso de ellas.<br><br>*TP* <br>- He presentado los mockups previa comunicación con mis compañeros para tener un diseño homogéneo.<br><br>**Cristopher Rondon Añaños**<br>*TB1* <br>- Realicé la recolección de las historias de usuario, así como una priorización adecuada de estas.<br><br>**Michael Carrillo Mainicta**<br>*TB1*<br>- En el video de exposición, he demostrado mi habilidad para diseñar estrategias de software mediante el Attribute-Driven Design y el Domain-Driven Design. He presentado los métodos y técnicas utilizados, asegurando una comunicación objetiva y efectiva de las ideas, cumpliendo así con este criterio.<br><br>  | *TB1*<br>Todo el equipo se ha comunicado oralmente exitosamente para lograr el primer entregable. <br> *TP* <br>Todo el equipo se ha comunicado oralmente para terminar el entregable relacionado al diseño de la arquitectura, mockups e historias de usuario. |
+| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.. | **Farid Hinostroza Mavila**<br>*TB1* <br>- He colaborado en la redacción de informes que incluyen el análisis de competidores, user personas, y la matriz de tareas de usuario. Además, documenté estos resultados en el repositorio de GitHub para facilitar su acceso por parte de todo el equipo.<br><br>**José Carlos Vara** <br>*TB1* <br>- Redacté de manera clara y precisa los puntos del perfil de la startup y la solución propuesta, incluyendo antecedentes, problemática y el proceso Lean UX. Adapté el lenguaje técnico para que fuera accesible a un público de distintas especialidades y niveles jerárquicos, asegurando que la información se presentara de forma objetiva y comprensible para todos los involucrados en el proyecto.<br><br>**Grecia Guerrero Alegría** <br>*TB1* <br>- He plasmado en el documento los resultados de las entrevistas así como los diagramas C4. <br><br> *TP* <br>- Se han realizado los user goals para expresar de forma escrita la acción de los mockups. <br><br>**Cristopher Rondon Añaños** <br>*TB1* <br>- En este entregable, plantee de manera adecuada el Business Goal para nuestro Impact Map, que involucra a nuestros dos segmentos de usuarios objetivos. <br><br>**Michael Carrillo Mainicta**<br>*TB1*<br>- En este entregable del trabajo final, he comunicado de manera escrita los principios del diseño estratégico de software a través del Attribute-Driven Design y el Domain-Driven Design. He detallado los procesos y resultados con claridad y objetividad, asegurando la comprensión de un público diverso y cumpliendo con los estándares requeridos para la documentación. | *TB1*<br>Todo el equipo se ha comunicado de forma escrita exitosamente para lograr el primer entregable.<br><br> *TP* <br>Todo el equipo ha desarrollado el documento escrito relacionado al diseño del proyecto.                                                |
 
 ---
 
@@ -1679,22 +1693,164 @@ Accesos rápidos y notificaciones: En la esquina superior derecha, los usuarios 
 Breadcrumbs: Para ayudar a los usuarios a saber en qué sección se encuentran y cómo volver a las páginas anteriores, se implementará un sistema de "breadcrumbs" o migajas de pan en la parte superior de las páginas internas (como Contratos y Pagos).
 Enlaces contextuales: Se integrarán enlaces contextuales dentro de la información de las propiedades, contratos y pagos, para que los usuarios puedan acceder fácilmente a información relacionada sin tener que volver al menú principal. Por ejemplo, desde la página de detalles de una propiedad, el usuario podrá ir directamente a la página de contacto con el propietario o gestionar un contrato.
 
+## 6.4 Applications UX/UI Design
 
+### 6.4.1 Application Wireframes
+
+**Registro**
+
+Los siguientes wireframes están relacionados al registro de ambos segmentos, inquilinos y propietarios.
+
+![](img/Capitulo_6/Wireframes/1_1.png)
+![](img/Capitulo_6/Wireframes/1_2.png)
+![](img/Capitulo_6/Wireframes/1_3.png)
+
+**Inquilino: Inicio de sesión**
+
+Los siguientes wireframes están relacionados al inicio de sesión de los inquilinos.
+
+![](img/Capitulo_6/Wireframes/2_1.png)
+![](img/Capitulo_6/Wireframes/2_2.png)
+![](img/Capitulo_6/Wireframes/2_3.png)
+
+**Inquilino: Filtrar resultados**
+
+Los siguientes wireframes son usados por los inquilinos para filtrar resultados de propiedades.
+
+![](img/Capitulo_6/Wireframes/3_1.png)
+![](img/Capitulo_6/Wireframes/3_2.png)
+![](img/Capitulo_6/Wireframes/3_3.png)
+
+**Inquilino: Ver una publicación**
+
+El siguiente wireframe es usado por los inquilinos para ver detalladamente una publicación de una propiedad.
+
+![](img/Capitulo_6/Wireframes/4_1.png)
+
+**Inquilino: Ver perfil del propietario anunciante**
+
+El siguiente wireframe es usado por los inquilinos para ver el perfil del propietario de una propiedad.
+
+![](img/Capitulo_6/Wireframes/5_1.png)
+
+**Inquilino: Alquilar una casa**
+
+Los siguientes wireframes son usados por los inquilinos para alquilar una casa y realizar todo el proceso hasta ser aceptado o rechazado.
+
+![](img/Capitulo_6/Wireframes/6_1.png)
+![](img/Capitulo_6/Wireframes/6_2.png)
+![](img/Capitulo_6/Wireframes/6_3.png)
+
+![](img/Capitulo_6/Wireframes/6_4.png)
+![](img/Capitulo_6/Wireframes/6_5.png)
+![](img/Capitulo_6/Wireframes/6_6.png)
+
+![](img/Capitulo_6/Wireframes/6_7.png)
+![](img/Capitulo_6/Wireframes/6_8.png)
+
+**Propietario: Inicio de sesión**
+
+Los siguientes wireframes están relacionados al inicio de sesión de los propietarios.
+
+![](img/Capitulo_6/Wireframes/7_1.png)
+![](img/Capitulo_6/Wireframes/7_2.png)
+![](img/Capitulo_6/Wireframes/7_3.png)
+
+**Propietario: Ver propiedades**
+
+Los siguientes wireframes son usados por los propietarios para gestionar sus propiedades.
+
+![](img/Capitulo_6/Wireframes/8_1.png)
+![](img/Capitulo_6/Wireframes/8_2.png)
+![](img/Capitulo_6/Wireframes/8_3.png)
+
+**Propietario: Nueva propiedad**
+
+Los siguientes wireframes son usados por los propietarios para agregar una nueva propiedad.
+
+![](img/Capitulo_6/Wireframes/9_1.png)
+![](img/Capitulo_6/Wireframes/9_2.png)
+
+**Propietario: Notificación de solicitud de contrato**
+
+Los siguientes wireframes son usados por los propietarios para recibir notificación de las solicitudes de contrato que se hagan por sus propiedades.
+
+![](img/Capitulo_6/Wireframes/10_1.png)
+![](img/Capitulo_6/Wireframes/10_2.png)
+![](img/Capitulo_6/Wireframes/10_3.png)
+
+Enlace: https://www.figma.com/design/u9F90hlEHc5NGZHpHNMf7a/CasaFinder?node-id=1295-956&t=hhiE7ptFyRLjEpyW-1
+
+### 6.4.2 Application Wireflow Diagrams
+
+**User Goal:** Como usuario Quiero registrarme en la aplicación Para hacer uso de sus funcionalidades.
+
+![](img/Capitulo_6/Wireflow/1.png)
+
+_**Segmento: Inquilinos**_
+
+**User Goal:** Como usuario inquilino Quiero iniciar sesión en la aplicación Para hacer uso de sus funcionalidades.
+
+![](img/Capitulo_6/Wireflow/2.png)
+
+**User Goal:** Como usuario inquilino Quiero filtrar búsquedas Para encontrar casas que se acomoden a mi preferencia.
+
+![](img/Capitulo_6/Wireflow/3.png)
+
+**User Goal:** Como usuario inquilino Quiero iniciar el proceso de alquiler Para alquilar una casa.
+
+![](img/Capitulo_6/Wireflow/4.png)
+
+**User Goal:** Como usuario inquilino Quiero ser notificado cuando el contrato sea aceptado o rechazado Para estar informado.
+
+![](img/Capitulo_6/Wireflow/5_1.png)
+![](img/Capitulo_6/Wireflow/5_2.png)
+
+_**Segmento: Propietarios**_
+
+**User Goal:** Como usuario propietario Quiero registrarme en la aplicación Para hacer uso de sus funcionalidades.
+
+![](img/Capitulo_6/Wireflow/6.png)
+
+**User Goal:** Como usuario propietario Quiero iniciar sesión en la aplicación Para hacer uso de sus funcionalidades.
+
+![](img/Capitulo_6/Wireflow/7.png)
+
+**User Goal:** Como usuario propietario Quiero ver mis propiedades Para poder gestionarlas.
+
+![](img/Capitulo_6/Wireflow/8.png)
+
+**User Goal:** Como usuario propietario Quiero agregar una nueva propiedad Para poder alquilarla.
+
+![](img/Capitulo_6/Wireflow/9.png)
+
+**User Goal:** Como usuario propietario Quiero recibir notificaciones de solicitudes de contrato Para poder aceptarlas o rechazarlas.
+
+![](img/Capitulo_6/Wireflow/10.png)
 
 ---
 # Conclusiones
 
-- Aquí van las conclusiones
-
----
-# Recomendaciones
-
-- Aquí van las recomendaciones
+## Conclusiones y recomendaciones
+- Las entrevistas realizadas nos confirman que es necesaria una aplicación intermediaria para el alquiler de viviendas usando contratos inteligentes.
+- Ha sido importante el trabajo en equipo para poder completar con éxito los objetivos de cada sprint. 
+- Recomendamos el uso de herramientas como Trello para una mejor organización de equipo.
 
 --- 
 # Anexos
-## Repositorio con Informe
-Enlace: [Repositorio Trabajo Final](https://github.com/SmartRenta/CasaFinder-Report)
-## Entrega TB1
 
-Enlace: [Exposición TB1 en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620605_upc_edu_pe/EWBiPPEEPFFFsihmfBnj8jABNbpo0ieaFZIQEiqCoG1NRg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=X4fTIO)
+## Anexo A. Video de exposición TB1
+Enlace: [Exposición TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620605_upc_edu_pe/EWBiPPEEPFFFsihmfBnj8jABNbpo0ieaFZIQEiqCoG1NRg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=X4fTIO)
+
+## Anexo B. Video de entrevistas
+
+Enlace: [Video de entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620605_upc_edu_pe/EUvGDhtDbmFKjm40rynA5MMBZbwMzF-Br0WA3UQhv-m8qA?e=Yh9Ko3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+
+## Anexo C. Video de exposición TP
+
+Enlace: [Exposición TP](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620605_upc_edu_pe/EfXViJxrxjhKjJLMvVx0P7QBSbfMXQgXzv_1-4iPmLtUJw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=DBXZSV)
+
+
+## Anexo D. Repositorio con Informe
+Enlace: [Repositorio Trabajo Final](https://github.com/SmartRenta/CasaFinder-Report)
