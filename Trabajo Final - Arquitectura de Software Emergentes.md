@@ -148,6 +148,52 @@ Setiembre, 2024
   - [4.3. Software Architecture.](#43-software-architecture)
     - [4.3.1. Software Architecture Context Level Diagrams.](#431-software-architecture-context-level-diagrams)
     - [4.3.2. Software Architecture Container Level Diagrams.](#432-software-architecture-container-level-diagrams)
+- [Capítulo V: Tactical-Level Software Design](#capítulo-v-tactical-level-software-design)
+  - [5.1. Bounded Context: User Bounded Context](#51-bounded-context-user-bounded-context)
+    - [5.1.1. Domain Layer](#511-domain-layer)
+    - [5.1.2. Interface Layer](#512-interface-layer)
+    - [5.1.3. Application Layer](#513-application-layer)
+    - [5.1.4. Infrastructure Layer](#514-infrastructure-layer)
+    - [5.1.5. Bounded Context Software Architecture Component Level Diagrams](#515-bounded-context-software-architecture-component-level-diagrams)
+    - [5.1.6. Bounded Context Software Architecture Code Level Diagrams](#516-bounded-context-software-architecture-code-level-diagrams)
+      - [5.1.6.1. Bounded Context Domain Layer Class Diagrams](#5161-bounded-context-domain-layer-class-diagrams)
+      - [5.1.6.2. Bounded Context Database Design Diagram](#5162-bounded-context-database-design-diagram)
+  - [5.2. Bounded Context: Property Management Bounded Context](#52-bounded-context-property-management-bounded-context)
+    - [5.2.1. Domain Layer](#521-domain-layer)
+    - [5.2.2. Interface Layer](#522-interface-layer)
+    - [5.2.3. Application Layer](#523-application-layer)
+    - [5.2.4. Infrastructure Layer](#524-infrastructure-layer)
+    - [5.2.5. Bounded Context Software Architecture Component Level Diagrams](#525-bounded-context-software-architecture-component-level-diagrams)
+    - [5.2.6. Bounded Context Software Architecture Code Level Diagrams](#526-bounded-context-software-architecture-code-level-diagrams)
+      - [5.2.6.1. Bounded Context Domain Layer Class Diagrams](#5261-bounded-context-domain-layer-class-diagrams)
+      - [5.2.6.2. Bounded Context Database Design Diagram](#5262-bounded-context-database-design-diagram)
+  - [5.3. Bounded Context: Contracts Bounded Context](#53-bounded-context-contracts-bounded-context)
+    - [5.3.1. Domain Layer](#531-domain-layer)
+    - [5.3.2. Interface Layer](#532-interface-layer)
+    - [5.3.3. Application Layer](#533-application-layer)
+    - [5.3.4. Infrastructure Layer](#534-infrastructure-layer)
+    - [5.3.5. Bounded Context Software Architecture Component Level Diagrams](#535-bounded-context-software-architecture-component-level-diagrams)
+    - [5.3.6. Bounded Context Software Architecture Code Level Diagrams](#536-bounded-context-software-architecture-code-level-diagrams)
+      - [5.3.6.1. Bounded Context Domain Layer Class Diagrams](#5361-bounded-context-domain-layer-class-diagrams)
+      - [5.3.6.2. Bounded Context Database Design Diagram](#5362-bounded-context-database-design-diagram)
+  - [5.4. Bounded Context: Payments Bounded Context](#54-bounded-context-payments-bounded-context)
+    - [5.4.1. Domain Layer](#541-domain-layer)
+    - [5.4.2. Interface Layer](#542-interface-layer)
+    - [5.4.3. Application Layer](#543-application-layer)
+    - [5.4.4. Infrastructure Layer](#544-infrastructure-layer)
+    - [5.4.5. Bounded Context Software Architecture Component Level Diagrams](#545-bounded-context-software-architecture-component-level-diagrams)
+    - [5.4.6. Bounded Context Software Architecture Code Level Diagrams](#546-bounded-context-software-architecture-code-level-diagrams)
+      - [5.4.6.1. Bounded Context Domain Layer Class Diagrams](#5461-bounded-context-domain-layer-class-diagrams)
+      - [5.4.6.2. Bounded Context Database Design Diagram](#5462-bounded-context-database-design-diagram)
+  - [5.5. Bounded Context: Property Search Bounded Context](#55-bounded-context-property-search-bounded-context)
+    - [5.5.1. Domain Layer](#551-domain-layer)
+    - [5.5.2. Interface Layer](#552-interface-layer)
+    - [5.5.3. Application Layer](#553-application-layer)
+    - [5.5.4. Infrastructure Layer](#554-infrastructure-layer)
+    - [5.5.5. Bounded Context Software Architecture Component Level Diagrams](#555-bounded-context-software-architecture-component-level-diagrams)
+    - [5.5.6. Bounded Context Software Architecture Code Level Diagrams](#556-bounded-context-software-architecture-code-level-diagrams)
+      - [5.5.6.1. Bounded Context Domain Layer Class Diagrams](#5561-bounded-context-domain-layer-class-diagrams)
+      - [5.5.6.2. Bounded Context Database Design Diagram](#5562-bounded-context-database-design-diagram)
 - [Capítulo VI: Solution UX Design](#capítulo-vi-solution-ux-design)
   - [6.1 Style guidelines](#61-style-guidelines)
     - [6.1.1 General Style guidelines](#611-general-style-guidelines)
@@ -177,8 +223,8 @@ Setiembre, 2024
 
 | Criterio específico                                                                                                                                                                    | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Conclusiones                                                                                                                                                                                                                                                                                                                                                         |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.     | **Farid Hinostroza Mavila**<br>*TB1* <br>- He presentado los resultados del análisis de usuarios mediante la creación de user personas y el empathy map, asegurándome de que la información fuera clara para todos los miembros del equipo. Además, participé en las discusiones sobre la matriz de tareas del usuario.<br><br>**José Carlos Vara** <br>*TB1* <br>- Desarrollé y presenté los puntos clave del perfil de la startup y la solución propuesta, incluyendo los antecedentes, la problemática y el proceso Lean UX, adaptando la comunicación para un público de diversas especialidades y niveles jerárquicos. Utilicé un enfoque claro y estructurado para asegurar que los conceptos de ingeniería fueran comprensibles para todos los asistentes.<br><br>**Grecia Guerrero Alegría** <br>*TB1* <br>- He mantenido conversación con los usuarios de los 2 tipos de segmento para realizar las entrevistas y que se pueda hacer uso de ellas.<br><br>*TP* <br>- He presentado los mockups previa comunicación con mis compañeros para tener un diseño homogéneo.<br><br>**Cristopher Rondon Añaños**<br>*TB1* <br>- Realicé la recolección de las historias de usuario, así como una priorización adecuada de estas.<br> <br>*TP1* <br>- Realicé los Wireframes de nuestro Landing Page.<br><br>**Michael Carrillo Mainicta**<br>*TB1*<br>- En el video de exposición, he demostrado mi habilidad para diseñar estrategias de software mediante el Attribute-Driven Design y el Domain-Driven Design. He presentado los métodos y técnicas utilizados, asegurando una comunicación objetiva y efectiva de las ideas, cumpliendo así con este criterio.<br><br>  | *TB1*<br>Todo el equipo se ha comunicado oralmente exitosamente para lograr el primer entregable. <br> *TP* <br>Todo el equipo se ha comunicado oralmente para terminar el entregable relacionado al diseño de la arquitectura, mockups e historias de usuario. |
-| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.. | **Farid Hinostroza Mavila**<br>*TB1* <br>- He colaborado en la redacción de informes que incluyen el análisis de competidores, user personas, y la matriz de tareas de usuario. Además, documenté estos resultados en el repositorio de GitHub para facilitar su acceso por parte de todo el equipo.<br><br>**José Carlos Vara** <br>*TB1* <br>- Redacté de manera clara y precisa los puntos del perfil de la startup y la solución propuesta, incluyendo antecedentes, problemática y el proceso Lean UX. Adapté el lenguaje técnico para que fuera accesible a un público de distintas especialidades y niveles jerárquicos, asegurando que la información se presentara de forma objetiva y comprensible para todos los involucrados en el proyecto.<br><br>**Grecia Guerrero Alegría** <br>*TB1* <br>- He plasmado en el documento los resultados de las entrevistas así como los diagramas C4. <br><br> *TP* <br>- Se han realizado los user goals para expresar de forma escrita la acción de los mockups. <br><br>**Cristopher Rondon Añaños** <br>*TB1* <br>- En este entregable, plantee de manera adecuada el Business Goal para nuestro Impact Map, que involucra a nuestros dos segmentos de usuarios objetivos. <br><br>*TP1* <br>- En este entregable, hice la construcción y despliegue de el landing page. <br><br>**Michael Carrillo Mainicta**<br>*TB1*<br>- En este entregable del trabajo final, he comunicado de manera escrita los principios del diseño estratégico de software a través del Attribute-Driven Design y el Domain-Driven Design. He detallado los procesos y resultados con claridad y objetividad, asegurando la comprensión de un público diverso y cumpliendo con los estándares requeridos para la documentación. | *TB1*<br>Todo el equipo se ha comunicado de forma escrita exitosamente para lograr el primer entregable.<br><br> *TP* <br>Todo el equipo ha desarrollado el documento escrito relacionado al diseño del proyecto.                                                |
+| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.     | **Farid Hinostroza Mavila**<br>*TB1* <br>- He presentado los resultados del análisis de usuarios mediante la creación de user personas y el empathy map, asegurándome de que la información fuera clara para todos los miembros del equipo. Además, participé en las discusiones sobre la matriz de tareas del usuario.<br><br>**José Carlos Vara** <br>*TB1* <br>- Desarrollé y presenté los puntos clave del perfil de la startup y la solución propuesta, incluyendo los antecedentes, la problemática y el proceso Lean UX, adaptando la comunicación para un público de diversas especialidades y niveles jerárquicos. Utilicé un enfoque claro y estructurado para asegurar que los conceptos de ingeniería fueran comprensibles para todos los asistentes.<br><br>**Grecia Guerrero Alegría** <br>*TB1* <br>- He mantenido conversación con los usuarios de los 2 tipos de segmento para realizar las entrevistas y que se pueda hacer uso de ellas.<br><br>*TP* <br>- He presentado los mockups previa comunicación con mis compañeros para tener un diseño homogéneo.<br><br>**Cristopher Rondon Añaños**<br>*TB1* <br>- Realicé la recolección de las historias de usuario, así como una priorización adecuada de estas.<br> <br>*TP1* <br>- Realicé los Wireframes de nuestro Landing Page.<br><br>**Michael Carrillo Mainicta**<br>*TB1*<br>- En el video de exposición, he demostrado mi habilidad para diseñar estrategias de software mediante el Attribute-Driven Design y el Domain-Driven Design. He presentado los métodos y técnicas utilizados, asegurando una comunicación objetiva y efectiva de las ideas, cumpliendo así con este criterio.<br> <br>*TP1*<br>- Para esta entrega parcial, se demostró este criterio al presentar el diseño de software a nivel táctico. Esto incluyó la presentación del diagrama de clases y el diagrama de base de datos durante el video de exposición.<br><br> | *TB1*<br>Todo el equipo se ha comunicado oralmente exitosamente para lograr el primer entregable. <br> *TP* <br>Todo el equipo se ha comunicado oralmente para terminar el entregable relacionado al diseño de la arquitectura, mockups e historias de usuario. |
+| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.. | **Farid Hinostroza Mavila**<br>*TB1* <br>- He colaborado en la redacción de informes que incluyen el análisis de competidores, user personas, y la matriz de tareas de usuario. Además, documenté estos resultados en el repositorio de GitHub para facilitar su acceso por parte de todo el equipo.<br><br>**José Carlos Vara** <br>*TB1* <br>- Redacté de manera clara y precisa los puntos del perfil de la startup y la solución propuesta, incluyendo antecedentes, problemática y el proceso Lean UX. Adapté el lenguaje técnico para que fuera accesible a un público de distintas especialidades y niveles jerárquicos, asegurando que la información se presentara de forma objetiva y comprensible para todos los involucrados en el proyecto.<br><br>**Grecia Guerrero Alegría** <br>*TB1* <br>- He plasmado en el documento los resultados de las entrevistas así como los diagramas C4. <br><br> *TP* <br>- Se han realizado los user goals para expresar de forma escrita la acción de los mockups. <br><br>**Cristopher Rondon Añaños** <br>*TB1* <br>- En este entregable, plantee de manera adecuada el Business Goal para nuestro Impact Map, que involucra a nuestros dos segmentos de usuarios objetivos. <br><br>*TP1* <br>- En este entregable, hice la construcción y despliegue de el landing page. <br><br>**Michael Carrillo Mainicta**<br>*TB1*<br>- En este entregable del trabajo final, he comunicado de manera escrita los principios del diseño estratégico de software a través del Attribute-Driven Design y el Domain-Driven Design. He detallado los procesos y resultados con claridad y objetividad, asegurando la comprensión de un público diverso y cumpliendo con los estándares requeridos para la documentación.<br> <br>*TP1*<br>- En esta entrega se demostró la comunicación escrita objetiva, adaptada a diferentes especialidades y niveles jerárquicos, al presentar el diseño táctico del software mediante el diagrama de clases y el diagrama de base de datos, esto en la documentación del trabajo. <br><br> | *TB1*<br>Todo el equipo se ha comunicado de forma escrita exitosamente para lograr el primer entregable.<br><br> *TP* <br>Todo el equipo ha desarrollado el documento escrito relacionado al diseño del proyecto.                                                |
 
 ---
 
@@ -1507,6 +1553,166 @@ El presente diagrama muestra la interacción del sistema CasaFinder con los usua
 El presente diagrama muestra el contenido del sistema CasaFinder. Los cuales son Landing Page, Aplicación web, API Rest y Base de datos. El landing page está desarrollado con HTML, CSS y Js, es un call-to-action para llamar la atención de ambos usuarios, fomentar la descarga y redirigir hacia la aplicación. La aplicación web está desarrollada con React y provee una interfaz didáctica con los usuarios y otros sistemas. El API Rest está desarrollado con Spring Boot y expone los endpoints para principalmente poner en alquiler casas. La base de datos está desarrollada con PostgreSql y se usa para el almacenamiento de todos los datos. Adicionalmente, se muestra la interacción del API Rest con el sistema de email para enviar notificaciones y con la plataforma de pagos para hacer depósitos y retiros.
 
 ![Diagrama de Contenedores](img/Capitulo_4/DiagramasC4/Imagen3.png)
+
+---
+# Capítulo V: Tactical-Level Software Design
+
+## 5.1. Bounded Context: User Bounded Context
+### 5.1.1. Domain Layer
+User: Esta clase representa a un usuario en el sistema. Sus atributos incluyen userID, nombre, email, rol, y fechaDeRegistro. Los métodos que podría contener son el registro de nuevos usuarios, la actualización de los detalles del perfil y la gestión de roles de usuario.
+
+UserProfile: Esta clase contiene información más detallada sobre el usuario, como su dirección, número de teléfono, preferencias de búsqueda de propiedades, y más.
+
+UserRole: Define los roles de usuario como inquilino, propietario o administrador, y los permisos específicos asociados a esos roles.
+Authentication: Esta clase gestiona la autenticación de los usuarios, incluyendo la gestión de contraseñas, el inicio de sesión, cierre de sesión, y la expiración de sesiones.
+
+### 5.1.2. Interface Layer
+UserController: Se encarga de las solicitudes relacionadas con el manejo de usuarios. Permite la creación, actualización y eliminación de usuarios, y la autenticación.
+
+ProfileController: Maneja las solicitudes relacionadas con los perfiles de usuario, permitiendo que los usuarios puedan ver y actualizar su información personal.
+
+### 5.1.3. Application Layer
+UserService: Contiene la lógica de negocio relacionada con los usuarios, gestionando el proceso de registro, la asignación de roles y la validación de contraseñas.
+
+AuthenticationService: Gestiona la autenticación de los usuarios, incluyendo la creación de sesiones, el cierre de sesiones, y asegurando el acceso a las áreas protegidas del sistema.
+
+### 5.1.4. Infrastructure Layer
+UserRepository: Interactúa con la base de datos para realizar operaciones CRUD (crear, leer, actualizar, eliminar) relacionadas con los datos de los usuarios.
+
+RoleRepository: Se encarga de gestionar los roles de usuario y las asociaciones con sus permisos en la base de datos.
+
+EmailService: Se utiliza para enviar notificaciones por correo electrónico a los usuarios, como confirmaciones de registro, enlaces para restablecer contraseñas y otras comunicaciones importantes.
+
+### 5.1.5. Bounded Context Software Architecture Component Level Diagrams
+Diagramas de nivel de componentes para la arquitectura de software del contexto limitado de usuario.
+
+![Diagrama de componentes de Usuario](img/Capitulo_5/Bounded_Context/User_BC.png)
+
+### 5.1.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 5.1.6.1. Bounded Context Domain Layer Class Diagrams
+Diagramas de clases del Domain Layer para el contexto limitado de usuario.
+
+![Diagrama de clases de Usuario](img/Capitulo_5/Bounded_Context/User_CD.png)
+
+#### 5.1.6.2. Bounded Context Database Design Diagram
+Diagrama del diseño de base de datos para el contexto limitado de usuario.
+
+![Diagrama de base de datos de Usuario](img/Capitulo_5/Bounded_Context/User_DB.png)
+
+## 5.2. Bounded Context: Property Management Bounded Context
+### 5.2.1. Domain Layer
+Property: Representa una propiedad en el sistema. Sus atributos incluyen propertyID, ubicación, tamaño, precio, ownerID, entre otros. Los métodos podrían incluir la gestión de disponibilidad de la propiedad, actualización de detalles, y asignación de propietarios.
+
+MaintenanceRequest: Esta clase gestiona las solicitudes de mantenimiento hechas por los inquilinos. Sus atributos incluyen maintenanceID, propertyID, descripciónDelProblema, fechaDeSolicitud, y estadoDeLaSolicitud.
+
+Owner: Representa a los propietarios que poseen una o más propiedades en el sistema. Contiene atributos como ownerID, nombre, contacto, y métodos para gestionar sus propiedades.
+
+### 5.2.2. Interface Layer
+PropertyController: Maneja las solicitudes API relacionadas con la administración de propiedades, tales como agregar, actualizar o eliminar propiedades.
+
+MaintenanceController: Maneja las solicitudes relacionadas con los reportes de mantenimiento, permitiendo a los inquilinos reportar problemas y a los propietarios gestionar las reparaciones.
+
+### 5.2.3. Application Layer
+PropertyService: Gestiona la lógica de negocio relacionada con las propiedades, verificando disponibilidad, actualizando detalles y coordinando la interacción entre propietarios y posibles inquilinos.
+
+MaintenanceService: Gestiona las solicitudes de mantenimiento, asegurando que los problemas reportados se registren correctamente y se resuelvan a 
+tiempo. También coordina la asignación de técnicos para las reparaciones necesarias.
+
+### 5.2.4. Infrastructure Layer
+PropertyRepository: Se encarga de almacenar y recuperar la información de las propiedades en la base de datos, incluyendo su disponibilidad, detalles y asociación con propietarios.
+
+MaintenanceRepository: Almacena y gestiona las solicitudes de mantenimiento, incluyendo el estado actual de cada solicitud y la propiedad a la que está asociada.
+
+NotificationService: Envía notificaciones a los propietarios y a los inquilinos para informarles sobre el estado de las solicitudes de mantenimiento y otros eventos importantes relacionados con la propiedad.
+
+### 5.2.5. Bounded Context Software Architecture Component Level Diagrams
+Diagramas de nivel de componentes para la arquitectura de software del contexto limitado de gestión de propiedades.
+
+![Diagrama de componentes de Manejo de propiedades](img/Capitulo_5/Bounded_Context/PropertyManagement_BC.png)
+### 5.2.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 5.2.6.1. Bounded Context Domain Layer Class Diagrams
+Diagramas de clases del Domain Layer para el contexto limitado de gestión de propiedades.
+
+![Diagrama de clases de Manejo de propiedades](img/Capitulo_5/Bounded_Context/PropertyManagement_CD.png)
+
+#### 5.2.6.2. Bounded Context Database Design Diagram
+Diagrama del diseño de base de datos para el contexto limitado de gestión de propiedades.
+
+![Diagrama de base de datos de Manejo de propiedades](img/Capitulo_5/Bounded_Context/PropertyManagement_DB.png)
+
+## 5.3. Bounded Context: Contracts Bounded Context
+### 5.3.1. Domain Layer
+Descripción del Domain Layer para el contexto limitado de contratos.
+
+### 5.3.2. Interface Layer
+Descripción del Interface Layer para el contexto limitado de contratos.
+
+### 5.3.3. Application Layer
+Descripción del Application Layer para el contexto limitado de contratos.
+
+### 5.3.4. Infrastructure Layer
+Descripción del Infrastructure Layer para el contexto limitado de contratos.
+
+### 5.3.5. Bounded Context Software Architecture Component Level Diagrams
+Diagramas de nivel de componentes para la arquitectura de software del contexto limitado de contratos.
+
+### 5.3.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 5.3.6.1. Bounded Context Domain Layer Class Diagrams
+Diagramas de clases del Domain Layer para el contexto limitado de contratos.
+
+#### 5.3.6.2. Bounded Context Database Design Diagram
+Diagrama del diseño de base de datos para el contexto limitado de contratos.
+
+## 5.4. Bounded Context: Payments Bounded Context
+### 5.4.1. Domain Layer
+Descripción del Domain Layer para el contexto limitado de pagos.
+
+### 5.4.2. Interface Layer
+Descripción del Interface Layer para el contexto limitado de pagos.
+
+### 5.4.3. Application Layer
+Descripción del Application Layer para el contexto limitado de pagos.
+
+### 5.4.4. Infrastructure Layer
+Descripción del Infrastructure Layer para el contexto limitado de pagos.
+
+### 5.4.5. Bounded Context Software Architecture Component Level Diagrams
+Diagramas de nivel de componentes para la arquitectura de software del contexto limitado de pagos.
+
+### 5.4.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 5.4.6.1. Bounded Context Domain Layer Class Diagrams
+Diagramas de clases del Domain Layer para el contexto limitado de pagos.
+
+#### 5.4.6.2. Bounded Context Database Design Diagram
+Diagrama del diseño de base de datos para el contexto limitado de pagos.
+
+## 5.5. Bounded Context: Property Search Bounded Context
+### 5.5.1. Domain Layer
+Descripción del Domain Layer para el contexto limitado de búsqueda de propiedades.
+
+### 5.5.2. Interface Layer
+Descripción del Interface Layer para el contexto limitado de búsqueda de propiedades.
+
+### 5.5.3. Application Layer
+Descripción del Application Layer para el contexto limitado de búsqueda de propiedades.
+
+### 5.5.4. Infrastructure Layer
+Descripción del Infrastructure Layer para el contexto limitado de búsqueda de propiedades.
+
+### 5.5.5. Bounded Context Software Architecture Component Level Diagrams
+Diagramas de nivel de componentes para la arquitectura de software del contexto limitado de búsqueda de propiedades.
+
+### 5.5.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 5.5.6.1. Bounded Context Domain Layer Class Diagrams
+Diagramas de clases del Domain Layer para el contexto limitado de búsqueda de propiedades.
+
+#### 5.5.6.2. Bounded Context Database Design Diagram
+Diagrama del diseño de base de datos para el contexto limitado de búsqueda de propiedades.
 
 
 # Capítulo VI: Solution UX Design
