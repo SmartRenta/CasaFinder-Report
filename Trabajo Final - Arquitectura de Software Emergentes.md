@@ -1644,75 +1644,143 @@ Diagrama del diseño de base de datos para el contexto limitado de gestión de p
 
 ## 5.3. Bounded Context: Contracts Bounded Context
 ### 5.3.1. Domain Layer
-Descripción del Domain Layer para el contexto limitado de contratos.
+**Contract**:  
+Representa un contrato de alquiler entre un inquilino y un propietario. Contiene atributos como `contractID`, `tenantID`, `propertyID`, `fechaInicio`, `fechaFin`, `montoDeAlquiler`, y `términosDelContrato`. Los métodos podrían incluir la creación de contratos, actualización de términos y renovación de contratos.
+
+**ContractTerms**:  
+Define los términos y condiciones específicos de cada contrato, tales como duración, monto de alquiler, y posibles penalidades por incumplimiento.
 
 ### 5.3.2. Interface Layer
-Descripción del Interface Layer para el contexto limitado de contratos.
+**ContractController**:  
+Gestiona las solicitudes API relacionadas con la creación, actualización y visualización de contratos. Permite a los propietarios y a los inquilinos acceder a los detalles del contrato y realizar modificaciones si es necesario.
 
 ### 5.3.3. Application Layer
-Descripción del Application Layer para el contexto limitado de contratos.
+**ContractService**:  
+Contiene la lógica de negocio relacionada con los contratos. Gestiona la validación de términos, la creación de nuevos contratos y la renovación de contratos existentes. También asegura que se cumplan los términos acordados entre las partes.
 
 ### 5.3.4. Infrastructure Layer
-Descripción del Infrastructure Layer para el contexto limitado de contratos.
+**ContractRepository**:  
+Interactúa con la base de datos para almacenar, recuperar y actualizar los detalles de los contratos. Incluye la gestión de contratos históricos y vigentes.
+
+**AuditService**:  
+Lleva un registro de las modificaciones realizadas en los contratos, permitiendo una auditoría completa de los cambios para garantizar la transparencia entre inquilinos y propietarios.
 
 ### 5.3.5. Bounded Context Software Architecture Component Level Diagrams
 Diagramas de nivel de componentes para la arquitectura de software del contexto limitado de contratos.
+![Diagrama de componentes de contratos](img/Capitulo_5/Bounded_Context/Contracts_BC.png)
 
 ### 5.3.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 5.3.6.1. Bounded Context Domain Layer Class Diagrams
 Diagramas de clases del Domain Layer para el contexto limitado de contratos.
+![Diagrama de clases para contract bounded context](img/Capitulo_5/Bounded_Context/Contracts_CD.png)
+
 
 #### 5.3.6.2. Bounded Context Database Design Diagram
 Diagrama del diseño de base de datos para el contexto limitado de contratos.
+![Diagrama de base de datos para contract bounded context](img/Capitulo_5/Bounded_Context/Contracts_DB.png)
 
-## 5.4. Bounded Context: Payments Bounded Context
-### 5.4.1. Domain Layer
+## **5.4. Bounded Context: Payments Bounded Context**
+
+### **5.4.1. Domain Layer**
 Descripción del Domain Layer para el contexto limitado de pagos.
 
-### 5.4.2. Interface Layer
+**Payment**:  
+Representa un pago realizado por un inquilino a un propietario. Contiene atributos como `paymentID`, `contractID`, `amount`, `fechaDePago`, y `estadoDePago` (ej., pendiente, completado, fallido). Los métodos podrían incluir el procesamiento de pagos y la verificación del estado del pago.
+
+**PaymentMethod**:  
+Define los diferentes métodos de pago aceptados (por ejemplo, tarjeta de crédito, transferencia bancaria) y contiene información sobre la configuración de cada método de pago.
+
+### **5.4.2. Interface Layer**
 Descripción del Interface Layer para el contexto limitado de pagos.
 
-### 5.4.3. Application Layer
+**PaymentController**:  
+Gestiona las solicitudes API relacionadas con los pagos, permitiendo a los inquilinos realizar pagos, verificar el estado de un pago y acceder a las facturas generadas. También proporciona acceso a los propietarios para revisar los pagos recibidos.
+
+**InvoiceController**:  
+Maneja las solicitudes relacionadas con la generación y consulta de facturas para cada pago realizado.
+
+### **5.4.3. Application Layer**
 Descripción del Application Layer para el contexto limitado de pagos.
 
-### 5.4.4. Infrastructure Layer
+**PaymentService**:  
+Gestiona la lógica de negocio relacionada con los pagos. Esto incluye procesar pagos, validar montos, y confirmar que los pagos se realicen dentro del tiempo estipulado por el contrato. También gestiona los reembolsos en caso de cancelación del contrato.
+
+**InvoiceService**:  
+Responsable de generar facturas para cada pago realizado, asegurando que se envíen correctamente a los inquilinos y propietarios. También gestiona el historial de facturas emitidas.
+
+### **5.4.4. Infrastructure Layer**
 Descripción del Infrastructure Layer para el contexto limitado de pagos.
+
+**PaymentRepository**:  
+Almacena y gestiona la información de los pagos en la base de datos, incluyendo los detalles de los montos pagados, fechas de pago y estado actual del pago.
+
+**InvoiceRepository**:  
+Almacena las facturas emitidas para cada pago, permitiendo que tanto los inquilinos como los propietarios puedan acceder a sus registros de facturación.
+
+**PaymentGateway**:  
+Integra con proveedores externos para procesar pagos de manera segura (por ejemplo, Stripe, PayPal) y gestiona la comunicación con estos proveedores para validar y registrar cada transacción.
+
 
 ### 5.4.5. Bounded Context Software Architecture Component Level Diagrams
 Diagramas de nivel de componentes para la arquitectura de software del contexto limitado de pagos.
+
+![Diagrama de componentes para payment bc](img/Capitulo_5/Bounded_Context/Payments_BC.png)
+
 
 ### 5.4.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 5.4.6.1. Bounded Context Domain Layer Class Diagrams
 Diagramas de clases del Domain Layer para el contexto limitado de pagos.
 
+![Diagrama de clases para payment bc](img/Capitulo_5/Bounded_Context/Payments_CD.png)
+
+
 #### 5.4.6.2. Bounded Context Database Design Diagram
 Diagrama del diseño de base de datos para el contexto limitado de pagos.
 
-## 5.5. Bounded Context: Property Search Bounded Context
-### 5.5.1. Domain Layer
-Descripción del Domain Layer para el contexto limitado de búsqueda de propiedades.
+![Diagrama de bd para payment bc](img/Capitulo_5/Bounded_Context/Payments_DB.png)
 
-### 5.5.2. Interface Layer
-Descripción del Interface Layer para el contexto limitado de búsqueda de propiedades.
+## **5.5. Bounded Context: Property Search Bounded Context**
 
-### 5.5.3. Application Layer
-Descripción del Application Layer para el contexto limitado de búsqueda de propiedades.
+### **5.5.1. Domain Layer**
+SearchCriteria: Representa los criterios de búsqueda proporcionados por los inquilinos.
 
-### 5.5.4. Infrastructure Layer
-Descripción del Infrastructure Layer para el contexto limitado de búsqueda de propiedades.
+SearchResult: Contiene los resultados de una búsqueda, que incluyen una lista de propiedades que cumplen con los criterios de búsqueda establecidos. Cada resultado tiene atributos.
+
+Filter: Define los filtros aplicables a la búsqueda, tales como `númeroDeHabitaciones`, `proximidadATransporte`, o `amenities` (servicios).
+
+### **5.5.2. Interface Layer**
+SearchController: Maneja las solicitudes relacionadas con la búsqueda de propiedades. Permite a los usuarios realizar búsquedas basadas en criterios personalizados y visualizar los resultados de las propiedades disponibles.
+
+FilterController: Gestiona las solicitudes relacionadas con la aplicación de filtros a las búsquedas, permitiendo a los usuarios refinar sus resultados según sus necesidades específicas.
+
+### **5.5.3. Application Layer**
+SearchService: Contiene la lógica de negocio que permite ejecutar búsquedas de propiedades con base en los criterios establecidos por el usuario. Coordina la interacción con el repositorio de propiedades y devuelve resultados relevantes.
+
+FilterService: Gestiona la aplicación de filtros a la búsqueda de propiedades. Optimiza los resultados en función de los parámetros establecidos por el usuario, tales como precio, tipo de propiedad, y ubicación.
+
+### **5.5.4. Infrastructure Layer**
+SearchRepository: Interactúa con la base de datos para recuperar propiedades que cumplan con los criterios de búsqueda especificados. Gestiona la optimización de las consultas para mejorar la velocidad y precisión de los resultados.
+
+FilterRepository: Almacena y gestiona la información relacionada con los filtros que los usuarios pueden aplicar a sus búsquedas, permitiendo que estos sean actualizados según las necesidades del sistema o del usuario.
+
 
 ### 5.5.5. Bounded Context Software Architecture Component Level Diagrams
 Diagramas de nivel de componentes para la arquitectura de software del contexto limitado de búsqueda de propiedades.
+
+![Diagrama de componentes para propertysearch bc](img/Capitulo_5/Bounded_Context/PropertySearch_BC.png)
 
 ### 5.5.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 5.5.6.1. Bounded Context Domain Layer Class Diagrams
 Diagramas de clases del Domain Layer para el contexto limitado de búsqueda de propiedades.
 
+![Diagrama de clases para propertysearch bc](img/Capitulo_5/Bounded_Context/PropertySearch_CD.png)
+
 #### 5.5.6.2. Bounded Context Database Design Diagram
 Diagrama del diseño de base de datos para el contexto limitado de búsqueda de propiedades.
+![Diagrama de bd para propertysearch bc](img/Capitulo_5/Bounded_Context/PropertySearch_DB.png)
 
 
 # Capítulo VI: Solution UX Design
