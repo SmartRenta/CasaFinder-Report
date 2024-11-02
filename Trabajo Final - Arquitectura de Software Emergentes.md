@@ -2126,6 +2126,23 @@ _**Segmento: Propietarios**_
 - Ha sido importante el trabajo en equipo para poder completar con éxito los objetivos de cada sprint. 
 - Recomendamos el uso de herramientas como Trello para una mejor organización de equipo.
 
+---
+
+# Bibliografía
+
+Gyourko, J., Mayer, C., & Sinai, T. (2022). Superstar cities. American Economic Journal: Economic Policy, 5(4), 167-199. [https://doi.org/10.1257/pol.5.4.167](https://doi.org/10.1257/pol.5.4.167)
+
+Instituto Nacional de Estadística e Informática (INEI). (2021). Condiciones de Vida en el Perú: Enero - Febrero - Marzo 2024. Recuperado de [https://www.gob.pe/institucion/inei/informes-publicaciones/5677219-condiciones-de-vida-en-el-peru-enero-febrero-marzo-2024](https://www.gob.pe/institucion/inei/informes-publicaciones/5677219-condiciones-de-vida-en-el-peru-enero-febrero-marzo-2024)
+
+Molloy, R., Nathanson, C. G., & Paciorek, A. (2022). Housing supply and affordability: Evidence from rents, housing consumption and household location. Journal of Urban Economics, 129, 103427. [https://doi.org/10.1016/j.jue.2022.103427](https://doi.org/10.1016/j.jue.2022.103427)
+
+Montoro, R. (2023, marzo). Alquiler de departamentos: ¿qué distritos tienen mayor demanda y por qué? La República. Recuperado de [https://larepublica.pe/vivienda/2023/05/20/alquiler-de-departamentos-que-distritos-tienen-mayor-demanda-y-por-que-viviendas-en-lima-739940](https://larepublica.pe/vivienda/2023/05/20/alquiler-de-departamentos-que-distritos-tienen-mayor-demanda-y-por-que-viviendas-en-lima-739940)
+
+Realty Boris. (2023). Impact of Demographic Shifts on Housing Preferences and Market Dynamics. Realty Boris. Retrieved from [https://realtyboris.com](https://realtyboris.com)
+
+Virginia REALTORS®. (2023). Rental Market Trends From the Last Decade: More Renters, A Shift in Age, and Fewer People Living Alone. Virginia REALTORS®. Retrieved from [https://virginiarealtors.org](https://virginiarealtors.org)
+
+
 --- 
 # Anexos
 
