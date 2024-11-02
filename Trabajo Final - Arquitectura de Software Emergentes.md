@@ -15,12 +15,10 @@ Profesor: Royer Edelwer Rojas Malasquez
 Integrantes:
 
 * Carrillo Mainicta, Michael - U20201A924
-* Rondon Añaños, Cristopher  - U20201A291
+* Rondon Añaños, Cristopher - U20201A291
 * Vara Quispe, José Carlos - U202125116
 * Hinostroza Mavila, Farid - U202014468
 * Guerrero Alegría, Grecia Carolina - U201620605
-
-
 
 Setiembre, 2024
 
@@ -29,203 +27,228 @@ Setiembre, 2024
 # Registro de Versiones del Informe
 
 | Versión | Fecha    | Autor            | Descripción de modificación                                                      |
-| ------- | -------- | ---------------- | -------------------------------------------------------------------------------- |
+|---------|----------|------------------|----------------------------------------------------------------------------------|
 | 1.0     | 08/09/24 | Michael Carrillo | Creación del proyecto con Markdown Introducción del proyecto Cap I, II, III y IV |
-
 
 ---
 
 # Contenido
+
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
 - [Contenido](#contenido)
 - [Student Outcome](#student-outcome)
 - [Capítulo I: Introducción](#capítulo-i-introducción)
-  - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-        - [MISIÓN](#misión)
-        - [VISIÓN](#visión)
-    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1. Antecedentes y Problemática](#121-antecedentes-y-problemática)
-        - [ANTECEDENTES:](#antecedentes)
-        - [PROBLEMÁTICA](#problemática)
-    - [1.2.2. Lean UX Process](#122-lean-ux-process)
-      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-        - [Business Assumptions](#business-assumptions)
-        - [User Assumptions](#user-assumptions)
-        - [Features](#features)
-        - [Business Outcomes](#business-outcomes)
-        - [User Outcomes](#user-outcomes)
-      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-  - [1.3. Segmentos Objetivo](#13-segmentos-objetivo)
+    - [1.1. Startup Profile](#11-startup-profile)
+        - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+            - [MISIÓN](#misión)
+            - [VISIÓN](#visión)
+        - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+    - [1.2. Solution Profile](#12-solution-profile)
+        - [1.2.1. Antecedentes y Problemática](#121-antecedentes-y-problemática)
+            - [ANTECEDENTES:](#antecedentes)
+            - [PROBLEMÁTICA](#problemática)
+        - [1.2.2. Lean UX Process](#122-lean-ux-process)
+            - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+            - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+                - [Business Assumptions](#business-assumptions)
+                - [User Assumptions](#user-assumptions)
+                - [Features](#features)
+                - [Business Outcomes](#business-outcomes)
+                - [User Outcomes](#user-outcomes)
+            - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+            - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+    - [1.3. Segmentos Objetivo](#13-segmentos-objetivo)
         - [Segmento Propietarios de Viviendas](#segmento-propietarios-de-viviendas)
         - [Segmento Inquilinos](#segmento-inquilinos)
 - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
-  - [2.1. Competidores](#21-competidores)
-    - [2.1.1. Análisis Competitivo](#211-análisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2. Entrevistas](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-      - [Entrevista N° 1](#entrevista-n-1)
-      - [Entrevista N° 2](#entrevista-n-2)
-      - [Entrevista N° 3](#entrevista-n-3)
-      - [Entrevista N° 4](#entrevista-n-4)
-      - [Entrevista N° 5](#entrevista-n-5)
-      - [Entrevista N° 6](#entrevista-n-6)
-    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-  - [2.3. Needfinding](#23-needfinding)
-    - [2.3.1. User Personas](#231-user-personas)
-    - [2.3.2. User Task Matrix](#232-user-task-matrix)
-    - [Propietarios](#propietarios)
-    - [Inquilinos](#inquilinos)
-    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
-    - [Blockchain](#blockchain)
-    - [Contrato Inteligente (Smart Contract)](#contrato-inteligente-smart-contract)
-    - [Descentralización](#descentralización)
-    - [Inmutabilidad](#inmutabilidad)
-    - [Oráculos](#oráculos)
-    - [Tokenización del Alquiler](#tokenización-del-alquiler)
-    - [Automatización de Pagos](#automatización-de-pagos)
-    - [Depósito de Garantía en Blockchain](#depósito-de-garantía-en-blockchain)
-    - [Resolución de Disputas Automatizada](#resolución-de-disputas-automatizada)
-    - [Auditoría Transparente](#auditoría-transparente)
-    - [Plataforma de Alquiler Descentralizada](#plataforma-de-alquiler-descentralizada)
-    - [Wallet Digital](#wallet-digital)
-    - [Identidad Digital Descentralizada](#identidad-digital-descentralizada)
-    - [Penalizaciones Automáticas](#penalizaciones-automáticas)
-    - [Rentabilidad Tokenizada](#rentabilidad-tokenizada)
-    - [2.3.1 User Persona](#231-user-persona)
-          - [_User Persona Manuel Segura, usuario Cliente_](#user-persona-manuel-segura-usuario-cliente)
-          - [_User Persona Manuel Segura, usuario Transportista_](#user-persona-manuel-segura-usuario-transportista)
-    - [2.3.2 User Task Matrix](#232-user-task-matrix-1)
-          - [_User Task Matrix del usuario cliente_](#user-task-matrix-del-usuario-cliente)
-          - [_User Task Matrix del usuario transportista_](#user-task-matrix-del-usuario-transportista)
-    - [2.3.3 Empathy Mapping](#233-empathy-mapping)
-          - [*Empathy Mapping del usuario cliente*](#empathy-mapping-del-usuario-cliente)
-          - [*Empathy Mapping del usuario transportista*](#empathy-mapping-del-usuario-transportista)
-    - [2.3.4. As-is Scenario Mapping.](#234-as-is-scenario-mapping)
-          - [*As-is Scenario Mapping del usuario cliente*](#as-is-scenario-mapping-del-usuario-cliente)
-          - [*As-is Scenario Mapping del usuario transportista*](#as-is-scenario-mapping-del-usuario-transportista)
-  - [2.4. Ubiquitous Language.](#24-ubiquitous-language-1)
+    - [2.1. Competidores](#21-competidores)
+        - [2.1.1. Análisis Competitivo](#211-análisis-competitivo)
+        - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+    - [2.2. Entrevistas](#22-entrevistas)
+        - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+        - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+            - [Entrevista N° 1](#entrevista-n-1)
+            - [Entrevista N° 2](#entrevista-n-2)
+            - [Entrevista N° 3](#entrevista-n-3)
+            - [Entrevista N° 4](#entrevista-n-4)
+            - [Entrevista N° 5](#entrevista-n-5)
+            - [Entrevista N° 6](#entrevista-n-6)
+        - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+    - [2.3. Needfinding](#23-needfinding)
+        - [2.3.1. User Personas](#231-user-personas)
+        - [2.3.2. User Task Matrix](#232-user-task-matrix)
+        - [Propietarios](#propietarios)
+        - [Inquilinos](#inquilinos)
+        - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+        - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+        - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+    - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+        - [Blockchain](#blockchain)
+        - [Contrato Inteligente (Smart Contract)](#contrato-inteligente-smart-contract)
+        - [Descentralización](#descentralización)
+        - [Inmutabilidad](#inmutabilidad)
+        - [Oráculos](#oráculos)
+        - [Tokenización del Alquiler](#tokenización-del-alquiler)
+        - [Automatización de Pagos](#automatización-de-pagos)
+        - [Depósito de Garantía en Blockchain](#depósito-de-garantía-en-blockchain)
+        - [Resolución de Disputas Automatizada](#resolución-de-disputas-automatizada)
+        - [Auditoría Transparente](#auditoría-transparente)
+        - [Plataforma de Alquiler Descentralizada](#plataforma-de-alquiler-descentralizada)
+        - [Wallet Digital](#wallet-digital)
+        - [Identidad Digital Descentralizada](#identidad-digital-descentralizada)
+        - [Penalizaciones Automáticas](#penalizaciones-automáticas)
+        - [Rentabilidad Tokenizada](#rentabilidad-tokenizada)
+        - [2.3.1 User Persona](#231-user-persona)
+            - [_User Persona Manuel Segura, usuario Cliente_](#user-persona-manuel-segura-usuario-cliente)
+            - [_User Persona Manuel Segura, usuario Transportista_](#user-persona-manuel-segura-usuario-transportista)
+        - [2.3.2 User Task Matrix](#232-user-task-matrix-1)
+            - [_User Task Matrix del usuario cliente_](#user-task-matrix-del-usuario-cliente)
+            - [_User Task Matrix del usuario transportista_](#user-task-matrix-del-usuario-transportista)
+        - [2.3.3 Empathy Mapping](#233-empathy-mapping)
+            - [*Empathy Mapping del usuario cliente*](#empathy-mapping-del-usuario-cliente)
+            - [*Empathy Mapping del usuario transportista*](#empathy-mapping-del-usuario-transportista)
+        - [2.3.4. As-is Scenario Mapping.](#234-as-is-scenario-mapping)
+            - [*As-is Scenario Mapping del usuario cliente*](#as-is-scenario-mapping-del-usuario-cliente)
+            - [*As-is Scenario Mapping del usuario transportista*](#as-is-scenario-mapping-del-usuario-transportista)
+    - [2.4. Ubiquitous Language.](#24-ubiquitous-language-1)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-  - [3.1. To-Be Scenario Mapping.](#31-to-be-scenario-mapping)
-          - [To-Be Scenario Mapping del usuario Arrendador](#to-be-scenario-mapping-del-usuario-arrendador)
-          - [To-Be Scenario Mapping del usuario Inquilino](#to-be-scenario-mapping-del-usuario-inquilino)
-  - [3.2. User Stories.](#32-user-stories)
+    - [3.1. To-Be Scenario Mapping.](#31-to-be-scenario-mapping)
+        - [To-Be Scenario Mapping del usuario Arrendador](#to-be-scenario-mapping-del-usuario-arrendador)
+        - [To-Be Scenario Mapping del usuario Inquilino](#to-be-scenario-mapping-del-usuario-inquilino)
+    - [3.2. User Stories.](#32-user-stories)
         - [_Desarrollo de los User Stories_](#desarrollo-de-los-user-stories)
-    - [EPICS](#epics)
-          - [_Desarrollo de las Epics_](#desarrollo-de-las-epics)
-  - [3.3. Impact Mapping.](#33-impact-mapping)
-          - [\_Impact Mapping de los usuarios Arrendador e Inquilino](#_impact-mapping-de-los-usuarios-arrendador-e-inquilino)
-  - [3.4. Product Backlog.](#34-product-backlog)
+            - [EPICS](#epics)
+                - [_Desarrollo de las Epics_](#desarrollo-de-las-epics)
+    - [3.3. Impact Mapping.](#33-impact-mapping)
+        - [\_Impact Mapping de los usuarios Arrendador e Inquilino](#_impact-mapping-de-los-usuarios-arrendador-e-inquilino)
+    - [3.4. Product Backlog.](#34-product-backlog)
         - [_Desarrollo del Product Backlog_](#desarrollo-del-product-backlog)
 - [Capítulo IV: Strategic-Level Software Design](#capítulo-iv-strategic-level-software-design)
-  - [4.1. Strategic-Level Attribute-Driven Design](#41-strategic-level-attribute-driven-design)
-    - [4.1.1. Design Purpose](#411-design-purpose)
-    - [4.1.2. Attribute-Driven Design Inputs](#412-attribute-driven-design-inputs)
-      - [4.1.2.1. Primary Functionality (Primary User Stories)](#4121-primary-functionality-primary-user-stories)
-      - [4.1.2.2. Quality attribute Scenarios](#4122-quality-attribute-scenarios)
-      - [4.1.2.3. Constraints](#4123-constraints)
-    - [4.1.3. Architectural Drivers Backlog](#413-architectural-drivers-backlog)
-    - [4.1.4. Architectural Design Decisions](#414-architectural-design-decisions)
-    - [4.1.5. Quality Attribute Scenario Refinements](#415-quality-attribute-scenario-refinements)
-  - [4.2. Strategic-Level Domain-Driven Design.](#42-strategic-level-domain-driven-design)
-    - [4.2.1. EventStorming](#421-eventstorming)
-          - [*Step 1: Unstructured Exploration*](#step-1-unstructured-exploration)
-          - [*Step 2: Timelines, Step 3: Pain Points, Step 4: Pivotal Points*](#step-2-timelines-step-3-pain-points-step-4-pivotal-points)
-          - [*Step 5: Commands, Step 6: Policies, Step 7: Read models, Step 8: External Systems*](#step-5-commands-step-6-policies-step-7-read-models-step-8-external-systems)
-          - [*Step 9: Aggregates, Step 10: Bounded Contexts*](#step-9-aggregates-step-10-bounded-contexts)
-    - [4.2.2. Candidate Context Discovery](#422-candidate-context-discovery)
-    - [4.2.3. Domain Message Flows Modeling](#423-domain-message-flows-modeling)
-    - [4.2.4. Bounded Context Canvases](#424-bounded-context-canvases)
-    - [4.2.5. Context Mapping](#425-context-mapping)
-  - [4.3. Software Architecture.](#43-software-architecture)
-    - [4.3.1. Software Architecture Context Level Diagrams.](#431-software-architecture-context-level-diagrams)
-    - [4.3.2. Software Architecture Container Level Diagrams.](#432-software-architecture-container-level-diagrams)
+    - [4.1. Strategic-Level Attribute-Driven Design](#41-strategic-level-attribute-driven-design)
+        - [4.1.1. Design Purpose](#411-design-purpose)
+        - [4.1.2. Attribute-Driven Design Inputs](#412-attribute-driven-design-inputs)
+            - [4.1.2.1. Primary Functionality (Primary User Stories)](#4121-primary-functionality-primary-user-stories)
+            - [4.1.2.2. Quality attribute Scenarios](#4122-quality-attribute-scenarios)
+            - [4.1.2.3. Constraints](#4123-constraints)
+        - [4.1.3. Architectural Drivers Backlog](#413-architectural-drivers-backlog)
+        - [4.1.4. Architectural Design Decisions](#414-architectural-design-decisions)
+        - [4.1.5. Quality Attribute Scenario Refinements](#415-quality-attribute-scenario-refinements)
+    - [4.2. Strategic-Level Domain-Driven Design.](#42-strategic-level-domain-driven-design)
+        - [4.2.1. EventStorming](#421-eventstorming)
+            - [*Step 1: Unstructured Exploration*](#step-1-unstructured-exploration)
+            - [*Step 2: Timelines, Step 3: Pain Points, Step 4: Pivotal
+              Points*](#step-2-timelines-step-3-pain-points-step-4-pivotal-points)
+            - [*Step 5: Commands, Step 6: Policies, Step 7: Read models, Step 8: External
+              Systems*](#step-5-commands-step-6-policies-step-7-read-models-step-8-external-systems)
+            - [*Step 9: Aggregates, Step 10: Bounded Contexts*](#step-9-aggregates-step-10-bounded-contexts)
+        - [4.2.2. Candidate Context Discovery](#422-candidate-context-discovery)
+        - [4.2.3. Domain Message Flows Modeling](#423-domain-message-flows-modeling)
+        - [4.2.4. Bounded Context Canvases](#424-bounded-context-canvases)
+        - [4.2.5. Context Mapping](#425-context-mapping)
+    - [4.3. Software Architecture.](#43-software-architecture)
+        - [4.3.1. Software Architecture Context Level Diagrams.](#431-software-architecture-context-level-diagrams)
+        - [4.3.2. Software Architecture Container Level Diagrams.](#432-software-architecture-container-level-diagrams)
 - [Capítulo V: Tactical-Level Software Design](#capítulo-v-tactical-level-software-design)
-  - [5.1. Bounded Context: User Bounded Context](#51-bounded-context-user-bounded-context)
-    - [5.1.1. Domain Layer](#511-domain-layer)
-    - [5.1.2. Interface Layer](#512-interface-layer)
-    - [5.1.3. Application Layer](#513-application-layer)
-    - [5.1.4. Infrastructure Layer](#514-infrastructure-layer)
-    - [5.1.5. Bounded Context Software Architecture Component Level Diagrams](#515-bounded-context-software-architecture-component-level-diagrams)
-    - [5.1.6. Bounded Context Software Architecture Code Level Diagrams](#516-bounded-context-software-architecture-code-level-diagrams)
-      - [5.1.6.1. Bounded Context Domain Layer Class Diagrams](#5161-bounded-context-domain-layer-class-diagrams)
-      - [5.1.6.2. Bounded Context Database Design Diagram](#5162-bounded-context-database-design-diagram)
-  - [5.2. Bounded Context: Property Management Bounded Context](#52-bounded-context-property-management-bounded-context)
-    - [5.2.1. Domain Layer](#521-domain-layer)
-    - [5.2.2. Interface Layer](#522-interface-layer)
-    - [5.2.3. Application Layer](#523-application-layer)
-    - [5.2.4. Infrastructure Layer](#524-infrastructure-layer)
-    - [5.2.5. Bounded Context Software Architecture Component Level Diagrams](#525-bounded-context-software-architecture-component-level-diagrams)
-    - [5.2.6. Bounded Context Software Architecture Code Level Diagrams](#526-bounded-context-software-architecture-code-level-diagrams)
-      - [5.2.6.1. Bounded Context Domain Layer Class Diagrams](#5261-bounded-context-domain-layer-class-diagrams)
-      - [5.2.6.2. Bounded Context Database Design Diagram](#5262-bounded-context-database-design-diagram)
-  - [5.3. Bounded Context: Contracts Bounded Context](#53-bounded-context-contracts-bounded-context)
-    - [5.3.1. Domain Layer](#531-domain-layer)
-    - [5.3.2. Interface Layer](#532-interface-layer)
-    - [5.3.3. Application Layer](#533-application-layer)
-    - [5.3.4. Infrastructure Layer](#534-infrastructure-layer)
-    - [5.3.5. Bounded Context Software Architecture Component Level Diagrams](#535-bounded-context-software-architecture-component-level-diagrams)
-    - [5.3.6. Bounded Context Software Architecture Code Level Diagrams](#536-bounded-context-software-architecture-code-level-diagrams)
-      - [5.3.6.1. Bounded Context Domain Layer Class Diagrams](#5361-bounded-context-domain-layer-class-diagrams)
-      - [5.3.6.2. Bounded Context Database Design Diagram](#5362-bounded-context-database-design-diagram)
-  - [5.4. Bounded Context: Payments Bounded Context](#54-bounded-context-payments-bounded-context)
-    - [5.4.1. Domain Layer](#541-domain-layer)
-    - [5.4.2. Interface Layer](#542-interface-layer)
-    - [5.4.3. Application Layer](#543-application-layer)
-    - [5.4.4. Infrastructure Layer](#544-infrastructure-layer)
-    - [5.4.5. Bounded Context Software Architecture Component Level Diagrams](#545-bounded-context-software-architecture-component-level-diagrams)
-    - [5.4.6. Bounded Context Software Architecture Code Level Diagrams](#546-bounded-context-software-architecture-code-level-diagrams)
-      - [5.4.6.1. Bounded Context Domain Layer Class Diagrams](#5461-bounded-context-domain-layer-class-diagrams)
-      - [5.4.6.2. Bounded Context Database Design Diagram](#5462-bounded-context-database-design-diagram)
-  - [5.5. Bounded Context: Property Search Bounded Context](#55-bounded-context-property-search-bounded-context)
-    - [5.5.1. Domain Layer](#551-domain-layer)
-    - [5.5.2. Interface Layer](#552-interface-layer)
-    - [5.5.3. Application Layer](#553-application-layer)
-    - [5.5.4. Infrastructure Layer](#554-infrastructure-layer)
-    - [5.5.5. Bounded Context Software Architecture Component Level Diagrams](#555-bounded-context-software-architecture-component-level-diagrams)
-    - [5.5.6. Bounded Context Software Architecture Code Level Diagrams](#556-bounded-context-software-architecture-code-level-diagrams)
-      - [5.5.6.1. Bounded Context Domain Layer Class Diagrams](#5561-bounded-context-domain-layer-class-diagrams)
-      - [5.5.6.2. Bounded Context Database Design Diagram](#5562-bounded-context-database-design-diagram)
+    - [5.1. Bounded Context: User Bounded Context](#51-bounded-context-user-bounded-context)
+        - [5.1.1. Domain Layer](#511-domain-layer)
+        - [5.1.2. Interface Layer](#512-interface-layer)
+        - [5.1.3. Application Layer](#513-application-layer)
+        - [5.1.4. Infrastructure Layer](#514-infrastructure-layer)
+        - [5.1.5. Bounded Context Software Architecture Component Level Diagrams](#515-bounded-context-software-architecture-component-level-diagrams)
+        - [5.1.6. Bounded Context Software Architecture Code Level Diagrams](#516-bounded-context-software-architecture-code-level-diagrams)
+            - [5.1.6.1. Bounded Context Domain Layer Class Diagrams](#5161-bounded-context-domain-layer-class-diagrams)
+            - [5.1.6.2. Bounded Context Database Design Diagram](#5162-bounded-context-database-design-diagram)
+    - [5.2. Bounded Context: Property Management Bounded Context](#52-bounded-context-property-management-bounded-context)
+        - [5.2.1. Domain Layer](#521-domain-layer)
+        - [5.2.2. Interface Layer](#522-interface-layer)
+        - [5.2.3. Application Layer](#523-application-layer)
+        - [5.2.4. Infrastructure Layer](#524-infrastructure-layer)
+        - [5.2.5. Bounded Context Software Architecture Component Level Diagrams](#525-bounded-context-software-architecture-component-level-diagrams)
+        - [5.2.6. Bounded Context Software Architecture Code Level Diagrams](#526-bounded-context-software-architecture-code-level-diagrams)
+            - [5.2.6.1. Bounded Context Domain Layer Class Diagrams](#5261-bounded-context-domain-layer-class-diagrams)
+            - [5.2.6.2. Bounded Context Database Design Diagram](#5262-bounded-context-database-design-diagram)
+    - [5.3. Bounded Context: Contracts Bounded Context](#53-bounded-context-contracts-bounded-context)
+        - [5.3.1. Domain Layer](#531-domain-layer)
+        - [5.3.2. Interface Layer](#532-interface-layer)
+        - [5.3.3. Application Layer](#533-application-layer)
+        - [5.3.4. Infrastructure Layer](#534-infrastructure-layer)
+        - [5.3.5. Bounded Context Software Architecture Component Level Diagrams](#535-bounded-context-software-architecture-component-level-diagrams)
+        - [5.3.6. Bounded Context Software Architecture Code Level Diagrams](#536-bounded-context-software-architecture-code-level-diagrams)
+            - [5.3.6.1. Bounded Context Domain Layer Class Diagrams](#5361-bounded-context-domain-layer-class-diagrams)
+            - [5.3.6.2. Bounded Context Database Design Diagram](#5362-bounded-context-database-design-diagram)
+    - [5.4. Bounded Context: Payments Bounded Context](#54-bounded-context-payments-bounded-context)
+        - [5.4.1. Domain Layer](#541-domain-layer)
+        - [5.4.2. Interface Layer](#542-interface-layer)
+        - [5.4.3. Application Layer](#543-application-layer)
+        - [5.4.4. Infrastructure Layer](#544-infrastructure-layer)
+        - [5.4.5. Bounded Context Software Architecture Component Level Diagrams](#545-bounded-context-software-architecture-component-level-diagrams)
+        - [5.4.6. Bounded Context Software Architecture Code Level Diagrams](#546-bounded-context-software-architecture-code-level-diagrams)
+            - [5.4.6.1. Bounded Context Domain Layer Class Diagrams](#5461-bounded-context-domain-layer-class-diagrams)
+            - [5.4.6.2. Bounded Context Database Design Diagram](#5462-bounded-context-database-design-diagram)
+    - [5.5. Bounded Context: Property Search Bounded Context](#55-bounded-context-property-search-bounded-context)
+        - [5.5.1. Domain Layer](#551-domain-layer)
+        - [5.5.2. Interface Layer](#552-interface-layer)
+        - [5.5.3. Application Layer](#553-application-layer)
+        - [5.5.4. Infrastructure Layer](#554-infrastructure-layer)
+        - [5.5.5. Bounded Context Software Architecture Component Level Diagrams](#555-bounded-context-software-architecture-component-level-diagrams)
+        - [5.5.6. Bounded Context Software Architecture Code Level Diagrams](#556-bounded-context-software-architecture-code-level-diagrams)
+            - [5.5.6.1. Bounded Context Domain Layer Class Diagrams](#5561-bounded-context-domain-layer-class-diagrams)
+            - [5.5.6.2. Bounded Context Database Design Diagram](#5562-bounded-context-database-design-diagram)
 - [Capítulo VI: Solution UX Design](#capítulo-vi-solution-ux-design)
-  - [6.1 Style guidelines](#61-style-guidelines)
-    - [6.1.1 General Style guidelines](#611-general-style-guidelines)
-    - [6.1.2 Web, mobile \& devices style guidelines](#612-web-mobile--devices-style-guidelines)
-  - [6.2 Information architecture](#62-information-architecture)
-    - [6.2.1 Labeling Systems](#621-labeling-systems)
-    - [6.2.2 Searching Systems](#622-searching-systems)
-    - [6.2.3 SEO Tags and Meta Tags](#623-seo-tags-and-meta-tags)
-    - [6.2.4 Navigation Systems](#624-navigation-systems)
-  - [6.3. Landing Page UI Design.](#63-landing-page-ui-design)
-    - [6.3.1. Landing Page Wireframe.](#631-landing-page-wireframe)
-    - [6.3.2. Landing Page Mock-up.](#632-landing-page-mock-up)
-  - [6.4 Applications UX/UI Design](#64-applications-uxui-design)
-    - [6.4.1 Application Wireframes](#641-application-wireframes)
-    - [6.4.2 Application Wireflow Diagrams](#642-application-wireflow-diagrams)
+    - [6.1 Style guidelines](#61-style-guidelines)
+        - [6.1.1 General Style guidelines](#611-general-style-guidelines)
+        - [6.1.2 Web, mobile \& devices style guidelines](#612-web-mobile--devices-style-guidelines)
+    - [6.2 Information architecture](#62-information-architecture)
+        - [6.2.1 Labeling Systems](#621-labeling-systems)
+        - [6.2.2 Searching Systems](#622-searching-systems)
+        - [6.2.3 SEO Tags and Meta Tags](#623-seo-tags-and-meta-tags)
+        - [6.2.4 Navigation Systems](#624-navigation-systems)
+    - [6.3. Landing Page UI Design.](#63-landing-page-ui-design)
+        - [6.3.1. Landing Page Wireframe.](#631-landing-page-wireframe)
+        - [6.3.2. Landing Page Mock-up.](#632-landing-page-mock-up)
+    - [6.4 Applications UX/UI Design](#64-applications-uxui-design)
+        - [6.4.1 Application Wireframes](#641-application-wireframes)
+        - [6.4.2 Application Wireflow Diagrams](#642-application-wireflow-diagrams)
+        - [6.4.3 Application Mock-ups](#643-application-mock-ups)
+        - [6.4.4 Application User Flow Diagrams](#644-application-user-flow-diagrams)
+    - [6.5 Application Prototyping](#65-application-prototyping)
+- [Capítulo VII: Product Implementation, Validation & Deployment](#capítulo-vii-product-implementation-validation--deployment)
+    - [7.1. Software Configuration Management.](#71-software-configuration-management)
+        - [7.1.1. Software Development Environment Configuration.](#711-software-development-environment-configuration)
+        - [7.1.2. Source Code Management.](#712-source-code-management)
+        - [7.1.3. Source Code Style Guide & Conventions.](#713-source-code-style-guide--conventions)
+        - [7.1.4. Software Deployment Configuration.](#714-software-deployment-configuration)
+    - [7.2. Solution Implementation.](#72-solution-implementation)
+        - [7.2.1. Sprint 1](#721-sprint-1)
+            - [7.2.1.1. Sprint Planning 1](#7211-sprint-planning-1)
+            - [7.2.1.2. Sprint Backlog 1](#7212-sprint-backlog-1)
+            - [7.2.1.3. Development Evidence for Sprint Review.](#7213-development-evidence-for-sprint-review)
+            - [7.2.1.4. Testing Suite Evidence for Sprint Review.](#7214-testing-suite-evidence-for-sprint-review)
+            - [7.2.1.5. Execution Evidence for Sprint Review.](#7215-execution-evidence-for-sprint-review)
+            - [7.2.1.6. Services Documentation Evidence for Sprint Review.](#7216-services-documentation-evidence-for-sprint-review)
+            - [7.2.1.7. Software Deployment Evidence for Sprint Review.](#7217-software-deployment-evidence-for-sprint-review)
+            - [7.2.1.8. Team Collaboration Insights during Sprint.](#7218-team-collaboration-insights-during-sprint)
+    - [7.3. Validation Interviews.](#73-validation-interviews)
+        - [7.3.1. Diseño de Entrevistas.](#731-diseño-de-entrevistas)
+        - [7.3.2. Registro de Entrevistas.](#732-registro-de-entrevistas)
+        - [7.3.3. Evaluaciones según heurísticas.](#733-evaluaciones-según-heurísticas)
+    - [7.4. Video About-the-Product.](#74-video-about-the-product)
 - [Conclusiones](#conclusiones)
-  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+    - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 - [Anexos](#anexos)
-  - [Anexo A. Video de exposición TB1](#anexo-a-video-de-exposición-tb1)
-  - [Anexo B. Video de entrevistas](#anexo-b-video-de-entrevistas)
-  - [Anexo C. Video de exposición TP](#anexo-c-video-de-exposición-tp)
-  - [Anexo D. Repositorio con Informe](#anexo-d-repositorio-con-informe)
+    - [Anexo A. Video de exposición TB1](#anexo-a-video-de-exposición-tb1)
+    - [Anexo B. Video de entrevistas](#anexo-b-video-de-entrevistas)
+    - [Anexo C. Video de exposición TP](#anexo-c-video-de-exposición-tp)
+    - [Anexo D. Repositorio con Informe](#anexo-d-repositorio-con-informe)
 
 --- 
 
 # Student Outcome
 
-| Criterio específico | Acciones realizadas | Conclusiones |
-| --- | --- | --- |
-| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | **Farid Hinostroza Mavila**<br>*TB1* <br>- He presentado los resultados del análisis de usuarios mediante la creación de user personas y el empathy map, asegurándome de que la información fuera clara para todos los miembros del equipo. Además, participé en las discusiones sobre la matriz de tareas del usuario.<br><br>*TP*<br>- Mantuve un lenguaje ubicuo en cuanto a la representación de distintos servicios de nuestra arquitectura.<br><br>**José Carlos Vara** <br>*TB1* <br>- Desarrollé y presenté los puntos clave del perfil de la startup y la solución propuesta, incluyendo los antecedentes, la problemática y el proceso Lean UX, adaptando la comunicación para un público de diversas especialidades y niveles jerárquicos. Utilicé un enfoque claro y estructurado para asegurar que los conceptos de ingeniería fueran comprensibles para todos los asistentes.<br><br>*TP*<br>- Presenté avances del proyecto, adaptando el nivel de tecnicismos según el público para asegurar la comprensión y toma de decisiones.<br><br>**Grecia Guerrero Alegría** <br>*TB1* <br>- He mantenido conversación con los usuarios de los 2 tipos de segmento para realizar las entrevistas y que se pueda hacer uso de ellas.<br><br>*TP* <br>- He presentado los mockups previa comunicación con mis compañeros para tener un diseño homogéneo.<br><br>**Cristopher Rondon Añaños**<br>*TB1* <br>- Realicé la recolección de las historias de usuario, así como una priorización adecuada de estas.<br> <br>*TP1* <br>- Realicé los Wireframes de nuestro Landing Page.<br><br>**Michael Carrillo Mainicta**<br>*TB1*<br>- En el video de exposición, he demostrado mi habilidad para diseñar estrategias de software mediante el Attribute-Driven Design y el Domain-Driven Design. He presentado los métodos y técnicas utilizados, asegurando una comunicación objetiva y efectiva de las ideas, cumpliendo así con este criterio.<br> <br>*TP1*<br>- Para esta entrega parcial, se demostró este criterio al presentar el diseño de software a nivel táctico. Esto incluyó la presentación del diagrama de clases y el diagrama de base de datos durante el video de exposición.<br><br> | *TB1*<br>Todo el equipo se ha comunicado oralmente exitosamente para lograr el primer entregable. <br> *TP* <br>Todo el equipo se ha comunicado oralmente para terminar el entregable relacionado al diseño de la arquitectura, mockups e historias de usuario. |
-| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | **Farid Hinostroza Mavila**<br>*TB1* <br>- He colaborado en la redacción de informes que incluyen el análisis de competidores, user personas, y la matriz de tareas de usuario. Además, documenté estos resultados en el repositorio de GitHub para facilitar su acceso por parte de todo el equipo.<br><br>*TP*<br>- Realicé los diagramas de arquitectura, explicando sus servicios y relaciones entre el diagrama de clases y base de datos.<br><br>**José Carlos Vara** <br>*TB1* <br>- Redacté de manera clara y precisa los puntos del perfil de la startup y la solución propuesta, incluyendo antecedentes, problemática y el proceso Lean UX. Adapté el lenguaje técnico para que fuera accesible a un público de distintas especialidades y niveles jerárquicos, asegurando que la información se presentara de forma objetiva y comprensible para todos los involucrados en el proyecto.<br><br>*TP*<br>- Redacté parte del trabajo, ajustando el lenguaje y el nivel de detalle según los destinatarios de distintas áreas.<br><br>**Grecia Guerrero Alegría** <br>*TB1* <br>- He plasmado en el documento los resultados de las entrevistas así como los diagramas C4. <br><br> *TP* <br>- Se han realizado los user goals para expresar de forma escrita la acción de los mockups. <br><br>**Cristopher Rondon Añaños** <br>*TB1* <br>- En este entregable, plantee de manera adecuada el Business Goal para nuestro Impact Map, que involucra a nuestros dos segmentos de usuarios objetivos. <br><br>*TP1* <br>- En este entregable, hice la construcción y despliegue de el landing page. <br><br>**Michael Carrillo Mainicta**<br>*TB1*<br>- En este entregable del trabajo final, he comunicado de manera escrita los principios del diseño estratégico de software a través del Attribute-Driven Design y el Domain-Driven Design. He detallado los procesos y resultados con claridad y objetividad, asegurando la comprensión de un público diverso y cumpliendo con los estándares requeridos para la documentación.<br> <br>*TP1*<br>- En esta entrega se demostró la comunicación escrita objetiva, adaptada a diferentes especialidades y niveles jerárquicos, al presentar el diseño táctico del software mediante el diagrama de clases y el diagrama de base de datos, esto en la documentación del trabajo. <br><br> | *TB1*<br>Todo el equipo se ha comunicado de forma escrita exitosamente para lograr el primer entregable.<br><br> *TP* <br>Todo el equipo ha desarrollado el documento escrito relacionado al diseño del proyecto. |
-
+| Criterio específico                                                                                                                                                                   | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | Conclusiones                                                                                                                                                                                                                                                    |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería.    | **Farid Hinostroza Mavila**<br>*TB1* <br>- He presentado los resultados del análisis de usuarios mediante la creación de user personas y el empathy map, asegurándome de que la información fuera clara para todos los miembros del equipo. Además, participé en las discusiones sobre la matriz de tareas del usuario.<br><br>*TP*<br>- Mantuve un lenguaje ubicuo en cuanto a la representación de distintos servicios de nuestra arquitectura.<br><br>**José Carlos Vara** <br>*TB1* <br>- Desarrollé y presenté los puntos clave del perfil de la startup y la solución propuesta, incluyendo los antecedentes, la problemática y el proceso Lean UX, adaptando la comunicación para un público de diversas especialidades y niveles jerárquicos. Utilicé un enfoque claro y estructurado para asegurar que los conceptos de ingeniería fueran comprensibles para todos los asistentes.<br><br>*TP*<br>- Presenté avances del proyecto, adaptando el nivel de tecnicismos según el público para asegurar la comprensión y toma de decisiones.<br><br>**Grecia Guerrero Alegría** <br>*TB1* <br>- He mantenido conversación con los usuarios de los 2 tipos de segmento para realizar las entrevistas y que se pueda hacer uso de ellas.<br><br>*TP* <br>- He presentado los mockups previa comunicación con mis compañeros para tener un diseño homogéneo.<br><br>**Cristopher Rondon Añaños**<br>*TB1* <br>- Realicé la recolección de las historias de usuario, así como una priorización adecuada de estas.<br> <br>*TP1* <br>- Realicé los Wireframes de nuestro Landing Page.<br><br>**Michael Carrillo Mainicta**<br>*TB1*<br>- En el video de exposición, he demostrado mi habilidad para diseñar estrategias de software mediante el Attribute-Driven Design y el Domain-Driven Design. He presentado los métodos y técnicas utilizados, asegurando una comunicación objetiva y efectiva de las ideas, cumpliendo así con este criterio.<br> <br>*TP1*<br>- Para esta entrega parcial, se demostró este criterio al presentar el diseño de software a nivel táctico. Esto incluyó la presentación del diagrama de clases y el diagrama de base de datos durante el video de exposición.<br><br>                                                                                                                                        | *TB1*<br>Todo el equipo se ha comunicado oralmente exitosamente para lograr el primer entregable. <br> *TP* <br>Todo el equipo se ha comunicado oralmente para terminar el entregable relacionado al diseño de la arquitectura, mockups e historias de usuario. |
+| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | **Farid Hinostroza Mavila**<br>*TB1* <br>- He colaborado en la redacción de informes que incluyen el análisis de competidores, user personas, y la matriz de tareas de usuario. Además, documenté estos resultados en el repositorio de GitHub para facilitar su acceso por parte de todo el equipo.<br><br>*TP*<br>- Realicé los diagramas de arquitectura, explicando sus servicios y relaciones entre el diagrama de clases y base de datos.<br><br>**José Carlos Vara** <br>*TB1* <br>- Redacté de manera clara y precisa los puntos del perfil de la startup y la solución propuesta, incluyendo antecedentes, problemática y el proceso Lean UX. Adapté el lenguaje técnico para que fuera accesible a un público de distintas especialidades y niveles jerárquicos, asegurando que la información se presentara de forma objetiva y comprensible para todos los involucrados en el proyecto.<br><br>*TP*<br>- Redacté parte del trabajo, ajustando el lenguaje y el nivel de detalle según los destinatarios de distintas áreas.<br><br>**Grecia Guerrero Alegría** <br>*TB1* <br>- He plasmado en el documento los resultados de las entrevistas así como los diagramas C4. <br><br> *TP* <br>- Se han realizado los user goals para expresar de forma escrita la acción de los mockups. <br><br>**Cristopher Rondon Añaños** <br>*TB1* <br>- En este entregable, plantee de manera adecuada el Business Goal para nuestro Impact Map, que involucra a nuestros dos segmentos de usuarios objetivos. <br><br>*TP1* <br>- En este entregable, hice la construcción y despliegue de el landing page. <br><br>**Michael Carrillo Mainicta**<br>*TB1*<br>- En este entregable del trabajo final, he comunicado de manera escrita los principios del diseño estratégico de software a través del Attribute-Driven Design y el Domain-Driven Design. He detallado los procesos y resultados con claridad y objetividad, asegurando la comprensión de un público diverso y cumpliendo con los estándares requeridos para la documentación.<br> <br>*TP1*<br>- En esta entrega se demostró la comunicación escrita objetiva, adaptada a diferentes especialidades y niveles jerárquicos, al presentar el diseño táctico del software mediante el diagrama de clases y el diagrama de base de datos, esto en la documentación del trabajo. <br><br> | *TB1*<br>Todo el equipo se ha comunicado de forma escrita exitosamente para lograr el primer entregable.<br><br> *TP* <br>Todo el equipo ha desarrollado el documento escrito relacionado al diseño del proyecto.                                               |
 
 ---
 
@@ -235,41 +258,54 @@ Setiembre, 2024
 
 ### 1.1.1. Descripción de la Startup
 
-SmartRent es una innovadora startup tecnológica enfocada en revolucionar el mercado del alquiler de viviendas a través de la integración de tecnologías emergentes. Su producto principal, CasaFinder, es una plataforma web diseñada para conectar de manera eficiente a propietarios de inmuebles interesados en alquilar sus propiedades con personas que buscan un hogar temporal o permanente. Lo que distingue a CasaFinder es su uso pionero de la tecnología blockchain, que garantiza la transparencia, seguridad y cumplimiento de los contratos de alquiler, al tiempo que crea un historial de cumplimiento de alquileres inmutable y confiable para ambas partes.
+SmartRent es una innovadora startup tecnológica enfocada en revolucionar el mercado del alquiler de viviendas a través
+de la integración de tecnologías emergentes. Su producto principal, CasaFinder, es una plataforma web diseñada para
+conectar de manera eficiente a propietarios de inmuebles interesados en alquilar sus propiedades con personas que buscan
+un hogar temporal o permanente. Lo que distingue a CasaFinder es su uso pionero de la tecnología blockchain, que
+garantiza la transparencia, seguridad y cumplimiento de los contratos de alquiler, al tiempo que crea un historial de
+cumplimiento de alquileres inmutable y confiable para ambas partes.
 
 ##### MISIÓN
 
-Nuestra misión en SmartRent es simplificar y asegurar el proceso de alquiler de viviendas mediante la tecnología, ofreciendo una plataforma que garantice la confianza y la transparencia para propietarios e inquilinos por igual. Nos esforzamos por transformar la experiencia del alquiler en una transacción más accesible, eficiente y justa, aprovechando el poder de la tecnología blockchain para garantizar el cumplimiento de los acuerdos y la creación de un historial de arrendamientos confiable.
+Nuestra misión en SmartRent es simplificar y asegurar el proceso de alquiler de viviendas mediante la tecnología,
+ofreciendo una plataforma que garantice la confianza y la transparencia para propietarios e inquilinos por igual. Nos
+esforzamos por transformar la experiencia del alquiler en una transacción más accesible, eficiente y justa, aprovechando
+el poder de la tecnología blockchain para garantizar el cumplimiento de los acuerdos y la creación de un historial de
+arrendamientos confiable.
 
 ##### VISIÓN
 
-Nuestra visión es convertirnos en la plataforma líder mundial en alquiler de viviendas, redefiniendo los estándares de confianza y eficiencia en el mercado inmobiliario. Aspiramos a que CasaFinder sea el estándar global para el alquiler de viviendas, ofreciendo una solución innovadora y segura que transforme la manera en que las personas encuentran y alquilan sus hogares, impulsando un futuro donde el proceso de arrendamiento sea tan simple y confiable como hacer una compra en línea.
+Nuestra visión es convertirnos en la plataforma líder mundial en alquiler de viviendas, redefiniendo los estándares de
+confianza y eficiencia en el mercado inmobiliario. Aspiramos a que CasaFinder sea el estándar global para el alquiler de
+viviendas, ofreciendo una solución innovadora y segura que transforme la manera en que las personas encuentran y
+alquilan sus hogares, impulsando un futuro donde el proceso de arrendamiento sea tan simple y confiable como hacer una
+compra en línea.
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-| Integrante                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |  José Carlos Vara Quispe                   |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------- |
+| Integrante                                                                                                                                                                                                                                                  | José Carlos Vara Quispe                        |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------|
 | Soy José Carlos Vara Quispe,tengo 26 años, nací en Lima. Entre este ciclo a la UPC en la carrera de ingeniería de sistemas. Me gusta escuchar música, jugar videojuegos y salir con mis amigos. Me considero una persona puntual, respetuosa y responsable. | ![Jose Perfil](img/integrantes/JosePerfil.JPG) |
 
-| Integrante                                                                                                                                                                                                                                                                                                                                                                                                                 | Grecia Carolina Guerrero Alegría       |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
+| Integrante                                                                                                                                                                                                                                                                                                                                                                                                                 | Grecia Carolina Guerrero Alegría                    |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
 | Tengo 21 años y soy estudiante de Ingeniería de Software con conocimientos de matemática y habilidades en programación en el lenguaje C++. Actualmente curso el sétimo ciclo de la carrera y mi meta es ser un profesional destacado el cual rija sus decisiones por sus valores y el bien de la cliente donde labore. Me interesa el desarrollo de la tecnología y los avances que existen en la inteligencia artificial. | ![Anthony Perfil](img/integrantes/GreciaPerfil.JPG) |
 
-| Integrante                                                                                                                                                                                                                                                                                                                                                                                           | Michael Carrillo Mainicta              |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
+| Integrante                                                                                                                                                                                                                                                                                                                                                                                                                             | Michael Carrillo Mainicta                            |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
 | Estudiante de la carrera de ingeniería de software, actualmente cursando el 9no ciclo. Me considero una persona entusiasta que le gusta aprender y desarrollar nuevas habilidades, lo cual me ha ayudado a adquirir conocimientos en lenguajes como Python, C++ y C#. Así mismo, me apasiona explorar nuevas tecnologías como Realidad Virtual (VR) y Realidad Aumentada (AR) y a su vez buscar soluciones innovadoras con las mismas. | ![Michael Perfil](img/integrantes/MichaelPerfil.JPG) |
 
-| Integrante                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Farid Hinostroza Mavila             |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
+| Integrante                                                                                                                                                                                                                                                                                                                                                                                                                                            | Farid Hinostroza Mavila                          |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
 | Estudiante de Ingeniería de Software con un interés particular en la inteligencia artificial y la gestión de bases de datos. Mi enfoque es la mejora continua y la implementación de soluciones innovadoras que resuelvan problemas reales. Además, soy proactivo y colaborativo, lo que me permite trabajar eficazmente en equipo para alcanzar los objetivos propuestos, siempre con la vista puesta en la excelencia y la eficiencia del proyecto. | ![Farid Perfil](img/integrantes/FaridPerfil.JPG) |
 
-| Integrante                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Rondon Añaños, Cristopher              |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
+| Integrante                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Rondon Añaños, Cristopher                                  |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
 | Estudiante de la carrera de Ingeniería en Software. Soy una persona dinámica y curiosa, siempre dispuesta a adquirir nuevas habilidades y conocimientos. Esta actitud me ha permitido familiarizarme con herramientas y lenguajes como Java, JavaScript y SQL. Además, me entusiasma investigar y experimentar con tecnologías emergentes como el Internet de las Cosas (IoT) y la Inteligencia Artificial (IA), con el objetivo de desarrollar soluciones creativas e impactantes en el campo tecnológico. | ![Cristopher Perfil](img/integrantes/CristopherPerfil.JPG) |
 
 ## 1.2. Solution Profile
 
-Nombre del Producto: CasaFinder 
+Nombre del Producto: CasaFinder
 
 Tipo de Producto: Aplicación web para el alquiler de viviendas
 
@@ -277,78 +313,149 @@ Tipo de Producto: Aplicación web para el alquiler de viviendas
 
 ##### ANTECEDENTES:
 
-CEl mercado de alquiler de viviendas ha mostrado un crecimiento sostenido en las últimas décadas, influenciado por tendencias como la urbanización, la movilidad laboral y los cambios en las preferencias generacionales. La urbanización ha intensificado la demanda de viviendas en áreas urbanas, donde las personas buscan oportunidades económicas y experiencias culturales. Además, las nuevas generaciones, como los millennials y la Generación Z, tienden a priorizar la flexibilidad sobre la propiedad, prefiriendo opciones de alquiler que les permitan adaptarse a cambios rápidos en sus vidas personales y profesionales. Sin embargo, este crecimiento también ha expuesto problemas persistentes, como la falta de claridad en los contratos y el incumplimiento de pagos, que complican las transacciones entre propietarios e inquilinos y dificultan la construcción de relaciones de largo plazo en el mercado de alquiler.
-Estas cuestiones se ven exacerbadas por la falta de un sistema estandarizado que permita a ambas partes verificar de manera confiable el historial de cumplimiento de los acuerdos, lo que genera desconfianza y aumenta la incidencia de disputas legales (Realty Boris, 2023; Virginia REALTORS®, 2023).
+CEl mercado de alquiler de viviendas ha mostrado un crecimiento sostenido en las últimas décadas, influenciado por
+tendencias como la urbanización, la movilidad laboral y los cambios en las preferencias generacionales. La urbanización
+ha intensificado la demanda de viviendas en áreas urbanas, donde las personas buscan oportunidades económicas y
+experiencias culturales. Además, las nuevas generaciones, como los millennials y la Generación Z, tienden a priorizar la
+flexibilidad sobre la propiedad, prefiriendo opciones de alquiler que les permitan adaptarse a cambios rápidos en sus
+vidas personales y profesionales. Sin embargo, este crecimiento también ha expuesto problemas persistentes, como la
+falta de claridad en los contratos y el incumplimiento de pagos, que complican las transacciones entre propietarios e
+inquilinos y dificultan la construcción de relaciones de largo plazo en el mercado de alquiler.
+Estas cuestiones se ven exacerbadas por la falta de un sistema estandarizado que permita a ambas partes verificar de
+manera confiable el historial de cumplimiento de los acuerdos, lo que genera desconfianza y aumenta la incidencia de
+disputas legales (Realty Boris, 2023; Virginia REALTORS®, 2023).
 
 ##### PROBLEMÁTICA
 
 - **What(Qué)**
-  CasaFinder aborda la falta de transparencia, seguridad y confianza en el proceso de alquiler de viviendas. Actualmente, no existe un sistema estandarizado que garantice el cumplimiento de los contratos de alquiler ni un historial confiable que documente el comportamiento de las partes involucradas.
+  CasaFinder aborda la falta de transparencia, seguridad y confianza en el proceso de alquiler de viviendas.
+  Actualmente, no existe un sistema estandarizado que garantice el cumplimiento de los contratos de alquiler ni un
+  historial confiable que documente el comportamiento de las partes involucradas.
 - **When(Cuando)**
-  El problema se manifiesta en todas las etapas del proceso de alquiler: desde la búsqueda de propiedades, la negociación y firma del contrato, hasta el seguimiento del cumplimiento del mismo.
+  El problema se manifiesta en todas las etapas del proceso de alquiler: desde la búsqueda de propiedades, la
+  negociación y firma del contrato, hasta el seguimiento del cumplimiento del mismo.
 - **Where(Dónde)**
-  Este problema es global y afecta a todos los mercados de alquiler de viviendas, pero es particularmente grave en zonas urbanas con alta demanda y en mercados con regulaciones laxas o inexistentes.
+  Este problema es global y afecta a todos los mercados de alquiler de viviendas, pero es particularmente grave en zonas
+  urbanas con alta demanda y en mercados con regulaciones laxas o inexistentes.
 - **Who(Quién)**
-  Propietarios de viviendas: Que enfrentan riesgos financieros y legales debido al incumplimiento de los contratos y la falta de un sistema confiable que garantice el pago del alquiler.
+  Propietarios de viviendas: Que enfrentan riesgos financieros y legales debido al incumplimiento de los contratos y la
+  falta de un sistema confiable que garantice el pago del alquiler.
 
-  Inquilinos: Que experimentan inseguridad y desconfianza debido a la falta de transparencia en los contratos y a la dificultad para encontrar propietarios confiables.
+  Inquilinos: Que experimentan inseguridad y desconfianza debido a la falta de transparencia en los contratos y a la
+  dificultad para encontrar propietarios confiables.
 - **Why(Por qué)**
-  Resolver este problema es esencial para mejorar la confianza y seguridad en el mercado de alquiler de viviendas, reduciendo el riesgo de disputas legales, incumplimientos de contrato y pérdidas financieras, lo que resultará en un mercado más eficiente y justo para todas las partes.
+  Resolver este problema es esencial para mejorar la confianza y seguridad en el mercado de alquiler de viviendas,
+  reduciendo el riesgo de disputas legales, incumplimientos de contrato y pérdidas financieras, lo que resultará en un
+  mercado más eficiente y justo para todas las partes.
 - **How(Cómo)**
-  CasaFinder utiliza la tecnología blockchain para crear contratos inteligentes, seguros y transparentes, que garantizan el cumplimiento de los términos acordados. Además, la plataforma genera un historial inmutable de cumplimiento de alquileres que permite evaluar la confiabilidad de propietarios e inquilinos.
+  CasaFinder utiliza la tecnología blockchain para crear contratos inteligentes, seguros y transparentes, que garantizan
+  el cumplimiento de los términos acordados. Además, la plataforma genera un historial inmutable de cumplimiento de
+  alquileres que permite evaluar la confiabilidad de propietarios e inquilinos.
 - **How much(Cuánto)**
-  El impacto del problema es significativo, afectando la estabilidad y eficiencia del mercado de alquiler de viviendas. Con CasaFinder, se espera una reducción sustancial en las disputas legales y en los riesgos financieros para ambas partes, así como una mejora considerable en la confianza mutua, lo que puede transformar positivamente el mercado de alquiler a nivel global.
+  El impacto del problema es significativo, afectando la estabilidad y eficiencia del mercado de alquiler de viviendas.
+  Con CasaFinder, se espera una reducción sustancial en las disputas legales y en los riesgos financieros para ambas
+  partes, así como una mejora considerable en la confianza mutua, lo que puede transformar positivamente el mercado de
+  alquiler a nivel global.
 
 ### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-El mercado de alquiler de viviendas ha estado en constante crecimiento, impulsado por tendencias como la urbanización y el aumento de la movilidad laboral. Sin embargo, sigue enfrentando problemas significativos relacionados con la falta de transparencia, confianza y seguridad en las transacciones entre propietarios e inquilinos (Realty Boris, 2023; Virginia REALTORS®, 2023). Este dominio abarca todas las etapas del proceso de alquiler, desde la búsqueda de propiedades y la negociación de contratos hasta la firma y la gestión de la relación de alquiler. Los desafíos persisten, afectando tanto a los propietarios como a los inquilinos, y creando una necesidad urgente de una solución más confiable y eficiente (Gyourko et al., 2022).
+El mercado de alquiler de viviendas ha estado en constante crecimiento, impulsado por tendencias como la urbanización y
+el aumento de la movilidad laboral. Sin embargo, sigue enfrentando problemas significativos relacionados con la falta de
+transparencia, confianza y seguridad en las transacciones entre propietarios e inquilinos (Realty Boris, 2023; Virginia
+REALTORS®, 2023). Este dominio abarca todas las etapas del proceso de alquiler, desde la búsqueda de propiedades y la
+negociación de contratos hasta la firma y la gestión de la relación de alquiler. Los desafíos persisten, afectando tanto
+a los propietarios como a los inquilinos, y creando una necesidad urgente de una solución más confiable y eficiente (
+Gyourko et al., 2022).
 
-Por un lado, los propietarios de viviendas enfrentan dificultades para encontrar inquilinos confiables y asegurar el cumplimiento de los contratos. Están constantemente expuestos al riesgo de incumplimiento de pago y carecen de herramientas efectivas para gestionar disputas legales de manera eficiente (Molloy et al., 2022). Por otro lado, los inquilinos sufren por la falta de transparencia en los términos de los contratos y la dificultad de encontrar propietarios que les ofrezcan seguridad y cumplimiento de los acuerdos. Esta inseguridad puede dejarlos en situaciones de vulnerabilidad, especialmente cuando se encuentran con propietarios que no respetan los términos acordados (Realty Boris, 2023).
+Por un lado, los propietarios de viviendas enfrentan dificultades para encontrar inquilinos confiables y asegurar el
+cumplimiento de los contratos. Están constantemente expuestos al riesgo de incumplimiento de pago y carecen de
+herramientas efectivas para gestionar disputas legales de manera eficiente (Molloy et al., 2022). Por otro lado, los
+inquilinos sufren por la falta de transparencia en los términos de los contratos y la dificultad de encontrar
+propietarios que les ofrezcan seguridad y cumplimiento de los acuerdos. Esta inseguridad puede dejarlos en situaciones
+de vulnerabilidad, especialmente cuando se encuentran con propietarios que no respetan los términos acordados (Realty
+Boris, 2023).
 
-Existe una brecha significativa en el mercado para una plataforma que integre tecnología avanzada, como blockchain, que pueda ofrecer contratos seguros y transparentes, al mismo tiempo que proporciona un historial de cumplimiento de alquileres que fortalezca la confianza entre las partes. Actualmente, no hay una solución en el mercado que aborde de manera integral la necesidad de seguridad y transparencia en las transacciones de alquiler, lo que deja una gran oportunidad para una innovación que responda a estas necesidades críticas (Virginia REALTORS®, 2023).
-
+Existe una brecha significativa en el mercado para una plataforma que integre tecnología avanzada, como blockchain, que
+pueda ofrecer contratos seguros y transparentes, al mismo tiempo que proporciona un historial de cumplimiento de
+alquileres que fortalezca la confianza entre las partes. Actualmente, no hay una solución en el mercado que aborde de
+manera integral la necesidad de seguridad y transparencia en las transacciones de alquiler, lo que deja una gran
+oportunidad para una innovación que responda a estas necesidades críticas (Virginia REALTORS®, 2023).
 
 #### 1.2.2.2. Lean UX Assumptions
 
 ##### Business Assumptions
 
-- Creemos que nuestros clientes tienen la necesidad de: Encontrar una manera segura y transparente de alquilar viviendas que garantice el cumplimiento de los contratos y genere confianza entre propietarios e inquilinos.
-- Estas necesidades se pueden resolver con: Una plataforma que utilice tecnología blockchain para crear contratos inteligentes, transparentes y seguros, además de ofrecer un historial de cumplimiento de alquileres verificable.
-- Nuestros clientes principales son: Propietarios de viviendas que desean alquilar sus propiedades de manera confiable y segura, e inquilinos que buscan viviendas con la certeza de que sus derechos serán respetados y los términos del contrato serán cumplidos.
-- El valor #1 que un cliente quiere de nuestros servicios: Es la seguridad en las transacciones y la confianza que genera un contrato respaldado por tecnología blockchain.
-- El cliente también puede obtener estos beneficios adicionales: Un historial de cumplimiento de alquileres que les permite verificar la reputación de las partes involucradas, y herramientas para facilitar la gestión de contratos y pagos.
-- Voy a adquirir la mayoría de mis clientes a través de: Campañas de marketing digital enfocadas en redes sociales, así como asociaciones estratégicas con inmobiliarias y plataformas de alquiler.
-- Hare dinero a través de: Pagos por suscripción mensual o anual, así como comisiones por cada contrato de alquiler gestionado a través de la plataforma.
-- Mis competencias principales en el mercado serán: Airbnb, Zillow y otros servicios de alquiler de viviendas que no ofrecen la misma seguridad en los contratos y confianza entre las partes.
-- Los venceremos con: Una experiencia de usuario superior, respaldada por la seguridad y transparencia que ofrece la tecnología blockchain, además de un enfoque en la creación de un historial de cumplimiento de alquileres confiable.
-- Mi mayor riesgo de producto es: No lograr que suficientes propietarios e inquilinos adopten la plataforma debido a la complejidad percibida de la tecnología blockchain o la falta de confianza inicial en un nuevo servicio.
-- Resolveremos esto a través de: Una campaña de educación y marketing que explique claramente los beneficios de blockchain y cómo CasaFinder ofrece una solución más segura y confiable en comparación con las plataformas tradicionales.
+- Creemos que nuestros clientes tienen la necesidad de: Encontrar una manera segura y transparente de alquilar viviendas
+  que garantice el cumplimiento de los contratos y genere confianza entre propietarios e inquilinos.
+- Estas necesidades se pueden resolver con: Una plataforma que utilice tecnología blockchain para crear contratos
+  inteligentes, transparentes y seguros, además de ofrecer un historial de cumplimiento de alquileres verificable.
+- Nuestros clientes principales son: Propietarios de viviendas que desean alquilar sus propiedades de manera confiable y
+  segura, e inquilinos que buscan viviendas con la certeza de que sus derechos serán respetados y los términos del
+  contrato serán cumplidos.
+- El valor #1 que un cliente quiere de nuestros servicios: Es la seguridad en las transacciones y la confianza que
+  genera un contrato respaldado por tecnología blockchain.
+- El cliente también puede obtener estos beneficios adicionales: Un historial de cumplimiento de alquileres que les
+  permite verificar la reputación de las partes involucradas, y herramientas para facilitar la gestión de contratos y
+  pagos.
+- Voy a adquirir la mayoría de mis clientes a través de: Campañas de marketing digital enfocadas en redes sociales, así
+  como asociaciones estratégicas con inmobiliarias y plataformas de alquiler.
+- Hare dinero a través de: Pagos por suscripción mensual o anual, así como comisiones por cada contrato de alquiler
+  gestionado a través de la plataforma.
+- Mis competencias principales en el mercado serán: Airbnb, Zillow y otros servicios de alquiler de viviendas que no
+  ofrecen la misma seguridad en los contratos y confianza entre las partes.
+- Los venceremos con: Una experiencia de usuario superior, respaldada por la seguridad y transparencia que ofrece la
+  tecnología blockchain, además de un enfoque en la creación de un historial de cumplimiento de alquileres confiable.
+- Mi mayor riesgo de producto es: No lograr que suficientes propietarios e inquilinos adopten la plataforma debido a la
+  complejidad percibida de la tecnología blockchain o la falta de confianza inicial en un nuevo servicio.
+- Resolveremos esto a través de: Una campaña de educación y marketing que explique claramente los beneficios de
+  blockchain y cómo CasaFinder ofrece una solución más segura y confiable en comparación con las plataformas
+  tradicionales.
 
 ##### User Assumptions
 
-- ¿Quién es el usuario?: Usuarios mayores de edad con acceso a internet que necesitan alquilar una vivienda o propietarios que desean alquilar sus propiedades de manera segura y confiable.
-- ¿Dónde encaja nuestro producto en su vida?: CasaFinder se integra en la vida de los usuarios en el momento en que necesitan asegurar una transacción de alquiler confiable, ya sea para alquilar una vivienda o para garantizar que su propiedad sea arrendada sin problemas.
-- ¿Qué problemas resuelve nuestro producto?: CasaFinder resuelve la falta de transparencia y seguridad en los contratos de alquiler, reduciendo la posibilidad de incumplimiento y conflictos legales, y creando un entorno de confianza mutua entre propietarios e inquilinos.
-- ¿Cuándo y cómo es usado nuestro producto?: CasaFinder se utiliza durante todo el proceso de alquiler, desde la búsqueda de propiedades, la negociación y firma de contratos, hasta la gestión continua de la relación de alquiler. La plataforma es accesible a través de una aplicación web, permitiendo a los usuarios gestionar sus alquileres de manera conveniente y segura.
-- ¿Qué características son importantes?: Es crucial que CasaFinder ofrezca seguridad en las transacciones, autenticación confiable, persistencia de datos, y una experiencia de usuario intuitiva que facilite la gestión de alquileres y el cumplimiento de contratos.
-- ¿Cómo debe verse nuestro producto y comportarse?: CasaFinder debe ser estéticamente atractivo, intuitivo de usar, y confiable en todas sus funciones. La plataforma debe inspirar confianza y ser percibida como una solución moderna y segura para el alquiler de viviendas.
+- ¿Quién es el usuario?: Usuarios mayores de edad con acceso a internet que necesitan alquilar una vivienda o
+  propietarios que desean alquilar sus propiedades de manera segura y confiable.
+- ¿Dónde encaja nuestro producto en su vida?: CasaFinder se integra en la vida de los usuarios en el momento en que
+  necesitan asegurar una transacción de alquiler confiable, ya sea para alquilar una vivienda o para garantizar que su
+  propiedad sea arrendada sin problemas.
+- ¿Qué problemas resuelve nuestro producto?: CasaFinder resuelve la falta de transparencia y seguridad en los contratos
+  de alquiler, reduciendo la posibilidad de incumplimiento y conflictos legales, y creando un entorno de confianza mutua
+  entre propietarios e inquilinos.
+- ¿Cuándo y cómo es usado nuestro producto?: CasaFinder se utiliza durante todo el proceso de alquiler, desde la
+  búsqueda de propiedades, la negociación y firma de contratos, hasta la gestión continua de la relación de alquiler. La
+  plataforma es accesible a través de una aplicación web, permitiendo a los usuarios gestionar sus alquileres de manera
+  conveniente y segura.
+- ¿Qué características son importantes?: Es crucial que CasaFinder ofrezca seguridad en las transacciones, autenticación
+  confiable, persistencia de datos, y una experiencia de usuario intuitiva que facilite la gestión de alquileres y el
+  cumplimiento de contratos.
+- ¿Cómo debe verse nuestro producto y comportarse?: CasaFinder debe ser estéticamente atractivo, intuitivo de usar, y
+  confiable en todas sus funciones. La plataforma debe inspirar confianza y ser percibida como una solución moderna y
+  segura para el alquiler de viviendas.
 
 ##### Features
 
-- La aplicación permitirá a los usuarios visualizar propiedades disponibles y verificar el historial de cumplimiento de alquileres de propietarios e inquilinos.
-- CasaFinder ofrecerá contratos inteligentes basados en blockchain que se ejecutan automáticamente cuando se cumplen los términos acordados.
-- Los usuarios podrán comunicarse directamente a través de la plataforma para negociar términos y resolver cualquier duda.
-- CasaFinder proporcionará una autenticación segura y un proceso de pago confiable para todas las transacciones de alquiler.
-- La plataforma reducirá la complejidad y los riesgos asociados con las transacciones de alquiler al ofrecer herramientas para gestionar contratos y realizar pagos de manera segura y eficiente.
+- La aplicación permitirá a los usuarios visualizar propiedades disponibles y verificar el historial de cumplimiento de
+  alquileres de propietarios e inquilinos.
+- CasaFinder ofrecerá contratos inteligentes basados en blockchain que se ejecutan automáticamente cuando se cumplen los
+  términos acordados.
+- Los usuarios podrán comunicarse directamente a través de la plataforma para negociar términos y resolver cualquier
+  duda.
+- CasaFinder proporcionará una autenticación segura y un proceso de pago confiable para todas las transacciones de
+  alquiler.
+- La plataforma reducirá la complejidad y los riesgos asociados con las transacciones de alquiler al ofrecer
+  herramientas para gestionar contratos y realizar pagos de manera segura y eficiente.
 
 ##### Business Outcomes
 
 - Ser reconocidos como la plataforma más segura y confiable para el alquiler de viviendas.
-- Desarrollar una aplicación que ofrezca una excelente experiencia de usuario, mejorando continuamente con el feedback recibido.
-- Incrementar la cantidad de usuarios registrados y activos mediante estrategias de marketing digital y asociaciones estratégicas.
-- Lograr que la mayoría de los alquileres realizados a través de CasaFinder se completen sin problemas, con altos niveles de satisfacción entre propietarios e inquilinos.
+- Desarrollar una aplicación que ofrezca una excelente experiencia de usuario, mejorando continuamente con el feedback
+  recibido.
+- Incrementar la cantidad de usuarios registrados y activos mediante estrategias de marketing digital y asociaciones
+  estratégicas.
+- Lograr que la mayoría de los alquileres realizados a través de CasaFinder se completen sin problemas, con altos
+  niveles de satisfacción entre propietarios e inquilinos.
 
 ##### User Outcomes
 
@@ -366,107 +473,168 @@ Para Inquilinos:
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
--	**Creemos** los propietarios de viviendas valoran la seguridad y transparencia en las transacciones de alquiler y estarán dispuestos a utilizar una plataforma que ofrezca contratos inteligentes respaldados por blockchain.
-**Sabremos** que hemos tenido éxito
-**Cuando** al menos el 40% de los propietarios registrados en CasaFinder crean contratos a través de la plataforma y un 60% de ellos continúan utilizando el servicio para futuros alquileres dentro de los primeros seis meses.
+- **Creemos** los propietarios de viviendas valoran la seguridad y transparencia en las transacciones de alquiler y
+  estarán dispuestos a utilizar una plataforma que ofrezca contratos inteligentes respaldados por blockchain.
+  **Sabremos** que hemos tenido éxito
+  **Cuando** al menos el 40% de los propietarios registrados en CasaFinder crean contratos a través de la plataforma y
+  un 60% de ellos continúan utilizando el servicio para futuros alquileres dentro de los primeros seis meses.
 
--	**Creemos** los inquilinos buscan una manera confiable y segura de alquilar viviendas y estarán motivados a usar CasaFinder para evitar riesgos asociados con contratos tradicionales. 
-**Sabremos** que hemos tenido éxito
-**Cuando** al menos el 50% de los inquilinos que utilizan CasaFinder completan su alquiler a través de la plataforma y un 70% de ellos recomiendan el servicio a otros, reflejado en un aumento del 20% en nuevos registros basados en referencias.
+- **Creemos** los inquilinos buscan una manera confiable y segura de alquilar viviendas y estarán motivados a usar
+  CasaFinder para evitar riesgos asociados con contratos tradicionales.
+  **Sabremos** que hemos tenido éxito
+  **Cuando** al menos el 50% de los inquilinos que utilizan CasaFinder completan su alquiler a través de la plataforma y
+  un 70% de ellos recomiendan el servicio a otros, reflejado en un aumento del 20% en nuevos registros basados en
+  referencias.
 
--	**Creemos** la tecnología blockchain aumentará la confianza de los usuarios en la plataforma, al proporcionar un historial inmutable de cumplimiento de alquileres.
-**Sabremos** que hemos tenido éxito
-**Cuando** un 80% de los usuarios confían en el historial de cumplimiento de alquileres al tomar decisiones, con una reducción del 25% en disputas legales y problemas relacionados con el incumplimiento de contratos en comparación con el método tradicional.
+- **Creemos** la tecnología blockchain aumentará la confianza de los usuarios en la plataforma, al proporcionar un
+  historial inmutable de cumplimiento de alquileres.
+  **Sabremos** que hemos tenido éxito
+  **Cuando** un 80% de los usuarios confían en el historial de cumplimiento de alquileres al tomar decisiones, con una
+  reducción del 25% en disputas legales y problemas relacionados con el incumplimiento de contratos en comparación con
+  el método tradicional.
 
--	**Creemos** una interfaz de usuario intuitiva y un proceso de autenticación seguro atraerán y retendrán tanto a propietarios como a inquilinos.
-**Sabremos** que es cierto
-**Cuando** al menos el 85% de los usuarios completan el proceso de registro sin dificultades, con un índice de abandono inferior al 10% durante el registro y un 75% de usuarios activos después de tres meses de uso. al menos el 85% de los usuarios completan el proceso de registro sin dificultades, con un índice de abandono inferior al 10% durante el registro y un 75% de usuarios activos después de tres meses de uso.
+- **Creemos** una interfaz de usuario intuitiva y un proceso de autenticación seguro atraerán y retendrán tanto a
+  propietarios como a inquilinos.
+  **Sabremos** que es cierto
+  **Cuando** al menos el 85% de los usuarios completan el proceso de registro sin dificultades, con un índice de
+  abandono inferior al 10% durante el registro y un 75% de usuarios activos después de tres meses de uso. al menos el
+  85% de los usuarios completan el proceso de registro sin dificultades, con un índice de abandono inferior al 10%
+  durante el registro y un 75% de usuarios activos después de tres meses de uso.
 
 
--	**Creemos** la publicidad en redes sociales y las asociaciones estratégicas con inmobiliarias atraerán a un número creciente de usuarios a la plataforma.
-**Sabremos** que es cierto
-**Cuando** el número de nuevos registros aumenta en un 30% mes a mes durante los primeros seis meses, alcanzando el objetivo de 10,000 usuarios activos al final de este período.
+- **Creemos** la publicidad en redes sociales y las asociaciones estratégicas con inmobiliarias atraerán a un número
+  creciente de usuarios a la plataforma.
+  **Sabremos** que es cierto
+  **Cuando** el número de nuevos registros aumenta en un 30% mes a mes durante los primeros seis meses, alcanzando el
+  objetivo de 10,000 usuarios activos al final de este período.
 
--	**Creemos** ofrecer beneficios adicionales, como herramientas de gestión de contratos y pagos, aumentará el valor percibido de la plataforma y la satisfacción del usuario.
-**Sabremos** que estamos en lo correcto
-**Cuando** veamos que al menos el 50% de los usuarios utilizan estas herramientas regularmente, y un 70% reportan una mayor satisfacción general, con un índice de renovación de suscripciones del 60% al término del primer año.
+- **Creemos** ofrecer beneficios adicionales, como herramientas de gestión de contratos y pagos, aumentará el valor
+  percibido de la plataforma y la satisfacción del usuario.
+  **Sabremos** que estamos en lo correcto
+  **Cuando** veamos que al menos el 50% de los usuarios utilizan estas herramientas regularmente, y un 70% reportan una
+  mayor satisfacción general, con un índice de renovación de suscripciones del 60% al término del primer año.
 
 #### 1.2.2.4. Lean UX Canvas
 
-| **LEAN UX CANVAS**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | **Lean UX Canvas**                                                                                                                                                                                                                                                                                                                                                                                                                                | *Fecha: 08/09/2024* *Iteración: 1*                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1. Business problem**<br><br>Falta de seguridad y transparencia en las transacciones de alquiler. Desconfianza entre propietarios e inquilinos al firmar contratos. Dificultad para verificar el historial de cumplimiento de alquileres. Riesgo de disputas legales debido a contratos tradicionales mal gestionados. Adopción lenta de nuevas tecnologías como blockchain en el mercado de alquiler.<br><br>                                                                                                                                                                                                                                                        | **5.Solutions**<br><br>Contratos inteligentes: Basados en blockchain para asegurar transparencia y cumplimiento automático. Historial de cumplimiento: Registro inmutable de comportamiento en alquileres para evaluar la confiabilidad. Interfaz intuitiva: Fácil de usar, con procesos de autenticación seguros. Herramientas de gestión: Para facilitar la administración de contratos y pagos. Marketing digital: Estrategias en redes sociales y asociaciones con inmobiliarias para atraer usuarios.                                                                                 | **2.Business Outcomes**<br>Incremento del 40% en contratos de alquiler creados en la plataforma. Retención del 60% de propietarios y 70% de inquilinos satisfechos. Reducción del 25% en disputas legales relacionadas con contratos. Crecimiento mensual del 30% en nuevos registros, alcanzando 10,000 usuarios activos en 6 meses. Renovación del 60% de suscripciones al finalizar el primer año.                                                                                                                                                                       |
-| **3. User**<br><br>Propietarios de viviendas que buscan alquilar de manera segura y confiable. Inquilinos que necesitan una plataforma transparente y confiable para encontrar y alquilar viviendas.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                   | **4. User outcomes & benefits**<br><br>Propietarios: Alquiler seguro, con contratos claros y reducción de riesgos de incumplimiento. Inquilinos: Transparencia en los términos de alquiler y confianza en la relación con el propietario. Ambos: Acceso a un historial de cumplimiento que facilita decisiones informadas y reduce disputas.      |
-| **6. Hypotheses**<br><br>Creemos que los propietarios valoran la seguridad y transparencia, y usarán contratos blockchain en CasaFinder. Éxito cuando: El 40% de los propietarios crean contratos y el 60% repiten en 6 meses. Creemos que los inquilinos buscan una plataforma confiable y segura para alquilar viviendas. Éxito cuando: El 50% completa su alquiler y el 70% recomienda CasaFinder. Creemos que blockchain aumentará la confianza en la plataforma. Éxito cuando: El 80% confía en el historial de cumplimiento y las disputas se reducen en un 25%.  | **7. ¿Qué es lo más importante que      necesitamos aprender primero?**<br> <br> Validación del interés en contratos blockchain: ¿Propietarios e inquilinos valoran y adoptarán la tecnología blockchain para alquileres? Aceptación de la plataforma: ¿Los usuarios encuentran la plataforma intuitiva y confiable? Demanda real: ¿Existe un mercado significativo dispuesto a usar CasaFinder para sus alquileres?  | **8. ¿Cuál es la menor cantidad de trabajo que debemos hacer para aprender la siguiente cosa más importante?**<br><br>Prototipo funcional de contratos inteligentes: Crear y probar un prototipo que muestre cómo funcionarán los contratos blockchain en la plataforma. Pruebas de usabilidad: Desarrollar una versión básica de la interfaz y realizar pruebas de usabilidad con un grupo reducido de usuarios. Campaña de marketing inicial: Lanzar una campaña piloto en redes sociales para medir el interés y obtener retroalimentación inicial sobre CasaFinder. |
+| **LEAN UX CANVAS**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | **Lean UX Canvas**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | *Fecha: 08/09/2024* *Iteración: 1*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **1. Business problem**<br><br>Falta de seguridad y transparencia en las transacciones de alquiler. Desconfianza entre propietarios e inquilinos al firmar contratos. Dificultad para verificar el historial de cumplimiento de alquileres. Riesgo de disputas legales debido a contratos tradicionales mal gestionados. Adopción lenta de nuevas tecnologías como blockchain en el mercado de alquiler.<br><br>                                                                                                                                                       | **5.Solutions**<br><br>Contratos inteligentes: Basados en blockchain para asegurar transparencia y cumplimiento automático. Historial de cumplimiento: Registro inmutable de comportamiento en alquileres para evaluar la confiabilidad. Interfaz intuitiva: Fácil de usar, con procesos de autenticación seguros. Herramientas de gestión: Para facilitar la administración de contratos y pagos. Marketing digital: Estrategias en redes sociales y asociaciones con inmobiliarias para atraer usuarios. | **2.Business Outcomes**<br>Incremento del 40% en contratos de alquiler creados en la plataforma. Retención del 60% de propietarios y 70% de inquilinos satisfechos. Reducción del 25% en disputas legales relacionadas con contratos. Crecimiento mensual del 30% en nuevos registros, alcanzando 10,000 usuarios activos en 6 meses. Renovación del 60% de suscripciones al finalizar el primer año.                                                                                                                                                                   |
+| **3. User**<br><br>Propietarios de viviendas que buscan alquilar de manera segura y confiable. Inquilinos que necesitan una plataforma transparente y confiable para encontrar y alquilar viviendas.                                                                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | **4. User outcomes & benefits**<br><br>Propietarios: Alquiler seguro, con contratos claros y reducción de riesgos de incumplimiento. Inquilinos: Transparencia en los términos de alquiler y confianza en la relación con el propietario. Ambos: Acceso a un historial de cumplimiento que facilita decisiones informadas y reduce disputas.                                                                                                                                                                                                                            |
+| **6. Hypotheses**<br><br>Creemos que los propietarios valoran la seguridad y transparencia, y usarán contratos blockchain en CasaFinder. Éxito cuando: El 40% de los propietarios crean contratos y el 60% repiten en 6 meses. Creemos que los inquilinos buscan una plataforma confiable y segura para alquilar viviendas. Éxito cuando: El 50% completa su alquiler y el 70% recomienda CasaFinder. Creemos que blockchain aumentará la confianza en la plataforma. Éxito cuando: El 80% confía en el historial de cumplimiento y las disputas se reducen en un 25%. | **7. ¿Qué es lo más importante que      necesitamos aprender primero?**<br> <br> Validación del interés en contratos blockchain: ¿Propietarios e inquilinos valoran y adoptarán la tecnología blockchain para alquileres? Aceptación de la plataforma: ¿Los usuarios encuentran la plataforma intuitiva y confiable? Demanda real: ¿Existe un mercado significativo dispuesto a usar CasaFinder para sus alquileres?                                                                                       | **8. ¿Cuál es la menor cantidad de trabajo que debemos hacer para aprender la siguiente cosa más importante?**<br><br>Prototipo funcional de contratos inteligentes: Crear y probar un prototipo que muestre cómo funcionarán los contratos blockchain en la plataforma. Pruebas de usabilidad: Desarrollar una versión básica de la interfaz y realizar pruebas de usabilidad con un grupo reducido de usuarios. Campaña de marketing inicial: Lanzar una campaña piloto en redes sociales para medir el interés y obtener retroalimentación inicial sobre CasaFinder. |
 
 ## 1.3. Segmentos Objetivo
+
 Dentro de nuestro segmento objetivo, hemos identificado dos grupos de usuarios distintos:
+
 ##### Segmento Propietarios de Viviendas
-Este grupo incluye tanto a individuos que poseen propiedades residenciales como a pequeños y medianos inversionistas que manejan varios inmuebles destinados al alquiler. Los propietarios en Perú suelen estar entre los 35 y 60 años, y muchos de ellos ven el alquiler de inmuebles como una fuente de ingresos adicional. Según el Instituto Nacional de Estadística e Informática (INEI) de Perú, el 16% de los propietarios en el país alquilan al menos una propiedad (INEI, 2021), y este porcentaje es más alto en áreas urbanas como Lima, donde la demanda de alquileres es más alta.
-CasaFinder ofrece una plataforma que no solo facilita la búsqueda de inquilinos confiables, sino que también asegura el cumplimiento de los contratos mediante el uso de tecnología blockchain. Esto les brinda una mayor tranquilidad y reduce los riesgos asociados con el alquiler, proporcionando herramientas para gestionar contratos y pagos de manera eficiente y segura. Según un reporte de Credicorp Capital, el valor promedio de la renta de departamentos en Lima alcanzó un precio histórico de S/2.900 mensual en marzo de 2023, lo que refleja una alta demanda en el mercado (Montoro, 2023).
+
+Este grupo incluye tanto a individuos que poseen propiedades residenciales como a pequeños y medianos inversionistas que
+manejan varios inmuebles destinados al alquiler. Los propietarios en Perú suelen estar entre los 35 y 60 años, y muchos
+de ellos ven el alquiler de inmuebles como una fuente de ingresos adicional. Según el Instituto Nacional de Estadística
+e Informática (INEI) de Perú, el 16% de los propietarios en el país alquilan al menos una propiedad (INEI, 2021), y este
+porcentaje es más alto en áreas urbanas como Lima, donde la demanda de alquileres es más alta.
+CasaFinder ofrece una plataforma que no solo facilita la búsqueda de inquilinos confiables, sino que también asegura el
+cumplimiento de los contratos mediante el uso de tecnología blockchain. Esto les brinda una mayor tranquilidad y reduce
+los riesgos asociados con el alquiler, proporcionando herramientas para gestionar contratos y pagos de manera eficiente
+y segura. Según un reporte de Credicorp Capital, el valor promedio de la renta de departamentos en Lima alcanzó un
+precio histórico de S/2.900 mensual en marzo de 2023, lo que refleja una alta demanda en el mercado (Montoro, 2023).
 
 ##### Segmento Inquilinos
-El segmento de inquilinos en Perú incluye a personas que buscan vivienda por motivos laborales, educativos o familiares. A nivel demográfico, los inquilinos suelen estar en el rango de edad de 18 a 45 años, con una gran proporción concentrada en áreas urbanas como Lima, Trujillo y Arequipa. Según el INEI, el 25% de los hogares en Lima Metropolitana están ocupados por inquilinos (INEI, 2021), debido a factores como la migración interna y el aumento de precios en el mercado inmobiliario.
-CasaFinder ofrece a los inquilinos la posibilidad de acceder a contratos claros y protegidos por la tecnología blockchain, lo que asegura que los términos acordados se cumplirán y que sus derechos estarán protegidos. Además, el acceso a un historial verificable de cumplimiento de alquileres les permite tomar decisiones informadas sobre a quién alquilar, reduciendo el riesgo de acuerdos desfavorables. En cuanto a la demanda de alquileres, distritos como Miraflores, Santiago de Surco y San Isidro lideran las búsquedas de departamentos en Lima, según Properati, con más de un millón de visitas en los primeros meses de 2023 (Montoro, 2023).
+
+El segmento de inquilinos en Perú incluye a personas que buscan vivienda por motivos laborales, educativos o familiares.
+A nivel demográfico, los inquilinos suelen estar en el rango de edad de 18 a 45 años, con una gran proporción
+concentrada en áreas urbanas como Lima, Trujillo y Arequipa. Según el INEI, el 25% de los hogares en Lima Metropolitana
+están ocupados por inquilinos (INEI, 2021), debido a factores como la migración interna y el aumento de precios en el
+mercado inmobiliario.
+CasaFinder ofrece a los inquilinos la posibilidad de acceder a contratos claros y protegidos por la tecnología
+blockchain, lo que asegura que los términos acordados se cumplirán y que sus derechos estarán protegidos. Además, el
+acceso a un historial verificable de cumplimiento de alquileres les permite tomar decisiones informadas sobre a quién
+alquilar, reduciendo el riesgo de acuerdos desfavorables. En cuanto a la demanda de alquileres, distritos como
+Miraflores, Santiago de Surco y San Isidro lideran las búsquedas de departamentos en Lima, según Properati, con más de
+un millón de visitas en los primeros meses de 2023 (Montoro, 2023).
 
 
 ---
 
 # Capítulo II: Requirements Elicitation & Analysis
+
 ## 2.1. Competidores
+
 ### 2.1.1. Análisis Competitivo
 
 ![Analisis Competitivo - Tabla](img/Capitulo_2/Competidores/Imagen1.png)
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
-Para enfrentar a la competencia y maximizar el éxito de CasaFinder, se implementarán varias estrategias y tácticas clave. En primer lugar, CasaFinder se diferenciará al utilizar tecnología blockchain para crear contratos inteligentes, ofreciendo una solución única en el mercado que garantiza seguridad y transparencia. Para apoyar esta estrategia, se llevarán a cabo campañas educativas que informen a los usuarios sobre los beneficios de blockchain, incluyendo seminarios web, talleres y la presentación de casos de éxito que demuestren la efectividad de esta tecnología en la reducción de disputas legales.
+Para enfrentar a la competencia y maximizar el éxito de CasaFinder, se implementarán varias estrategias y tácticas
+clave. En primer lugar, CasaFinder se diferenciará al utilizar tecnología blockchain para crear contratos inteligentes,
+ofreciendo una solución única en el mercado que garantiza seguridad y transparencia. Para apoyar esta estrategia, se
+llevarán a cabo campañas educativas que informen a los usuarios sobre los beneficios de blockchain, incluyendo
+seminarios web, talleres y la presentación de casos de éxito que demuestren la efectividad de esta tecnología en la
+reducción de disputas legales.
 
-Además, CasaFinder se enfocará en expandirse rápidamente en mercados emergentes y áreas urbanas con alta demanda de alquileres, donde la competencia es menos intensa. La estrategia incluirá campañas de marketing localizadas, asociaciones con inmobiliarias locales y desarrolladores de propiedades, así como incentivos para atraer a los primeros usuarios. Esto permitirá a CasaFinder establecer una fuerte presencia en estos mercados desde el principio.
+Además, CasaFinder se enfocará en expandirse rápidamente en mercados emergentes y áreas urbanas con alta demanda de
+alquileres, donde la competencia es menos intensa. La estrategia incluirá campañas de marketing localizadas,
+asociaciones con inmobiliarias locales y desarrolladores de propiedades, así como incentivos para atraer a los primeros
+usuarios. Esto permitirá a CasaFinder establecer una fuerte presencia en estos mercados desde el principio.
 
-Otra táctica clave será la optimización de la experiencia del usuario, asegurando que CasaFinder ofrezca una interfaz intuitiva y moderna que haga que la gestión de alquileres sea sencilla y accesible para todos los usuarios. Se realizarán pruebas de usabilidad constantes y se incorporará retroalimentación de los usuarios para mejorar la plataforma continuamente y adaptarla a sus necesidades cambiantes.
+Otra táctica clave será la optimización de la experiencia del usuario, asegurando que CasaFinder ofrezca una interfaz
+intuitiva y moderna que haga que la gestión de alquileres sea sencilla y accesible para todos los usuarios. Se
+realizarán pruebas de usabilidad constantes y se incorporará retroalimentación de los usuarios para mejorar la
+plataforma continuamente y adaptarla a sus necesidades cambiantes.
 
-En cuanto a la visibilidad y captación de usuarios, CasaFinder aprovechará alianzas estratégicas y una fuerte presencia en marketing digital. Esto incluirá asociaciones con empresas de tecnología financiera para integrar soluciones de pago seguras, publicidad segmentada en redes sociales, y un programa de referidos que incentive a los usuarios actuales a invitar a otros, generando un efecto de red que aumente rápidamente la base de usuarios.
+En cuanto a la visibilidad y captación de usuarios, CasaFinder aprovechará alianzas estratégicas y una fuerte presencia
+en marketing digital. Esto incluirá asociaciones con empresas de tecnología financiera para integrar soluciones de pago
+seguras, publicidad segmentada en redes sociales, y un programa de referidos que incentive a los usuarios actuales a
+invitar a otros, generando un efecto de red que aumente rápidamente la base de usuarios.
 
-Finalmente, CasaFinder mantendrá la flexibilidad operativa para adaptarse rápidamente a las regulaciones y cambios en el mercado. Se monitorearán activamente las regulaciones que puedan impactar el uso de blockchain, y se desarrollarán políticas de cumplimiento que aseguren que la plataforma siempre opere dentro de los marcos legales. Un equipo de respuesta rápida estará preparado para modificar características de la plataforma según sea necesario, asegurando que CasaFinder siga siendo competitiva y relevante en un entorno de mercado en constante evolución.
+Finalmente, CasaFinder mantendrá la flexibilidad operativa para adaptarse rápidamente a las regulaciones y cambios en el
+mercado. Se monitorearán activamente las regulaciones que puedan impactar el uso de blockchain, y se desarrollarán
+políticas de cumplimiento que aseguren que la plataforma siempre opere dentro de los marcos legales. Un equipo de
+respuesta rápida estará preparado para modificar características de la plataforma según sea necesario, asegurando que
+CasaFinder siga siendo competitiva y relevante en un entorno de mercado en constante evolución.
 
 ## 2.2. Entrevistas
+
 ### 2.2.1. Diseño de entrevistas
+
 A continuación, se detallan las preguntas principales y complementarias para nuestros segmentos objetivos.
 
 **Preguntas principales**
 
 **Propietarios de Viviendas:**
--	¿Cuántas casas tienes en alquiler? ¿Están amobladas?
--	¿Cuál es el distrito de la casa?
--	¿Cuál es el motivo por el que alquilas?
-- ¿Cuál es su propósito? 
--	¿Cuál es la frecuencia del cobro? 
--	¿Cobra garantía? ¿De cuántos meses?
--	¿A través de qué medio consigue clientes? 
--	¿Qué problemas te han sucedido durante el alquiler? ¿Cómo te sentiste?
--	¿Podrías describirme un proceso ideal ?
+
+- ¿Cuántas casas tienes en alquiler? ¿Están amobladas?
+- ¿Cuál es el distrito de la casa?
+- ¿Cuál es el motivo por el que alquilas?
+- ¿Cuál es su propósito?
+- ¿Cuál es la frecuencia del cobro?
+- ¿Cobra garantía? ¿De cuántos meses?
+- ¿A través de qué medio consigue clientes?
+- ¿Qué problemas te han sucedido durante el alquiler? ¿Cómo te sentiste?
+- ¿Podrías describirme un proceso ideal ?
 
 **Inquilinos:**
--	¿Cuál es el motivo por el que alquilas? 
--	¿A través de qué medio alquilas casas? 
--	¿Podrías contarme alguna mala experiencia al buscar alquiler? ¿Cómo te sentiste?
--	¿Podrías contarme alguna mala experiencia durante el alquiler? ¿Cómo te sentiste?
--	¿Qué has escuchado que les ha pasado a otros conocidos?
--	¿Podrías describirme un proceso ideal ?
+
+- ¿Cuál es el motivo por el que alquilas?
+- ¿A través de qué medio alquilas casas?
+- ¿Podrías contarme alguna mala experiencia al buscar alquiler? ¿Cómo te sentiste?
+- ¿Podrías contarme alguna mala experiencia durante el alquiler? ¿Cómo te sentiste?
+- ¿Qué has escuchado que les ha pasado a otros conocidos?
+- ¿Podrías describirme un proceso ideal ?
 
 **Preguntas complementarias**
 
--	¿Cuál es tu nombre?
--	¿Cuál es tu edad?
--	¿Cuál es tu distrito de residencia?
-- ¿Cuál es tu estado civil? 
--	¿Tienes hijos? ¿Cuántos?
--	¿Cuáles son tus estudios?
--	¿Cuál es tu cargo actual?
--	¿Cuál es tu hobby?
+- ¿Cuál es tu nombre?
+- ¿Cuál es tu edad?
+- ¿Cuál es tu distrito de residencia?
+- ¿Cuál es tu estado civil?
+- ¿Tienes hijos? ¿Cuántos?
+- ¿Cuáles son tus estudios?
+- ¿Cuál es tu cargo actual?
+- ¿Cuál es tu hobby?
 
--	¿Qué dispositivos usas más? ¿De qué marca? ¿Cuál es su sistema operativo?
+- ¿Qué dispositivos usas más? ¿De qué marca? ¿Cuál es su sistema operativo?
 - ¿Qué navegador utilizas más?
 - ¿Qué redes sociales utilizas frecuentemente?
 
@@ -485,63 +653,98 @@ A continuación, se detallan las preguntas principales y complementarias para nu
 **Propietarios de Viviendas:**
 
 #### Entrevista N° 1
-| ![Entevista 1 - Evidencia](img/Capitulo_2/Entrevistas/Entrevista1.png)                                                                                        |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <u>**Datos del entrevistado**</u> <br> **Nombre y apellidos:** Stefano André Vásquez Molina <br>	**Edad:** 30 años <br>	**Distrito:** Surco <br> **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620605_upc_edu_pe/EUvGDhtDbmFKjm40rynA5MMBZbwMzF-Br0WA3UQhv-m8qA?e=SXxeVe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6Ny40OH19 <br> **Inicio:** 0:07 min **Fin:** 5:02 min <br> **Duración:** 4:48 min <br> **Resumen:** Stefano es soltero, no tiene hijos. Su carrera es Recursos humanos, se desempeña como Líder de RRHH y sus hobbies son hacer deporte y averiguar sobre inmobiliarias. Él usa su laptop frecuentemente, cuya marca es Lenovo y de sistema operativo Windows. Los navegadores que más usa son Edge y Opera. Las redes sociales que más frecuenta son Instagram, Facebook y Whatsapp. Referente a aplicaciones web, Stefano prefiere registrarse a través de gmail y realizar sus pagos con tarjeta de débito y en últimos casos usar Yape/Plin. En un rango del 1 al 5, se ubica en el 4 para Introvertido-Extrovertido, en el 2 para Justicia/Empatía, en el 5 para Percepción/Intuición y en el 2 para Planificador/Adaptativo. Su frase favorita es “Da lo mejor de ti porque siempre puedes esperar lo mejor de otros”. Actualmente, alquila 1 casa no amoblada con propósito de vivienda ubicada en Barranco. Su principal motivo es generar un ingreso extra. Realiza un cobro mensual y, excepcionalmente, trimestral y, solicita una garantía de 4 meses. Stefano consigue clientes a través de redes sociales y por referencias. Entre los problemas que ha enfrentado, resalta la falta de clientes en temporadas bajas, esto lo ha hecho sentir preocupado; por lo que, menciona que su proceso ideal sería conseguir clientes a través de una aplicación que comparta información en redes sociales para aumentar su alcance y empezar una conversación con sus clientes potenciales.
+
+| ![Entevista 1 - Evidencia](img/Capitulo_2/Entrevistas/Entrevista1.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <u>**Datos del entrevistado**</u> <br> **Nombre y apellidos:** Stefano André Vásquez Molina <br>	**Edad:** 30 años <br>	**Distrito:** Surco <br> **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620605_upc_edu_pe/EUvGDhtDbmFKjm40rynA5MMBZbwMzF-Br0WA3UQhv-m8qA?e=SXxeVe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6Ny40OH19 <br> **Inicio:** 0:07 min **Fin:** 5:02 min <br> **Duración:** 4:48 min <br> **Resumen:** Stefano es soltero, no tiene hijos. Su carrera es Recursos humanos, se desempeña como Líder de RRHH y sus hobbies son hacer deporte y averiguar sobre inmobiliarias. Él usa su laptop frecuentemente, cuya marca es Lenovo y de sistema operativo Windows. Los navegadores que más usa son Edge y Opera. Las redes sociales que más frecuenta son Instagram, Facebook y Whatsapp. Referente a aplicaciones web, Stefano prefiere registrarse a través de gmail y realizar sus pagos con tarjeta de débito y en últimos casos usar Yape/Plin. En un rango del 1 al 5, se ubica en el 4 para Introvertido-Extrovertido, en el 2 para Justicia/Empatía, en el 5 para Percepción/Intuición y en el 2 para Planificador/Adaptativo. Su frase favorita es “Da lo mejor de ti porque siempre puedes esperar lo mejor de otros”. Actualmente, alquila 1 casa no amoblada con propósito de vivienda ubicada en Barranco. Su principal motivo es generar un ingreso extra. Realiza un cobro mensual y, excepcionalmente, trimestral y, solicita una garantía de 4 meses. Stefano consigue clientes a través de redes sociales y por referencias. Entre los problemas que ha enfrentado, resalta la falta de clientes en temporadas bajas, esto lo ha hecho sentir preocupado; por lo que, menciona que su proceso ideal sería conseguir clientes a través de una aplicación que comparta información en redes sociales para aumentar su alcance y empezar una conversación con sus clientes potenciales. 
 |
 
 #### Entrevista N° 2
-| ![Entevista 2 - Evidencia](img/Capitulo_2/Entrevistas/Entrevista2.png)                                                                       |
-| -------------------------------------------------------------------------------------------------------------------------------------------- |
-| <u>**Datos del entrevistado**</u> <br> **Nombre y apellidos:** Jaquelyn Esther Guerrero Cueva <br>	**Edad:** 35 años <br>	**Distrito:** Huaral <br> **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620605_upc_edu_pe/EUvGDhtDbmFKjm40rynA5MMBZbwMzF-Br0WA3UQhv-m8qA?e=lcLt7N&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MzAzLjY0fX0%3D <br> **Inicio:**  5:03 min **Fin:**  10:01 min <br> **Duración:**  4:59 min <br> **Resumen:** Jaquelyn es soltera, no tiene hijos. Su carrera es Administración, se desempeña como Administradora y su hobby es viajar. Ella usa su laptop frecuentemente, cuya marca es Lenovo y de sistema operativo Windows. El navegador que más usa es Google Chrome. Las redes sociales que más frecuenta son Instagram, Tiktok, Facebook y Whatsapp. Referente a aplicaciones web, Jaquelyn se registra de ambas maneras, a través de gmail o con usuario y contraseña, ella realiza sus pagos con tarjeta de crédito. En un rango del 1 al 5, se ubica en el 5 para Introvertida-Extrovertida, en el 4 para Justicia/Empatía, en el 3 para Percepción/Intuición y en el 1 para Planificadora/Adaptativa. Su frase favorita es “Un viaje a todas partes”. Actualmente, alquila 3 casas amobladas ubicadas en Huaral, 2 de ellas con propósito de vivienda y 1 solo para fines de semanas. Su principal motivo es una inversión. Realiza un cobro mensual en las viviendas y solicita una garantía de 2 meses. Jaquelyn consigue clientes a través de redes sociales, familiares y agencias. Entre los problemas que ha enfrentado, resalta la demora del pago mensual por parte de sus inquilinos, esto la ha hecho sentir incómoda; por lo que, menciona que su proceso ideal sería utilizar una aplicación que realice el cobro automático.
+
+| ![Entevista 2 - Evidencia](img/Capitulo_2/Entrevistas/Entrevista2.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <u>**Datos del entrevistado**</u> <br> **Nombre y apellidos:** Jaquelyn Esther Guerrero Cueva <br>	**Edad:** 35 años <br>	**Distrito:** Huaral <br> **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620605_upc_edu_pe/EUvGDhtDbmFKjm40rynA5MMBZbwMzF-Br0WA3UQhv-m8qA?e=lcLt7N&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MzAzLjY0fX0%3D <br> **Inicio:**  5:03 min **Fin:**  10:01 min <br> **Duración:**  4:59 min <br> **Resumen:** Jaquelyn es soltera, no tiene hijos. Su carrera es Administración, se desempeña como Administradora y su hobby es viajar. Ella usa su laptop frecuentemente, cuya marca es Lenovo y de sistema operativo Windows. El navegador que más usa es Google Chrome. Las redes sociales que más frecuenta son Instagram, Tiktok, Facebook y Whatsapp. Referente a aplicaciones web, Jaquelyn se registra de ambas maneras, a través de gmail o con usuario y contraseña, ella realiza sus pagos con tarjeta de crédito. En un rango del 1 al 5, se ubica en el 5 para Introvertida-Extrovertida, en el 4 para Justicia/Empatía, en el 3 para Percepción/Intuición y en el 1 para Planificadora/Adaptativa. Su frase favorita es “Un viaje a todas partes”. Actualmente, alquila 3 casas amobladas ubicadas en Huaral, 2 de ellas con propósito de vivienda y 1 solo para fines de semanas. Su principal motivo es una inversión. Realiza un cobro mensual en las viviendas y solicita una garantía de 2 meses. Jaquelyn consigue clientes a través de redes sociales, familiares y agencias. Entre los problemas que ha enfrentado, resalta la demora del pago mensual por parte de sus inquilinos, esto la ha hecho sentir incómoda; por lo que, menciona que su proceso ideal sería utilizar una aplicación que realice el cobro automático. 
 |
 
 #### Entrevista N° 3
-| ![Entevista 3 - Evidencia](img/Capitulo_2/Entrevistas/Entrevista3.png)                                                                                           |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <u>**Datos del entrevistado**</u> <br> **Nombre y apellidos:** Erick Anthony Quispe Bernardo  <br>	**Edad:** 32 años <br>	**Distrito:** San Juan de Lurigancho <br> **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620605_upc_edu_pe/EUvGDhtDbmFKjm40rynA5MMBZbwMzF-Br0WA3UQhv-m8qA?e=4EAg1w&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NjAyLjMxfX0%3D <br> **Inicio:** 10:02 min **Fin:** 14:58 min <br> **Duración:**  4:57 min <br> **Resumen:** Erick es soltero, no tiene hijos. Su carrera es Ingeniería de Software, se desempeña como Desarrollador full stack y su hobby es jugar fútbol y ajedrez. Él usa su laptop frecuentemente, cuya marca es HP y de sistema operativo Windows. Los navegadores que más usa son Google Chrome y Edge. Las redes sociales que más frecuenta son Facebook, Instagram y LinkedIn. Referente a aplicaciones web, Erick prefiere registrarse siempre a través de gmail y realizar sus pagos con tarjeta de débito o Yape/Plin. En un rango del 1 al 5, se ubica en el 3 para Introvertido-Extrovertido, en el 2 para Justicia/Empatía, en el 3 para Percepción/Intuición y en el 4 para Planificador/Adaptativo. Su frase favorita es “Todo lo que necesita este mundo es amor”. Actualmente, alquila 2 casas con solo la cocina amoblada ubicadas en San Juan de Lurigancho y en Los Olivos. Ambas casas con propósito de vivienda. Sus principales motivos son generar un ingreso extra, así como también para pagar la hipoteca de 1 las casas. Realiza un cobro mensual y solicita una garantía de 1 mes. Erick consigue clientes a través del marketplace de Facebook y pegando afiches. Entre los problemas que ha enfrentado, resalta la demora del pago de los inquilinos y la negación cuando debe quedarse con la garantía ya que las condiciones en las que dejaban la casa lo ameritaba, esto lo ha hecho sentir frustrado; por lo que, menciona que su proceso ideal sería un cobro automático y el cumplimiento del contrato en los tiempos acordados.
+
+| ![Entevista 3 - Evidencia](img/Capitulo_2/Entrevistas/Entrevista3.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <u>**Datos del entrevistado**</u> <br> **Nombre y apellidos:** Erick Anthony Quispe Bernardo  <br>	**Edad:** 32 años <br>	**Distrito:** San Juan de Lurigancho <br> **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620605_upc_edu_pe/EUvGDhtDbmFKjm40rynA5MMBZbwMzF-Br0WA3UQhv-m8qA?e=4EAg1w&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NjAyLjMxfX0%3D <br> **Inicio:** 10:02 min **Fin:** 14:58 min <br> **Duración:**  4:57 min <br> **Resumen:** Erick es soltero, no tiene hijos. Su carrera es Ingeniería de Software, se desempeña como Desarrollador full stack y su hobby es jugar fútbol y ajedrez. Él usa su laptop frecuentemente, cuya marca es HP y de sistema operativo Windows. Los navegadores que más usa son Google Chrome y Edge. Las redes sociales que más frecuenta son Facebook, Instagram y LinkedIn. Referente a aplicaciones web, Erick prefiere registrarse siempre a través de gmail y realizar sus pagos con tarjeta de débito o Yape/Plin. En un rango del 1 al 5, se ubica en el 3 para Introvertido-Extrovertido, en el 2 para Justicia/Empatía, en el 3 para Percepción/Intuición y en el 4 para Planificador/Adaptativo. Su frase favorita es “Todo lo que necesita este mundo es amor”. Actualmente, alquila 2 casas con solo la cocina amoblada ubicadas en San Juan de Lurigancho y en Los Olivos. Ambas casas con propósito de vivienda. Sus principales motivos son generar un ingreso extra, así como también para pagar la hipoteca de 1 las casas. Realiza un cobro mensual y solicita una garantía de 1 mes. Erick consigue clientes a través del marketplace de Facebook y pegando afiches. Entre los problemas que ha enfrentado, resalta la demora del pago de los inquilinos y la negación cuando debe quedarse con la garantía ya que las condiciones en las que dejaban la casa lo ameritaba, esto lo ha hecho sentir frustrado; por lo que, menciona que su proceso ideal sería un cobro automático y el cumplimiento del contrato en los tiempos acordados. 
 |
 
 **Inquilinos:**
 
 #### Entrevista N° 4
-| ![Entevista 4 - Evidencia](img/Capitulo_2/Entrevistas/Entrevista4.png)                                                                                       |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Francisco Javier Sanchez Terrasse <br> Edad: 29 años<br>	Distrito: Chaclacayo <br> **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620605_upc_edu_pe/EUvGDhtDbmFKjm40rynA5MMBZbwMzF-Br0WA3UQhv-m8qA?e=5Bc79G&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6ODk5LjgxfX0%3D <br> **Inicio:** 14:59 min **Fin:** 19:52 min <br> **Duración:**  4:53 min <br> **Resumen:** Fran es conviviente y tiene 1 hijo. Su carrera es Ingeniería de Sistemas, se desempeña como Ingeniero Analista de Software y su hobby es tocar guitarra. Él usa su computadora frecuentemente, cuya marca es Asus y de sistema operativo Windows 10 Pro. Los navegadores que más usa son Opera y Google Chrome. Las redes sociales que más frecuenta son Instagram, Tiktok y Facebook. Referente a aplicaciones web, Fran prefiere registrarse de la forma más rápida, usualmente gmail, y realizar sus pagos con tarjeta de crédito o débito. En un rango del 1 al 5, se ubica en el 3 para Introvertido-Extrovertido, en el 4 para Justicia/Empatía, en el 2 para Percepción/Intuición y en el 4 para Planificador/Adaptativo. Su frase favorita es “La vida es como manejar bicicleta, para mantener el equilibrio debes seguir adelante”. Él alquila una casa con motivo de vivienda y la encuentra a través de sus contactos o internet. Entre los problemas que él ha enfrentado, resalta la información desactualizada y la demora en la devolución de la garantía, esto lo ha hecho sentir molesto y fastidiado. Además, comenta que sus conocidos han tenido problemas con ruidos ambientales no especificados en el contrato. Fran cree que su proceso ideal incluiría tener toda la información disponible en el contrato y que esto se vea reflejado en el precio, asimismo menciona la automatización de los cobros mensuales y de la garantía para que sea un proceso rápido y confiable.
+
+| ![Entevista 4 - Evidencia](img/Capitulo_2/Entrevistas/Entrevista4.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Francisco Javier Sanchez Terrasse <br> Edad: 29 años<br>	Distrito: Chaclacayo <br> **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620605_upc_edu_pe/EUvGDhtDbmFKjm40rynA5MMBZbwMzF-Br0WA3UQhv-m8qA?e=5Bc79G&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6ODk5LjgxfX0%3D <br> **Inicio:** 14:59 min **Fin:** 19:52 min <br> **Duración:**  4:53 min <br> **Resumen:** Fran es conviviente y tiene 1 hijo. Su carrera es Ingeniería de Sistemas, se desempeña como Ingeniero Analista de Software y su hobby es tocar guitarra. Él usa su computadora frecuentemente, cuya marca es Asus y de sistema operativo Windows 10 Pro. Los navegadores que más usa son Opera y Google Chrome. Las redes sociales que más frecuenta son Instagram, Tiktok y Facebook. Referente a aplicaciones web, Fran prefiere registrarse de la forma más rápida, usualmente gmail, y realizar sus pagos con tarjeta de crédito o débito. En un rango del 1 al 5, se ubica en el 3 para Introvertido-Extrovertido, en el 4 para Justicia/Empatía, en el 2 para Percepción/Intuición y en el 4 para Planificador/Adaptativo. Su frase favorita es “La vida es como manejar bicicleta, para mantener el equilibrio debes seguir adelante”. Él alquila una casa con motivo de vivienda y la encuentra a través de sus contactos o internet. Entre los problemas que él ha enfrentado, resalta la información desactualizada y la demora en la devolución de la garantía, esto lo ha hecho sentir molesto y fastidiado. Además, comenta que sus conocidos han tenido problemas con ruidos ambientales no especificados en el contrato. Fran cree que su proceso ideal incluiría tener toda la información disponible en el contrato y que esto se vea reflejado en el precio, asimismo menciona la automatización de los cobros mensuales y de la garantía para que sea un proceso rápido y confiable. 
 |
 
 #### Entrevista N° 5
-| ![Entevista 5 - Evidencia](img/Capitulo_2/Entrevistas/Entrevista5.png)                                                                                                     |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Sofía Celeste Trujillo Osco <br> Edad: 27 años<br>	Distrito: Pachacamac <br> **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620605_upc_edu_pe/EUvGDhtDbmFKjm40rynA5MMBZbwMzF-Br0WA3UQhv-m8qA?e=hfvuR9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTE5My4xMX19 <br> **Inicio:** 19:53 min **Fin:** 24:26 min <br> **Duración:**  4:34 min <br> **Resumen:** Sofía es soltera, no tiene hijos. Su carrera es Turismo Sostenible, se desempeña como Asesora de experiencias y sus hobbies son ver películas y escuchar música. Ella usa su laptop frecuentemente, cuya marca es Lenovo y de sistema operativo Windows. El navegador que más usa es Google Chrome. Las redes sociales que más frecuenta son Instagram, X y Whatsapp. Referente a aplicaciones web, Sofía prefiere registrarse con usuario y contraseña, y realizar sus pagos con yape/plin y tarjeta de débito. En un rango del 1 al 5, se ubica en el 4 para Introvertida-Extrovertida, en el 4 para Justicia/Empatía, en el 2 para Percepción/Intuición y en el 3 para Planificadora/Adaptativa. Su frase favorita es “La vida sigue”. Ella alquila una casa con motivo de vivienda y la encuentra a través de sus contactos. Entre los problemas que ella ha enfrentado, resalta la información desactualizada y el aumento inesperado del pago mensual, esto la ha hecho sentir desconfiada y preocupada. Además, comenta que sus conocidos han tenido el mismo problema. Sofía cree que su proceso ideal incluiría un débito automático ya que tiene muchos pagos en qué pensar.
+
+| ![Entevista 5 - Evidencia](img/Capitulo_2/Entrevistas/Entrevista5.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Sofía Celeste Trujillo Osco <br> Edad: 27 años<br>	Distrito: Pachacamac <br> **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620605_upc_edu_pe/EUvGDhtDbmFKjm40rynA5MMBZbwMzF-Br0WA3UQhv-m8qA?e=hfvuR9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTE5My4xMX19 <br> **Inicio:** 19:53 min **Fin:** 24:26 min <br> **Duración:**  4:34 min <br> **Resumen:** Sofía es soltera, no tiene hijos. Su carrera es Turismo Sostenible, se desempeña como Asesora de experiencias y sus hobbies son ver películas y escuchar música. Ella usa su laptop frecuentemente, cuya marca es Lenovo y de sistema operativo Windows. El navegador que más usa es Google Chrome. Las redes sociales que más frecuenta son Instagram, X y Whatsapp. Referente a aplicaciones web, Sofía prefiere registrarse con usuario y contraseña, y realizar sus pagos con yape/plin y tarjeta de débito. En un rango del 1 al 5, se ubica en el 4 para Introvertida-Extrovertida, en el 4 para Justicia/Empatía, en el 2 para Percepción/Intuición y en el 3 para Planificadora/Adaptativa. Su frase favorita es “La vida sigue”. Ella alquila una casa con motivo de vivienda y la encuentra a través de sus contactos. Entre los problemas que ella ha enfrentado, resalta la información desactualizada y el aumento inesperado del pago mensual, esto la ha hecho sentir desconfiada y preocupada. Además, comenta que sus conocidos han tenido el mismo problema. Sofía cree que su proceso ideal incluiría un débito automático ya que tiene muchos pagos en qué pensar. 
 |
 
 #### Entrevista N° 6
-| ![Entevista 6 - Evidencia](img/Capitulo_2/Entrevistas/Entrevista6.png)                                                                               |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Ruth Chambilla Puente <br> Edad: 32 años<br>	Distrito:  San Luis <br> **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620605_upc_edu_pe/EUvGDhtDbmFKjm40rynA5MMBZbwMzF-Br0WA3UQhv-m8qA?e=W0TFpj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTQ2Ny42M319 <br> **Inicio:** 24:27 min **Fin:** 29:17 min <br> **Duración:**  4:57 min <br> **Resumen:** Ruth es conviviente, no tiene hijos. Su carrera es Técnica Analista Química, se desempeña como Coordinadora de Aseguramiento de la calidad y su hobby es caminar. Ella usa su computadora frecuentemente, cuya marca es HP y de sistema operativo Windows. El navegador que más usa es Google Chrome. Las redes sociales que más frecuenta son Youtube, Tiktok y Twitch. Referente a aplicaciones web, Ruth prefiere registrarse con usuario y contraseña, y realizar sus pagos con tarjeta de débito y crédito. En un rango del 1 al 5, se ubica en el 3 para Introvertida-Extrovertida, en el 1 para Justicia/Empatía, en el 3 para Percepción/Intuición y en el 3 para Planificadora/Adaptativa. Su frase favorita es “El fracaso es solo la oportunidad de empezar de nuevo”. Ella alquila una casa con motivo de vivienda y la encuentra a través de Urbania, Mercado Libre y Tiktok. Entre los problemas que ella ha enfrentado, resalta la estafa y que el contrato no indica la calidad del internet o presión de agua, esto la ha hecho sentir desconfiada. Además, comenta que sus conocidos han tenido el mismo problema. Ruth cree que su proceso ideal incluiría información muy detallada sobre el lugar y las características y brinda como ejemplo en hoteles a Booking.com.
+
+| ![Entevista 6 - Evidencia](img/Capitulo_2/Entrevistas/Entrevista6.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Ruth Chambilla Puente <br> Edad: 32 años<br>	Distrito:  San Luis <br> **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620605_upc_edu_pe/EUvGDhtDbmFKjm40rynA5MMBZbwMzF-Br0WA3UQhv-m8qA?e=W0TFpj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTQ2Ny42M319 <br> **Inicio:** 24:27 min **Fin:** 29:17 min <br> **Duración:**  4:57 min <br> **Resumen:** Ruth es conviviente, no tiene hijos. Su carrera es Técnica Analista Química, se desempeña como Coordinadora de Aseguramiento de la calidad y su hobby es caminar. Ella usa su computadora frecuentemente, cuya marca es HP y de sistema operativo Windows. El navegador que más usa es Google Chrome. Las redes sociales que más frecuenta son Youtube, Tiktok y Twitch. Referente a aplicaciones web, Ruth prefiere registrarse con usuario y contraseña, y realizar sus pagos con tarjeta de débito y crédito. En un rango del 1 al 5, se ubica en el 3 para Introvertida-Extrovertida, en el 1 para Justicia/Empatía, en el 3 para Percepción/Intuición y en el 3 para Planificadora/Adaptativa. Su frase favorita es “El fracaso es solo la oportunidad de empezar de nuevo”. Ella alquila una casa con motivo de vivienda y la encuentra a través de Urbania, Mercado Libre y Tiktok. Entre los problemas que ella ha enfrentado, resalta la estafa y que el contrato no indica la calidad del internet o presión de agua, esto la ha hecho sentir desconfiada. Además, comenta que sus conocidos han tenido el mismo problema. Ruth cree que su proceso ideal incluiría información muy detallada sobre el lugar y las características y brinda como ejemplo en hoteles a Booking.com. 
 |
 
 ### 2.2.3. Análisis de entrevistas
 
 **Propietarios de Viviendas:**
 
-A continuación un breve análisis de las 3 entrevistas realizadas a los propietarios de viviendas. El promedio de edad es 32 años. El 100% reside en Lima, Perú, son solteros y no tienen hijos. Pertenecen a distintas áreas de carrera y cargos, y disfrutan diversos hobbies. El 100% usa una laptop Windows y el 67% de la marca Lenovo. Los navegadores más comunes son Google Chrome y Edge. Las redes sociales que más frecuentan son Instagram, Facebook y Whatsapp. En lo referente a aplicaciones web, el 100% se registra a través de gmail y en su mayoría hacen los pagos web a través de tarjeta de débito y yape/plin. En un rango del 1 al 5, en promedio se ubican en el 4 para Introvertido-Extrovertido, en el 3 para Justicia/Empatía, en el 4 para Percepción/Intuición y en el 2 para Planificador/Adaptativo. Actualmente, alquilan en promedio 2 casas parcialmente amobladas con propósito de vivienda. Su principal motivo es generar un ingreso extra. Se realiza un cobro mensual y se solicita una garantía de 2 meses. El medio más usado es redes sociales, contactos y muy pocas veces afiches. El problema más común es la demora del pago mensual de los inquilinos dejándoles una mala sensación. El proceso ideal incluiría el cobro mensual automático.
+A continuación un breve análisis de las 3 entrevistas realizadas a los propietarios de viviendas. El promedio de edad es
+32 años. El 100% reside en Lima, Perú, son solteros y no tienen hijos. Pertenecen a distintas áreas de carrera y cargos,
+y disfrutan diversos hobbies. El 100% usa una laptop Windows y el 67% de la marca Lenovo. Los navegadores más comunes
+son Google Chrome y Edge. Las redes sociales que más frecuentan son Instagram, Facebook y Whatsapp. En lo referente a
+aplicaciones web, el 100% se registra a través de gmail y en su mayoría hacen los pagos web a través de tarjeta de
+débito y yape/plin. En un rango del 1 al 5, en promedio se ubican en el 4 para Introvertido-Extrovertido, en el 3 para
+Justicia/Empatía, en el 4 para Percepción/Intuición y en el 2 para Planificador/Adaptativo. Actualmente, alquilan en
+promedio 2 casas parcialmente amobladas con propósito de vivienda. Su principal motivo es generar un ingreso extra. Se
+realiza un cobro mensual y se solicita una garantía de 2 meses. El medio más usado es redes sociales, contactos y muy
+pocas veces afiches. El problema más común es la demora del pago mensual de los inquilinos dejándoles una mala
+sensación. El proceso ideal incluiría el cobro mensual automático.
 
 **Inquilinos:**
 
-A continuación un breve análisis de las 3 entrevistas realizadas a los inquilinos. El promedio de edad es 29 años. El 100% reside en Lima, Perú. El 67% es conviviente y el 33% tiene un hijo. Pertenecen a distintas áreas de carrera y cargos, y disfrutan diversos hobbies. El 67% usa una computadora Windows de distintas marcas. El 67% tiene por navegador a Google Chrome. Las redes sociales que más frecuenta el 67% son Instagram y Tiktok. En lo referente a aplicaciones web, el 67% usa usuario y contraseña, y hacen los pagos web a través de tarjeta de crédito y débito. En un rango del 1 al 5, en promedio se ubican en el 3 para Introvertido-Extrovertido, en el 3 para Justicia/Empatía, en el 2 para Percepción/Intuición y en el 3 para Planificador/Adaptativo. Actualmente, el 100% alquila una casa con propósito de vivienda. El medio más usado es internet y contactos. El problema más común es la información desactualizada y omitida, así como problemas con la garantía y pagos mensuales. El proceso ideal incluiría un contrato transparente e inmutable y el débito automático.
+A continuación un breve análisis de las 3 entrevistas realizadas a los inquilinos. El promedio de edad es 29 años. El
+100% reside en Lima, Perú. El 67% es conviviente y el 33% tiene un hijo. Pertenecen a distintas áreas de carrera y
+cargos, y disfrutan diversos hobbies. El 67% usa una computadora Windows de distintas marcas. El 67% tiene por navegador
+a Google Chrome. Las redes sociales que más frecuenta el 67% son Instagram y Tiktok. En lo referente a aplicaciones web,
+el 67% usa usuario y contraseña, y hacen los pagos web a través de tarjeta de crédito y débito. En un rango del 1 al 5,
+en promedio se ubican en el 3 para Introvertido-Extrovertido, en el 3 para Justicia/Empatía, en el 2 para
+Percepción/Intuición y en el 3 para Planificador/Adaptativo. Actualmente, el 100% alquila una casa con propósito de
+vivienda. El medio más usado es internet y contactos. El problema más común es la información desactualizada y omitida,
+así como problemas con la garantía y pagos mensuales. El proceso ideal incluiría un contrato transparente e inmutable y
+el débito automático.
 
 ## 2.3. Needfinding
 
-Los User Personas son fundamentales para el éxito del proyecto, ya que brindan una comprensión profunda y concreta de las necesidades, deseos, frustraciones y comportamientos de los usuarios clave. Estos perfiles detallados permiten a la startup diseñar una plataforma y experiencia de aprendizaje altamente enfocada y personalizada, abordando de manera efectiva los desafíos específicos de cada segmento objetivo: desde brindar recursos claros y accesibles a aficionados, hasta ofrecer herramientas para que los expertos compartan su conocimiento.
+Los User Personas son fundamentales para el éxito del proyecto, ya que brindan una comprensión profunda y concreta de
+las necesidades, deseos, frustraciones y comportamientos de los usuarios clave. Estos perfiles detallados permiten a la
+startup diseñar una plataforma y experiencia de aprendizaje altamente enfocada y personalizada, abordando de manera
+efectiva los desafíos específicos de cada segmento objetivo: desde brindar recursos claros y accesibles a aficionados,
+hasta ofrecer herramientas para que los expertos compartan su conocimiento.
 
 ### 2.3.1. User Personas
 
-Para comprender mejor a los usuarios a los que está dirigida nuestra solución, hemos identificado y perfilado dos grupos clave de usuarios: el Propietario de Viviendas y el Inquilino en Búsqueda de Alquiler. Estos perfiles de User Persona nos permiten visualizar sus necesidades, comportamientos y desafíos específicos, ayudándonos a diseñar una solución que realmente responda a sus expectativas y resuelva sus problemas de manera efectiva. De esta forma, podemos asegurarnos de que CasaFinder ofrezca una experiencia óptima tanto para los propietarios que buscan gestionar sus propiedades, como para los inquilinos que buscan un proceso de alquiler transparente y sin complicaciones.
+Para comprender mejor a los usuarios a los que está dirigida nuestra solución, hemos identificado y perfilado dos grupos
+clave de usuarios: el Propietario de Viviendas y el Inquilino en Búsqueda de Alquiler. Estos perfiles de User Persona
+nos permiten visualizar sus necesidades, comportamientos y desafíos específicos, ayudándonos a diseñar una solución que
+realmente responda a sus expectativas y resuelva sus problemas de manera efectiva. De esta forma, podemos asegurarnos de
+que CasaFinder ofrezca una experiencia óptima tanto para los propietarios que buscan gestionar sus propiedades, como
+para los inquilinos que buscan un proceso de alquiler transparente y sin complicaciones.
 
-- **Arrendador:** Poseen propiedades y desean alquilarlas de manera eficiente y segura. Buscan una plataforma que les permita gestionar los pagos, contratos y verificación de inquilinos de manera sencilla, minimizando los riesgos de retrasos o conflictos legales.
-
+- **Arrendador:** Poseen propiedades y desean alquilarlas de manera eficiente y segura. Buscan una plataforma que les
+  permita gestionar los pagos, contratos y verificación de inquilinos de manera sencilla, minimizando los riesgos de
+  retrasos o conflictos legales.
 
 <div align="center">
     <img src="https://media.discordapp.net/attachments/1282501864642052189/1282503193598754969/userArrendador.png?ex=66df97ad&is=66de462d&hm=f967a5e30adef234110a58c615439f5f3feefba169c6880681902ddaf6b68f03&=&format=webp&quality=lossless&width=656&height=1034" alt="arrendador"/>
@@ -549,7 +752,9 @@ Para comprender mejor a los usuarios a los que está dirigida nuestra solución,
 
 <br>
 
-- **Inquilino:** Personas jóvenes, entre 25 y 35 años, que buscan alquilar una vivienda sin complicaciones. Prefieren una solución confiable, transparente y que automatice procesos como los pagos, garantizando que el alquiler se realice de manera fluida y sin sorpresas.
+- **Inquilino:** Personas jóvenes, entre 25 y 35 años, que buscan alquilar una vivienda sin complicaciones. Prefieren
+  una solución confiable, transparente y que automatice procesos como los pagos, garantizando que el alquiler se realice
+  de manera fluida y sin sorpresas.
 
 <div align="center">
     <img src="https://media.discordapp.net/attachments/1282501864642052189/1282503239677247561/userInquilino.png?ex=66df97b8&is=66de4638&hm=31615c635e1aabbe94752c8038710ae36b6f72486419cb5640ba4e71c4d2013f&=&format=webp&quality=lossless&width=708&height=1034"/>
@@ -559,39 +764,48 @@ Para comprender mejor a los usuarios a los que está dirigida nuestra solución,
 
 ### 2.3.2. User Task Matrix
 
-El User Task Matrix es una herramienta clave que recopila y analiza las tareas fundamentales que los usuarios de CasaFinder realizan, tanto Propietarios como Inquilinos. Este cuadro se enfoca en evaluar con qué frecuencia los usuarios llevan a cabo cada una de estas tareas y el impacto que estas tienen en su éxito. 
-Al identificar estas áreas clave, CasaFinder podrá desarrollar soluciones que faciliten la vida de los usuarios y maximicen la eficiencia en el proceso de alquiler. Esto permite priorizar las necesidades más críticas de los usuarios y ofrecerles herramientas que realmente les ayuden a alcanzar sus objetivos de manera óptima.
+El User Task Matrix es una herramienta clave que recopila y analiza las tareas fundamentales que los usuarios de
+CasaFinder realizan, tanto Propietarios como Inquilinos. Este cuadro se enfoca en evaluar con qué frecuencia los
+usuarios llevan a cabo cada una de estas tareas y el impacto que estas tienen en su éxito.
+Al identificar estas áreas clave, CasaFinder podrá desarrollar soluciones que faciliten la vida de los usuarios y
+maximicen la eficiencia en el proceso de alquiler. Esto permite priorizar las necesidades más críticas de los usuarios y
+ofrecerles herramientas que realmente les ayuden a alcanzar sus objetivos de manera óptima.
 
 ### Propietarios
 
-| **Tareas (Tasks)**                    | **Descripción de la Tarea**                                                                                         | **Objetivo Relacionado**                                             |
-|---------------------------------------|---------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
-| Publicar una propiedad en la plataforma | Subir fotos, descripción, precio y condiciones de alquiler de la propiedad en CasaFinder.                           | Aumentar la visibilidad de las propiedades y atraer más inquilinos potenciales. |
-| Gestionar contratos de alquiler        | Crear, enviar y almacenar contratos de alquiler digitalmente a través de CasaFinder.                                | Simplificar la administración de contratos y asegurar cumplimiento legal. |
-| Verificar el historial de inquilinos    | Acceder a la información y antecedentes de los inquilinos potenciales mediante la plataforma.                        | Seleccionar inquilinos confiables y minimizar riesgos de impago o conflictos. |
-| Automatizar pagos de alquiler          | Configurar pagos automáticos de los inquilinos a través de CasaFinder.                                              | Asegurar la puntualidad en la recepción de pagos y reducir la carga administrativa. |
-| Comunicar con inquilinos                | Utilizar herramientas de mensajería integradas en CasaFinder para comunicarse con los inquilinos.                     | Mantener una comunicación efectiva y rápida con los inquilinos.      |
-| Supervisar el estado de las propiedades | Monitorear el mantenimiento y estado general de las propiedades alquiladas a través de informes y notificaciones.      | Garantizar que las propiedades se mantengan en buenas condiciones y resolver problemas a tiempo. |
-| Renovar o finalizar contratos           | Gestionar la renovación de contratos existentes o finalizar acuerdos de alquiler cuando sea necesario.                | Mantener la ocupación de las propiedades y gestionar adecuadamente los ciclos de alquiler. |
+| **Tareas (Tasks)**                      | **Descripción de la Tarea**                                                                                       | **Objetivo Relacionado**                                                                         |
+|-----------------------------------------|-------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| Publicar una propiedad en la plataforma | Subir fotos, descripción, precio y condiciones de alquiler de la propiedad en CasaFinder.                         | Aumentar la visibilidad de las propiedades y atraer más inquilinos potenciales.                  |
+| Gestionar contratos de alquiler         | Crear, enviar y almacenar contratos de alquiler digitalmente a través de CasaFinder.                              | Simplificar la administración de contratos y asegurar cumplimiento legal.                        |
+| Verificar el historial de inquilinos    | Acceder a la información y antecedentes de los inquilinos potenciales mediante la plataforma.                     | Seleccionar inquilinos confiables y minimizar riesgos de impago o conflictos.                    |
+| Automatizar pagos de alquiler           | Configurar pagos automáticos de los inquilinos a través de CasaFinder.                                            | Asegurar la puntualidad en la recepción de pagos y reducir la carga administrativa.              |
+| Comunicar con inquilinos                | Utilizar herramientas de mensajería integradas en CasaFinder para comunicarse con los inquilinos.                 | Mantener una comunicación efectiva y rápida con los inquilinos.                                  |
+| Supervisar el estado de las propiedades | Monitorear el mantenimiento y estado general de las propiedades alquiladas a través de informes y notificaciones. | Garantizar que las propiedades se mantengan en buenas condiciones y resolver problemas a tiempo. |
+| Renovar o finalizar contratos           | Gestionar la renovación de contratos existentes o finalizar acuerdos de alquiler cuando sea necesario.            | Mantener la ocupación de las propiedades y gestionar adecuadamente los ciclos de alquiler.       |
 
 ---
 
 ### Inquilinos
 
-| **Tareas (Tasks)**                        | **Descripción de la Tarea**                                                                                                   | **Objetivo Relacionado**                                              |
-|-------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
-| Buscar y filtrar propiedades disponibles  | Utilizar los filtros de CasaFinder para encontrar propiedades que se ajusten a sus necesidades y presupuesto.                   | Facilitar la búsqueda de viviendas adecuadas y ahorrar tiempo.       |
-| Revisar información detallada de las propiedades | Consultar fotos, descripciones, precios y condiciones de alquiler de las propiedades listadas.                                 | Tomar decisiones informadas sobre qué propiedades visitar o alquilar.|
-| Contactar a los propietarios              | Enviar mensajes o solicitudes a los propietarios para obtener más información o programar visitas a las propiedades.            | Establecer comunicación rápida y efectiva con los propietarios.      |
-| Firmar contratos de alquiler              | Completar y firmar contratos de alquiler digitalmente a través de CasaFinder.                                                 | Simplificar el proceso de formalización del alquiler y asegurar la legalidad del acuerdo. |
-| Realizar pagos de alquiler automáticos    | Configurar pagos recurrentes de alquiler mediante métodos de pago integrados en CasaFinder.                                    | Evitar retrasos en pagos y gestionar el alquiler de manera eficiente.|
-| Gestionar solicitudes de mantenimiento    | Reportar problemas o solicitar mantenimiento a través de la plataforma CasaFinder.                                              | Asegurar el buen estado de la vivienda y resolver inconvenientes rápidamente. |
-| Evaluar y dejar comentarios sobre la propiedad | Proporcionar retroalimentación y calificaciones sobre su experiencia con la propiedad y el propietario.                          | Ayudar a otros usuarios a tomar decisiones informadas y mejorar la calidad del servicio de CasaFinder. |
-
+| **Tareas (Tasks)**                               | **Descripción de la Tarea**                                                                                          | **Objetivo Relacionado**                                                                               |
+|--------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+| Buscar y filtrar propiedades disponibles         | Utilizar los filtros de CasaFinder para encontrar propiedades que se ajusten a sus necesidades y presupuesto.        | Facilitar la búsqueda de viviendas adecuadas y ahorrar tiempo.                                         |
+| Revisar información detallada de las propiedades | Consultar fotos, descripciones, precios y condiciones de alquiler de las propiedades listadas.                       | Tomar decisiones informadas sobre qué propiedades visitar o alquilar.                                  |
+| Contactar a los propietarios                     | Enviar mensajes o solicitudes a los propietarios para obtener más información o programar visitas a las propiedades. | Establecer comunicación rápida y efectiva con los propietarios.                                        |
+| Firmar contratos de alquiler                     | Completar y firmar contratos de alquiler digitalmente a través de CasaFinder.                                        | Simplificar el proceso de formalización del alquiler y asegurar la legalidad del acuerdo.              |
+| Realizar pagos de alquiler automáticos           | Configurar pagos recurrentes de alquiler mediante métodos de pago integrados en CasaFinder.                          | Evitar retrasos en pagos y gestionar el alquiler de manera eficiente.                                  |
+| Gestionar solicitudes de mantenimiento           | Reportar problemas o solicitar mantenimiento a través de la plataforma CasaFinder.                                   | Asegurar el buen estado de la vivienda y resolver inconvenientes rápidamente.                          |
+| Evaluar y dejar comentarios sobre la propiedad   | Proporcionar retroalimentación y calificaciones sobre su experiencia con la propiedad y el propietario.              | Ayudar a otros usuarios a tomar decisiones informadas y mejorar la calidad del servicio de CasaFinder. |
 
 ### 2.3.3. User Journey Mapping
 
-El User Journey Mapping del Arrendador detalla el recorrido que realiza un propietario desde el momento en que se da cuenta de la necesidad de una plataforma para gestionar sus propiedades, hasta la evaluación final del impacto que esta tiene en la administración de su negocio de alquileres. A lo largo de este proceso, se identifican los pasos clave que el propietario sigue, sus emociones y desafíos, como la búsqueda de inquilinos confiables, la gestión de contratos y pagos, y la automatización de tareas administrativas. Este análisis nos permite detectar áreas de mejora y oportunidades para ofrecer una experiencia más fluida y eficiente, ayudando al propietario a maximizar el control y rentabilidad de sus propiedades.
+El User Journey Mapping del Arrendador detalla el recorrido que realiza un propietario desde el momento en que se da
+cuenta de la necesidad de una plataforma para gestionar sus propiedades, hasta la evaluación final del impacto que esta
+tiene en la administración de su negocio de alquileres. A lo largo de este proceso, se identifican los pasos clave que
+el propietario sigue, sus emociones y desafíos, como la búsqueda de inquilinos confiables, la gestión de contratos y
+pagos, y la automatización de tareas administrativas. Este análisis nos permite detectar áreas de mejora y oportunidades
+para ofrecer una experiencia más fluida y eficiente, ayudando al propietario a maximizar el control y rentabilidad de
+sus propiedades.
 Arrendador:
 
 
@@ -601,7 +815,12 @@ Arrendador:
 
 <br>
 
-El User Journey Mapping del Inquilino explora el camino que sigue un inquilino desde que comienza la búsqueda de una propiedad para alquilar, hasta la gestión del contrato y la evaluación del servicio. Este mapeo captura las etapas clave que el inquilino enfrenta, como la búsqueda de propiedades adecuadas, el contacto con propietarios, la firma de contratos y la gestión de pagos. Se analizan las emociones y desafíos a lo largo del proceso, como la frustración por falta de respuesta o propiedades desactualizadas, y se identifican oportunidades para mejorar la experiencia, ofreciendo soluciones más rápidas y automáticas para una gestión 
+El User Journey Mapping del Inquilino explora el camino que sigue un inquilino desde que comienza la búsqueda de una
+propiedad para alquilar, hasta la gestión del contrato y la evaluación del servicio. Este mapeo captura las etapas clave
+que el inquilino enfrenta, como la búsqueda de propiedades adecuadas, el contacto con propietarios, la firma de
+contratos y la gestión de pagos. Se analizan las emociones y desafíos a lo largo del proceso, como la frustración por
+falta de respuesta o propiedades desactualizadas, y se identifican oportunidades para mejorar la experiencia, ofreciendo
+soluciones más rápidas y automáticas para una gestión
 
 <div align="center">
     <img src="https://media.discordapp.net/attachments/1282501864642052189/1282503820227776512/JourneyInquilino.png?ex=66df9842&is=66de46c2&hm=4a14972ca9148c38f6004cfbea48b071f9b3852239e90078981f32ff62857434&=&format=webp&quality=lossless&width=1260&height=1034"/>
@@ -611,7 +830,10 @@ El User Journey Mapping del Inquilino explora el camino que sigue un inquilino d
 
 ### 2.3.4. Empathy Mapping
 
-El Empathy Mapping es una herramienta esencial que nos permite adentrarnos en la mente y el corazón de nuestros usuarios, capturando sus pensamientos, sentimientos, percepciones y comportamientos en relación con sus actividades cotidianas. A través de este proceso, podemos comprender mejor las motivaciones, frustraciones y deseos que impulsan a nuestros usuarios, lo que nos ayuda a diseñar soluciones que realmente resuenen con sus necesidades.
+El Empathy Mapping es una herramienta esencial que nos permite adentrarnos en la mente y el corazón de nuestros
+usuarios, capturando sus pensamientos, sentimientos, percepciones y comportamientos en relación con sus actividades
+cotidianas. A través de este proceso, podemos comprender mejor las motivaciones, frustraciones y deseos que impulsan a
+nuestros usuarios, lo que nos ayuda a diseñar soluciones que realmente resuenen con sus necesidades.
 
 **Arrendador**
 <div align="center">
@@ -627,7 +849,11 @@ El Empathy Mapping es una herramienta esencial que nos permite adentrarnos en la
 
 ### 2.3.5. As-is Scenario Mapping
 
-El As-Is Scenario Mapping es una herramienta clave que utilizamos para comprender el flujo actual de actividades, pensamientos y emociones que experimentan nuestros usuarios en su contexto cotidiano, antes de la implementación de nuestra solución. Este mapeo captura cómo los usuarios interactúan con las tecnologías y procesos existentes, identificando los puntos de dolor, las oportunidades de mejora y las áreas donde nuestra solución podría tener el mayor impacto
+El As-Is Scenario Mapping es una herramienta clave que utilizamos para comprender el flujo actual de actividades,
+pensamientos y emociones que experimentan nuestros usuarios en su contexto cotidiano, antes de la implementación de
+nuestra solución. Este mapeo captura cómo los usuarios interactúan con las tecnologías y procesos existentes,
+identificando los puntos de dolor, las oportunidades de mejora y las áreas donde nuestra solución podría tener el mayor
+impacto
 
 **Arrendador**
 <div align="center">
@@ -643,55 +869,97 @@ El As-Is Scenario Mapping es una herramienta clave que utilizamos para comprende
 
 ## 2.4. Ubiquitous Language
 
-Este glosario de Ubiquitous Language está centrado en la aplicación de **blockchain** y **contratos inteligentes** en el contexto de los alquileres, con el objetivo de garantizar que todos los miembros del equipo y stakeholders compartan una comprensión clara y común de los términos clave relacionados con esta tecnología dentro del proyecto **CasaFinder**.
+Este glosario de Ubiquitous Language está centrado en la aplicación de **blockchain** y **contratos inteligentes** en el
+contexto de los alquileres, con el objetivo de garantizar que todos los miembros del equipo y stakeholders compartan una
+comprensión clara y común de los términos clave relacionados con esta tecnología dentro del proyecto **CasaFinder**.
 
 ### Blockchain
-**Definición**: Tecnología de registro distribuido que permite almacenar transacciones de manera segura, transparente y descentralizada. En el contexto de alquileres, permite registrar contratos y pagos de forma inmutable, evitando fraudes o alteraciones.
+
+**Definición**: Tecnología de registro distribuido que permite almacenar transacciones de manera segura, transparente y
+descentralizada. En el contexto de alquileres, permite registrar contratos y pagos de forma inmutable, evitando fraudes
+o alteraciones.
 
 ### Contrato Inteligente (Smart Contract)
-**Definición**: Programa o protocolo autoejecutable almacenado en una blockchain, donde los términos del contrato de alquiler (como pagos, fechas, penalidades) se ejecutan automáticamente cuando se cumplen ciertas condiciones, eliminando la necesidad de intermediarios.
+
+**Definición**: Programa o protocolo autoejecutable almacenado en una blockchain, donde los términos del contrato de
+alquiler (como pagos, fechas, penalidades) se ejecutan automáticamente cuando se cumplen ciertas condiciones, eliminando
+la necesidad de intermediarios.
 
 ### Descentralización
-**Definición**: Principio clave de blockchain donde la información no está controlada por una única entidad, sino que se distribuye entre varios nodos. En el contexto de alquileres, esto garantiza que las transacciones y contratos sean transparentes y resistentes a la manipulación.
+
+**Definición**: Principio clave de blockchain donde la información no está controlada por una única entidad, sino que se
+distribuye entre varios nodos. En el contexto de alquileres, esto garantiza que las transacciones y contratos sean
+transparentes y resistentes a la manipulación.
 
 ### Inmutabilidad
-**Definición**: Característica de blockchain que asegura que una vez que los datos, como contratos o transacciones, son registrados en la cadena, no pueden ser alterados. Esto proporciona seguridad y confianza en los contratos de alquiler.
+
+**Definición**: Característica de blockchain que asegura que una vez que los datos, como contratos o transacciones, son
+registrados en la cadena, no pueden ser alterados. Esto proporciona seguridad y confianza en los contratos de alquiler.
 
 ### Oráculos
-**Definición**: Servicios que permiten que los contratos inteligentes interactúen con datos externos fuera de la blockchain (como verificaciones de pago o estado del alquiler). Los oráculos garantizan que la información necesaria para ejecutar un contrato esté disponible y sea confiable.
+
+**Definición**: Servicios que permiten que los contratos inteligentes interactúen con datos externos fuera de la
+blockchain (como verificaciones de pago o estado del alquiler). Los oráculos garantizan que la información necesaria
+para ejecutar un contrato esté disponible y sea confiable.
 
 ### Tokenización del Alquiler
-**Definición**: Proceso de representar un activo de alquiler (como una propiedad o un pago) a través de tokens en una blockchain. Estos tokens pueden ser utilizados para representar derechos de propiedad, derechos de alquiler o depósitos de garantía, facilitando la transferencia y el fraccionamiento de propiedades.
+
+**Definición**: Proceso de representar un activo de alquiler (como una propiedad o un pago) a través de tokens en una
+blockchain. Estos tokens pueden ser utilizados para representar derechos de propiedad, derechos de alquiler o depósitos
+de garantía, facilitando la transferencia y el fraccionamiento de propiedades.
 
 ### Automatización de Pagos
-**Definición**: Uso de contratos inteligentes para gestionar el pago de alquileres de forma automática, ejecutando transacciones directamente desde la cuenta del inquilino al propietario una vez que se cumplen las condiciones predefinidas (como la fecha de vencimiento).
+
+**Definición**: Uso de contratos inteligentes para gestionar el pago de alquileres de forma automática, ejecutando
+transacciones directamente desde la cuenta del inquilino al propietario una vez que se cumplen las condiciones
+predefinidas (como la fecha de vencimiento).
 
 ### Depósito de Garantía en Blockchain
-**Definición**: Representación del depósito de garantía de un inquilino como un token o contrato inteligente en blockchain. Esto asegura que el dinero quede bloqueado y solo se libere automáticamente cuando ambas partes estén de acuerdo en las condiciones, evitando disputas.
+
+**Definición**: Representación del depósito de garantía de un inquilino como un token o contrato inteligente en
+blockchain. Esto asegura que el dinero quede bloqueado y solo se libere automáticamente cuando ambas partes estén de
+acuerdo en las condiciones, evitando disputas.
 
 ### Resolución de Disputas Automatizada
-**Definición**: Uso de contratos inteligentes para manejar automáticamente las disputas entre propietario e inquilino. Las reglas predefinidas en el contrato inteligente pueden resolver problemas, como el incumplimiento de pagos o reparaciones, sin la necesidad de intervención humana.
+
+**Definición**: Uso de contratos inteligentes para manejar automáticamente las disputas entre propietario e inquilino.
+Las reglas predefinidas en el contrato inteligente pueden resolver problemas, como el incumplimiento de pagos o
+reparaciones, sin la necesidad de intervención humana.
 
 ### Auditoría Transparente
-**Definición**: Capacidad que ofrece la blockchain de tener un registro auditable y transparente de todas las transacciones y contratos, permitiendo a las partes (propietarios, inquilinos, y terceros) revisar los acuerdos y asegurarse de que se están cumpliendo las condiciones de manera justa.
+
+**Definición**: Capacidad que ofrece la blockchain de tener un registro auditable y transparente de todas las
+transacciones y contratos, permitiendo a las partes (propietarios, inquilinos, y terceros) revisar los acuerdos y
+asegurarse de que se están cumpliendo las condiciones de manera justa.
 
 ### Plataforma de Alquiler Descentralizada
-**Definición**: Plataforma de gestión de alquileres basada en blockchain que permite a propietarios e inquilinos interactuar sin intermediarios, gestionando contratos, pagos, y disputas a través de contratos inteligentes y transacciones descentralizadas.
+
+**Definición**: Plataforma de gestión de alquileres basada en blockchain que permite a propietarios e inquilinos
+interactuar sin intermediarios, gestionando contratos, pagos, y disputas a través de contratos inteligentes y
+transacciones descentralizadas.
 
 ### Wallet Digital
-**Definición**: Monedero digital que permite a los usuarios almacenar y transferir criptomonedas o tokens utilizados en la plataforma de alquiler. Los inquilinos pueden usar wallets para realizar pagos automatizados a través de contratos inteligentes.
+
+**Definición**: Monedero digital que permite a los usuarios almacenar y transferir criptomonedas o tokens utilizados en
+la plataforma de alquiler. Los inquilinos pueden usar wallets para realizar pagos automatizados a través de contratos
+inteligentes.
 
 ### Identidad Digital Descentralizada
-**Definición**: Sistema que permite a inquilinos y propietarios verificar sus identidades en la blockchain sin depender de una autoridad central. Esto facilita el acceso a la plataforma de alquiler de forma segura y con mayor privacidad.
+
+**Definición**: Sistema que permite a inquilinos y propietarios verificar sus identidades en la blockchain sin depender
+de una autoridad central. Esto facilita el acceso a la plataforma de alquiler de forma segura y con mayor privacidad.
 
 ### Penalizaciones Automáticas
-**Definición**: Ejecución automática de penalizaciones o multas cuando se incumplen los términos del contrato inteligente, como retrasos en el pago del alquiler o el incumplimiento de condiciones previamente acordadas.
+
+**Definición**: Ejecución automática de penalizaciones o multas cuando se incumplen los términos del contrato
+inteligente, como retrasos en el pago del alquiler o el incumplimiento de condiciones previamente acordadas.
 
 ### Rentabilidad Tokenizada
-**Definición**: Proceso mediante el cual los ingresos por alquiler se distribuyen automáticamente a través de tokens en la blockchain, permitiendo a los propietarios recibir ingresos de manera más rápida y eficiente.
+
+**Definición**: Proceso mediante el cual los ingresos por alquiler se distribuyen automáticamente a través de tokens en
+la blockchain, permitiendo a los propietarios recibir ingresos de manera más rápida y eficiente.
 
 <br>
-
 
 ### 2.3.1 User Persona
 
@@ -702,11 +970,13 @@ Este glosario de Ubiquitous Language está centrado en la aplicación de **block
 ###### _User Persona Manuel Segura, usuario Transportista_
 
 ![User Persona Transportista](img/Capitulo_2/Needfinding/2.png)
+
 ### 2.3.2 User Task Matrix
+
 ###### _User Task Matrix del usuario cliente_
 
 |                           **Tareas**                            | **Frecuencia** | **Importancia** |
-| :-------------------------------------------------------------: | :------------: | :-------------: |
+|:---------------------------------------------------------------:|:--------------:|:---------------:|
 |  Contactar con un transportista para hacer uso de transporte.   |    Siempre     |      Alta       |
 |           Saber cuál será el precio por el transporte           |    Siempre     |      Alta       |
 |   Conocer los tipos de transporte que ofrece el transportista   |    Siempre     |      Alta       |
@@ -714,10 +984,11 @@ Este glosario de Ubiquitous Language está centrado en la aplicación de **block
 |  Mostrar los transportistas para brindarle opciones al usuario  |  Casi Siempre  |      Media      |
 |               Calificar el servicio con estrellas               | Algunas veces  |      Media      |
 | Recomendar el servicio proporcionado por medio de un comentario |   Casi nunca   |      Baja       |
+
 ###### _User Task Matrix del usuario transportista_
 
 |                         Tareas                         | Frecuencia | Importancia |
-| :----------------------------------------------------: | :--------: | :---------: |
+|:------------------------------------------------------:|:----------:|:-----------:|
 |                Contactar con el cliente                |  A menudo  |    Alta     |
 |  Acordar cuál será el producto por llevar y el tamaño  |  A menudo  |    Alta     |
 |            Acordar el precio con el cliente            |  Siempre   |    Alta     |
@@ -727,6 +998,7 @@ Este glosario de Ubiquitous Language está centrado en la aplicación de **block
 | Evidenciar que el producto ha sido entregado con éxito |  A menudo  |    Media    |
 |                 Cobrar por el servicio                 |  Siempre   |    Alta     |
 |          Atender las solicitudes del cliente           |  Siempre   |    Alta     |
+
 ### 2.3.3 Empathy Mapping
 
 ###### *Empathy Mapping del usuario cliente*
@@ -736,21 +1008,24 @@ Este glosario de Ubiquitous Language está centrado en la aplicación de **block
 ###### *Empathy Mapping del usuario transportista*
 
 ![Empathy Mapping Transportista](img/Capitulo_2/Needfinding/4.png)
-### 2.3.4. As-is Scenario Mapping. 
+
+### 2.3.4. As-is Scenario Mapping.
 
 ###### *As-is Scenario Mapping del usuario cliente*
 
 ![As-is Scenario Mapping Cliente](img/Capitulo_2/Needfinding/5.png)
+
 ###### *As-is Scenario Mapping del usuario transportista*
 
 ![As-is Scenario Mapping Transportista](img/Capitulo_2/Needfinding/6.png)
+
 ## 2.4. Ubiquitous Language.
 
 - **Carrier (Transportista)**
 
 Individuo o empresa que proporciona servicios de transporte.
 
-- **Client (Cliente)** 
+- **Client (Cliente)**
 
 Individuo o empresa que requiere servicios de transporte.
 
@@ -760,23 +1035,28 @@ Clasificación de los servicios de transporte ofrecidos, como carga, mudanza, mo
 
 - **Carrier profile (Perfil de transportista)**
 
-Información detallada proporcionada por los transportistas al registrarse, incluyendo datos personales, documentación, tipo de vehículo y servicios ofrecidos.
+Información detallada proporcionada por los transportistas al registrarse, incluyendo datos personales, documentación,
+tipo de vehículo y servicios ofrecidos.
 
-- **Client profile (Perfil de cliente)** 
+- **Client profile (Perfil de cliente)**
 
-Información proporcionada por los clientes al registrarse, incluyendo detalles personales e información de viajes anteriores.
+Información proporcionada por los clientes al registrarse, incluyendo detalles personales e información de viajes
+anteriores.
 
-- **Trip form (Formulario de viaje)** 
+- **Trip form (Formulario de viaje)**
 
-Formulario completado por el cliente con los detalles del viaje, incluyendo origen, destino, fecha, hora, tipo de carga, etc.
+Formulario completado por el cliente con los detalles del viaje, incluyendo origen, destino, fecha, hora, tipo de carga,
+etc.
 
 - **Payment (Pago del servicio)**
 
-Proceso mediante el cual el cliente realiza el pago por el servicio de transporte a través de la plataforma FastPorte, utilizando un servicio de pago integrado.
+Proceso mediante el cual el cliente realiza el pago por el servicio de transporte a través de la plataforma FastPorte,
+utilizando un servicio de pago integrado.
 
 - **Reviews (Reseñas)**
 
-Comentarios y calificaciones dejados por clientes anteriores sobre su experiencia con un transportista específico, ayudando a otros clientes a tomar decisiones informadas.
+Comentarios y calificaciones dejados por clientes anteriores sobre su experiencia con un transportista específico,
+ayudando a otros clientes a tomar decisiones informadas.
 
 - **Service area (Zona de servicio)**
 
@@ -784,7 +1064,8 @@ Comentarios y calificaciones dejados por clientes anteriores sobre su experienci
 
 - **Service contract (Contrato - Acuerdo de servicio)**
 
-Acuerdo entre el cliente y el transportista cuando se confirma un viaje, estableciendo las condiciones y términos de la prestación del servicio.
+Acuerdo entre el cliente y el transportista cuando se confirma un viaje, estableciendo las condiciones y términos de la
+prestación del servicio.
 
 - **Vehicle (Vehículo)**
 
@@ -820,7 +1101,8 @@ Registro de servicios contratados por el cliente.
 
 - **Customer rating (Calificación del cliente)**
 
-Calificación proporcionada por los transportistas para los clientes basada en su comportamiento e interacción durante el viaje.
+Calificación proporcionada por los transportistas para los clientes basada en su comportamiento e interacción durante el
+viaje.
 
 - **Carrier rating (Calificación del transportista)**
 
@@ -856,19 +1138,22 @@ Calendario que muestra la disponibilidad de los transportistas para proporcionar
 
 ---
 
-# Capítulo III: Requirements Specification 
-## 3.1. To-Be Scenario Mapping. 
+# Capítulo III: Requirements Specification
+
+## 3.1. To-Be Scenario Mapping.
 
 ###### To-Be Scenario Mapping del usuario Arrendador
 
 ![To Be Scenario Mapping Arrendador](img/Capitulo_3/To-be%20Arrendador.png)
+
 ###### To-Be Scenario Mapping del usuario Inquilino
 
 ![To Be Scenario Mapping Transportista](img/Capitulo_3/To-be%20Inquilino.png)
 
-## 3.2. User Stories. 
+## 3.2. User Stories.
 
 ##### _Desarrollo de los User Stories_
+
 <table border="1">
   <tr>
     <th>Epic / User Story ID</th>
@@ -984,11 +1269,8 @@ Calendario que muestra la disponibilidad de los transportistas para proporcionar
   </tr>
 </table>
 
-
-
-
-
 ### EPICS
+
 Las Epics que identificamos son las siguientes:
 
 ###### _Desarrollo de las Epics_
@@ -1026,10 +1308,12 @@ Las Epics que identificamos son las siguientes:
   </tr>
 </table>
 
-## 3.3. Impact Mapping. 
+## 3.3. Impact Mapping.
+
 ###### _Impact Mapping de los usuarios Arrendador e Inquilino
 
 ![Impact Mapping](img/Capitulo_3/ImpactMap.png)
+
 ## 3.4. Product Backlog.
 
 ##### _Desarrollo del Product Backlog_
@@ -1156,79 +1440,122 @@ Las Epics que identificamos son las siguientes:
 ---
 
 # Capítulo IV: Strategic-Level Software Design
+
 ## 4.1. Strategic-Level Attribute-Driven Design
-En este apartado, se presenta una serie de enfoques cruciales en el proceso de Diseño Dirigido por el Dominio a nivel estratégico. Estos enfoques resultaron esenciales para crear una base sólida en la definición y modelado de dominios complejos. A través de metodologías como Event Storming, Context Mapping y la definición de la Arquitectura de Software, se alcanzó una comprensión detallada de los elementos clave necesarios para el desarrollo de sistemas efectivos y bien estructurados. A continuación, se describen los puntos más importantes tratados en esta sección.
+
+En este apartado, se presenta una serie de enfoques cruciales en el proceso de Diseño Dirigido por el Dominio a nivel
+estratégico. Estos enfoques resultaron esenciales para crear una base sólida en la definición y modelado de dominios
+complejos. A través de metodologías como Event Storming, Context Mapping y la definición de la Arquitectura de Software,
+se alcanzó una comprensión detallada de los elementos clave necesarios para el desarrollo de sistemas efectivos y bien
+estructurados. A continuación, se describen los puntos más importantes tratados en esta sección.
+
 ### 4.1.1. Design Purpose
-El propósito del diseño de CasaFinder es desarrollar una plataforma avanzada que facilite de manera eficiente la conexión entre propietarios de inmuebles y personas que buscan alquilar, ya sea de forma temporal o permanente. Lo que diferencia a CasaFinder es su innovadora integración de la tecnología blockchain, que garantiza la transparencia, seguridad y el cumplimiento de los contratos de alquiler, al tiempo que crea un historial de alquileres inmutable y confiable para ambas partes.
+
+El propósito del diseño de CasaFinder es desarrollar una plataforma avanzada que facilite de manera eficiente la
+conexión entre propietarios de inmuebles y personas que buscan alquilar, ya sea de forma temporal o permanente. Lo que
+diferencia a CasaFinder es su innovadora integración de la tecnología blockchain, que garantiza la transparencia,
+seguridad y el cumplimiento de los contratos de alquiler, al tiempo que crea un historial de alquileres inmutable y
+confiable para ambas partes.
+
 ### 4.1.2. Attribute-Driven Design Inputs
-Se trata de factores esenciales que orientan el diseño de un sistema o plataforma. Estos atributos son cualidades específicas consideradas cruciales para el éxito del diseño, influyendo en las decisiones tomadas a lo largo del proceso de desarrollo. Los insumos del diseño impulsado por atributos ayudan a establecer los requisitos y prioridades del diseño, además de guiar las decisiones sobre la arquitectura, las funcionalidades y las características del sistema.
+
+Se trata de factores esenciales que orientan el diseño de un sistema o plataforma. Estos atributos son cualidades
+específicas consideradas cruciales para el éxito del diseño, influyendo en las decisiones tomadas a lo largo del proceso
+de desarrollo. Los insumos del diseño impulsado por atributos ayudan a establecer los requisitos y prioridades del
+diseño, además de guiar las decisiones sobre la arquitectura, las funcionalidades y las características del sistema.
+
 #### 4.1.2.1. Primary Functionality (Primary User Stories)
-En el diseño de la plataforma, se han identificado varias funcionalidades clave que son esenciales para su operación y eficiencia. Estas incluyen la verificación del historial de pagos del inquilino, que permite a los propietarios evaluar la fiabilidad de los inquilinos antes de firmar un contrato; la firma de contratos de alquiler digitalmente, que ofrece una mayor conveniencia tanto para inquilinos como para propietarios; un sistema de pago automático de alquileres, que facilita las transacciones recurrentes y asegura la comodidad en los pagos; y un sistema de recordatorios de pago, que ayuda a evitar retrasos y asegura que los inquilinos cumplan con sus obligaciones a tiempo. Cada una de estas funcionalidades tiene un impacto significativo en la arquitectura de la solución, requiriendo sistemas robustos y seguros para manejar datos sensibles y proporcionar una experiencia de usuario fluida y confiable. Las siguientes historias de usuario se consideran de mayor importancia:
 
-| **Epica / User Story ID** | **Título**                     | **Descripción**                                                                                                                                                            | **Criterios de Aceptación**                                                                                                                                                                                                                                            | **Relacionado con Epica (ID)** |
-|---------------------------|--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|
-| US-09                     | Verificación del historial del inquilino | Como arrendador, quiero verificar el historial de pagos del inquilino antes de firmar un contrato.                                                                            | 1. Dado que estoy considerando alquilar mi propiedad, cuando solicito el historial del inquilino, entonces debería poder revisar su historial de cumplimiento de pagos.                                                                                                 | EP-05                          |
-| US-10                     | Firma de contrato digital       | Como usuario, quiero firmar el contrato de alquiler digitalmente para mayor conveniencia.                                                                                     | 1. Dado que estoy listo para firmar el contrato, cuando lo reviso en la plataforma, entonces debería poder firmarlo electrónicamente y recibir una copia para ambas partes.                                                                                            | EP-05                          |
-| US-11                     | Pago de alquiler                | Como inquilino, quiero realizar pagos automáticos del alquiler desde la plataforma.                                                                                           | 1. Dado que se acerca la fecha de pago, cuando programo el pago automático, entonces debería procesarse y recibir una notificación de confirmación de pago exitoso.                                                                                                    | EP-06                          |
-| US-12                     | Recordatorio de pago            | Como inquilino, quiero recibir recordatorios de pago para evitar retrasos en el alquiler.                                                                                     | 1. Dado que la fecha de pago se aproxima, cuando falten pocos días, entonces debería recibir un recordatorio por correo o notificación para realizar el pago.                                                                                                        | EP-06                          |
+En el diseño de la plataforma, se han identificado varias funcionalidades clave que son esenciales para su operación y
+eficiencia. Estas incluyen la verificación del historial de pagos del inquilino, que permite a los propietarios evaluar
+la fiabilidad de los inquilinos antes de firmar un contrato; la firma de contratos de alquiler digitalmente, que ofrece
+una mayor conveniencia tanto para inquilinos como para propietarios; un sistema de pago automático de alquileres, que
+facilita las transacciones recurrentes y asegura la comodidad en los pagos; y un sistema de recordatorios de pago, que
+ayuda a evitar retrasos y asegura que los inquilinos cumplan con sus obligaciones a tiempo. Cada una de estas
+funcionalidades tiene un impacto significativo en la arquitectura de la solución, requiriendo sistemas robustos y
+seguros para manejar datos sensibles y proporcionar una experiencia de usuario fluida y confiable. Las siguientes
+historias de usuario se consideran de mayor importancia:
 
+| **Epica / User Story ID** | **Título**                               | **Descripción**                                                                                    | **Criterios de Aceptación**                                                                                                                                                 | **Relacionado con Epica (ID)** |
+|---------------------------|------------------------------------------|----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|
+| US-09                     | Verificación del historial del inquilino | Como arrendador, quiero verificar el historial de pagos del inquilino antes de firmar un contrato. | 1. Dado que estoy considerando alquilar mi propiedad, cuando solicito el historial del inquilino, entonces debería poder revisar su historial de cumplimiento de pagos.     | EP-05                          |
+| US-10                     | Firma de contrato digital                | Como usuario, quiero firmar el contrato de alquiler digitalmente para mayor conveniencia.          | 1. Dado que estoy listo para firmar el contrato, cuando lo reviso en la plataforma, entonces debería poder firmarlo electrónicamente y recibir una copia para ambas partes. | EP-05                          |
+| US-11                     | Pago de alquiler                         | Como inquilino, quiero realizar pagos automáticos del alquiler desde la plataforma.                | 1. Dado que se acerca la fecha de pago, cuando programo el pago automático, entonces debería procesarse y recibir una notificación de confirmación de pago exitoso.         | EP-06                          |
+| US-12                     | Recordatorio de pago                     | Como inquilino, quiero recibir recordatorios de pago para evitar retrasos en el alquiler.          | 1. Dado que la fecha de pago se aproxima, cuando falten pocos días, entonces debería recibir un recordatorio por correo o notificación para realizar el pago.               | EP-06                          |
 
 #### 4.1.2.2. Quality attribute Scenarios
-Basándonos en las historias de usuario seleccionadas, hemos enfocado nuestra atención en cuatro atributos de calidad críticos que son esenciales para la arquitectura y operación de nuestra plataforma. Estos atributos son:
-•	Seguridad
-•	Rendimiento
-•	Usabilidad
-•	Disponibilidad
-Cada uno de estos atributos ha sido cuidadosamente seleccionado para asegurar que nuestra plataforma no solo cumpla con las necesidades funcionales de los usuarios, sino que también brinde una experiencia robusta y segura. A continuación, presentamos la tabla de Quality Attribute Scenarios (QAS), la cual nos permite caracterizar y evaluar estos aspectos de calidad para su implementación y optimización en el diseño arquitectónico de la solución.
 
- | Atributo     | Fuente         | Estímulo                         | Artefacto       | Entorno              | Respuesta                                                                                                                                                       | Medida                                   |
-|--------------|----------------|----------------------------------|-----------------|----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
-| Seguridad    | Usuario        | Realizar un pago de alquiler     | Sistema de pago | Plataforma web       | El sistema procesa el pago a través de un gateway seguro, usando encriptación.                                                                                 | Ningún dato de compromiso; transacciones seguras registradas. |
-| Rendimiento  | Usuario        | Solicitar historial de cumplimiento | Base de datos   | Acceso web en horas pico | El sistema recupera y muestra el historial dentro de los 3 segundos, incluso bajo carga.                                                                     | Tiempo de respuesta no supera los 3 segundos en horas pico.   |
-| Usabilidad   | Nuevo usuario  | Registrarse en la plataforma     | Proceso de registro | Interfaz de usuario web | El sistema guía al usuario a través de un proceso de registro directo.                                                                                        | Más del 90% de los usuarios se registran en < 5 minutos.      |
-| Disponibilidad | Usuario      | Acceder a notificaciones         | Sistema de notificaciones | Plataforma web       | El sistema notifica de manera confiable las notificaciones cada vez que se accede al perfil.                                                                  | Disponibilidad del sistema del 90%.                           |
+Basándonos en las historias de usuario seleccionadas, hemos enfocado nuestra atención en cuatro atributos de calidad
+críticos que son esenciales para la arquitectura y operación de nuestra plataforma. Estos atributos son:
+• Seguridad
+• Rendimiento
+• Usabilidad
+• Disponibilidad
+Cada uno de estos atributos ha sido cuidadosamente seleccionado para asegurar que nuestra plataforma no solo cumpla con
+las necesidades funcionales de los usuarios, sino que también brinde una experiencia robusta y segura. A continuación,
+presentamos la tabla de Quality Attribute Scenarios (QAS), la cual nos permite caracterizar y evaluar estos aspectos de
+calidad para su implementación y optimización en el diseño arquitectónico de la solución.
+
+| Atributo       | Fuente        | Estímulo                            | Artefacto                 | Entorno                  | Respuesta                                                                                    | Medida                                                        |
+|----------------|---------------|-------------------------------------|---------------------------|--------------------------|----------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| Seguridad      | Usuario       | Realizar un pago de alquiler        | Sistema de pago           | Plataforma web           | El sistema procesa el pago a través de un gateway seguro, usando encriptación.               | Ningún dato de compromiso; transacciones seguras registradas. |
+| Rendimiento    | Usuario       | Solicitar historial de cumplimiento | Base de datos             | Acceso web en horas pico | El sistema recupera y muestra el historial dentro de los 3 segundos, incluso bajo carga.     | Tiempo de respuesta no supera los 3 segundos en horas pico.   |
+| Usabilidad     | Nuevo usuario | Registrarse en la plataforma        | Proceso de registro       | Interfaz de usuario web  | El sistema guía al usuario a través de un proceso de registro directo.                       | Más del 90% de los usuarios se registran en < 5 minutos.      |
+| Disponibilidad | Usuario       | Acceder a notificaciones            | Sistema de notificaciones | Plataforma web           | El sistema notifica de manera confiable las notificaciones cada vez que se accede al perfil. | Disponibilidad del sistema del 90%.                           |
 
 #### 4\.1.2.3. Constraints
-En la fase de desarrollo de nuestro proyecto de software, resulta crucial identificar y especificar claramente las restricciones que impactarán en el diseño, implementación y operación del sistema. A continuación, se describirán detalladamente cada una de estas restricciones.
 
-| **Technical Story ID** | **Título**              | **Descripción**                                               | **Criterios de Aceptación**                                                                                                       | **Epic ID** |
-|------------------------|-------------------------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|------------|
-| TS01                   | Uso de Spring Boot JPA  | Se debe utilizar Spring Boot JPA para la implementación del backend.  | Escenario 1: Verificación del Uso de Spring Boot JPA <br> Dado que un desarrollador está implementando el backend, <br> Cuando revise el código, <br> Entonces debe confirmar que se utiliza Spring Boot JPA. | 1          |
-| TS02                   | Implementación de PostgreSQL | PostgreSQL será la base de datos exclusiva del proyecto.      | Escenario 1: Verificación de Conexión a PostgreSQL <br> Dado que la base de datos necesita estar operativa, <br> Cuando se configure el backend, <br> Entonces se debe utilizar PostgreSQL como base de datos. | 1          |
-| TS03                   | Desarrollo con React Native | El frontend debe ser desarrollado usando React Native.        | Escenario 1: Uso Exclusivo de React Native en el Frontend <br> Dado que se requiere un frontend móvil, <br> Cuando se revise el código del frontend, <br> Entonces debe confirmarse que se usa React Native.  | 1          |
-| TS04                   | Límite de Tiempo de Desarrollo | El proyecto debe estar completo y desplegado en 3 meses.      | Escenario 1: Cumplimiento de los Plazos de Desarrollo <br> Dado que el proyecto comienza, <br> Cuando transcurran 3 meses, <br> Entonces el sistema debe estar completamente desplegado y operativo.          | 1          |
-| TS05                   | Uso de GitHub Organization   | Se debe utilizar GitHub Organization para el manejo del repositorio. | Escenario 1: Configuración de GitHub Organization <br> Dado que se está configurando el control de versiones, <br> Cuando se cree el repositorio, <br> Entonces debe hacerse dentro de una GitHub Organization. | 1          |
+En la fase de desarrollo de nuestro proyecto de software, resulta crucial identificar y especificar claramente las
+restricciones que impactarán en el diseño, implementación y operación del sistema. A continuación, se describirán
+detalladamente cada una de estas restricciones.
 
+| **Technical Story ID** | **Título**                     | **Descripción**                                                      | **Criterios de Aceptación**                                                                                                                                                                                     | **Epic ID** |
+|------------------------|--------------------------------|----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
+| TS01                   | Uso de Spring Boot JPA         | Se debe utilizar Spring Boot JPA para la implementación del backend. | Escenario 1: Verificación del Uso de Spring Boot JPA <br> Dado que un desarrollador está implementando el backend, <br> Cuando revise el código, <br> Entonces debe confirmar que se utiliza Spring Boot JPA.   | 1           |
+| TS02                   | Implementación de PostgreSQL   | PostgreSQL será la base de datos exclusiva del proyecto.             | Escenario 1: Verificación de Conexión a PostgreSQL <br> Dado que la base de datos necesita estar operativa, <br> Cuando se configure el backend, <br> Entonces se debe utilizar PostgreSQL como base de datos.  | 1           |
+| TS03                   | Desarrollo con React Native    | El frontend debe ser desarrollado usando React Native.               | Escenario 1: Uso Exclusivo de React Native en el Frontend <br> Dado que se requiere un frontend móvil, <br> Cuando se revise el código del frontend, <br> Entonces debe confirmarse que se usa React Native.    | 1           |
+| TS04                   | Límite de Tiempo de Desarrollo | El proyecto debe estar completo y desplegado en 3 meses.             | Escenario 1: Cumplimiento de los Plazos de Desarrollo <br> Dado que el proyecto comienza, <br> Cuando transcurran 3 meses, <br> Entonces el sistema debe estar completamente desplegado y operativo.            | 1           |
+| TS05                   | Uso de GitHub Organization     | Se debe utilizar GitHub Organization para el manejo del repositorio. | Escenario 1: Configuración de GitHub Organization <br> Dado que se está configurando el control de versiones, <br> Cuando se cree el repositorio, <br> Entonces debe hacerse dentro de una GitHub Organization. | 1           |
 
 <a name="_toc163118301"></a>
+
 ### 4.1.3. Architectural Drivers Backlog
-Esta sección del proyecto cataloga los drivers clave que guían el diseño arquitectónico, organizados por su importancia y complejidad técnica. Este registro incluye Functional Drivers, Quality Attribute Drivers, y Constraints, estableciendo una hoja de ruta clara para priorizar el desarrollo y asegurar la alineación con las expectativas de los stakeholders. 
 
-| **DRIVER ID** | **Título**                 | **Descripción**                                                                 | **Importancia para Stakeholders** | **Impacto en la Complejidad Técnica de la Arquitectura** | **Tipo**                   |
-|---------------|----------------------------|---------------------------------------------------------------------------------|-----------------------------------|----------------------------------------------------------|---------------------------|
-| DR01          | Seguridad de Transacciones | Garantizar la seguridad en todas las transacciones financieras dentro del sistema. | Alta                              | Alta                                                     | Quality Attribute Driver  |
-| DR02          | Escalabilidad del Sistema  | El sistema debe soportar un aumento significativo en el número de usuarios sin degradar el rendimiento. | Alta                              | Alta                                                     | Quality Attribute Driver  |
-| DR03          | Integración de Base de Datos | Integrar PostgreSQL de manera eficiente para manejar grandes volúmenes de datos.  | Media                             | Alta                                                     | Functional Driver         |
-| DR04          | Interfaz de Usuario Responsive | Desarrollar una interfaz de usuario que se adapte a diferentes dispositivos y tamaños de pantalla.     | Media                             | Media                                                    | Quality Attribute Driver  |
-| DR05          | Compatibilidad de Dispositivos | Asegurar que la aplicación funcione correctamente en varios dispositivos y plataformas.                 | Baja                              | Media                                                    | Quality Attribute Driver  |
-| DR06          | Mantenimiento del Sistema   | Facilitar el mantenimiento y actualizaciones futuras del sistema sin interrupciones mayores.            | Baja                              | Baja                                                     | Constraint                |
+Esta sección del proyecto cataloga los drivers clave que guían el diseño arquitectónico, organizados por su importancia
+y complejidad técnica. Este registro incluye Functional Drivers, Quality Attribute Drivers, y Constraints, estableciendo
+una hoja de ruta clara para priorizar el desarrollo y asegurar la alineación con las expectativas de los stakeholders.
 
+| **DRIVER ID** | **Título**                     | **Descripción**                                                                                         | **Importancia para Stakeholders** | **Impacto en la Complejidad Técnica de la Arquitectura** | **Tipo**                 |
+|---------------|--------------------------------|---------------------------------------------------------------------------------------------------------|-----------------------------------|----------------------------------------------------------|--------------------------|
+| DR01          | Seguridad de Transacciones     | Garantizar la seguridad en todas las transacciones financieras dentro del sistema.                      | Alta                              | Alta                                                     | Quality Attribute Driver |
+| DR02          | Escalabilidad del Sistema      | El sistema debe soportar un aumento significativo en el número de usuarios sin degradar el rendimiento. | Alta                              | Alta                                                     | Quality Attribute Driver |
+| DR03          | Integración de Base de Datos   | Integrar PostgreSQL de manera eficiente para manejar grandes volúmenes de datos.                        | Media                             | Alta                                                     | Functional Driver        |
+| DR04          | Interfaz de Usuario Responsive | Desarrollar una interfaz de usuario que se adapte a diferentes dispositivos y tamaños de pantalla.      | Media                             | Media                                                    | Quality Attribute Driver |
+| DR05          | Compatibilidad de Dispositivos | Asegurar que la aplicación funcione correctamente en varios dispositivos y plataformas.                 | Baja                              | Media                                                    | Quality Attribute Driver |
+| DR06          | Mantenimiento del Sistema      | Facilitar el mantenimiento y actualizaciones futuras del sistema sin interrupciones mayores.            | Baja                              | Baja                                                     | Constraint               |
 
 ### <a name="_toc163118302"></a>4.1.4. Architectural Design Decisions
-El cuadro de Architectural Design Decisions facilita una comparación visual y estructurada de los patrones arquitectónicos MVC, Microservices, y Event-Driven Architecture contra los Architectural Drivers del proyecto. Sirve para evaluar los pros y contras de cada patrón, ayudando a tomar decisiones informadas sobre el diseño arquitectónico que mejor alinee con las necesidades y desafíos específicos del sistema. 
 
-| **DRIVER ID** | **Título del Driver**       | **Pattern 1: MVC**                                                                                                 | **Pattern 2: Microservices**                                                                                                | **Pattern 3: Event-Driven Architecture**                                    |
-|---------------|-----------------------------|--------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
-| DR01          | Seguridad de Transacciones  | **Pro:** Facilita una estructura organizada para implementar controles de seguridad específicos. <br> **Con:** La interacción entre componentes puede complicar la gestión de la seguridad. | **Pro:** Cada servicio puede tener sus propias políticas de seguridad, mejorando la seguridad en granularidad. <br> **Con:** Requiere una gestión de seguridad compleja y coordinada entre servicios. | **Pro:** Los eventos pueden ser monitorizados y gestionados para seguridad en tiempo real. <br> **Con:** La asincronía y la distribución pueden introducir puntos vulnerables si no se manejan adecuadamente. |
-| DR02          | Escalabilidad del Sistema   | **Pro:** Baja dependencia entre componentes facilita la escalabilidad horizontal de la interfaz de usuario. <br> **Con:** Las operaciones backend complejas pueden ser menos escalables en MVC tradicional. | **Pro:** Escalabilidad inherente al permitir escalar servicios de manera independiente. <br> **Con:** La complejidad de manejar múltiples servicios puede afectar el rendimiento.              | **Pro:** Naturalmente apto para escalabilidad dado que los componentes reaccionan a eventos, no a peticiones directas. <br> **Con:** La coordinación de eventos a gran escala necesita infraestructura robusta y bien configurada. |
-| DR03          | Integración de Base de Datos | **Pro:** Estructura clara para la integración y migración de bases de datos. <br> **Con:** Puede ser inflexible para cambios rápidos en esquemas de base de datos.                    | **Pro:** Cada microservicio puede usar su base de datos optimizada para sus necesidades. <br> **Con:** La sincronización entre diferentes bases de datos puede ser desafiante.              | **Pro:** Permite reaccionar a cambios en la base de datos en tiempo real. <br> **Con:** Requiere middleware robusto para gestionar eventos de la base de datos eficientemente. |
-| DR04          | Interfaz de Usuario Responsive | **Pro:** Separación de la lógica de negocio y la presentación favorece adaptabilidad a diferentes dispositivos. <br> **Con:** Puede requerir más trabajo para asegurar la respuesta en todos los dispositivos. | **Pro:** Puede servir diferentes interfaces optimizadas para distintos dispositivos desde diferentes servicios. <br> **Con:** La consistencia de la interfaz entre servicios puede ser un desafío. | **Pro:** Interfaces pueden actualizar en tiempo real respondiendo a eventos del sistema. <br> **Con:** El diseño debe asegurar que los eventos no sobrecarguen al cliente con actualizaciones demasiado frecuentes. |
-| DR05          | Compatibilidad de Dispositivos | **Pro:** Facilita la creación de interfaces que funcionan en múltiples dispositivos al separar frontend y backend. <br> **Con:** Requiere pruebas exhaustivas para garantizar la compatibilidad. | **Pro:** Independencia del dispositivo ya que cada servicio puede ser consumido por cualquier cliente compatible. <br> **Con:** Requiere más gestión de endpoints y versiones de API. | **Pro:** Los eventos pueden ser consumidos por cualquier dispositivo suscrito, facilitando la compatibilidad. <br> **Con:** Depende de la capacidad del dispositivo para manejar flujos de eventos en tiempo real. |
-| DR06          | Mantenimiento del Sistema    | **Pro:** Modularidad facilita el mantenimiento y actualizaciones del sistema. <br> **Con:** Las dependencias entre modelos, vistas y controladores pueden complicar el mantenimiento. | **Pro:** Facilita el mantenimiento al permitir actualizar servicios de manera independiente. <br> **Con:** La gestión de múltiples servicios y sus interdependencias puede complicar el mantenimiento. | **Pro:** Permite actualizaciones en tiempo real y es adaptable a cambios con mínimas interrupciones. <br> **Con:** La complejidad de la arquitectura puede requerir herramientas especializadas para mantenimiento. |
+El cuadro de Architectural Design Decisions facilita una comparación visual y estructurada de los patrones
+arquitectónicos MVC, Microservices, y Event-Driven Architecture contra los Architectural Drivers del proyecto. Sirve
+para evaluar los pros y contras de cada patrón, ayudando a tomar decisiones informadas sobre el diseño arquitectónico
+que mejor alinee con las necesidades y desafíos específicos del sistema.
 
+| **DRIVER ID** | **Título del Driver**          | **Pattern 1: MVC**                                                                                                                                                                                             | **Pattern 2: Microservices**                                                                                                                                                                           | **Pattern 3: Event-Driven Architecture**                                                                                                                                                                                           |
+|---------------|--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| DR01          | Seguridad de Transacciones     | **Pro:** Facilita una estructura organizada para implementar controles de seguridad específicos. <br> **Con:** La interacción entre componentes puede complicar la gestión de la seguridad.                    | **Pro:** Cada servicio puede tener sus propias políticas de seguridad, mejorando la seguridad en granularidad. <br> **Con:** Requiere una gestión de seguridad compleja y coordinada entre servicios.  | **Pro:** Los eventos pueden ser monitorizados y gestionados para seguridad en tiempo real. <br> **Con:** La asincronía y la distribución pueden introducir puntos vulnerables si no se manejan adecuadamente.                      |
+| DR02          | Escalabilidad del Sistema      | **Pro:** Baja dependencia entre componentes facilita la escalabilidad horizontal de la interfaz de usuario. <br> **Con:** Las operaciones backend complejas pueden ser menos escalables en MVC tradicional.    | **Pro:** Escalabilidad inherente al permitir escalar servicios de manera independiente. <br> **Con:** La complejidad de manejar múltiples servicios puede afectar el rendimiento.                      | **Pro:** Naturalmente apto para escalabilidad dado que los componentes reaccionan a eventos, no a peticiones directas. <br> **Con:** La coordinación de eventos a gran escala necesita infraestructura robusta y bien configurada. |
+| DR03          | Integración de Base de Datos   | **Pro:** Estructura clara para la integración y migración de bases de datos. <br> **Con:** Puede ser inflexible para cambios rápidos en esquemas de base de datos.                                             | **Pro:** Cada microservicio puede usar su base de datos optimizada para sus necesidades. <br> **Con:** La sincronización entre diferentes bases de datos puede ser desafiante.                         | **Pro:** Permite reaccionar a cambios en la base de datos en tiempo real. <br> **Con:** Requiere middleware robusto para gestionar eventos de la base de datos eficientemente.                                                     |
+| DR04          | Interfaz de Usuario Responsive | **Pro:** Separación de la lógica de negocio y la presentación favorece adaptabilidad a diferentes dispositivos. <br> **Con:** Puede requerir más trabajo para asegurar la respuesta en todos los dispositivos. | **Pro:** Puede servir diferentes interfaces optimizadas para distintos dispositivos desde diferentes servicios. <br> **Con:** La consistencia de la interfaz entre servicios puede ser un desafío.     | **Pro:** Interfaces pueden actualizar en tiempo real respondiendo a eventos del sistema. <br> **Con:** El diseño debe asegurar que los eventos no sobrecarguen al cliente con actualizaciones demasiado frecuentes.                |
+| DR05          | Compatibilidad de Dispositivos | **Pro:** Facilita la creación de interfaces que funcionan en múltiples dispositivos al separar frontend y backend. <br> **Con:** Requiere pruebas exhaustivas para garantizar la compatibilidad.               | **Pro:** Independencia del dispositivo ya que cada servicio puede ser consumido por cualquier cliente compatible. <br> **Con:** Requiere más gestión de endpoints y versiones de API.                  | **Pro:** Los eventos pueden ser consumidos por cualquier dispositivo suscrito, facilitando la compatibilidad. <br> **Con:** Depende de la capacidad del dispositivo para manejar flujos de eventos en tiempo real.                 |
+| DR06          | Mantenimiento del Sistema      | **Pro:** Modularidad facilita el mantenimiento y actualizaciones del sistema. <br> **Con:** Las dependencias entre modelos, vistas y controladores pueden complicar el mantenimiento.                          | **Pro:** Facilita el mantenimiento al permitir actualizar servicios de manera independiente. <br> **Con:** La gestión de múltiples servicios y sus interdependencias puede complicar el mantenimiento. | **Pro:** Permite actualizaciones en tiempo real y es adaptable a cambios con mínimas interrupciones. <br> **Con:** La complejidad de la arquitectura puede requerir herramientas especializadas para mantenimiento.                |
 
 ### <a name="_toc163118303"></a>4.1.5. Quality Attribute Scenario Refinements
-Los Quality Attribute Scenario Refinements detallan cómo el sistema debe manejar requisitos clave de seguridad, rendimiento, usabilidad y disponibilidad. Estos refinamientos son esenciales para asegurar que la arquitectura del sistema cumpla con las expectativas de los usuarios y los objetivos del negocio, facilitando decisiones de diseño informadas y centradas en los atributos más críticos para el éxito del proyecto. 
+
+Los Quality Attribute Scenario Refinements detallan cómo el sistema debe manejar requisitos clave de seguridad,
+rendimiento, usabilidad y disponibilidad. Estos refinamientos son esenciales para asegurar que la arquitectura del
+sistema cumpla con las expectativas de los usuarios y los objetivos del negocio, facilitando decisiones de diseño
+informadas y centradas en los atributos más críticos para el éxito del proyecto.
 
 <table>
 <tr>
@@ -1437,100 +1764,159 @@ Los Quality Attribute Scenario Refinements detallan cómo el sistema debe maneja
 </tr>
 </table>
 
-
 ## 4.2. Strategic-Level Domain-Driven Design.
 
 ### 4.2.1. EventStorming
 
-Se adoptó un método colaborativo y visual para modelar el contexto del dominio. Se investigaron las fases de Candidate Context Discovery, Domain Message Flows Modeling y la creación de Bounded Context Canvases.
+Se adoptó un método colaborativo y visual para modelar el contexto del dominio. Se investigaron las fases de Candidate
+Context Discovery, Domain Message Flows Modeling y la creación de Bounded Context Canvases.
 
 ###### *Step 1: Unstructured Exploration*
- Se llevó a cabo la etapa inicial donde se exploraron ideas y se profundizó en el conocimiento del dominio del negocio, estableciendo así las bases para el modelado en las etapas subsiguientes.
+
+Se llevó a cabo la etapa inicial donde se exploraron ideas y se profundizó en el conocimiento del dominio del negocio,
+estableciendo así las bases para el modelado en las etapas subsiguientes.
 
 ![driver](img/Capitulo_4/Unstructured%20Exploration.png)
 
 ###### *Step 2: Timelines, Step 3: Pain Points, Step 4: Pivotal Points*
-Se identificaron tres etapas clave: "Timelines" para mapear la secuencia temporal de los eventos dentro del sistema, "Pain Points" para destacar y abordar los desafíos y dificultades dentro del proceso, y "Pivotal Points" que son momentos críticos que pueden influir significativamente en el diseño y la funcionalidad del sistema. 
+
+Se identificaron tres etapas clave: "Timelines" para mapear la secuencia temporal de los eventos dentro del sistema, "
+Pain Points" para destacar y abordar los desafíos y dificultades dentro del proceso, y "Pivotal Points" que son momentos
+críticos que pueden influir significativamente en el diseño y la funcionalidad del sistema.
 
 ![Step 2, 3, 4](img/Capitulo_4/Step2-3-4.png)
 
 ###### *Step 5: Commands, Step 6: Policies, Step 7: Read models, Step 8: External Systems*
-Se delinearon cuatro componentes cruciales del diseño: Commands, que son acciones activadas por el usuario para influir en el sistema; Policies, reglas que guían las operaciones y mantienen la integridad del sistema; Read Models, estructuras que optimizan la recuperación y visualización de datos; y External Systems, que son servicios o plataformas externas integradas que amplían o soportan la funcionalidad del sistema. 
+
+Se delinearon cuatro componentes cruciales del diseño: Commands, que son acciones activadas por el usuario para influir
+en el sistema; Policies, reglas que guían las operaciones y mantienen la integridad del sistema; Read Models,
+estructuras que optimizan la recuperación y visualización de datos; y External Systems, que son servicios o plataformas
+externas integradas que amplían o soportan la funcionalidad del sistema.
 
 ![Step 5, 6, 7, 8](img/Capitulo_4/Step5-6-7-8.png)
 
 ###### *Step 9: Aggregates, Step 10: Bounded Contexts*
-Finalmente, se definieron dos elementos estructurales esenciales: Aggregates, que agrupan entidades y objetos relacionados para mantener la consistencia y las reglas de negocio, y Bounded Contexts, que delimitan claros contornos dentro del sistema donde los modelos de dominio aplican y se integran de manera coherente, asegurando que las interacciones entre diferentes partes del sistema sean gestionadas de forma eficaz.  
 
-![Step 9,  10](img/Capitulo_4/Step9-10.png)
+Finalmente, se definieron dos elementos estructurales esenciales: Aggregates, que agrupan entidades y objetos
+relacionados para mantener la consistencia y las reglas de negocio, y Bounded Contexts, que delimitan claros contornos
+dentro del sistema donde los modelos de dominio aplican y se integran de manera coherente, asegurando que las
+interacciones entre diferentes partes del sistema sean gestionadas de forma eficaz.
 
-Enlace de Figma: [https://www.figma.com/design/Uc3NsOj4bLD0kn1V9fEQAS/EventStorming?node-id=0-1&t=yvJsImddBjaNskKb-1 ](https://www.figma.com/design/Uc3NsOj4bLD0kn1V9fEQAS/EventStorming?node-id=0-1&t=yvJsImddBjaNskKb-1 )
+![Step 9, 10](img/Capitulo_4/Step9-10.png)
+
+Enlace de
+Figma: [https://www.figma.com/design/Uc3NsOj4bLD0kn1V9fEQAS/EventStorming?node-id=0-1&t=yvJsImddBjaNskKb-1 ](https://www.figma.com/design/Uc3NsOj4bLD0kn1V9fEQAS/EventStorming?node-id=0-1&t=yvJsImddBjaNskKb-1 )
 
 ### 4.2.2. Candidate Context Discovery
 
-Utilizando la metodología de eventstorming y centrados en la técnica de "start-with-simple", empleamos la línea de tiempo para identificar posibles candidatos para nuestro contexto delimitado, que incluyen los siguientes elementos. 
+Utilizando la metodología de eventstorming y centrados en la técnica de "start-with-simple", empleamos la línea de
+tiempo para identificar posibles candidatos para nuestro contexto delimitado, que incluyen los siguientes elementos.
 
 **Property Management:**
-Este contexto gestiona todas las operaciones relacionadas con las propiedades listadas por los arrendadores. Incluye comandos como "Registrar nueva propiedad", "Actualizar detalles de propiedad", y "Retirar propiedad del mercado". Es fundamental para mantener la información de las propiedades actualizada y accesible, facilitando las operaciones de publicación y gestión de propiedades. Este contexto también interactúa con políticas internas para asegurar que todas las propiedades cumplan con los estándares requeridos antes de ser listadas. 
+Este contexto gestiona todas las operaciones relacionadas con las propiedades listadas por los arrendadores. Incluye
+comandos como "Registrar nueva propiedad", "Actualizar detalles de propiedad", y "Retirar propiedad del mercado". Es
+fundamental para mantener la información de las propiedades actualizada y accesible, facilitando las operaciones de
+publicación y gestión de propiedades. Este contexto también interactúa con políticas internas para asegurar que todas
+las propiedades cumplan con los estándares requeridos antes de ser listadas.
 
 ![Property Management Bounded Context](img/Capitulo_4/Property%20Management%20Bounded%20Context.png)
 
 **Property Search:**
-Este contexto permite a los arrendatarios buscar y filtrar propiedades según sus preferencias. Involucra comandos como "Iniciar búsqueda de propiedades" y "Aplicar filtros de búsqueda". Es crucial para proporcionar una experiencia de usuario eficiente, permitiendo a los arrendatarios encontrar rápidamente propiedades que se ajusten a sus necesidades. Este contexto podría interactuar con APIs externas que proporcionen datos adicionales de propiedades o recomendaciones personalizadas. 
+Este contexto permite a los arrendatarios buscar y filtrar propiedades según sus preferencias. Involucra comandos como "
+Iniciar búsqueda de propiedades" y "Aplicar filtros de búsqueda". Es crucial para proporcionar una experiencia de
+usuario eficiente, permitiendo a los arrendatarios encontrar rápidamente propiedades que se ajusten a sus necesidades.
+Este contexto podría interactuar con APIs externas que proporcionen datos adicionales de propiedades o recomendaciones
+personalizadas.
 
 ![Property Search Bounded Context](img/Capitulo_4/Property%20Search%20Bounded%20Context.png)
 
 **User:**
-Este contexto se ocupa de la administración de usuarios, incluyendo su registro, autenticación, y gestión de perfiles. Los comandos clave incluyen "Registrar nuevo usuario" e "Iniciar sesión de usuario". Es esencial para la seguridad y personalización del sistema, asegurando que solo los usuarios autorizados puedan acceder y operar dentro de la plataforma. Utiliza servicios de verificación de identidad como sistemas externos para autenticar y validar la identidad de los usuarios. 
+Este contexto se ocupa de la administración de usuarios, incluyendo su registro, autenticación, y gestión de perfiles.
+Los comandos clave incluyen "Registrar nuevo usuario" e "Iniciar sesión de usuario". Es esencial para la seguridad y
+personalización del sistema, asegurando que solo los usuarios autorizados puedan acceder y operar dentro de la
+plataforma. Utiliza servicios de verificación de identidad como sistemas externos para autenticar y validar la identidad
+de los usuarios.
 
 ![User Bounded Context](img/Capitulo_4/User%20Bounded%20Context.png)
 
 **Contracts:**
-Este contexto abarca la gestión de contratos de alquiler entre arrendadores y arrendatarios. Incluye comandos para "Revisar y aceptar solicitudes de contrato" y "Responder a solicitudes de renovación de contrato". Este contexto se encarga de asegurar que todos los contratos cumplen con las normativas legales y las políticas de la plataforma, y utiliza sistemas externos como servicios de verificación de crédito para evaluar la solvencia de los arrendatarios.  
+Este contexto abarca la gestión de contratos de alquiler entre arrendadores y arrendatarios. Incluye comandos para "
+Revisar y aceptar solicitudes de contrato" y "Responder a solicitudes de renovación de contrato". Este contexto se
+encarga de asegurar que todos los contratos cumplen con las normativas legales y las políticas de la plataforma, y
+utiliza sistemas externos como servicios de verificación de crédito para evaluar la solvencia de los arrendatarios.
 
 ![Contracts Bounded Context](img/Capitulo_4/Contracts%20Bounded%20Context.png)
 
 **Payments:**
-Este contexto maneja todas las transacciones financieras relacionadas con el pago de alquileres. Incluye comandos para "Realizar pago online" y procesa eventos como "Realización de pago de alquiler en línea". Este contexto es vital para la gestión financiera dentro de la plataforma, asegurando transacciones seguras y eficientes a través de plataformas de pago externas y políticas que garantizan la conformidad con normativas de transacciones financieras.
+Este contexto maneja todas las transacciones financieras relacionadas con el pago de alquileres. Incluye comandos para "
+Realizar pago online" y procesa eventos como "Realización de pago de alquiler en línea". Este contexto es vital para la
+gestión financiera dentro de la plataforma, asegurando transacciones seguras y eficientes a través de plataformas de
+pago externas y políticas que garantizan la conformidad con normativas de transacciones financieras.
 
 ![Payments Bounded Context](img/Capitulo_4/Payments%20Bounded%20Context.png)
 
 ### 4.2.3. Domain Message Flows Modeling
 
 **Escenario 1: Alquiler de Vivienda para el Arrendatario**
-Este flujo describe cómo un arrendatario inicia sesión en la plataforma usando su correo y contraseña, busca viviendas filtrando por ubicación y precio, solicita un contrato tras elegir una vivienda, y finaliza con la realización del pago del alquiler a través de plataformas de pago online, todo integrado con contratos inteligentes para asegurar transacciones seguras y automatizadas. 
+Este flujo describe cómo un arrendatario inicia sesión en la plataforma usando su correo y contraseña, busca viviendas
+filtrando por ubicación y precio, solicita un contrato tras elegir una vivienda, y finaliza con la realización del pago
+del alquiler a través de plataformas de pago online, todo integrado con contratos inteligentes para asegurar
+transacciones seguras y automatizadas.
 
 ![Escenario 1](img/Capitulo_4/Scenario01.png)
 
 **Escenario 2: Alquiler de Vivienda para el Arrendador**
-Este escenario ilustra cómo un arrendador ingresa a la plataforma utilizando su correo electrónico y contraseña, registra y publica nuevas viviendas con detalles como descripción, fotos, ubicación y precio, recibe solicitudes de alquiler de arrendatarios, y finalmente revisa y acepta dichas solicitudes de contrato, todo dentro de un sistema integrado que facilita la gestión eficiente de propiedades. 
+Este escenario ilustra cómo un arrendador ingresa a la plataforma utilizando su correo electrónico y contraseña,
+registra y publica nuevas viviendas con detalles como descripción, fotos, ubicación y precio, recibe solicitudes de
+alquiler de arrendatarios, y finalmente revisa y acepta dichas solicitudes de contrato, todo dentro de un sistema
+integrado que facilita la gestión eficiente de propiedades.
 
 ![Escenario 2](img/Capitulo_4/Scenario02.png)
 
 ### 4.2.4. Bounded Context Canvases
 
 **Contracts:**
-En este Bounded Context de Contratos, se gestiona la creación, revisión y ejecución de acuerdos de alquiler, colaborando estrechamente con el Bounded Context de Property Search para recibir solicitudes de contrato. Este contexto es crucial para asegurar que tanto arrendadores como arrendatarios cumplan con las regulaciones y los términos establecidos, manteniendo un marco de transacciones seguras y confiables dentro de la plataforma.
+En este Bounded Context de Contratos, se gestiona la creación, revisión y ejecución de acuerdos de alquiler, colaborando
+estrechamente con el Bounded Context de Property Search para recibir solicitudes de contrato. Este contexto es crucial
+para asegurar que tanto arrendadores como arrendatarios cumplan con las regulaciones y los términos establecidos,
+manteniendo un marco de transacciones seguras y confiables dentro de la plataforma.
 
 ![Contracts](img/Capitulo_4/BoundedCanvases-Contracts.png)
 
 **Property Management:**
-Este Bounded Context de Gestión de Propiedades se encarga de administrar todas las actividades relacionadas con las propiedades dentro de la plataforma. Coordina directamente con los arrendadores para el registro, actualización y eliminación de listados de propiedades, asegurando que cada propiedad cumpla con los estándares de calidad y políticas establecidas antes de su publicación. Este contexto juega un papel fundamental en mantener la integridad y la actualidad de las listas de propiedades disponibles para alquiler.
+Este Bounded Context de Gestión de Propiedades se encarga de administrar todas las actividades relacionadas con las
+propiedades dentro de la plataforma. Coordina directamente con los arrendadores para el registro, actualización y
+eliminación de listados de propiedades, asegurando que cada propiedad cumpla con los estándares de calidad y políticas
+establecidas antes de su publicación. Este contexto juega un papel fundamental en mantener la integridad y la actualidad
+de las listas de propiedades disponibles para alquiler.
 
 ![Property Management](img/Capitulo_4/BoundedCanvases-Property%20Management.png)
 
 **Property Search:**
-Este Bounded Context de Búsqueda de Propiedades facilita la exploración y selección de viviendas por parte de los arrendatarios, permitiéndoles aplicar diversos filtros como ubicación, precio y características específicas. La interacción principal ocurre con el contexto de Gestión de Propiedades para obtener detalles precisos y actualizados de cada listado. Este contexto es esencial para proporcionar una experiencia de búsqueda eficiente y personalizada a los usuarios, ayudándoles a encontrar rápidamente propiedades que satisfagan sus necesidades específicas. 
+Este Bounded Context de Búsqueda de Propiedades facilita la exploración y selección de viviendas por parte de los
+arrendatarios, permitiéndoles aplicar diversos filtros como ubicación, precio y características específicas. La
+interacción principal ocurre con el contexto de Gestión de Propiedades para obtener detalles precisos y actualizados de
+cada listado. Este contexto es esencial para proporcionar una experiencia de búsqueda eficiente y personalizada a los
+usuarios, ayudándoles a encontrar rápidamente propiedades que satisfagan sus necesidades específicas.
 
 ![Property Search](img/Capitulo_4/BoundedCanvases-Property%20Search.png)
 
 **Payments:**
-Este Bounded Context de Pagos se encarga de gestionar todas las operaciones financieras relacionadas con los pagos de alquiler dentro de la plataforma. Esto incluye procesar pagos en línea, generar reportes detallados de las transacciones y asegurar la correcta notificación a los arrendadores sobre los pagos recibidos. Integrado con sistemas de pago externos y el contexto de Contratos, este contexto juega un papel crucial en la eficiencia y seguridad de las transacciones financieras, garantizando que todos los pagos se manejen de manera segura y conforme a las políticas establecidas. 
+Este Bounded Context de Pagos se encarga de gestionar todas las operaciones financieras relacionadas con los pagos de
+alquiler dentro de la plataforma. Esto incluye procesar pagos en línea, generar reportes detallados de las transacciones
+y asegurar la correcta notificación a los arrendadores sobre los pagos recibidos. Integrado con sistemas de pago
+externos y el contexto de Contratos, este contexto juega un papel crucial en la eficiencia y seguridad de las
+transacciones financieras, garantizando que todos los pagos se manejen de manera segura y conforme a las políticas
+establecidas.
 
 ![Payments](img/Capitulo_4/BoundedCanvases-Payments.png)
 
 **User:**
-Este Bounded Context de Usuario se ocupa de todas las funciones relacionadas con la gestión de usuarios en la plataforma, incluyendo el registro de nuevos usuarios, la autenticación y la verificación de la identidad de los arrendatarios. Asegura que solo usuarios autenticados y verificados puedan interactuar con el sistema, garantizando la seguridad y la integridad de las transacciones dentro de la plataforma. Este contexto es fundamental para mantener un entorno seguro y de confianza para todos los usuarios, facilitando una experiencia de usuario fluida y protegida. 
+Este Bounded Context de Usuario se ocupa de todas las funciones relacionadas con la gestión de usuarios en la
+plataforma, incluyendo el registro de nuevos usuarios, la autenticación y la verificación de la identidad de los
+arrendatarios. Asegura que solo usuarios autenticados y verificados puedan interactuar con el sistema, garantizando la
+seguridad y la integridad de las transacciones dentro de la plataforma. Este contexto es fundamental para mantener un
+entorno seguro y de confianza para todos los usuarios, facilitando una experiencia de usuario fluida y protegida.
 
 ![Contracts](img/Capitulo_4/BoundedCanvases-User.png)
 
@@ -1538,53 +1924,85 @@ Enlace a Miro: [Bounded Context Canvases](https://miro.com/app/board/uXjVKhk8XkA
 
 ### 4.2.5. Context Mapping
 
-Tras identificar nuestros Bounded Contexts, procedimos a definir las relaciones estructurales entre ellos. Para esta tarea, evaluamos diversos diseños candidatos para el Context Mapping, basándonos en los patrones de relaciones entre Bounded Contexts propuestos en el Domain-Driven Design. Empleamos la herramienta en línea DomoRoboto para crear el Context Mapping mostrado en la imagen siguiente: 
+Tras identificar nuestros Bounded Contexts, procedimos a definir las relaciones estructurales entre ellos. Para esta
+tarea, evaluamos diversos diseños candidatos para el Context Mapping, basándonos en los patrones de relaciones entre
+Bounded Contexts propuestos en el Domain-Driven Design. Empleamos la herramienta en línea DomoRoboto para crear el
+Context Mapping mostrado en la imagen siguiente:
 
 ![Context Mapping](img/Capitulo_4/ContextMapping.png)
+
 ## 4.3. Software Architecture.
 
 ### 4.3.1. Software Architecture Context Level Diagrams.
 
-El presente diagrama muestra la interacción del sistema CasaFinder con los usuarios y otros sistemas. Los usuarios son el arrendador y el arrendatario. El arrendador es una persona que busca poner en alquiler su casa, mientras que el arrendatario busca alquilar una casa. Los sistemas con los que interactúa son el sistema de email para enviar notificaciones y la plataforma de pagos para hacer depósitos y retiros.
+El presente diagrama muestra la interacción del sistema CasaFinder con los usuarios y otros sistemas. Los usuarios son
+el arrendador y el arrendatario. El arrendador es una persona que busca poner en alquiler su casa, mientras que el
+arrendatario busca alquilar una casa. Los sistemas con los que interactúa son el sistema de email para enviar
+notificaciones y la plataforma de pagos para hacer depósitos y retiros.
 
 ![Diagrama de Contexto](img/Capitulo_4/DiagramasC4/Imagen2.png)
-                                                  |
+|
+
 ### 4.3.2. Software Architecture Container Level Diagrams.
 
-El presente diagrama muestra el contenido del sistema CasaFinder. Los cuales son Landing Page, Aplicación web, API Rest y Base de datos. El landing page está desarrollado con HTML, CSS y Js, es un call-to-action para llamar la atención de ambos usuarios, fomentar la descarga y redirigir hacia la aplicación. La aplicación web está desarrollada con React y provee una interfaz didáctica con los usuarios y otros sistemas. El API Rest está desarrollado con Spring Boot y expone los endpoints para principalmente poner en alquiler casas. La base de datos está desarrollada con PostgreSql y se usa para el almacenamiento de todos los datos. Adicionalmente, se muestra la interacción del API Rest con el sistema de email para enviar notificaciones y con la plataforma de pagos para hacer depósitos y retiros.
+El presente diagrama muestra el contenido del sistema CasaFinder. Los cuales son Landing Page, Aplicación web, API Rest
+y Base de datos. El landing page está desarrollado con HTML, CSS y Js, es un call-to-action para llamar la atención de
+ambos usuarios, fomentar la descarga y redirigir hacia la aplicación. La aplicación web está desarrollada con React y
+provee una interfaz didáctica con los usuarios y otros sistemas. El API Rest está desarrollado con Spring Boot y expone
+los endpoints para principalmente poner en alquiler casas. La base de datos está desarrollada con PostgreSql y se usa
+para el almacenamiento de todos los datos. Adicionalmente, se muestra la interacción del API Rest con el sistema de
+email para enviar notificaciones y con la plataforma de pagos para hacer depósitos y retiros.
 
 ![Diagrama de Contenedores](img/Capitulo_4/DiagramasC4/Imagen3.png)
 
 ---
+
 # Capítulo V: Tactical-Level Software Design
 
 ## 5.1. Bounded Context: User Bounded Context
+
 ### 5.1.1. Domain Layer
-User: Esta clase representa a un usuario en el sistema. Sus atributos incluyen userID, nombre, email, rol, y fechaDeRegistro. Los métodos que podría contener son el registro de nuevos usuarios, la actualización de los detalles del perfil y la gestión de roles de usuario.
 
-UserProfile: Esta clase contiene información más detallada sobre el usuario, como su dirección, número de teléfono, preferencias de búsqueda de propiedades, y más.
+User: Esta clase representa a un usuario en el sistema. Sus atributos incluyen userID, nombre, email, rol, y
+fechaDeRegistro. Los métodos que podría contener son el registro de nuevos usuarios, la actualización de los detalles
+del perfil y la gestión de roles de usuario.
 
-UserRole: Define los roles de usuario como inquilino, propietario o administrador, y los permisos específicos asociados a esos roles.
-Authentication: Esta clase gestiona la autenticación de los usuarios, incluyendo la gestión de contraseñas, el inicio de sesión, cierre de sesión, y la expiración de sesiones.
+UserProfile: Esta clase contiene información más detallada sobre el usuario, como su dirección, número de teléfono,
+preferencias de búsqueda de propiedades, y más.
+
+UserRole: Define los roles de usuario como inquilino, propietario o administrador, y los permisos específicos asociados
+a esos roles.
+Authentication: Esta clase gestiona la autenticación de los usuarios, incluyendo la gestión de contraseñas, el inicio de
+sesión, cierre de sesión, y la expiración de sesiones.
 
 ### 5.1.2. Interface Layer
-UserController: Se encarga de las solicitudes relacionadas con el manejo de usuarios. Permite la creación, actualización y eliminación de usuarios, y la autenticación.
 
-ProfileController: Maneja las solicitudes relacionadas con los perfiles de usuario, permitiendo que los usuarios puedan ver y actualizar su información personal.
+UserController: Se encarga de las solicitudes relacionadas con el manejo de usuarios. Permite la creación, actualización
+y eliminación de usuarios, y la autenticación.
+
+ProfileController: Maneja las solicitudes relacionadas con los perfiles de usuario, permitiendo que los usuarios puedan
+ver y actualizar su información personal.
 
 ### 5.1.3. Application Layer
-UserService: Contiene la lógica de negocio relacionada con los usuarios, gestionando el proceso de registro, la asignación de roles y la validación de contraseñas.
 
-AuthenticationService: Gestiona la autenticación de los usuarios, incluyendo la creación de sesiones, el cierre de sesiones, y asegurando el acceso a las áreas protegidas del sistema.
+UserService: Contiene la lógica de negocio relacionada con los usuarios, gestionando el proceso de registro, la
+asignación de roles y la validación de contraseñas.
+
+AuthenticationService: Gestiona la autenticación de los usuarios, incluyendo la creación de sesiones, el cierre de
+sesiones, y asegurando el acceso a las áreas protegidas del sistema.
 
 ### 5.1.4. Infrastructure Layer
-UserRepository: Interactúa con la base de datos para realizar operaciones CRUD (crear, leer, actualizar, eliminar) relacionadas con los datos de los usuarios.
+
+UserRepository: Interactúa con la base de datos para realizar operaciones CRUD (crear, leer, actualizar, eliminar)
+relacionadas con los datos de los usuarios.
 
 RoleRepository: Se encarga de gestionar los roles de usuario y las asociaciones con sus permisos en la base de datos.
 
-EmailService: Se utiliza para enviar notificaciones por correo electrónico a los usuarios, como confirmaciones de registro, enlaces para restablecer contraseñas y otras comunicaciones importantes.
+EmailService: Se utiliza para enviar notificaciones por correo electrónico a los usuarios, como confirmaciones de
+registro, enlaces para restablecer contraseñas y otras comunicaciones importantes.
 
 ### 5.1.5. Bounded Context Software Architecture Component Level Diagrams
+
 Diagramas de nivel de componentes para la arquitectura de software del contexto limitado de usuario.
 
 ![Diagrama de componentes de Usuario](img/Capitulo_5/Bounded_Context/User_BC.png)
@@ -1592,152 +2010,204 @@ Diagramas de nivel de componentes para la arquitectura de software del contexto 
 ### 5.1.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 5.1.6.1. Bounded Context Domain Layer Class Diagrams
+
 Diagramas de clases del Domain Layer para el contexto limitado de usuario.
 
 ![Diagrama de clases de Usuario](img/Capitulo_5/Bounded_Context/User_CD.png)
 
 #### 5.1.6.2. Bounded Context Database Design Diagram
+
 Diagrama del diseño de base de datos para el contexto limitado de usuario.
 
 ![Diagrama de base de datos de Usuario](img/Capitulo_5/Bounded_Context/User_DB.png)
 
 ## 5.2. Bounded Context: Property Management Bounded Context
+
 ### 5.2.1. Domain Layer
-Property: Representa una propiedad en el sistema. Sus atributos incluyen propertyID, ubicación, tamaño, precio, ownerID, entre otros. Los métodos podrían incluir la gestión de disponibilidad de la propiedad, actualización de detalles, y asignación de propietarios.
 
-MaintenanceRequest: Esta clase gestiona las solicitudes de mantenimiento hechas por los inquilinos. Sus atributos incluyen maintenanceID, propertyID, descripciónDelProblema, fechaDeSolicitud, y estadoDeLaSolicitud.
+Property: Representa una propiedad en el sistema. Sus atributos incluyen propertyID, ubicación, tamaño, precio, ownerID,
+entre otros. Los métodos podrían incluir la gestión de disponibilidad de la propiedad, actualización de detalles, y
+asignación de propietarios.
 
-Owner: Representa a los propietarios que poseen una o más propiedades en el sistema. Contiene atributos como ownerID, nombre, contacto, y métodos para gestionar sus propiedades.
+MaintenanceRequest: Esta clase gestiona las solicitudes de mantenimiento hechas por los inquilinos. Sus atributos
+incluyen maintenanceID, propertyID, descripciónDelProblema, fechaDeSolicitud, y estadoDeLaSolicitud.
+
+Owner: Representa a los propietarios que poseen una o más propiedades en el sistema. Contiene atributos como ownerID,
+nombre, contacto, y métodos para gestionar sus propiedades.
 
 ### 5.2.2. Interface Layer
-PropertyController: Maneja las solicitudes API relacionadas con la administración de propiedades, tales como agregar, actualizar o eliminar propiedades.
 
-MaintenanceController: Maneja las solicitudes relacionadas con los reportes de mantenimiento, permitiendo a los inquilinos reportar problemas y a los propietarios gestionar las reparaciones.
+PropertyController: Maneja las solicitudes API relacionadas con la administración de propiedades, tales como agregar,
+actualizar o eliminar propiedades.
+
+MaintenanceController: Maneja las solicitudes relacionadas con los reportes de mantenimiento, permitiendo a los
+inquilinos reportar problemas y a los propietarios gestionar las reparaciones.
 
 ### 5.2.3. Application Layer
-PropertyService: Gestiona la lógica de negocio relacionada con las propiedades, verificando disponibilidad, actualizando detalles y coordinando la interacción entre propietarios y posibles inquilinos.
 
-MaintenanceService: Gestiona las solicitudes de mantenimiento, asegurando que los problemas reportados se registren correctamente y se resuelvan a 
+PropertyService: Gestiona la lógica de negocio relacionada con las propiedades, verificando disponibilidad, actualizando
+detalles y coordinando la interacción entre propietarios y posibles inquilinos.
+
+MaintenanceService: Gestiona las solicitudes de mantenimiento, asegurando que los problemas reportados se registren
+correctamente y se resuelvan a
 tiempo. También coordina la asignación de técnicos para las reparaciones necesarias.
 
 ### 5.2.4. Infrastructure Layer
-PropertyRepository: Se encarga de almacenar y recuperar la información de las propiedades en la base de datos, incluyendo su disponibilidad, detalles y asociación con propietarios.
 
-MaintenanceRepository: Almacena y gestiona las solicitudes de mantenimiento, incluyendo el estado actual de cada solicitud y la propiedad a la que está asociada.
+PropertyRepository: Se encarga de almacenar y recuperar la información de las propiedades en la base de datos,
+incluyendo su disponibilidad, detalles y asociación con propietarios.
 
-NotificationService: Envía notificaciones a los propietarios y a los inquilinos para informarles sobre el estado de las solicitudes de mantenimiento y otros eventos importantes relacionados con la propiedad.
+MaintenanceRepository: Almacena y gestiona las solicitudes de mantenimiento, incluyendo el estado actual de cada
+solicitud y la propiedad a la que está asociada.
+
+NotificationService: Envía notificaciones a los propietarios y a los inquilinos para informarles sobre el estado de las
+solicitudes de mantenimiento y otros eventos importantes relacionados con la propiedad.
 
 ### 5.2.5. Bounded Context Software Architecture Component Level Diagrams
+
 Diagramas de nivel de componentes para la arquitectura de software del contexto limitado de gestión de propiedades.
 
 ![Diagrama de componentes de Manejo de propiedades](img/Capitulo_5/Bounded_Context/PropertyManagement_BC.png)
+
 ### 5.2.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 5.2.6.1. Bounded Context Domain Layer Class Diagrams
+
 Diagramas de clases del Domain Layer para el contexto limitado de gestión de propiedades.
 
 ![Diagrama de clases de Manejo de propiedades](img/Capitulo_5/Bounded_Context/PropertyManagement_CD.png)
 
 #### 5.2.6.2. Bounded Context Database Design Diagram
+
 Diagrama del diseño de base de datos para el contexto limitado de gestión de propiedades.
 
 ![Diagrama de base de datos de Manejo de propiedades](img/Capitulo_5/Bounded_Context/PropertyManagement_DB.png)
 
 ## 5.3. Bounded Context: Contracts Bounded Context
+
 ### 5.3.1. Domain Layer
+
 **Contract**:  
-Representa un contrato de alquiler entre un inquilino y un propietario. Contiene atributos como `contractID`, `tenantID`, `propertyID`, `fechaInicio`, `fechaFin`, `montoDeAlquiler`, y `términosDelContrato`. Los métodos podrían incluir la creación de contratos, actualización de términos y renovación de contratos.
+Representa un contrato de alquiler entre un inquilino y un propietario. Contiene atributos
+como `contractID`, `tenantID`, `propertyID`, `fechaInicio`, `fechaFin`, `montoDeAlquiler`, y `términosDelContrato`. Los
+métodos podrían incluir la creación de contratos, actualización de términos y renovación de contratos.
 
 **ContractTerms**:  
-Define los términos y condiciones específicos de cada contrato, tales como duración, monto de alquiler, y posibles penalidades por incumplimiento.
+Define los términos y condiciones específicos de cada contrato, tales como duración, monto de alquiler, y posibles
+penalidades por incumplimiento.
 
 ### 5.3.2. Interface Layer
+
 **ContractController**:  
-Gestiona las solicitudes API relacionadas con la creación, actualización y visualización de contratos. Permite a los propietarios y a los inquilinos acceder a los detalles del contrato y realizar modificaciones si es necesario.
+Gestiona las solicitudes API relacionadas con la creación, actualización y visualización de contratos. Permite a los
+propietarios y a los inquilinos acceder a los detalles del contrato y realizar modificaciones si es necesario.
 
 ### 5.3.3. Application Layer
+
 **ContractService**:  
-Contiene la lógica de negocio relacionada con los contratos. Gestiona la validación de términos, la creación de nuevos contratos y la renovación de contratos existentes. También asegura que se cumplan los términos acordados entre las partes.
+Contiene la lógica de negocio relacionada con los contratos. Gestiona la validación de términos, la creación de nuevos
+contratos y la renovación de contratos existentes. También asegura que se cumplan los términos acordados entre las
+partes.
 
 ### 5.3.4. Infrastructure Layer
+
 **ContractRepository**:  
-Interactúa con la base de datos para almacenar, recuperar y actualizar los detalles de los contratos. Incluye la gestión de contratos históricos y vigentes.
+Interactúa con la base de datos para almacenar, recuperar y actualizar los detalles de los contratos. Incluye la gestión
+de contratos históricos y vigentes.
 
 **AuditService**:  
-Lleva un registro de las modificaciones realizadas en los contratos, permitiendo una auditoría completa de los cambios para garantizar la transparencia entre inquilinos y propietarios.
+Lleva un registro de las modificaciones realizadas en los contratos, permitiendo una auditoría completa de los cambios
+para garantizar la transparencia entre inquilinos y propietarios.
 
 ### 5.3.5. Bounded Context Software Architecture Component Level Diagrams
+
 Diagramas de nivel de componentes para la arquitectura de software del contexto limitado de contratos.
 ![Diagrama de componentes de contratos](img/Capitulo_5/Bounded_Context/Contracts_BC.png)
 
 ### 5.3.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 5.3.6.1. Bounded Context Domain Layer Class Diagrams
+
 Diagramas de clases del Domain Layer para el contexto limitado de contratos.
 ![Diagrama de clases para contract bounded context](img/Capitulo_5/Bounded_Context/Contracts_CD.png)
 
-
 #### 5.3.6.2. Bounded Context Database Design Diagram
+
 Diagrama del diseño de base de datos para el contexto limitado de contratos.
 ![Diagrama de base de datos para contract bounded context](img/Capitulo_5/Bounded_Context/Contracts_DB.png)
 
 ## **5.4. Bounded Context: Payments Bounded Context**
 
 ### **5.4.1. Domain Layer**
+
 Descripción del Domain Layer para el contexto limitado de pagos.
 
 **Payment**:  
-Representa un pago realizado por un inquilino a un propietario. Contiene atributos como `paymentID`, `contractID`, `amount`, `fechaDePago`, y `estadoDePago` (ej., pendiente, completado, fallido). Los métodos podrían incluir el procesamiento de pagos y la verificación del estado del pago.
+Representa un pago realizado por un inquilino a un propietario. Contiene atributos
+como `paymentID`, `contractID`, `amount`, `fechaDePago`, y `estadoDePago` (ej., pendiente, completado, fallido). Los
+métodos podrían incluir el procesamiento de pagos y la verificación del estado del pago.
 
 **PaymentMethod**:  
-Define los diferentes métodos de pago aceptados (por ejemplo, tarjeta de crédito, transferencia bancaria) y contiene información sobre la configuración de cada método de pago.
+Define los diferentes métodos de pago aceptados (por ejemplo, tarjeta de crédito, transferencia bancaria) y contiene
+información sobre la configuración de cada método de pago.
 
 ### **5.4.2. Interface Layer**
+
 Descripción del Interface Layer para el contexto limitado de pagos.
 
 **PaymentController**:  
-Gestiona las solicitudes API relacionadas con los pagos, permitiendo a los inquilinos realizar pagos, verificar el estado de un pago y acceder a las facturas generadas. También proporciona acceso a los propietarios para revisar los pagos recibidos.
+Gestiona las solicitudes API relacionadas con los pagos, permitiendo a los inquilinos realizar pagos, verificar el
+estado de un pago y acceder a las facturas generadas. También proporciona acceso a los propietarios para revisar los
+pagos recibidos.
 
 **InvoiceController**:  
 Maneja las solicitudes relacionadas con la generación y consulta de facturas para cada pago realizado.
 
 ### **5.4.3. Application Layer**
+
 Descripción del Application Layer para el contexto limitado de pagos.
 
 **PaymentService**:  
-Gestiona la lógica de negocio relacionada con los pagos. Esto incluye procesar pagos, validar montos, y confirmar que los pagos se realicen dentro del tiempo estipulado por el contrato. También gestiona los reembolsos en caso de cancelación del contrato.
+Gestiona la lógica de negocio relacionada con los pagos. Esto incluye procesar pagos, validar montos, y confirmar que
+los pagos se realicen dentro del tiempo estipulado por el contrato. También gestiona los reembolsos en caso de
+cancelación del contrato.
 
 **InvoiceService**:  
-Responsable de generar facturas para cada pago realizado, asegurando que se envíen correctamente a los inquilinos y propietarios. También gestiona el historial de facturas emitidas.
+Responsable de generar facturas para cada pago realizado, asegurando que se envíen correctamente a los inquilinos y
+propietarios. También gestiona el historial de facturas emitidas.
 
 ### **5.4.4. Infrastructure Layer**
+
 Descripción del Infrastructure Layer para el contexto limitado de pagos.
 
 **PaymentRepository**:  
-Almacena y gestiona la información de los pagos en la base de datos, incluyendo los detalles de los montos pagados, fechas de pago y estado actual del pago.
+Almacena y gestiona la información de los pagos en la base de datos, incluyendo los detalles de los montos pagados,
+fechas de pago y estado actual del pago.
 
 **InvoiceRepository**:  
-Almacena las facturas emitidas para cada pago, permitiendo que tanto los inquilinos como los propietarios puedan acceder a sus registros de facturación.
+Almacena las facturas emitidas para cada pago, permitiendo que tanto los inquilinos como los propietarios puedan acceder
+a sus registros de facturación.
 
 **PaymentGateway**:  
-Integra con proveedores externos para procesar pagos de manera segura (por ejemplo, Stripe, PayPal) y gestiona la comunicación con estos proveedores para validar y registrar cada transacción.
-
+Integra con proveedores externos para procesar pagos de manera segura (por ejemplo, Stripe, PayPal) y gestiona la
+comunicación con estos proveedores para validar y registrar cada transacción.
 
 ### 5.4.5. Bounded Context Software Architecture Component Level Diagrams
+
 Diagramas de nivel de componentes para la arquitectura de software del contexto limitado de pagos.
 
 ![Diagrama de componentes para payment bc](img/Capitulo_5/Bounded_Context/Payments_BC.png)
 
-
 ### 5.4.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 5.4.6.1. Bounded Context Domain Layer Class Diagrams
+
 Diagramas de clases del Domain Layer para el contexto limitado de pagos.
 
 ![Diagrama de clases para payment bc](img/Capitulo_5/Bounded_Context/Payments_CD.png)
 
-
 #### 5.4.6.2. Bounded Context Database Design Diagram
+
 Diagrama del diseño de base de datos para el contexto limitado de pagos.
 
 ![Diagrama de bd para payment bc](img/Capitulo_5/Bounded_Context/Payments_DB.png)
@@ -1745,29 +2215,41 @@ Diagrama del diseño de base de datos para el contexto limitado de pagos.
 ## **5.5. Bounded Context: Property Search Bounded Context**
 
 ### **5.5.1. Domain Layer**
+
 SearchCriteria: Representa los criterios de búsqueda proporcionados por los inquilinos.
 
-SearchResult: Contiene los resultados de una búsqueda, que incluyen una lista de propiedades que cumplen con los criterios de búsqueda establecidos. Cada resultado tiene atributos.
+SearchResult: Contiene los resultados de una búsqueda, que incluyen una lista de propiedades que cumplen con los
+criterios de búsqueda establecidos. Cada resultado tiene atributos.
 
-Filter: Define los filtros aplicables a la búsqueda, tales como `númeroDeHabitaciones`, `proximidadATransporte`, o `amenities` (servicios).
+Filter: Define los filtros aplicables a la búsqueda, tales como `númeroDeHabitaciones`, `proximidadATransporte`,
+o `amenities` (servicios).
 
 ### **5.5.2. Interface Layer**
-SearchController: Maneja las solicitudes relacionadas con la búsqueda de propiedades. Permite a los usuarios realizar búsquedas basadas en criterios personalizados y visualizar los resultados de las propiedades disponibles.
 
-FilterController: Gestiona las solicitudes relacionadas con la aplicación de filtros a las búsquedas, permitiendo a los usuarios refinar sus resultados según sus necesidades específicas.
+SearchController: Maneja las solicitudes relacionadas con la búsqueda de propiedades. Permite a los usuarios realizar
+búsquedas basadas en criterios personalizados y visualizar los resultados de las propiedades disponibles.
+
+FilterController: Gestiona las solicitudes relacionadas con la aplicación de filtros a las búsquedas, permitiendo a los
+usuarios refinar sus resultados según sus necesidades específicas.
 
 ### **5.5.3. Application Layer**
-SearchService: Contiene la lógica de negocio que permite ejecutar búsquedas de propiedades con base en los criterios establecidos por el usuario. Coordina la interacción con el repositorio de propiedades y devuelve resultados relevantes.
 
-FilterService: Gestiona la aplicación de filtros a la búsqueda de propiedades. Optimiza los resultados en función de los parámetros establecidos por el usuario, tales como precio, tipo de propiedad, y ubicación.
+SearchService: Contiene la lógica de negocio que permite ejecutar búsquedas de propiedades con base en los criterios
+establecidos por el usuario. Coordina la interacción con el repositorio de propiedades y devuelve resultados relevantes.
+
+FilterService: Gestiona la aplicación de filtros a la búsqueda de propiedades. Optimiza los resultados en función de los
+parámetros establecidos por el usuario, tales como precio, tipo de propiedad, y ubicación.
 
 ### **5.5.4. Infrastructure Layer**
-SearchRepository: Interactúa con la base de datos para recuperar propiedades que cumplan con los criterios de búsqueda especificados. Gestiona la optimización de las consultas para mejorar la velocidad y precisión de los resultados.
 
-FilterRepository: Almacena y gestiona la información relacionada con los filtros que los usuarios pueden aplicar a sus búsquedas, permitiendo que estos sean actualizados según las necesidades del sistema o del usuario.
+SearchRepository: Interactúa con la base de datos para recuperar propiedades que cumplan con los criterios de búsqueda
+especificados. Gestiona la optimización de las consultas para mejorar la velocidad y precisión de los resultados.
 
+FilterRepository: Almacena y gestiona la información relacionada con los filtros que los usuarios pueden aplicar a sus
+búsquedas, permitiendo que estos sean actualizados según las necesidades del sistema o del usuario.
 
 ### 5.5.5. Bounded Context Software Architecture Component Level Diagrams
+
 Diagramas de nivel de componentes para la arquitectura de software del contexto limitado de búsqueda de propiedades.
 
 ![Diagrama de componentes para propertysearch bc](img/Capitulo_5/Bounded_Context/PropertySearch_BC.png)
@@ -1775,14 +2257,15 @@ Diagramas de nivel de componentes para la arquitectura de software del contexto 
 ### 5.5.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 5.5.6.1. Bounded Context Domain Layer Class Diagrams
+
 Diagramas de clases del Domain Layer para el contexto limitado de búsqueda de propiedades.
 
 ![Diagrama de clases para propertysearch bc](img/Capitulo_5/Bounded_Context/PropertySearch_CD.png)
 
 #### 5.5.6.2. Bounded Context Database Design Diagram
+
 Diagrama del diseño de base de datos para el contexto limitado de búsqueda de propiedades.
 ![Diagrama de bd para propertysearch bc](img/Capitulo_5/Bounded_Context/PropertySearch_DB.png)
-
 
 # Capítulo VI: Solution UX Design
 
@@ -1791,49 +2274,79 @@ Diagrama del diseño de base de datos para el contexto limitado de búsqueda de 
 ### 6.1.1 General Style guidelines
 
 **Branding:**
-El logotipo de CasaFinder se destaca con una casa centralizada dentro de unas manos abiertas, simbolizando confianza y seguridad, elementos esenciales para la experiencia de alquiler de viviendas. El icono de un teléfono móvil detrás de la casa representa la accesibilidad tecnológica de la plataforma, combinando lo tradicional con lo moderno. El logotipo será utilizado de manera prominente en la página principal y en todas las interfaces clave.
+El logotipo de CasaFinder se destaca con una casa centralizada dentro de unas manos abiertas, simbolizando confianza y
+seguridad, elementos esenciales para la experiencia de alquiler de viviendas. El icono de un teléfono móvil detrás de la
+casa representa la accesibilidad tecnológica de la plataforma, combinando lo tradicional con lo moderno. El logotipo
+será utilizado de manera prominente en la página principal y en todas las interfaces clave.
 
 **Typography:**
-La tipografía utilizada en CasaFinder es moderna y sin serifa, como Roboto, garantizando una lectura clara y fluida en todas las plataformas. El logotipo emplea un estilo tipográfico suave y redondeado, que transmite accesibilidad y cercanía, alineándose con los valores de la plataforma. Los encabezados se presentarán con un peso de letra mayor para destacar la jerarquía de la información, mientras que los cuerpos de texto mantendrán un peso regular.
+La tipografía utilizada en CasaFinder es moderna y sin serifa, como Roboto, garantizando una lectura clara y fluida en
+todas las plataformas. El logotipo emplea un estilo tipográfico suave y redondeado, que transmite accesibilidad y
+cercanía, alineándose con los valores de la plataforma. Los encabezados se presentarán con un peso de letra mayor para
+destacar la jerarquía de la información, mientras que los cuerpos de texto mantendrán un peso regular.
 
 **Colors:**
-La paleta de colores se basa en tonos cálidos y naturales que evocan confort y hogar, tales como el marrón y el beige, complementados con toques de verde y azul. El marrón refuerza la confianza y la estabilidad, mientras que el verde y el azul aportan una sensación de seguridad y modernidad. Estos colores se utilizarán de manera consistente en la interfaz para reforzar la identidad visual de la marca.
+La paleta de colores se basa en tonos cálidos y naturales que evocan confort y hogar, tales como el marrón y el beige,
+complementados con toques de verde y azul. El marrón refuerza la confianza y la estabilidad, mientras que el verde y el
+azul aportan una sensación de seguridad y modernidad. Estos colores se utilizarán de manera consistente en la interfaz
+para reforzar la identidad visual de la marca.
 
 Color primario: Marrón claro (#A67C52) para fondos y elementos destacados.
 Color secundario: Verde suave (#5A7D42) para botones y elementos interactivos.
 Neutros: Blancos y grises (#F5F5F5, #333333) para texto y áreas de fondo que necesiten ser neutras y claras.
 
 **Spacing:**
-El espaciado entre elementos se mantendrá amplio para evitar la sobrecarga visual y permitir una lectura fluida. Se utilizarán márgenes y padding uniformes para crear una estructura limpia y fácil de navegar. El espacio en blanco será un componente fundamental para dar claridad a la interfaz y guiar al usuario de manera intuitiva.
+El espaciado entre elementos se mantendrá amplio para evitar la sobrecarga visual y permitir una lectura fluida. Se
+utilizarán márgenes y padding uniformes para crear una estructura limpia y fácil de navegar. El espacio en blanco será
+un componente fundamental para dar claridad a la interfaz y guiar al usuario de manera intuitiva.
 
 **Tono de comunicación:**
-El tono de comunicación de CasaFinder será formal y accesible, asegurando confianza en las interacciones críticas como la firma de contratos o la realización de pagos. Al mismo tiempo, el tono debe ser cercano y empático, permitiendo que los usuarios se sientan cómodos y apoyados en todo el proceso. Se adoptará un lenguaje respetuoso y sereno, que transmita profesionalismo sin perder la calidez humana que caracteriza al servicio.
+El tono de comunicación de CasaFinder será formal y accesible, asegurando confianza en las interacciones críticas como
+la firma de contratos o la realización de pagos. Al mismo tiempo, el tono debe ser cercano y empático, permitiendo que
+los usuarios se sientan cómodos y apoyados en todo el proceso. Se adoptará un lenguaje respetuoso y sereno, que
+transmita profesionalismo sin perder la calidez humana que caracteriza al servicio.
 
 **Principios de diseño:**
-Accesibilidad: Todo el diseño seguirá pautas de accesibilidad, con un contraste adecuado entre el texto y el fondo, y una tipografía fácilmente legible para personas con discapacidades visuales.
-Consistencia: Los componentes visuales y de interacción mantendrán una estructura y estilo coherente en todas las páginas de la plataforma, garantizando una experiencia de usuario unificada.
-Feedback visual: Se proporcionará feedback claro en todas las interacciones del usuario, como cambios de estado en botones y alertas visuales que indiquen éxito o error, especialmente en los procesos de pagos o gestión de contratos.
-
+Accesibilidad: Todo el diseño seguirá pautas de accesibilidad, con un contraste adecuado entre el texto y el fondo, y
+una tipografía fácilmente legible para personas con discapacidades visuales.
+Consistencia: Los componentes visuales y de interacción mantendrán una estructura y estilo coherente en todas las
+páginas de la plataforma, garantizando una experiencia de usuario unificada.
+Feedback visual: Se proporcionará feedback claro en todas las interacciones del usuario, como cambios de estado en
+botones y alertas visuales que indiquen éxito o error, especialmente en los procesos de pagos o gestión de contratos.
 
 ### 6.1.2 Web, mobile & devices style guidelines
 
 **Responsive Web Interfaces:**
-La interfaz de CasaFinder debe adaptarse de manera eficiente a una variedad de tamaños de pantalla, desde computadoras de escritorio. Se implementarán principios de diseño responsivo, que incluyen el ajuste automático de las dimensiones de los elementos y la reorganización de la estructura de contenido.
-Grillas y columnas: Se utilizará un sistema de grilla flexible (preferiblemente de 12 columnas) que permita reorganizar el contenido dependiendo del ancho de la pantalla. En pantallas grandes, se utilizarán múltiples columnas para mostrar el contenido, mientras que en pantallas más pequeñas, el contenido se reorganizará en una o dos columnas.
-Imágenes y multimedia: Las imágenes y los elementos multimedia se optimizarán para cargarse rápidamente en cualquier dispositivo, utilizando técnicas como la carga diferida (lazy loading) y el ajuste proporcional de las imágenes (max-width: 100%).
+La interfaz de CasaFinder debe adaptarse de manera eficiente a una variedad de tamaños de pantalla, desde computadoras
+de escritorio. Se implementarán principios de diseño responsivo, que incluyen el ajuste automático de las dimensiones de
+los elementos y la reorganización de la estructura de contenido.
+Grillas y columnas: Se utilizará un sistema de grilla flexible (preferiblemente de 12 columnas) que permita reorganizar
+el contenido dependiendo del ancho de la pantalla. En pantallas grandes, se utilizarán múltiples columnas para mostrar
+el contenido, mientras que en pantallas más pequeñas, el contenido se reorganizará en una o dos columnas.
+Imágenes y multimedia: Las imágenes y los elementos multimedia se optimizarán para cargarse rápidamente en cualquier
+dispositivo, utilizando técnicas como la carga diferida (lazy loading) y el ajuste proporcional de las imágenes (
+max-width: 100%).
 
-Tipografía adaptable: El tamaño de la tipografía se ajustará de manera proporcional al tamaño de la pantalla, asegurando que los textos sean siempre legibles sin necesidad de hacer zoom. Para pantallas pequeñas, el tamaño mínimo del texto será de 16px, y para pantallas más grandes se podrá aumentar según la jerarquía del contenido.
-Navegación optimizada: La navegación será ajustada para dispositivos con pantallas pequeñas. En pantallas más grandes, se utilizarán menús horizontales que muestren todas las opciones disponibles de manera clara.
+Tipografía adaptable: El tamaño de la tipografía se ajustará de manera proporcional al tamaño de la pantalla, asegurando
+que los textos sean siempre legibles sin necesidad de hacer zoom. Para pantallas pequeñas, el tamaño mínimo del texto
+será de 16px, y para pantallas más grandes se podrá aumentar según la jerarquía del contenido.
+Navegación optimizada: La navegación será ajustada para dispositivos con pantallas pequeñas. En pantallas más grandes,
+se utilizarán menús horizontales que muestren todas las opciones disponibles de manera clara.
 
 **Native Mobile Interfaces:**
 CasaFinder no tendrá aplicación móvil.
 
 **Interacción entre dispositivos:**
-CasaFinder ofrecerá una experiencia fluida y coherente al cambiar entre dispositivos. Los usuarios podrán iniciar una tarea en un dispositivo, como de una computadora a otra.
-Sincronización en tiempo real: Todos los cambios que realice el usuario (por ejemplo, al visualizar una propiedad o actualizar un perfil) se sincronizan en tiempo real entre los diferentes dispositivos. Esto garantiza que el usuario siempre tenga acceso a la información más actualizada.
+CasaFinder ofrecerá una experiencia fluida y coherente al cambiar entre dispositivos. Los usuarios podrán iniciar una
+tarea en un dispositivo, como de una computadora a otra.
+Sincronización en tiempo real: Todos los cambios que realice el usuario (por ejemplo, al visualizar una propiedad o
+actualizar un perfil) se sincronizan en tiempo real entre los diferentes dispositivos. Esto garantiza que el usuario
+siempre tenga acceso a la información más actualizada.
 
 **Pruebas de compatibilidad:**
-Se realizarán pruebas exhaustivas de compatibilidad para asegurar que CasaFinder funcione correctamente en los principales navegadores (Chrome, Safari, Firefox, Edge). Esto incluye pruebas en dispositivos con diferentes resoluciones de pantalla y sistemas operativos para asegurar una experiencia consistente.
+Se realizarán pruebas exhaustivas de compatibilidad para asegurar que CasaFinder funcione correctamente en los
+principales navegadores (Chrome, Safari, Firefox, Edge). Esto incluye pruebas en dispositivos con diferentes
+resoluciones de pantalla y sistemas operativos para asegurar una experiencia consistente.
 
 ## 6.2 Information architecture
 
@@ -1841,10 +2354,15 @@ Se realizarán pruebas exhaustivas de compatibilidad para asegurar que CasaFinde
 
 **Principios de Etiquetado:**
 Las etiquetas utilizadas en la plataforma estarán basadas en los siguientes principios clave:
-Claridad: Las etiquetas deben ser intuitivas, evitando jergas técnicas o términos complejos. Se priorizarán términos comunes y fácilmente comprensibles para cualquier usuario.
-Concisión: Las etiquetas utilizarán el mínimo número de palabras posible, asegurando que sean fáciles de leer y comprendidas de un vistazo. Por ejemplo, en lugar de “Información del Inmueble”, se utilizará simplemente “Inmueble”.
-Consistencia: Se mantendrá una estructura consistente en todas las páginas de la plataforma. Los mismos términos se utilizarán de manera uniforme para describir funciones o elementos similares. Esto evitará confusiones y facilitará la comprensión por parte del usuario.
-Relevancia: Las etiquetas estarán relacionadas directamente con la funcionalidad o la información presentada. Esto ayudará a que los usuarios identifiquen rápidamente la utilidad de cada sección o botón.
+Claridad: Las etiquetas deben ser intuitivas, evitando jergas técnicas o términos complejos. Se priorizarán términos
+comunes y fácilmente comprensibles para cualquier usuario.
+Concisión: Las etiquetas utilizarán el mínimo número de palabras posible, asegurando que sean fáciles de leer y
+comprendidas de un vistazo. Por ejemplo, en lugar de “Información del Inmueble”, se utilizará simplemente “Inmueble”.
+Consistencia: Se mantendrá una estructura consistente en todas las páginas de la plataforma. Los mismos términos se
+utilizarán de manera uniforme para describir funciones o elementos similares. Esto evitará confusiones y facilitará la
+comprensión por parte del usuario.
+Relevancia: Las etiquetas estarán relacionadas directamente con la funcionalidad o la información presentada. Esto
+ayudará a que los usuarios identifiquen rápidamente la utilidad de cada sección o botón.
 
 **Ejemplos de Etiquetas:**
 Dashboard: Pantalla principal del usuario.
@@ -1857,19 +2375,30 @@ Favoritos: Lista de propiedades guardadas por el usuario.
 Historial: Visualización de interacciones y transacciones pasadas en la plataforma.
 
 **Asociaciones:**
-Las etiquetas no estarán aisladas, sino que estarán organizadas de manera que formen relaciones claras entre ellas, permitiendo que los usuarios puedan entender cómo interactúan los distintos componentes de la plataforma. Por ejemplo:
-La etiqueta "Buscar Propiedad" se relaciona directamente con etiquetas como "Filtros", "Precio", y "Ubicación", permitiendo que el usuario navegue de manera eficiente a través de las opciones para refinar su búsqueda.
-La etiqueta "Pagos" estará asociada con términos como "Historial de Pagos", "Métodos de Pago", y "Facturación", de modo que el usuario pueda gestionar todas las opciones financieras desde un solo lugar.
-Estas decisiones sobre el etiquetado garantizan que el contenido de CasaFinder sea accesible y comprensible, permitiendo a los usuarios encontrar lo que necesitan de manera rápida y sin esfuerzo. Al evitar la ambigüedad en los términos, se promueve una experiencia de usuario fluida, mejorando la interacción general con la plataforma.
+Las etiquetas no estarán aisladas, sino que estarán organizadas de manera que formen relaciones claras entre ellas,
+permitiendo que los usuarios puedan entender cómo interactúan los distintos componentes de la plataforma. Por ejemplo:
+La etiqueta "Buscar Propiedad" se relaciona directamente con etiquetas como "Filtros", "Precio", y "Ubicación",
+permitiendo que el usuario navegue de manera eficiente a través de las opciones para refinar su búsqueda.
+La etiqueta "Pagos" estará asociada con términos como "Historial de Pagos", "Métodos de Pago", y "Facturación", de modo
+que el usuario pueda gestionar todas las opciones financieras desde un solo lugar.
+Estas decisiones sobre el etiquetado garantizan que el contenido de CasaFinder sea accesible y comprensible, permitiendo
+a los usuarios encontrar lo que necesitan de manera rápida y sin esfuerzo. Al evitar la ambigüedad en los términos, se
+promueve una experiencia de usuario fluida, mejorando la interacción general con la plataforma.
 
 ### 6.2.2 Searching Systems
 
-CasaFinder ofrecerá múltiples formas de búsqueda, adaptadas a las necesidades específicas de los usuarios. Estas opciones permitirán buscar propiedades, contratos, pagos, y mensajes de manera rápida y sencilla.
-Búsqueda por palabra clave: En todas las secciones principales, se integrará un campo de búsqueda donde el usuario puede ingresar palabras clave relacionadas con la propiedad o información que busca, como "apartamento en Miraflores", "pago pendiente", o "contrato vencido".
-Búsqueda avanzada: Se ofrecerá una opción de búsqueda avanzada, donde los usuarios podrán refinar los resultados a través de múltiples criterios, como el tipo de propiedad, rango de precios, fecha de publicación, ubicación, entre otros.
+CasaFinder ofrecerá múltiples formas de búsqueda, adaptadas a las necesidades específicas de los usuarios. Estas
+opciones permitirán buscar propiedades, contratos, pagos, y mensajes de manera rápida y sencilla.
+Búsqueda por palabra clave: En todas las secciones principales, se integrará un campo de búsqueda donde el usuario puede
+ingresar palabras clave relacionadas con la propiedad o información que busca, como "apartamento en Miraflores", "pago
+pendiente", o "contrato vencido".
+Búsqueda avanzada: Se ofrecerá una opción de búsqueda avanzada, donde los usuarios podrán refinar los resultados a
+través de múltiples criterios, como el tipo de propiedad, rango de precios, fecha de publicación, ubicación, entre
+otros.
 
 **Filtros Disponibles:**
-Para garantizar que los resultados sean lo más relevantes posible, la búsqueda incluirá filtros específicos en cada contexto, ajustados a las necesidades de los usuarios.
+Para garantizar que los resultados sean lo más relevantes posible, la búsqueda incluirá filtros específicos en cada
+contexto, ajustados a las necesidades de los usuarios.
 Filtros para propiedades: Los usuarios podrán refinar su búsqueda de propiedades con los siguientes filtros:
 Ubicación: Distrito o ciudad.
 Rango de precio: Desde y hasta (en moneda local).
@@ -1888,20 +2417,32 @@ Fecha de vencimiento: Desde y hasta.
 Monto del pago: Rango específico de montos.
 
 **Visualización de Resultados:**
-Después de realizar una búsqueda, los resultados se mostrarán de manera clara y organizada, con un diseño que facilite la lectura y comparación de información.
-Vista de propiedades: Los resultados de búsqueda de propiedades se mostrarán en formato de cuadrícula o lista, con una imagen principal, precio, ubicación y detalles clave como el número de habitaciones y metros cuadrados. Cada propiedad incluirá un botón de "Más información" que permitirá al usuario acceder a una página detallada de la propiedad.
-Vista de contratos y pagos: Los contratos y pagos se mostrarán en listas con columnas que incluyan el estado (activo, vencido, pendiente), la fecha relevante (de firma o de pago), y opciones para ver más detalles o tomar acciones (renovar contrato, realizar pago).
-Mensajes y notificaciones: Los resultados de búsqueda en mensajes y notificaciones mostrarán una lista cronológica, permitiendo filtrar por remitente o fecha, y con la opción de visualizar el contenido completo de cada mensaje.
+Después de realizar una búsqueda, los resultados se mostrarán de manera clara y organizada, con un diseño que facilite
+la lectura y comparación de información.
+Vista de propiedades: Los resultados de búsqueda de propiedades se mostrarán en formato de cuadrícula o lista, con una
+imagen principal, precio, ubicación y detalles clave como el número de habitaciones y metros cuadrados. Cada propiedad
+incluirá un botón de "Más información" que permitirá al usuario acceder a una página detallada de la propiedad.
+Vista de contratos y pagos: Los contratos y pagos se mostrarán en listas con columnas que incluyan el estado (activo,
+vencido, pendiente), la fecha relevante (de firma o de pago), y opciones para ver más detalles o tomar acciones (renovar
+contrato, realizar pago).
+Mensajes y notificaciones: Los resultados de búsqueda en mensajes y notificaciones mostrarán una lista cronológica,
+permitiendo filtrar por remitente o fecha, y con la opción de visualizar el contenido completo de cada mensaje.
 
 **Ayudas adicionales en la búsqueda:**
-Para mejorar la experiencia del usuario y evitar que se sientan perdidos, se integrarán ayudas adicionales durante la búsqueda:
-Sugerencias automáticas: Mientras los usuarios escriben en el campo de búsqueda, el sistema ofrecerá sugerencias automáticas basadas en términos comunes y propiedades destacadas.
-Corrección de errores ortográficos: Si el usuario comete un error tipográfico al buscar, el sistema detectará la posible palabra correcta y ofrecerá sugerencias relacionadas, evitando resultados nulos por simples errores de escritura.
-Historial de búsqueda: Se guardará el historial de búsquedas recientes para que los usuarios puedan acceder rápidamente a consultas pasadas sin tener que reingresar los términos de búsqueda.
+Para mejorar la experiencia del usuario y evitar que se sientan perdidos, se integrarán ayudas adicionales durante la
+búsqueda:
+Sugerencias automáticas: Mientras los usuarios escriben en el campo de búsqueda, el sistema ofrecerá sugerencias
+automáticas basadas en términos comunes y propiedades destacadas.
+Corrección de errores ortográficos: Si el usuario comete un error tipográfico al buscar, el sistema detectará la posible
+palabra correcta y ofrecerá sugerencias relacionadas, evitando resultados nulos por simples errores de escritura.
+Historial de búsqueda: Se guardará el historial de búsquedas recientes para que los usuarios puedan acceder rápidamente
+a consultas pasadas sin tener que reingresar los términos de búsqueda.
 
 ### 6.2.3 SEO Tags and Meta Tags
 
-El uso de SEO y Meta Tags es fundamental para garantizar que el contenido de CasaFinder sea indexado de manera efectiva por los motores de búsqueda, mejorando la visibilidad y el tráfico orgánico. Las siguientes etiquetas serán aplicadas en las principales páginas del sitio web y la aplicación web:
+El uso de SEO y Meta Tags es fundamental para garantizar que el contenido de CasaFinder sea indexado de manera efectiva
+por los motores de búsqueda, mejorando la visibilidad y el tráfico orgánico. Las siguientes etiquetas serán aplicadas en
+las principales páginas del sitio web y la aplicación web:
 
 **Title (Título):**
 Landing Page: "CasaFinder - Encuentra el Hogar Perfecto para Ti"
@@ -1910,14 +2451,20 @@ Perfil del Usuario: "CasaFinder - Gestión de Perfil de Usuario"
 Pagos y Contratos: "CasaFinder - Gestiona tus Pagos y Contratos de Alquiler"
 
 **Meta Description (Descripción):**
-Landing Page: "CasaFinder es la plataforma ideal para conectar propietarios e inquilinos en busca del hogar perfecto. Descubre una amplia selección de propiedades y gestiona tus contratos de alquiler de manera segura y eficiente."
-Página de Propiedades: "Explora las mejores propiedades disponibles en [Ubicación] a través de CasaFinder. Encuentra el lugar perfecto que se adapte a tus necesidades y presupuesto."
-Perfil del Usuario: "Administra tu perfil en CasaFinder, actualiza tu información y personaliza tus preferencias para una mejor experiencia de alquiler."
-Pagos y Contratos: "Gestiona fácilmente tus pagos de alquiler y contratos a través de CasaFinder. Mantén el control total sobre tus transacciones de manera rápida y segura."
+Landing Page: "CasaFinder es la plataforma ideal para conectar propietarios e inquilinos en busca del hogar perfecto.
+Descubre una amplia selección de propiedades y gestiona tus contratos de alquiler de manera segura y eficiente."
+Página de Propiedades: "Explora las mejores propiedades disponibles en [Ubicación] a través de CasaFinder. Encuentra el
+lugar perfecto que se adapte a tus necesidades y presupuesto."
+Perfil del Usuario: "Administra tu perfil en CasaFinder, actualiza tu información y personaliza tus preferencias para
+una mejor experiencia de alquiler."
+Pagos y Contratos: "Gestiona fácilmente tus pagos de alquiler y contratos a través de CasaFinder. Mantén el control
+total sobre tus transacciones de manera rápida y segura."
 
 **Keywords (Palabras clave):**
-Landing Page: "alquiler de propiedades, casa en alquiler, departamentos en alquiler, buscar casas, contratos de alquiler, propiedades en [país/región]"
-Página de Propiedades: "alquiler de propiedades en [Ubicación], casas en alquiler, departamentos en alquiler en [Ubicación], propiedades disponibles"
+Landing Page: "alquiler de propiedades, casa en alquiler, departamentos en alquiler, buscar casas, contratos de
+alquiler, propiedades en [país/región]"
+Página de Propiedades: "alquiler de propiedades en [Ubicación], casas en alquiler, departamentos en alquiler
+en [Ubicación], propiedades disponibles"
 Perfil del Usuario: "perfil de usuario, gestión de perfil, administración de propiedades, alquiler seguro"
 Pagos y Contratos: "pagos de alquiler, gestión de pagos, contratos de alquiler, contratos de vivienda, alquiler seguro"
 Meta Author (Autor):
@@ -1928,60 +2475,94 @@ Además de los meta tags principales, se incluirán las siguientes etiquetas par
 Viewport: <meta name="viewport" content="width=device-width, initial-scale=1">
 Esto garantizará que la página web sea responsive y se adapte correctamente a todos los dispositivos.
 Robots: <meta name="robots" content="index, follow">
-Esta etiqueta permitirá a los motores de búsqueda indexar las páginas y seguir los enlaces, aumentando la visibilidad del sitio.
+Esta etiqueta permitirá a los motores de búsqueda indexar las páginas y seguir los enlaces, aumentando la visibilidad
+del sitio.
 ASO Elements para aplicaciones móviles:
-CasaFinder no tendrá versión móvil. 
+CasaFinder no tendrá versión móvil.
 
 **Implementación:**
-Tanto las etiquetas SEO como ASO estarán implementadas desde el momento del lanzamiento, y se revisarán periódicamente para asegurar que las palabras clave y descripciones reflejen las tendencias actuales del mercado y las búsquedas más comunes realizadas por los usuarios. De esta manera, CasaFinder mantendrá su competitividad en los motores de búsqueda y en las tiendas de aplicaciones.
+Tanto las etiquetas SEO como ASO estarán implementadas desde el momento del lanzamiento, y se revisarán periódicamente
+para asegurar que las palabras clave y descripciones reflejen las tendencias actuales del mercado y las búsquedas más
+comunes realizadas por los usuarios. De esta manera, CasaFinder mantendrá su competitividad en los motores de búsqueda y
+en las tiendas de aplicaciones.
 
 ### 6.2.4 Navigation Systems
 
 Los sistemas de navegación de CasaFinder se basarán en los siguientes principios:
-Simplicidad: La navegación será clara y directa, evitando la sobrecarga de opciones o elementos innecesarios. Todas las funciones clave estarán accesibles en un máximo de dos clics desde cualquier página principal.
-Consistencia: Los menús, botones, y elementos de navegación serán consistentes en todas las páginas y versiones (web) de la plataforma, garantizando que los usuarios siempre sepan cómo desplazarse.
-Retroalimentación visual: Se proporcionará feedback visual (cambios de color, subrayados, iconos resaltados) para que el usuario entienda qué acciones ha realizado y en qué parte de la plataforma se encuentra.
+Simplicidad: La navegación será clara y directa, evitando la sobrecarga de opciones o elementos innecesarios. Todas las
+funciones clave estarán accesibles en un máximo de dos clics desde cualquier página principal.
+Consistencia: Los menús, botones, y elementos de navegación serán consistentes en todas las páginas y versiones (web) de
+la plataforma, garantizando que los usuarios siempre sepan cómo desplazarse.
+Retroalimentación visual: Se proporcionará feedback visual (cambios de color, subrayados, iconos resaltados) para que el
+usuario entienda qué acciones ha realizado y en qué parte de la plataforma se encuentra.
 
 **Estructura de Navegación en la Landing Page:**
-La Landing Page de CasaFinder estará diseñada para captar rápidamente la atención de los usuarios y guiarlos hacia las acciones principales que desean realizar. A continuación se detalla la estructura de navegación:
+La Landing Page de CasaFinder estará diseñada para captar rápidamente la atención de los usuarios y guiarlos hacia las
+acciones principales que desean realizar. A continuación se detalla la estructura de navegación:
 Menú Principal: Estará ubicado en la parte superior, de fácil acceso, y contendrá las siguientes opciones:
 Inicio: Lleva al usuario de vuelta a la página principal.
-Buscar Propiedades: Permite a los usuarios explorar las propiedades disponibles, con acceso directo a los filtros de búsqueda.
+Buscar Propiedades: Permite a los usuarios explorar las propiedades disponibles, con acceso directo a los filtros de
+búsqueda.
 Propietarios: Información y registro para propietarios que deseen alquilar sus propiedades.
 Inquilinos: Registro e inicio de sesión para inquilinos que buscan una propiedad.
 Contactar: Página de contacto para consultas y soporte.
 
 **Botones de acción rápida:**
-Registrarse/Iniciar Sesión: Un botón prominente en la esquina superior derecha para acceder rápidamente a la página de registro o inicio de sesión.
-Buscar Ahora: Un botón centralizado que lleva a los usuarios directamente al sistema de búsqueda de propiedades desde la Landing Page.
-Navegación a través del contenido: La Landing Page incluirá enlaces y botones que guiarán a los usuarios a secciones informativas clave (cómo funciona, beneficios, características de la plataforma), cada una con un llamado a la acción final para registrarse o buscar propiedades.
+Registrarse/Iniciar Sesión: Un botón prominente en la esquina superior derecha para acceder rápidamente a la página de
+registro o inicio de sesión.
+Buscar Ahora: Un botón centralizado que lleva a los usuarios directamente al sistema de búsqueda de propiedades desde la
+Landing Page.
+Navegación a través del contenido: La Landing Page incluirá enlaces y botones que guiarán a los usuarios a secciones
+informativas clave (cómo funciona, beneficios, características de la plataforma), cada una con un llamado a la acción
+final para registrarse o buscar propiedades.
 
 **Estructura de Navegación en la Aplicación Web:**
-La aplicación web de CasaFinder tendrá una navegación que permita a los usuarios gestionar sus propiedades, contratos y pagos de manera sencilla. A continuación se describe cómo se estructurará la navegación:
-Menú lateral o superior: Dependiendo del dispositivo, la aplicación web contará con un menú lateral o superior con las siguientes secciones:
+La aplicación web de CasaFinder tendrá una navegación que permita a los usuarios gestionar sus propiedades, contratos y
+pagos de manera sencilla. A continuación se describe cómo se estructurará la navegación:
+Menú lateral o superior: Dependiendo del dispositivo, la aplicación web contará con un menú lateral o superior con las
+siguientes secciones:
 Dashboard: La página de inicio que muestra un resumen de las propiedades, contratos y pagos más recientes.
-Buscar Propiedades: El sistema de búsqueda con filtros avanzados para que los usuarios encuentren fácilmente las propiedades que se ajustan a sus necesidades.
+Buscar Propiedades: El sistema de búsqueda con filtros avanzados para que los usuarios encuentren fácilmente las
+propiedades que se ajustan a sus necesidades.
 Contratos: Sección dedicada a la gestión de contratos, tanto para propietarios como inquilinos.
-Pagos: Permite a los usuarios gestionar y realizar pagos de alquiler, con acceso a los métodos de pago y el historial de transacciones.
-Mensajes: Sección de comunicación entre propietarios e inquilinos, con un sistema de mensajería interno para consultas o negociación de contratos.
-Perfil: Página donde el usuario puede actualizar su información personal, preferencias, y configuraciones de notificaciones.
-Accesos rápidos y notificaciones: En la esquina superior derecha, los usuarios tendrán iconos para acceder rápidamente a notificaciones (pagos pendientes, contratos próximos a vencer), el perfil, y un menú desplegable con configuraciones adicionales.
+Pagos: Permite a los usuarios gestionar y realizar pagos de alquiler, con acceso a los métodos de pago y el historial de
+transacciones.
+Mensajes: Sección de comunicación entre propietarios e inquilinos, con un sistema de mensajería interno para consultas o
+negociación de contratos.
+Perfil: Página donde el usuario puede actualizar su información personal, preferencias, y configuraciones de
+notificaciones.
+Accesos rápidos y notificaciones: En la esquina superior derecha, los usuarios tendrán iconos para acceder rápidamente a
+notificaciones (pagos pendientes, contratos próximos a vencer), el perfil, y un menú desplegable con configuraciones
+adicionales.
 
 **Técnicas adicionales de navegación:**
-Breadcrumbs: Para ayudar a los usuarios a saber en qué sección se encuentran y cómo volver a las páginas anteriores, se implementará un sistema de "breadcrumbs" o migajas de pan en la parte superior de las páginas internas (como Contratos y Pagos).
-Enlaces contextuales: Se integrarán enlaces contextuales dentro de la información de las propiedades, contratos y pagos, para que los usuarios puedan acceder fácilmente a información relacionada sin tener que volver al menú principal. Por ejemplo, desde la página de detalles de una propiedad, el usuario podrá ir directamente a la página de contacto con el propietario o gestionar un contrato.
+Breadcrumbs: Para ayudar a los usuarios a saber en qué sección se encuentran y cómo volver a las páginas anteriores, se
+implementará un sistema de "breadcrumbs" o migajas de pan en la parte superior de las páginas internas (como Contratos y
+Pagos).
+Enlaces contextuales: Se integrarán enlaces contextuales dentro de la información de las propiedades, contratos y pagos,
+para que los usuarios puedan acceder fácilmente a información relacionada sin tener que volver al menú principal. Por
+ejemplo, desde la página de detalles de una propiedad, el usuario podrá ir directamente a la página de contacto con el
+propietario o gestionar un contrato.
+
 ## 6.3. Landing Page UI Design.
+
 ### 6.3.1. Landing Page Wireframe.
-Para desarrollar el esquema preliminar de nuestra Landing Page, utilizamos la plataforma Figma junto con diversos complementos que facilitaron enormemente el proceso de diseño y desarrollo. Esta combinación de herramientas posibilitó una creación ágil y eficaz del wireframe.
+
+Para desarrollar el esquema preliminar de nuestra Landing Page, utilizamos la plataforma Figma junto con diversos
+complementos que facilitaron enormemente el proceso de diseño y desarrollo. Esta combinación de herramientas posibilitó
+una creación ágil y eficaz del wireframe.
 
 ![](img/Capitulo-6/6.3/Landing%20page%20Wireframe.png)
+
 ### 6.3.2. Landing Page Mock-up.
-Hemos finalizado con éxito el desarrollo del prototipo de nuestra Landing Page, lo que nos ha permitido resaltar y aplicar los principios y elementos de diseño que definimos. Estas directrices y criterios heurísticos son esenciales para asegurar que la experiencia de los usuarios en nuestra plataforma sea más fluida e intuitiva.
+
+Hemos finalizado con éxito el desarrollo del prototipo de nuestra Landing Page, lo que nos ha permitido resaltar y
+aplicar los principios y elementos de diseño que definimos. Estas directrices y criterios heurísticos son esenciales
+para asegurar que la experiencia de los usuarios en nuestra plataforma sea más fluida e intuitiva.
 ![](img/Capitulo-6/6.3/LandingPage1.JPG)
 ![](img/Capitulo-6/6.3/LandingPage2.JPG)
 
 [Landing page desplegado](https://smartrenta.github.io/Landin-Page/)
-
 
 ## 6.4 Applications UX/UI Design
 
@@ -2025,7 +2606,8 @@ El siguiente wireframe es usado por los inquilinos para ver el perfil del propie
 
 **Inquilino: Alquilar una casa**
 
-Los siguientes wireframes son usados por los inquilinos para alquilar una casa y realizar todo el proceso hasta ser aceptado o rechazado.
+Los siguientes wireframes son usados por los inquilinos para alquilar una casa y realizar todo el proceso hasta ser
+aceptado o rechazado.
 
 ![](img/Capitulo_6/Wireframes/6_1.png)
 ![](img/Capitulo_6/Wireframes/6_2.png)
@@ -2063,7 +2645,8 @@ Los siguientes wireframes son usados por los propietarios para agregar una nueva
 
 **Propietario: Notificación de solicitud de contrato**
 
-Los siguientes wireframes son usados por los propietarios para recibir notificación de las solicitudes de contrato que se hagan por sus propiedades.
+Los siguientes wireframes son usados por los propietarios para recibir notificación de las solicitudes de contrato que
+se hagan por sus propiedades.
 
 ![](img/Capitulo_6/Wireframes/10_1.png)
 ![](img/Capitulo_6/Wireframes/10_2.png)
@@ -2091,7 +2674,8 @@ _**Segmento: Inquilinos**_
 
 ![](img/Capitulo_6/Wireflow/4.png)
 
-**User Goal:** Como usuario inquilino Quiero ser notificado cuando el contrato sea aceptado o rechazado Para estar informado.
+**User Goal:** Como usuario inquilino Quiero ser notificado cuando el contrato sea aceptado o rechazado Para estar
+informado.
 
 ![](img/Capitulo_6/Wireflow/5_1.png)
 ![](img/Capitulo_6/Wireflow/5_2.png)
@@ -2114,33 +2698,534 @@ _**Segmento: Propietarios**_
 
 ![](img/Capitulo_6/Wireflow/9.png)
 
-**User Goal:** Como usuario propietario Quiero recibir notificaciones de solicitudes de contrato Para poder aceptarlas o rechazarlas.
+**User Goal:** Como usuario propietario Quiero recibir notificaciones de solicitudes de contrato Para poder aceptarlas o
+rechazarlas.
 
 ![](img/Capitulo_6/Wireflow/10.png)
 
 ---
+
+### 6.4.3. Application Mock-ups
+
+### 6.4.4. Application User Flow Diagrams.
+
+## 6.5. Application Prototyping.
+
+Aquí se muestra el prototipo elaborado a partir de los mockups desarrollados y documentados en secciones previas. Este
+prototipo nos permite visualizar ciertos flujos que serán implementados durante la fase de desarrollo en código.
+![](img/Capitulo_6/Prototype/prototype.png)
+
+# Capítulo VII: Product Implementation, Validation & Deployment
+
+## 7.1. Software Configuration Management.
+
+### 7.1.1. Software Development Environment Configuration.
+
+En esta sección se describen los productos de software que utilizó el equipo a lo largo del ciclo de vida del proyecto.
+Se indican los nombres de los productos, su propósito en el proyecto, y la ruta de descarga.
+
+**Gestión de Proyectos (Project Management):**
+
+- **Producto:** Trello
+- **Propósito:** Seguimiento de tareas, gestión de sprints y asignación de actividades.
+- **Ruta de descarga/referencia:** [Trello SaaS](https://trello.com/)
+
+**Gestión de Requisitos (Requirements Management):**
+
+- **Producto:** Jira
+- **Propósito:** Administración y priorización de requisitos del sistema y seguimiento de historias de usuario.
+- **Ruta de descarga/referencia:** [Jira SaaS](https://www.atlassian.com/software/jira)
+
+**Diseño de Productos (Product Design):**
+
+- **Producto:** Figma
+- **Propósito:** Diseño de interfaces de usuario (UI) colaborativo y prototipado de la aplicación web.
+- **Ruta de descarga/referencia:** [Figma SaaS](https://www.figma.com/)
+
+**Desarrollo de Software (Software Development):**
+
+- **Producto:** Visual Studio Code (VSCode)
+- **Propósito:** Entorno de desarrollo integrado (IDE) para la escritura de código, con soporte para múltiples lenguajes
+  de programación.
+- **Ruta de descarga/referencia:** [VSCode](https://code.visualstudio.com/)
+
+**Pruebas de Software (Software Testing):**
+
+- **Producto:** Postman
+- **Propósito:** Pruebas de API para garantizar el correcto funcionamiento de las integraciones y servicios.
+- **Ruta de descarga/referencia:** [Postman](https://www.postman.com/)
+
+- **Producto:** Selenium
+- **Propósito:** Automatización de pruebas de interfaz de usuario para garantizar la funcionalidad y estabilidad del
+  frontend.
+- **Ruta de descarga/referencia:** [Selenium](https://www.selenium.dev/)
+
+**Despliegue de Software (Software Deployment):**
+
+- **Producto:** Docker
+- **Propósito:** Contenerización de aplicaciones para asegurar la portabilidad y consistencia en todos los entornos.
+- **Ruta de descarga/referencia:** [Docker](https://www.docker.com/)
+
+**Documentación de Software (Software Documentation):**
+
+- **Producto:** Confluence
+- **Propósito:** Plataforma de colaboración para la creación y organización de documentación técnica del proyecto.
+- **Ruta de descarga/referencia:** [Confluence SaaS](https://www.atlassian.com/software/confluence)
+
+Cada uno de estos productos ha sido seleccionado considerando la colaboración y el flujo de trabajo del equipo,
+asegurando que todas las herramientas sean compatibles con las restricciones del proyecto y faciliten una colaboración
+eficaz durante el desarrollo de la solución digital.
+
+### 7.1.2. Source Code Management.
+
+**Sistema de Control de Versiones**
+
+- Se utilizará Git como sistema de control de versiones distribuido
+- El repositorio principal se alojará en GitHub/GitLab
+
+**Estructura de Ramas**
+
+- main: Rama principal que contiene el código en producción
+- develop: Rama de desarrollo principal
+- feature/: Ramas para nuevas características
+- hotfix/: Ramas para correcciones urgentes
+- release/: Ramas para preparación de versiones
+
+**Convenciones de Commits**
+
+- Formato: <tipo>(<ámbito>): <descripción>
+- Tipos de commits:
+    - feat: Nueva característica
+    - fix: Corrección de errores
+    - docs: Cambios en documentación
+    - style: Cambios de formato
+    - refactor: Refactorización de código
+    - test: Adición o modificación de tests
+    - chore: Tareas de mantenimiento
+
+**Proceso de Merge**
+
+- Toda integración de código requiere una Pull Request
+- Requerimiento de al menos una revisión de código
+- Los tests deben pasar antes de aprobar el merge
+- Resolver conflictos antes del merge
+
+### 7.1.3. Source Code Style Guide & Conventions.
+
+**Nomenclatura General**
+
+- Variables: camelCase
+- Constantes: UPPER_SNAKE_CASE
+- Clases: PascalCase
+- Métodos: camelCase
+- Archivos: kebab-case
+
+**Formateo de Código**
+
+- Indentación: 4 espacios
+- Longitud máxima de línea: 80 caracteres
+- Una línea en blanco entre funciones
+- Usar llaves para todos los bloques de control
+
+**Documentación en el Código**
+
+- Documentar todas las clases y métodos públicos
+- Usar JSDoc/DocBlock para la documentación
+- Incluir ejemplos en funciones complejas
+- Documentar parámetros y valores de retorno
+
+**Prácticas de Codificación**
+
+- Principio DRY (Don't Repeat Yourself)
+- SOLID Principios
+- Evitar código comentado en producción
+- Manejar errores apropiadamente
+- Escribir tests unitarios
+
+**Organización de Archivos**
+
+![](img/Capitulo_7/ManagementFiles/managementFiles.png)
+
+**Gestión de Dependencias**
+
+- Mantener un archivo de dependencias actualizado
+- Especificar versiones exactas
+- Revisar regularmente actualizaciones de seguridad
+
+### 7.1.4. Software Deployment Configuration.
+
+## 7.2. Solution Implementation.
+
+### 7.2.1. Sprint 1
+
+#### 7.2.1.1. Sprint Planning 1.
+
+Para esta sección, hemos realizado una reunión con todos los integrantes del equipo para establecer los entregables para
+este primer sprint, la importancia y el motivo por el cual priorizamos ciertas historias de usuario.
+
+| Sprint                               | Sprint 1                                                         |
+|--------------------------------------|------------------------------------------------------------------|
+| **Sprint Planning Background**       |                                                                  |
+| **Date**                             | 22/10/2024                                                       |
+| **Time**                             | 11:26 am                                                         |
+| **Location**                         | Google Meet Call                                                 |
+| **Prepared By**                      | Carrillo, Michael                                                |
+| **Attendees**                        | Guerrero Grecia, Hinostroza Farid, Rondón Christopher, Vara José |
+| **Sprint 1 - Review Summary**        | No aplica                                                        |
+| **Sprint 1 - Retrospective Summary** | No aplica                                                        |
+| **Sprint 1 - Goal**                  |                                                                  |
+| **Sprint 1 - Velocity**              |                                                                  |
+| **Sum of Story Points**              |                                                                  |
+
+---
+
+#### 7.2.1.2. Sprint Backlog 1.
+
+En esta sección, exploraremos en profundidad el Sprint Backlog 1, una pieza fundamental para la planificación y
+ejecución efectiva del sprint.
+
+| User Story | Work-Item / Task                          | Id      | Title                                       | Description                                                                                    | Estimation (Hours) | Assigned to        | Status     |
+|------------|-------------------------------------------|---------|---------------------------------------------|------------------------------------------------------------------------------------------------|--------------------|--------------------|------------|
+| US015      | Historial de reparaciones de la propiedad | US015-1 | Diseño de la sección de historial           | Diseño de la sección de historial, donde se ve cada propiedad                                  | 3                  | Guerrero, Grecia   | Done       |
+| US015      | Historial de reparaciones de la propiedad | US015-2 | Integrar información del equipo             | Desarrollar la lógica para obtener información del Back-end                                    | 4                  | Guerrero, Grecia   | In Process |
+| US013      | Reporte de mantenimiento de la propiedad  | US013-1 | Diseño de reporte de mantenimiento          | Diseño de reporte de mantenimiento de la propiedad                                             | 3                  | Guerrero, Grecia   | Done       |
+| US013      | Reporte de mantenimiento de la propiedad  | US013-2 | Integrar información del equipo             | Desarrollar la lógica para obtener información del Back-end                                    | 5                  | Guerrero, Grecia   | In Process |
+| US009      | Generación de reportes de pagos           | US009-1 | Diseño de la sección de reporte de pagos    | Diseño de la sección de reporte de pagos                                                       | 4                  | Carrillo, Michael  | Done       |
+| US009      | Generación de reportes de pagos           | US009-2 | Integrar información del equipo             | Desarrollar la lógica para obtener información del Back-end                                    | 6                  | Carrillo, Michael  | In Process |
+| US012      | Opciones de contrato flexible             | US012-1 | Diseño de la sección de contratos           | Diseño de la sección de contratos con los métodos de pago                                      | 3                  | Carrillo, Michael  | Done       |
+| US012      | Opciones de contrato flexible             | US012-2 | Integrar información del equipo             | Desarrollar la lógica para obtener información del Back-end                                    | 6                  | Carrillo, Michael  | In Process |
+| US014      | Generación automática de contratos        | US014-1 | Diseño de la sección de generación          | Diseño de la sección de generación de contratos independientes                                 | 4                  | Hinostroza, Farid  | Done       |
+| US014      | Generación automática de contratos        | US014-2 | Integrar información del equipo             | Desarrollar la lógica para obtener información del Back-end                                    | 5                  | Hinostroza, Farid  | In Process |
+| US001      | Verificación de historial de cumplimiento | US001-1 | Diseño de la sección de calificaciones      | Diseño de la sección de calificaciones para ver el cumplimiento                                | 4                  | Hinostroza, Farid  | Done       |
+| US001      | Verificación de historial de cumplimiento | US001-2 | Integrar información del equipo             | Desarrollar la lógica para obtener información del Back-end                                    | 5                  | Hinostroza, Farid  | In Process |
+| US004      | Sistema de recordatorio de renovación     | US004-1 | Diseño de la sección de recordatorios       | Diseño de la sección de recordatorios, mediante notificaciones                                 | 2                  | Vara, José         | Done       |
+| US004      | Sistema de recordatorio de renovación     | US004-2 | Integrar información del equipo             | Desarrollar la lógica para obtener información del Back-end                                    | 5                  | Vara, José         | In Process |
+| US011      | Verificación de antecedentes crediticios  | US011-1 | Diseño de la sección de calificaciones      | Diseño de la sección de calificaciones para ver el status crediticio                           | 5                  | Vara, José         | Done       |
+| US011      | Verificación de antecedentes crediticios  | US011-2 | Integrar información del equipo             | Desarrollar la lógica para obtener información del Back-end                                    | 8                  | Vara, José         | In Process |
+| US010      | Verificación de identidad de inquilinos   | US010-1 | Diseño de la sección de inicio de sesión    | Diseño de la sección de inicio de sesión, donde se verificará la identidad                     | 6                  | Rondón, Cristopher | Done       |
+| US010      | Verificación de identidad de inquilinos   | US010-2 | Integrar información del equipo             | Desarrollar la lógica para obtener información del Back-end                                    | 6                  | Rondón, Cristopher | In Process |
+| US003      | Sistema de notificaciones de pagos        | US003-1 | Diseño de la sección de notificaciones      | Diseño de la sección de notificaciones para ver las notificaciones de pago                     | 3                  | Rondón, Cristopher | Done       |
+| US003      | Sistema de notificaciones de pagos        | US003-2 | Integrar información del equipo             | Desarrollar la lógica para obtener información del Back-end                                    | 4                  | Rondón, Cristopher | In Process |
+| US008      | Sistema de pago en línea                  | US008-1 | Diseño de la sección de pagos en línea      | Diseño de la sección de pagos en línea al crear el contrato                                    | 5                  | Carrillo, Michael  | Done       |
+| US008      | Sistema de pago en línea                  | US008-2 | Integrar información del equipo             | Desarrollar la lógica para obtener información del Back-end                                    | 8                  | Carrillo, Michael  | In Process |
+| US002      | Claridad en los contratos                 | US002-1 | Diseño de la sección de visualización       | Diseño de la sección de visualización del contrato, donde se verá todo lo incluido en el mismo | 4                  | Guerrero, Grecia   | Done       |
+| US002      | Claridad en los contratos                 | US002-2 | Integrar información del equipo             | Desarrollar la lógica para obtener información del Back-end                                    | 5                  | Guerrero, Grecia   | In Process |
+| US007      | Eliminación de cuenta de usuario          | US007-1 | Diseño de la sección perfil                 | Diseño de la sección perfil con la opción de eliminar la cuenta                                | 4                  | Hinostroza, Farid  | Done       |
+| US007      | Eliminación de cuenta de usuario          | US007-2 | Integrar información del equipo             | Desarrollar la lógica para obtener información del Back-end                                    | 4                  | Hinostroza, Farid  | In Process |
+| US006      | Inicio de sesión de usuario               | US006-1 | Diseño de la sección de inicio de sesión    | Diseño de la sección de inicio de sesión                                                       | 4                  | Rondón, Cristopher | Done       |
+| US006      | Inicio de sesión de usuario               | US006-2 | Integrar información del equipo             | Desarrollar la lógica para obtener información del Back-end                                    | 4                  | Rondón, Cristopher | In Process |
+| US005      | Registro de usuario                       | US015-1 | Diseño de la sección de registro de usuario | Diseño de la sección de registro de usuario con los datos respectivos                          | 4                  | Vara, José         | Done       |
+| US015      | Registro de usuario                       | US015-2 | Integrar información del equipo             | Desarrollar la lógica para obtener información del Back-end                                    | 5                  | Vara, José         | In Process |
+
+#### 7.2.1.3. Development Evidence for Sprint Review.
+
+| Repository              | Branch  | Commit ID                                | Commit Message                      | Commited on |
+|-------------------------|---------|------------------------------------------|-------------------------------------|-------------|
+| SmartRenta-/LandingPage | main    | a2eef4bb4712e7f553919a345d43ff0ebc70193b | Primera versión de la landing page  | 22/10/2024  |
+| SmartRenta-/WebApp      | develop | 022dc5a57d6901bc650cb21e1e3ba8cb08c92446 | feat: Updated transfers             | 24/10/2024  |
+| SmartRenta-/WebApp      | develop | dbcdd0de827fc2f87e99666e6d43619a0625b312 | feat:contracts page and interaction | 24/10/2024  |
+| SmartRenta-/WebApp      | develop | 8fd55f06f3b7725fc9fc505dd6a2024ed491c3ee | feat:user profile improvements      | 25/10/24    |
+| SmartRenta-/WebApp      | main    | 022dc5a57d6901bc650cb21e1e3ba8cb08c92446 | feat: Updated package-lock.json     | 25/10/24    |
+| SmartRenta-/WebApp      | main    | 76c89082f862028548ba822946f064df40860ceb | code: create properties section     | 26/10/24    |
+| SmartRenta-/WebApp      | main    | f637974fe1edf223382672d713625b7d50461e65 | code: fix editModalProperty         | 26/10/2024  |
+
+#### 7.2.1.4. Testing Suite Evidence for Sprint Review.
+
+![](img/Capitulo_7/Testing/test1.png)
+![](img/Capitulo_7/Testing/test2.png)
+![](img/Capitulo_7/Testing/test3.png)
+![](img/Capitulo_7/Testing/test4.png)
+![](img/Capitulo_7/Testing/test5.png)
+
+#### 7.2.1.5. Execution Evidence for Sprint Review.
+
+![](img/Capitulo_7/ExecutionEvidence/exec.png)
+
+**Configuración de la WebApp CasaFinder en Netlify**
+
+1. Configuración de despliegue en Netlify:
+    - La aplicación CasaFinder-WebApp fue configurada para desplegarse en Netlify El comando de construcción
+      especificado fue npm run build, y los archivos se publican en el directorio casa-finder/dist.
+    - La URL del sitio configurado es: https://casafinder.netlify.app, y se verificó la disponibilidad del nombre
+      casafinder, el cual estaba disponible.
+    - ![](img/Capitulo_7/ExecutionEvidence/exec2.png)
+2. Proceso de despliegue en Netlify:
+    - El log de despliegue muestra que las etapas de Inicialización y Construcción se completaron correctamente,
+      mientras que las fases de Despliegue y Limpieza fueron omitidas. La etapa de Post-procesamiento también se
+      completó sin problemas, indicando que el sitio estaba listo para previsualización y accesible en la URL
+      configurada.
+    - ![](img/Capitulo_7/ExecutionEvidence/exec4.png)
+3. Vista de login en producción:
+    - La captura muestra la página de inicio de sesión de CasaFinder, con campos para el ingreso de Email y Contraseña,
+      y un enlace para registrarse en caso de no tener una cuenta. Esto confirma que la aplicación está operativa en el
+      entorno de producción y accesible para usuarios.
+    - ![](img/Capitulo_7/ExecutionEvidence/login.png)
+
+4. Interfaz de búsqueda de propiedades:
+    - La interfaz principal permite a los arrendatarios buscar propiedades utilizando filtros como Departamento,
+      Provincia, y Distrito. También es posible ordenar las propiedades por precio y filtrar por tipo de propiedad,
+      número de pisos y rango de precio.
+    - Cada propiedad muestra detalles relevantes como el precio, tipo, estacionamiento, número de cuartos y baños,
+      permitiendo a los usuarios ver más detalles mediante el botón "Ver Propiedad".
+    - ![](img/Capitulo_7/ExecutionEvidence/search.png)
+
+5. Formulario de contrato:
+    - La sección de contrato incluye un formulario completo donde los usuarios deben ingresar datos personales como
+      Nombres completos, Tipo de documento, Número de documento, País, Dirección, y fechas de inicio y fin del alquiler.
+    - Además, se solicita información para el pago, como el Número de tarjeta de crédito, Fecha de Vencimiento, CVV, y
+      se permite la carga de firma y huella digital. También se incluye un checkbox de verificación para confirmar que
+      los datos ingresados son verídicos.
+
+#### 7.2.1.6. Services Documentation Evidence for Sprint Review.
+
+#### 7.2.1.7. Software Deployment Evidence for Sprint Review.
+
+En este Sprint desarrollamos nuestra aplicación web usando React como framework y asimismo la desplegamos usando la
+plataforma de netlify.app
+![](img/Capitulo_7/ExecutionEvidence/exec4.png)
+El inicio de sesión de nuestra aplicación con el dominio correspondiente.
+Enlace a nuestra AppWeb desplegada: https://casafinder.netlify.app/
+
+#### 7.2.1.8. Team Collaboration Insights during Sprint.
+
+Se presenta los cuadros de colaboración extraídos de nuestro repositorio en Github:
+
+- Contributors
+    - ![](img/Capitulo_7/Colaboration/colab.png)
+- Traffic
+    - ![](img/Capitulo_7/Colaboration/traffic.png)
+- Network
+    - ![](img/Capitulo_7/Colaboration/network.png)
+
+## 7.3. Validation Interviews.
+
+### 7.3.1. Diseño de Entrevistas.
+
+**Preguntas sobre información personal:**
+
+- ¿Cuál es su nombre completo?
+- ¿Qué edad tienes?
+- ¿En qué lugar reside actualmente? (Para el Arrendatario)
+- ¿Qué ocupación tiene y dónde labora? (Para el Arrendador)
+
+**Preguntas principales:**
+
+- ¿Qué le parece el diseño de la landing page?
+- ¿El contenido mostrado le motiva a registrarse en la aplicación?
+- Desde su punto de vista, ¿la aplicación le muestra una interfaz fácil de usar? ¿Por qué?
+- ¿Qué opina acerca de los mensajes mostrados al cometer un error? Por ejemplo, al iniciar sesión con un correo
+  inválido.
+- Después de ver la aplicación, ¿qué mejoras o recomendaciones sugiere?
+- ¿Puede mencionar alguna funcionalidad adicional de las que se les mostró en la exposición que le puedan ayudar para la
+  eficiencia de su trabajo?
+- En base a lo mostrado, ¿usted estaría dispuesto a utilizar la aplicación?
+
+### 7.3.2. Registro de Entrevistas.
+
+**Segmento Arrendadores**
+![](img/Capitulo_7/Interviews/abel.png)
+**Nombres:** Abel Angel Cierto Espiritu
+
+**Edad:** 29 años
+
+**Distrito:** Callao
+
+**URL:**
+
+**Inicio:** 00:00 min Fin: 00:00 min
+
+**Duración:** 5:40 min
+
+**Resumen:** Abel E. es arrendador, tiene 29 años y vive en Lima-Callao. Se dedica al servicio de taxi y alquila
+departamentos de forma independiente, principalmente a personas locales. Durante la prueba de una aplicación de gestión
+de propiedades, Abel encontró que el diseño era intuitivo y valoró la claridad de los íconos y el fácil acceso a
+secciones clave como perfil, propiedades y contratos. Sugirió mejorar la aplicación con un sistema de mensajería para
+facilitar la comunicación directa con inquilinos, permitir la carga de fotos de perfil y mejorar el contraste de ciertos
+colores para optimizar la visibilidad. Abel señaló que aprecia el enfoque simplificado y eficiente de la aplicación, que
+centraliza toda la información de sus propiedades, eliminando la necesidad de métodos tradicionales de almacenamiento
+como discos duros o USBs, y afirmó que estaría dispuesto a usarla con mayor frecuencia si se implementan las mejoras
+mencionadas.
+
+![](img/Capitulo_7/Interviews/dane.png)
+
+**Nombre:** Dánely Valdez Acosta
+
+**Edad:** 27 años
+
+**Provincia:** Ayacucho
+
+**URL:
+** [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201a291_upc_edu_pe/EWR59noTzq1ItI0Vw7AKiREBc3gWYY7kyV6ytusc0Fv3bw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XhcJ5h)
+
+**Inicio:** 00:00 min Fin: 4:32 min
+
+**Duración:** 4:32 min
+
+**Resumen:** Dánely Valdez, de 27 años, trabaja en el aeropuerto de Ayacucho. Durante la prueba de una aplicación de
+gestión de propiedades, Daniel evaluó la landing page de la aplicación, comentando que los colores y secciones eran
+agradables y organizados, lo cual le motivaba a registrarse. La aplicación le pareció intuitiva, especialmente por el
+acceso fácil a propiedades, contratos, transferencias y perfil, lo cual facilita la navegación para los arrendadores.
+Respecto a las alertas de inicio de sesión, sugirió que los mensajes sean más breves y directos. Para mejorar la
+experiencia, Daniel recomendó la opción de enviar los contratos o renovaciones directamente al correo electrónico y
+propuso clarificar el propósito de algunos íconos como la campanita y la casita. En general, le pareció una herramienta
+funcional y expresó disposición a usarla, especialmente con las mejoras sugeridas.
+
+**Segmento de Arrendatarios**
+
+**Nombre:** Carla Cuestas Quispe
+
+**Edad:** 57 años
+
+**Provincia:** Lima
+
+**URL:** entrevista.mp4
+
+**Inicio:** 00:00 min Fin: 3:11 min
+
+**Duración:** 5:58 min
+
+**Resumen:** Carla Cuestas Quispe, arrendataria de Lima de 57 años, comentó que el diseño de la página principal de la
+plataforma es atractivo y profesional, aunque sugirió simplificar ciertos elementos. Le pareció motivador el contenido
+mostrado para registrarse, y destacó la interfaz como intuitiva y fácil de usar. Respecto a los mensajes de error, los
+consideró claros, pero recomendó colores más llamativos. Para mejorar, sugirió añadir una función de registro de pagos
+realizados y pendientes. Carla manifestó su disposición a usar la aplicación, resaltando la utilidad de notificaciones
+automáticas y gestión de historial de arrendamientos.
+
+![](img/Capitulo_7/Interviews/francisco.png)
+**Nombre:** Francisco Javier Sánchez Terrasse
+
+**Edad:** 29 años
+
+**Distrito:** Chaclacayo
+
+**URL:** https://drive.google.com/file/d/1zgM6uPrIjc341qeqK-nNvr_Rf-mNAJoF/view?usp=sharing
+
+**Duración:** 5:04
+
+**Inicio:** Fin:
+
+### 7.3.3. Evaluaciones según heurísticas.
+
+**CARRERA :** Ingeniería de Software
+
+**CURSO :** Arquitecturas de Software Emergentes
+
+**SECCIÓN :** WX83
+
+**PROFESORES :** Royer Edelwer Rojas Malasquez, Jimmy Alexander Armas Aguirre
+
+**AUDITOR :** Grupo 2
+
+**SITE o APP A EVALUAR:**
+
+CasaFinder
+
+**TAREAS A EVALUAR:**
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Login y Perfil
+2. Arrendador Propiedades
+3. Búsqueda de Propiedades
+4. Notificaciones
+5. Creación de Contrato
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Gestión de Pagos
+2. Verificación de Identidad y Antecedentes
+3. Historial de Cumplimiento y Reportes
+4. Eliminación de Cuenta de Usuario
+
+**ESCALA DE SEVERIDAD**
+
+| Nivel | Descripción                                                                                                                                                                                      |
+|-------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1     | Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco  frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                   |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de  superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente  reléase |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es  importante que sean corregidos y se les debe asignar una prioridad alta.                                 |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de  la herramienta. Es imperativo que sea corregido antes del lanzamiento.                               |
+
+**TABLA RESUMEN**
+
+| # | Problema                                                                                                                                                                                                                   | Severidad | Heurística/Principio violada(o) |
+|---|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------------------------|
+| 1 | En la sección de login, no hay opción para visualizar la contraseña al escribirla.                                                                                                                                         | 4         | Usabilidad - Visibilidad y control del usuario |
+| 2 | La ventana de notificaciones aparece detrás de algunos elementos en las vistas de inicio y contratos                                                                                                                       | 3         | Usabilidad - Consistencia y visibilidad |
+| 3 | Los filtros en la búsqueda de propiedades no funcionan correctamente                                                                                                                                                        | 4         | Usabilidad - Eficiencia y control del usuario |
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+**PROBLEMA #1:** No hay opción para visualizar la contraseña en la sección de login
+
+**Severidad:** 4
+
+**Heurística violada:** Usabilidad - Visibilidad y control del usuario
+
+**Problema:** Al ingresar la contraseña en el login, el usuario no tiene la opción de visualizar los caracteres, lo que aumenta la probabilidad de errores al escribir y genera frustración, especialmente si la contraseña es compleja. La ausencia de esta funcionalidad puede dificultar el acceso al sistema para usuarios que desean verificar su entrada.
+
+![](img/Capitulo_7/HeuristicsEvaluations/login.png)
+
+**Recomendación:**
+Incluir un ícono de “ojo” que permita al usuario alternar entre ver y ocultar la contraseña ingresada para mayor precisión y comodidad.
+
+**PROBLEMA #2:** La ventana de notificaciones aparece detrás de algunos elementos en las vistas de inicio y contratos
+
+**Severidad:** 4
+
+**Heurística violada:** Usabilidad - Control y libertad del usuario
+
+**Problema:** En las vistas de inicio y contratos, la ventana de notificaciones se muestra detrás de otros elementos de la interfaz, lo que dificulta que el usuario lea las notificaciones o interactúe con ellas. Este problema de superposición genera confusión y afecta la experiencia de usuario, especialmente cuando las notificaciones contienen información importante.
+![](img/Capitulo_7/HeuristicsEvaluations/notify1.png)
+![](img/Capitulo_7/HeuristicsEvaluations/notify2.png)
+
+**Recomendación:**
+Asegurar que la ventana de notificaciones tenga una configuración de visibilidad que le permita sobreponerse a todos los elementos de la interfaz en todas las vistas, garantizando así su accesibilidad y visibilidad en todo momento.
+
+**PROBLEMA #3:** Los filtros en la búsqueda de propiedades no funcionan correctamente
+
+**Severidad:** 4
+
+**Heurística violada:** Usabilidad - Eficiencia y control del usuario
+
+**Problema:**
+Al aplicar filtros en la búsqueda de propiedades, estos no responden como se espera, mostrando resultados que no cumplen con los criterios seleccionados o sin actualizar los resultados. Esto impide que los usuarios encuentren propiedades específicas y limita la funcionalidad del sistema.
+![](img/Capitulo_7/HeuristicsEvaluations/filters.png)
+
+**Recomendación:**
+Revisar la lógica de los filtros y realizar pruebas para asegurar que los criterios seleccionados se apliquen correctamente en los resultados, mejorando así la experiencia de búsqueda del usuario.
+
+
+
+
+
+
+## 7.4. Video About-the-Product.
+
 # Conclusiones
 
 ## Conclusiones y recomendaciones
-- Las entrevistas realizadas nos confirman que es necesaria una aplicación intermediaria para el alquiler de viviendas usando contratos inteligentes.
-- Ha sido importante el trabajo en equipo para poder completar con éxito los objetivos de cada sprint. 
+
+- Las entrevistas realizadas nos confirman que es necesaria una aplicación intermediaria para el alquiler de viviendas
+  usando contratos inteligentes.
+- Ha sido importante el trabajo en equipo para poder completar con éxito los objetivos de cada sprint.
 - Recomendamos el uso de herramientas como Trello para una mejor organización de equipo.
 
 --- 
+
 # Anexos
 
 ## Anexo A. Video de exposición TB1
+
 Enlace: [Exposición TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620605_upc_edu_pe/EWBiPPEEPFFFsihmfBnj8jABNbpo0ieaFZIQEiqCoG1NRg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=X4fTIO)
 
 ## Anexo B. Video de entrevistas
 
 Enlace: [Video de entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620605_upc_edu_pe/EUvGDhtDbmFKjm40rynA5MMBZbwMzF-Br0WA3UQhv-m8qA?e=Yh9Ko3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-
 ## Anexo C. Video de exposición TP
 
 Enlace: [Exposición TP](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620605_upc_edu_pe/EfXViJxrxjhKjJLMvVx0P7QBSbfMXQgXzv_1-4iPmLtUJw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=DBXZSV)
 
-
 ## Anexo D. Repositorio con Informe
+
 Enlace: [Repositorio Trabajo Final](https://github.com/SmartRenta/CasaFinder-Report)
