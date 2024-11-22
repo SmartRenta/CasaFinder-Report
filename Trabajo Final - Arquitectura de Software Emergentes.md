@@ -3347,7 +3347,11 @@ Revisar la lógica de los filtros y realizar pruebas para asegurar que los crite
 
 ## 7.4. Video About-the-Product.
 
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620605_upc_edu_pe/EVGanj413KBNnG9jgA_2OjoBOKfyoKCfUbjJw8zPNlBkgQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=eRXpjJ
+
 ## 7.5. Video About-the-Team.
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620605_upc_edu_pe/Ebnrk0c_-sNJvPpRArXUKsMB0pQyjYbO7Gjbr_2w5yNUhA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=NUCtGx
 
 # Conclusiones
 
