@@ -226,11 +226,21 @@ Setiembre, 2024
       - [7.2.1.6. Services Documentation Evidence for Sprint Review.](#7216-services-documentation-evidence-for-sprint-review)
       - [7.2.1.7. Software Deployment Evidence for Sprint Review.](#7217-software-deployment-evidence-for-sprint-review)
       - [7.2.1.8. Team Collaboration Insights during Sprint.](#7218-team-collaboration-insights-during-sprint)
+    - [7.2.2. Sprint 2](#722-sprint-2)
+      - [7.2.2.1. Sprint Planning 2.](#7221-sprint-planning-2)
+      - [7.2.2.2. Sprint Backlog 2.](#7222-sprint-backlog-2)
+      - [7.2.2.3. Development Evidence for Sprint Review.](#7223-development-evidence-for-sprint-review)
+      - [7.2.2.4. Testing Suite Evidence for Sprint Review.](#7224-testing-suite-evidence-for-sprint-review)
+      - [7.2.2.5. Execution Evidence for Sprint Review.](#7225-execution-evidence-for-sprint-review)
+      - [7.2.2.6. Services Documentation Evidence for Sprint Review.](#7226-services-documentation-evidence-for-sprint-review)
+      - [7.2.2.7. Software Deployment Evidence for Sprint Review.](#7227-software-deployment-evidence-for-sprint-review)
+      - [7.2.2.8. Team Collaboration Insights during Sprint.](#7228-team-collaboration-insights-during-sprint)
   - [7.3. Validation Interviews.](#73-validation-interviews)
     - [7.3.1. Diseño de Entrevistas.](#731-diseño-de-entrevistas)
     - [7.3.2. Registro de Entrevistas.](#732-registro-de-entrevistas)
     - [7.3.3. Evaluaciones según heurísticas.](#733-evaluaciones-según-heurísticas)
   - [7.4. Video About-the-Product.](#74-video-about-the-product)
+  - [7.5. Video About-the-Team.](#75-video-about-the-team)
 - [Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 - [Anexos](#anexos)
@@ -245,8 +255,8 @@ Setiembre, 2024
 
 | Criterio específico                                                                                                                                                                   | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | Conclusiones                                                                                                                                                                                                                                                    |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería.    | **Farid Hinostroza Mavila**<br>*TB1* <br>- He presentado los resultados del análisis de usuarios mediante la creación de user personas y el empathy map, asegurándome de que la información fuera clara para todos los miembros del equipo. Además, participé en las discusiones sobre la matriz de tareas del usuario.<br><br>*TP*<br>- Mantuve un lenguaje ubicuo en cuanto a la representación de distintos servicios de nuestra arquitectura.<br><br>*TF*<br>- Presenté los avances técnicos del proyecto en reuniones multidisciplinarias, ajustando el nivel de detalle según la especialidad de la audiencia, asegurando la claridad y comprensión de los objetivos alcanzados.<br><br>**José Carlos Vara** <br>*TB1* <br>- Desarrollé y presenté los puntos clave del perfil de la startup y la solución propuesta, incluyendo los antecedentes, la problemática y el proceso Lean UX, adaptando la comunicación para un público de diversas especialidades y niveles jerárquicos. Utilicé un enfoque claro y estructurado para asegurar que los conceptos de ingeniería fueran comprensibles para todos los asistentes.<br><br>*TP*<br>- Presenté avances del proyecto, adaptando el nivel de tecnicismos según el público para asegurar la comprensión y toma de decisiones.<br><br>*TF*<br>- Presenté avances de las funcionalidades desarrolladas, adaptando el lenguaje técnico según la audiencia.<br><br>**Grecia Guerrero Alegría** <br>*TB1* <br>- He mantenido conversación con los usuarios de los 2 tipos de segmento para realizar las entrevistas y que se pueda hacer uso de ellas.<br><br>*TP* <br>- He presentado los mockups previa comunicación con mis compañeros para tener un diseño homogéneo.<br><br>*TF*<br>- Me he comunicado con integrantes del equipo durante el desarrollo de las notificaciones y he adecuado el lenguaje para la exposición.<br><br>**Cristopher Rondon Añaños**<br>*TB1* <br>- Realicé la recolección de las historias de usuario, así como una priorización adecuada de estas.<br> <br>*TP1* <br>- Realicé los Wireframes de nuestro Landing Page.<br><br>*TF*<br>- Realicé el desarrollo de funcionalidades en el backend, comunicándome con los miembros del equipo para las validaciones necesarias.<br><br>**Michael Carrillo Mainicta**<br>*TB1*<br>- En el video de exposición, he demostrado mi habilidad para diseñar estrategias de software mediante el Attribute-Driven Design y el Domain-Driven Design. He presentado los métodos y técnicas utilizados, asegurando una comunicación objetiva y efectiva de las ideas, cumpliendo así con este criterio.<br> <br>*TP1*<br>- Para esta entrega parcial, se demostró este criterio al presentar el diseño de software a nivel táctico. Esto incluyó la presentación del diagrama de clases y el diagrama de base de datos durante el video de exposición.<br><br>*TF*<br>-En este entregable evidencié el cumplimiento del criterio al desarrollar funcionalidades de creación de propiedades e integración con blockchain, coordinando componentes de mis compañeros y comunicando los resultados de forma objetiva. <br><br>                                                                                                                                        | *TB1*<br>Todo el equipo se ha comunicado oralmente exitosamente para lograr el primer entregable. <br> *TP* <br>Todo el equipo se ha comunicado oralmente para terminar el entregable relacionado al diseño de la arquitectura, mockups e historias de usuario. |
-| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | **Farid Hinostroza Mavila**<br>*TB1* <br>- He colaborado en la redacción de informes que incluyen el análisis de competidores, user personas, y la matriz de tareas de usuario. Además, documenté estos resultados en el repositorio de GitHub para facilitar su acceso por parte de todo el equipo.<br><br>*TP*<br>- Realicé los diagramas de arquitectura, explicando sus servicios y relaciones entre el diagrama de clases y base de datos.<br><br>*TF*<br>-Elaboré el backlog del proyecto y desarrollé evidencia documentada para la revisión del sprint, asegurando claridad en los entregables y adaptando el contenido según las necesidades de los interesados. <br><br> **José Carlos Vara** <br>*TB1* <br>- Redacté de manera clara y precisa los puntos del perfil de la startup y la solución propuesta, incluyendo antecedentes, problemática y el proceso Lean UX. Adapté el lenguaje técnico para que fuera accesible a un público de distintas especialidades y niveles jerárquicos, asegurando que la información se presentara de forma objetiva y comprensible para todos los involucrados en el proyecto.<br><br>*TP*<br>- Redacté parte del trabajo, ajustando el lenguaje y el nivel de detalle según los destinatarios de distintas áreas.<br><br>*TF*<br>-Redacté informes claros sobre los avances del frontend, incluyendo funcionalidades implementadas y desafíos enfrentados. <br><br>   **Grecia Guerrero Alegría** <br>*TB1* <br>- He plasmado en el documento los resultados de las entrevistas así como los diagramas C4. <br><br> *TP* <br>- Se han realizado los user goals para expresar de forma escrita la acción de los mockups. <br><br>*TF*<br>-He colaborado con el desarrollo del reporte que incluye la funcionalidad desarrollada de notificaciones. <br><br>   **Cristopher Rondon Añaños** <br>*TB1* <br>- En este entregable, plantee de manera adecuada el Business Goal para nuestro Impact Map, que involucra a nuestros dos segmentos de usuarios objetivos. <br><br>*TP1* <br>- En este entregable, hice la construcción y despliegue de el landing page. <br><br>*TF*<br>-Colabore con la integración de nuestra web app con lo desarrollado en el segundo sprint. <br><br>   **Michael Carrillo Mainicta**<br>*TB1*<br>- En este entregable del trabajo final, he comunicado de manera escrita los principios del diseño estratégico de software a través del Attribute-Driven Design y el Domain-Driven Design. He detallado los procesos y resultados con claridad y objetividad, asegurando la comprensión de un público diverso y cumpliendo con los estándares requeridos para la documentación.<br> <br>*TP1*<br>- En esta entrega se demostró la comunicación escrita objetiva, adaptada a diferentes especialidades y niveles jerárquicos, al presentar el diseño táctico del software mediante el diagrama de clases y el diagrama de base de datos, esto en la documentación del trabajo. <br><br>*TF*<br>-En este entregable, he comunicado de manera escrita los principios del diseño estratégico de software a través del Attribute-Driven Design y el Domain-Driven Design. He detallado los procesos y resultados con claridad y objetividad, asegurando la comprensión de un público diverso y cumpliendo con los estándares requeridos para la documentación. <br><br>    | *TB1*<br>Todo el equipo se ha comunicado de forma escrita exitosamente para lograr el primer entregable.<br><br> *TP* <br>Todo el equipo ha desarrollado el documento escrito relacionado al diseño del proyecto.                                               |
+| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería.    | **Farid Hinostroza Mavila**<br>*TB1* <br>- He presentado los resultados del análisis de usuarios mediante la creación de user personas y el empathy map, asegurándome de que la información fuera clara para todos los miembros del equipo. Además, participé en las discusiones sobre la matriz de tareas del usuario.<br><br>*TP*<br>- Mantuve un lenguaje ubicuo en cuanto a la representación de distintos servicios de nuestra arquitectura.<br><br>*TF*<br>- Presenté los avances técnicos del proyecto en reuniones multidisciplinarias, ajustando el nivel de detalle según la especialidad de la audiencia, asegurando la claridad y comprensión de los objetivos alcanzados.<br><br>**José Carlos Vara** <br>*TB1* <br>- Desarrollé y presenté los puntos clave del perfil de la startup y la solución propuesta, incluyendo los antecedentes, la problemática y el proceso Lean UX, adaptando la comunicación para un público de diversas especialidades y niveles jerárquicos. Utilicé un enfoque claro y estructurado para asegurar que los conceptos de ingeniería fueran comprensibles para todos los asistentes.<br><br>*TP*<br>- Presenté avances del proyecto, adaptando el nivel de tecnicismos según el público para asegurar la comprensión y toma de decisiones.<br><br>*TF*<br>- Presenté avances de las funcionalidades desarrolladas, adaptando el lenguaje técnico según la audiencia.<br><br>**Grecia Guerrero Alegría** <br>*TB1* <br>- He mantenido conversación con los usuarios de los 2 tipos de segmento para realizar las entrevistas y que se pueda hacer uso de ellas.<br><br>*TP* <br>- He presentado los mockups previa comunicación con mis compañeros para tener un diseño homogéneo.<br><br>*TF*<br>- Me he comunicado con integrantes del equipo durante el desarrollo de las notificaciones y he adecuado el lenguaje para la exposición.<br><br>**Cristopher Rondon Añaños**<br>*TB1* <br>- Realicé la recolección de las historias de usuario, así como una priorización adecuada de estas.<br> <br>*TP1* <br>- Realicé los Wireframes de nuestro Landing Page.<br><br>*TF*<br>- Realicé el desarrollo de funcionalidades en el backend, comunicándome con los miembros del equipo para las validaciones necesarias.<br><br>**Michael Carrillo Mainicta**<br>*TB1*<br>- En el video de exposición, he demostrado mi habilidad para diseñar estrategias de software mediante el Attribute-Driven Design y el Domain-Driven Design. He presentado los métodos y técnicas utilizados, asegurando una comunicación objetiva y efectiva de las ideas, cumpliendo así con este criterio.<br> <br>*TP1*<br>- Para esta entrega parcial, se demostró este criterio al presentar el diseño de software a nivel táctico. Esto incluyó la presentación del diagrama de clases y el diagrama de base de datos durante el video de exposición.<br><br>*TF*<br>-En este entregable evidencié el cumplimiento del criterio al desarrollar funcionalidades de creación de propiedades e integración con blockchain, coordinando componentes de mis compañeros y comunicando los resultados de forma objetiva. <br><br>                                                                                                                                        | *TB1*<br>Todo el equipo se ha comunicado oralmente exitosamente para lograr el primer entregable. <br> *TP* <br>Todo el equipo se ha comunicado oralmente para terminar el entregable relacionado al diseño de la arquitectura, mockups e historias de usuario.<br> *TB2* <br>Todo el equipo se ha comunicado oralmente para terminar el entregable relacionado al desarrollo y validación de la aplicación.<br> *TF* <br>Todo el equipo se ha comunicado oralmente para terminar el entregable relacionado al desarrollo del backend. |
+| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | **Farid Hinostroza Mavila**<br>*TB1* <br>- He colaborado en la redacción de informes que incluyen el análisis de competidores, user personas, y la matriz de tareas de usuario. Además, documenté estos resultados en el repositorio de GitHub para facilitar su acceso por parte de todo el equipo.<br><br>*TP*<br>- Realicé los diagramas de arquitectura, explicando sus servicios y relaciones entre el diagrama de clases y base de datos.<br><br>*TF*<br>-Elaboré el backlog del proyecto y desarrollé evidencia documentada para la revisión del sprint, asegurando claridad en los entregables y adaptando el contenido según las necesidades de los interesados. <br><br> **José Carlos Vara** <br>*TB1* <br>- Redacté de manera clara y precisa los puntos del perfil de la startup y la solución propuesta, incluyendo antecedentes, problemática y el proceso Lean UX. Adapté el lenguaje técnico para que fuera accesible a un público de distintas especialidades y niveles jerárquicos, asegurando que la información se presentara de forma objetiva y comprensible para todos los involucrados en el proyecto.<br><br>*TP*<br>- Redacté parte del trabajo, ajustando el lenguaje y el nivel de detalle según los destinatarios de distintas áreas.<br><br>*TF*<br>-Redacté informes claros sobre los avances del frontend, incluyendo funcionalidades implementadas y desafíos enfrentados. <br><br>   **Grecia Guerrero Alegría** <br>*TB1* <br>- He plasmado en el documento los resultados de las entrevistas así como los diagramas C4. <br><br> *TP* <br>- Se han realizado los user goals para expresar de forma escrita la acción de los mockups. <br><br>*TF*<br>-He colaborado con el desarrollo del reporte que incluye la funcionalidad desarrollada de notificaciones. <br><br>   **Cristopher Rondon Añaños** <br>*TB1* <br>- En este entregable, plantee de manera adecuada el Business Goal para nuestro Impact Map, que involucra a nuestros dos segmentos de usuarios objetivos. <br><br>*TP1* <br>- En este entregable, hice la construcción y despliegue de el landing page. <br><br>*TF*<br>-Colabore con la integración de nuestra web app con lo desarrollado en el segundo sprint. <br><br>   **Michael Carrillo Mainicta**<br>*TB1*<br>- En este entregable del trabajo final, he comunicado de manera escrita los principios del diseño estratégico de software a través del Attribute-Driven Design y el Domain-Driven Design. He detallado los procesos y resultados con claridad y objetividad, asegurando la comprensión de un público diverso y cumpliendo con los estándares requeridos para la documentación.<br> <br>*TP1*<br>- En esta entrega se demostró la comunicación escrita objetiva, adaptada a diferentes especialidades y niveles jerárquicos, al presentar el diseño táctico del software mediante el diagrama de clases y el diagrama de base de datos, esto en la documentación del trabajo. <br><br>*TF*<br>-En este entregable, he comunicado de manera escrita los principios del diseño estratégico de software a través del Attribute-Driven Design y el Domain-Driven Design. He detallado los procesos y resultados con claridad y objetividad, asegurando la comprensión de un público diverso y cumpliendo con los estándares requeridos para la documentación. <br><br>    | *TB1*<br>Todo el equipo se ha comunicado de forma escrita exitosamente para lograr el primer entregable.<br><br> *TP* <br>Todo el equipo ha desarrollado el documento escrito relacionado al diseño del proyecto.<br> *TB2* <br>Todo el equipo ha desarrollado el documento escrito relacionado al desarrollo y validación del proyecto.<br> *TF* <br>Todo el equipo ha desarrollado el documento escrito relacionado al desarrollo del backend.                                               |
 
 ---
 
@@ -2995,6 +3005,144 @@ Se presenta los cuadros de colaboración extraídos de nuestro repositorio en Gi
 - Network
     - ![](img/Capitulo_7/Colaboration/network.png)
 
+### 7.2.2. Sprint 2
+
+#### 7.2.2.1. Sprint Planning 2.
+
+Para esta sección, hemos realizado una reunión con todos los integrantes del equipo para establecer los entregables para este segundo sprint, la importancia y el motivo por el cual priorizamos ciertas historias de usuario
+
+| Sprint                               | Sprint 2                                                         |
+|--------------------------------------|------------------------------------------------------------------|
+| **Sprint Planning Background**       |                                                                  |
+| **Date**                             | 20/11/2024                                                       |
+| **Time**                             | 11:00 am                                                         |
+| **Location**                         | Google Meet Call                                                 |
+| **Prepared By**                      | Carrillo, Michael                                                |
+| **Attendees**                        | Guerrero Grecia, Hinostroza Farid, Rondón Christopher, Vara José |
+| **Sprint 2 - Review Summary**        | En el Sprint 2 se completaron todas las tareas planificadas y se terminar la aplicación                                                        |
+| **Sprint 2 - Retrospective Summary** | Se destacó la colaboración del equipo, pero se identificó la necesidad de optimizar los tiempos en la integración de funcionalidades para evitar retrasos en la revisión.                                                        |
+| **Sprint 2 - Goal**                  |  Desarrollar en su totalidad la aplicación web para el alquiler de casas.                                                                |
+| **Sprint 2 - Velocity**              |  49                                                                |
+| **Sum of Story Points**              | 49                                                                 |
+
+---
+
+#### 7.2.2.2. Sprint Backlog 2.
+
+En esta sección, exploraremos en profundidad el Sprint Backlog 2, una pieza fundamental para la planificación y ejecución efectiva para el analizar el estado de tareas.
+
+| User Story | Work-Item / Task                          | Id      | Title                                       | Description                                                                                    | Estimation (Hours) | Assigned to        | Status     |
+|------------|-------------------------------------------|---------|---------------------------------------------|------------------------------------------------------------------------------------------------|--------------------|--------------------|------------|
+| US009      | Generación de reportes de pagos | US009-2 | Implementación de lógica de generación de reportes           | Desarrollar la lógica en el backend para generar reportes de pagos basados en datos transaccionales                                  | 6                  | Carrillo, Michael   | Done       |
+| US009 | Generación de reportes de pagos | US012-1 | Diseño de la sección de contratos | Diseño de la sección de contratos con la conexión a una wallet | 3 | Carrillo, Michael | Done |
+| US012 | Opciones de contrato flexible | US012-2 | Desarrollo de lógica para contratos flexibles | Implementar la lógica en el backend que permita la creación y gestión de contratos con opciones flexibles | 6 | Vara, José | Done |
+| US012 | Opciones de contrato flexible | US011-2 | Conexión con MetaMask | Desarrollar la lógica para obtener información del Back-end | 8 | Carrillo, Michael | Done |
+| US014 | Generación automática de contratos | US010-2 | Enlazar ID de contratos con parámetros de vivienda | Desarrollar la lógica para obtener información del Back-end | 6 | Rondón, Cristopher | Done |
+| US014 | Generación automática de contratos | US002-2 | Implementación de generación automática de contratos | Desarrollar la funcionalidad que permita la creación automática de contratos basados en plantillas predefinidas | 5 | Guerrero, Grecia | Done |
+| US004 | Sistema de recordatorio de renovación | US007-1 | Diseño de la sección de recordatorios. | Diseño de recordatorios personalizados en el home | 4 | Hinostroza, Farid | Done |
+| US004 | Sistema de recordatorio de renovación | US007-2 | Integrar Servicio de Notificaciones | Desarrollar la lógica para obtener información del Back-end | 4 | Hinostroza, Farid | Done |
+| US008 | Sistema de pago en línea | US008-1 | Vinculación de tokens con SEPOLIA | Diseño de la sección de pagos en línea al crear el contrato | 8 | Carrillo, Michael | Done |
+| US008 | Sistema de pago en línea | US008-3 | Creación de endpoint para Smart contracts | Desarrollo de endpoint para enlazar parámetros. | 5 | Hinostroza, Farid | Done |
+
+#### 7.2.2.3. Development Evidence for Sprint Review.
+
+En esta sección, exploraremos en profundidad el Sprint Backlog 2, una pieza fundamental para la planificación y ejecución efectiva del sprint.
+
+| Repository              | Branch  | Commit ID                                | Commit Message                      | Commited on |
+|-------------------------|---------|------------------------------------------|-------------------------------------|-------------|
+| SmartRenta-/ CasaFinder-API | main    | a2eef4bb4712e7f553919a345d43ff0ebc70193b | add contract request notification  | 19/11/2024  |
+| SmartRenta-/ CasaFinder-API      | develop | 022dc5a57d6901bc650cb21e1e3ba8cb08c92446 | Merge branch 'develop' into feat/contracts             | 18/11/2024  |
+| SmartRenta-/ CasaFinder-API      | develop | dbcdd0de827fc2f87e99666e6d43619a0625b312 | feat: Updated contracts | 18/11/2024  |
+| SmartRenta-/ CasaFinder-API      | develop | 8fd55f06f3b7725fc9fc505dd6a2024ed491c3ee | feat:link smart contract id      | 17/11/24    |
+| SmartRenta-/WebApp      | develop    | 022dc5a57d6901bc650cb21e1e3ba8cb08c92446 | Merge branch 'feat/contract-creation' into develop     | 17/11/24    |
+| SmartRenta-/WebApp      | develop    | 76c89082f862028548ba822946f064df40860ceb | add see contract response     | 17/11/24    |
+| SmartRenta-/WebApp      | develop    | f637974fe1edf223382672d713625b7d50461e65 | feat: Added smart contracts         | 17/11/24  |
+
+#### 7.2.2.4. Testing Suite Evidence for Sprint Review.
+
+![](img/Capitulo_7/Testing/test6.png)
+![](img/Capitulo_7/Testing/test7.png)
+![](img/Capitulo_7/Testing/test8.png)
+
+#### 7.2.2.5. Execution Evidence for Sprint Review.
+
+Para este sprint, se han realizado correcciones de diseño. Por ejemplo, barra de notificaciones ya se muestra por delante de todos los elementos cuando es clickeada.
+
+![](img/Capitulo_7/ExecutionEvidence/exec5.png)
+
+Para los propietarios, los contratos muestran su estado en el titulo de la página como del documento pdf. Además, se incorporó la descarga del documento 
+
+![](img/Capitulo_7/ExecutionEvidence/exec6.png)
+
+Para los inquilinos, se incorporó la vista de recepción de respuesta de la solicitud de contrato por parte del propietario. 
+
+![](img/Capitulo_7/ExecutionEvidence/exec7.png)
+
+#### 7.2.2.6. Services Documentation Evidence for Sprint Review.
+
+Para la documentación se ha utilizado Swagger debido a su facilidad en la integración con el proyecto Spring Boot.
+
+A continuación, se muestran los endpoints relacionados a la autenticación como Registro e Inicio de sesión. Aquí se elige el tipo de usuario (propietario o inquilino)
+
+![](img/Capitulo_7/Documentation/doc1.png)
+
+Los endpoints relacionados al usuario son Get y Put para mostrar los datos en el perfil y poder editarlos.
+
+![](img/Capitulo_7/Documentation/doc2.png)
+
+Los siguientes endpoints están relacionados a las propiedades. Los metodos soportados son creación, actualización, eliminación, búsqueda de una propiedad, listado total de propiedades y listado de propiedades de un propietario.
+
+![](img/Capitulo_7/Documentation/doc3.png)
+
+A continuación, se visualizan los metodos de los contratos. Se puede obtener, editar, eliminar, crear un contrato. Se puede obtener los contratos de un propietario o un inquilino. Se puede responder las solicitudes de contrato cambiando su estado, así como también visualizar el estado final.
+
+![](img/Capitulo_7/Documentation/doc4.png)
+
+Las notificaciones han estado involucradas en múltiples endpoints, ya que normalmente son creadas o mostradas luego de determinada acción. También se puede obtener el listado de notificaciones de un usuario para que lo visualice en una barra de notificaciones y cambiar el estado de visto o no visto una vez clickeados por primera vez.
+
+![](img/Capitulo_7/Documentation/doc5.png)
+
+Finalmente, los smart contracts, tienen como metodos obtener, crear, editar y eliminar. También listados en su totalidad o filtrado según usuario.
+
+![](img/Capitulo_7/Documentation/doc6.png)
+
+#### 7.2.2.7. Software Deployment Evidence for Sprint Review.
+
+Para realizar el despliegue de la aplicación, comenzaron creando una cuenta en Render https://dashboard.render.com/register
+
+![](img/Capitulo_7/DeploymentEvidence/de1.png)
+
+Continuamos creando un servidor para la base de datos PostgreSQL y un servicio web para el API.
+
+![](img/Capitulo_7/DeploymentEvidence/de2.png)
+
+Para la creación de la base de datos, ingresamos los siguientes datos: el nombre del servidor, el proyecto al que pertenece, el nombre de la base de datos, el usuario, la región donde se aloja el servidor, la versión y el plan gratuito.
+
+![](img/Capitulo_7/DeploymentEvidence/de3.png)
+
+Para la creación del servicio web, proveemos el url del repositorio público de github 
+
+![](img/Capitulo_7/DeploymentEvidence/de4.png)
+
+Una vez verificado el url, ingresamos los siguientes datos: nombre del servicio web, proyecto al que pertenece, lenguaje con el que se levantará el proyecto, rama a desplegar, región, directorio raíz, plan gratuito y variables de entorno para las credenciales de conexión con la base de datos.
+
+![](img/Capitulo_7/DeploymentEvidence/de5.png)
+
+Finalmente, en el dashboard podemos algunos datos como los servicios creados, su estado, tipo y región.
+
+![](img/Capitulo_7/DeploymentEvidence/de6.png)
+
+#### 7.2.2.8. Team Collaboration Insights during Sprint.
+
+Se presenta los cuadros de colaboración extraídos de nuestro repositorio en Github:
+
+- Contributors
+    - ![](img/Capitulo_7/Colaboration/colab2.png)
+- Traffic
+    - ![](img/Capitulo_7/Colaboration/traffic2.png)
+- Network
+    - ![](img/Capitulo_7/Colaboration/network2.png)
+
 ## 7.3. Validation Interviews.
 
 ### 7.3.1. Diseño de Entrevistas.
@@ -3198,6 +3346,8 @@ Revisar la lógica de los filtros y realizar pruebas para asegurar que los crite
 
 
 ## 7.4. Video About-the-Product.
+
+## 7.5. Video About-the-Team.
 
 # Conclusiones
 
